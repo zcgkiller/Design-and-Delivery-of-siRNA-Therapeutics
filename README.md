@@ -9,3 +9,5 @@
 
 [5.Development of siRNA Therapeutics for the Treatment of Liver Diseases](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Development%20of%20siRNA%20Therapeutics%20for%20the%20Treatment%20of%20Liver%20Diseases.md)
 
+[6.siRNA Design and GalNAc-Empowered Hepatic Targeted Delivery](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/siRNA%20Design%20and%20GalNAc-Empowered%20Hepatic%20Targeted%20Delivery.md)
+
