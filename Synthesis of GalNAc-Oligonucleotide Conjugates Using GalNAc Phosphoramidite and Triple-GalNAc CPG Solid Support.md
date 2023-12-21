@@ -164,9 +164,7 @@ Synthetic procedure is based on the synthesis of the key block—triple GalNAc T
 
 ![485053_1_En_7_Fig2_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_7_Fig2_HTML.png)
 
-**Fig. 2**
-
-Synthesis of triple GalNAc TEG CPG solid support
+**Fig. 2** Synthesis of triple GalNAc TEG CPG solid support
 
 #### 3.1.1 Synthesis of 3,3′-((2-(12-(Benzyloxy)-12-oxododecanamido)-2-((2-carboxyethoxy)methyl)propane-1,3-diyl)bis(oxy))-dipropionic acid 3
 
@@ -174,7 +172,7 @@ Synthesis of triple GalNAc TEG CPG solid support
 2. Dilute reaction mixture with 100 mL of DCM, pour the reaction mixture into a 250-mL separatory funnel and wash it thrice with 50 mL of water, thrice with 50 mL of 10% citric acid in water, thrice with 50 mL of saturated sodium bicarbonate in water and once with 50 mL of brine. Dry organic layer with sodium sulfate and concentrate to dryness using a rotary evaporator under reduced pressure to obtain amide **2** as a colorless oil. 
 3. Dissolve the colorless oil in 20 mL of 25% TFA in DCM and stir the reaction mixture overnight. Monitor reaction by TLC in EtOAc–hexane, 1:1 v/v until amide **2** (Rf 0.85) is gone (stain the plate with phosphomolybdic acid solution). 
 4. Concentrate the reaction mixture to dryness on a rotary evaporator under reduced pressure to obtain oil. Dissolve the oil in 20 mL of toluene and evaporate the solvent to remove residual TFA (repeat twice), then dissolve oil in 3 mL of ethyl acetate and precipitate the product with 16 mL of petroleum ether. Cool the mixture in a fridge (+4 °C for 2 h) and carefully decant the liquid phase. Dissolve the solid residue in 3 mL of ethyl acetate and precipitate the product again with 16 mL of petroleum ether. Decant liquid and dry residue in vacuum to obtain 2.36 g of pure product **3** (Rf 0.20) (EtOAc) as a white solid in 89% yield. 
-5. Confirm the purity of the compound **3** by 1H, 13C NMR spectroscopy and high-resolution mass-spectrometry (*see* **Note** [**4**](clbr://internal.invalid/OEBPS/html/485053_1_En_7_Chapter.xhtml#Sec21)). 1H NMR (500 MHz, DMSO-d6) *δ* 12.16 (s, 3H), 7.39–7.28 (m, 5H), 6.90 (s, 1H), 5.07 (s, 2H), 3.59–3.50 (m, 12H), 2.41 (t, *J* = 6.3 Hz, 6H), 2.33 (t, *J* = 7.4 Hz, 2H), 2.03 (t, *J* = 7.3 Hz, 2H), 1.57–1.47 (m, 2H), 1.46–1.38 (m, 2H), 1.26–1.19 (m, 12H); 13C NMR (126 MHz, DMSO-d6) *δ* 172.80, 172.63, 172.51, 136.33, 128.43, 127.98, 127.94, 68.17, 66.69, 65.29, 59.52, 35.89, 34.60, 33.49, 28.92, 28.91, 28.85, 28.68, 28.53, 28.45, 25.30, 24.50; ESI HRMS *m*/*z* calculated for *m*/*z* calculated for [C32H49NO12 + H]+ 640.3333, found 640.3321.
+5. Confirm the purity of the compound **3** by ^1^H, ^13^C NMR spectroscopy and high-resolution mass-spectrometry (*see* **Note** [**4**](clbr://internal.invalid/OEBPS/html/485053_1_En_7_Chapter.xhtml#Sec21)). ^1^H NMR (500 MHz, DMSO-d6) *δ* 12.16 (s, 3H), 7.39–7.28 (m, 5H), 6.90 (s, 1H), 5.07 (s, 2H), 3.59–3.50 (m, 12H), 2.41 (t, *J* = 6.3 Hz, 6H), 2.33 (t, *J* = 7.4 Hz, 2H), 2.03 (t, *J* = 7.3 Hz, 2H), 1.57–1.47 (m, 2H), 1.46–1.38 (m, 2H), 1.26–1.19 (m, 12H); ^13^C NMR (126 MHz, DMSO-d6) *δ* 172.80, 172.63, 172.51, 136.33, 128.43, 127.98, 127.94, 68.17, 66.69, 65.29, 59.52, 35.89, 34.60, 33.49, 28.92, 28.91, 28.85, 28.68, 28.53, 28.45, 25.30, 24.50; ESI HRMS *m*/*z* calculated for *m*/*z* calculated for [C~32~H~49~NO~12~ + H]^+^ 640.3333, found 640.3321.
 
 #### 3.1.2 *N*-(12-(Benzyloxy)-12-oxododecanamido)-tris[2,5,8,11,18-pentaoxa-14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)nonadecyl]methane 5
 

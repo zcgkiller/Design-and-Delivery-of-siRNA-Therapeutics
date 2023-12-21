@@ -11,3 +11,4 @@
 
 [6.siRNA Design and GalNAc-Empowered Hepatic Targeted Delivery](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/siRNA%20Design%20and%20GalNAc-Empowered%20Hepatic%20Targeted%20Delivery.md)
 
+[7.Synthesis of GalNAc-Oligonucleotide Conjugates Using GalNAc Phosphoramidite and Triple-GalNAc CPG Solid Support](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Synthesis%20of%20GalNAc-Oligonucleotide%20Conjugates%20Using%20GalNAc%20Phosphoramidite%20and%20Triple-GalNAc%20CPG%20Solid%20Support.md)
