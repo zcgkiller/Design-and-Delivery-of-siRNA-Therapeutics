@@ -16,3 +16,6 @@
 [8.Preparation of Lipid-Conjugated siRNA Oligonucleotides for Enhanced Gene Inhibition in Mammalian Cells](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Preparation%20of%20Lipid-Conjugated%20siRNA%20Oligonucleotides%20for%20Enhanced%20Gene%20Inhibition%20in%20Mammalian%20Cells.md)
 
 [9.Engineering of Solid Dosage Forms of siRNA-Loaded Lipidoid–Polymer Hybrid Nanoparticles Using a Quality-by-Design Approach](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Engineering%20of%20Solid%20Dosage%20Forms%20of%20siRNA-Loaded%20Lipidoid%E2%80%93Polymer%20Hybrid%20Nanoparticles%20Using%20a%20Quality-by-Design%20Approa.md)
+
+[10.Preparation of Lipid-Conjugated siRNA Oligonucleotides for Enhanced Gene Inhibition in Mammalian Cells](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Preparation%20of%20Lipid-Conjugated%20siRNA%20Oligonucleotides%20or%20Enhanced%20Gene%20Inhibition%20in%20Mammalian%20Cells.md)
+
