@@ -96,17 +96,14 @@ saveamberparm a SOLUTE.prmtop SOLUTE.inpcrd
    ```
 
 
-3. 3.
-
-   Now add the Na+ and Cl− counterions needed to neutralize the solute and to reach a concentration 0.15 M of NaCl, representative of a physiological environment. Two *addions* commands needed to automatically neutralize the system with the required number of sodium or chlorine ions, as follows:
+3. Now add the Na+ and Cl− counterions needed to neutralize the solute and to reach a concentration 0.15 M of NaCl, representative of a physiological environment. Two *addions* commands needed to automatically neutralize the system with the required number of sodium or chlorine ions, as follows:
 
    ```shell
    addions a Na+ 0
    addions a Cl- 0
    ```
-
-4. 4.
-
+   
+4. 
    While executing the *solvatebox* command, tleap will print the total volume (Vol) of the created simulation box, and this information can be used to compute the number of NaCl molecules needed to attain the physiological ionic strength (150 mM) using the following equation
 
    $$ \mathrm{NumForPhysConc}=\mathrm{Vol}\times 0.15\times 6.022\times {10}^{-4} $$
@@ -120,45 +117,44 @@ addions a Na+ NumForPhysConc Cl- NumForPhysConc
 6. Finally, save both a topology and an initial coordinates file of the solvated system (required to carry on the subsequent simulations and analysis steps) by typing:
 
    ```shell
-saveamberparm a SOLUTE.solvated.prmtop SOLUTE.solvated.inpcrd
+   saveamberparm a SOLUTE.solvated.prmtop SOLUTE.solvated.inpcrd
    savepdb a SOLUTE.solvated.pdb
-```
-   
+
 With the last command, a reference PDB file containing the model of the solvated simulation box is created.
-   
 **Table 1** List of input files for pmemd. A detailed description of the input parameters can be found in a recent AMBER manual available on line at https://ambermd.org/Manuals.php. The exclamation mark is used to indicate a comment block, as per FORTRAN 90 standard
-   
+
 ![485053_1_En_16_Tab1a_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_16_Tab1a_HTML.png)
-   
+
 ![485053_1_En_16_Tab1b_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_16_Tab1b_HTML.png)
-   
+
 ![485053_1_En_16_Tab1c_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_16_Tab1c_HTML.png)
+
 
 ### 3.2 Simulation Protocol
 
 This simulation protocol is valid for simulating either the dendrimer or the siRNA molecule alone, or the dendrimer-siRNA complex (i.e., any *solute*). Throughout all the following MD steps, electrostatic interactions are computed by means of the particle mesh Ewald (PME) algorithm.
 
 1. Before starting any MD simulation, it is fundamental to perform an energy minimization process in order to fix steric clashes and optimize the initial model geometries according to the potential energy function. Also, the solvent box generated according to the protocol reported above needs to be optimized at the desired temperature and pressure conditions. Accordingly, first the solvation box has to be gradually heated to 300 K by performing MD simulations in the NVT ensemble (i.e., under constant number of atoms, volume and temperature conditions) to avoid the creation of air bubbles within the solvent, with positional restraint applied to the solute atoms. Then, while still applying positional restraint to the solute atoms, the system density must be equilibrated at 300 K and 1 atm by means of MD simulations in the NPT ensemble (i.e.*,* under constant number of atoms, pressure and temperature). The solute positional restraints have to be gradually removed in 10 runs of subsequent energy minimizations each performed reducing the force of the positional restraints . Finally, another run of heating in the NVT ensemble followed by density equilibration in the NPT ensemble with the solute free of positional restraint is run (*see* Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Tab1) for examples of input files). The following pseudo-code can be used to carry on all of these steps:
+   
 
    ```shell
-pmemd -O -i min_sol.in -o min_sol.out -r min_sol.rst \
+   pmemd -O -i min_sol.in -o min_sol.out -r min_sol.rst \
    -p complex.solvated.prmtop -c complex.solvated.inpcrd
-pmemd -O -i heat_sol.in -o heat_sol.out -x heat_sol.nc -r heat_sol.rst \
+   pmemd -O -i heat_sol.in -o heat_sol.out -x heat_sol.nc -r heat_sol.rst \
    -p complex.solvated.prmtop -c min_sol.rst -ref min_sol.rst
-pmemd -O -i NPT_sol.in -o NPT_sol.out -x NPT_sol.nc -r NPT_sol.rst \
+   pmemd -O -i NPT_sol.in -o NPT_sol.out -x NPT_sol.nc -r NPT_sol.rst \
    -p complex.solvated.prmtop -c heat_sol.rst -ref heat_sol.rst
-set PREVIOUS=NPT_sol
+   set PREVIOUS=NPT_sol
    set N=1 ; while N<=11
-pmemd -O -i minN.in -o minN.out -r minN.rst \
+   pmemd -O -i minN.in -o minN.out -r minN.rst \
    -p complex.solvated.prmtop -c PREVIOUS.rst -ref PREVIOUS.rst
-set PREVIOUS=minN
+   set PREVIOUS=minN
    increase N by 1
-end
+   end
    pmemd -O -i heat_all.in -o heat_all.out -x heat_all.nc -r heat_all.rst \
--p complex.solvated.prmtop -c min10.rst -ref min10.rst
+   -p complex.solvated.prmtop -c min10.rst -ref min10.rst
    pmemd -O -i NPT_all.in -o NPT_all.out -x NPT_all.nc -r NPT_all.rst \
--p complex.solvated.prmtop -c heat_all.rst -ref heat_all.rst
-   ```
+   -p complex.solvated.prmtop -c heat_all.rst -ref heat_all.rst
 
    In each pmemd command (*see* **Note** **1**) the option *-i* and *-o* specify the input and output (log of some energy and physico-chemical parameters of the simulation) files, option *-r* specifies the name of the restart file, option *-x* selects the output coordinates file, option *-p* selects the solvated complex topology file created by tleap, and options *-c* and *-ref* specify the files with the starting and reference coordinates of the system, respectively. 
 
@@ -167,13 +163,13 @@ end
 3. Once optimization of each system is achieved, productive MD simulations can be performed. The required input file is the md.in file reported in Table 1, and 15 subsequent simulations can be carried out with the following pseudo-code command:
 
    ```shell
-Set PREVIOUS=NPT_all
+   Set PREVIOUS=NPT_all
    set N=1 ; while N<=15
-pmemd -O -i md.in -o mdN.out -r mdN.rst \
+   pmemd -O -i md.in -o mdN.out -r mdN.rst \
    -p complex.solvated.prmtop -c PREVIOUS.rst -ref PREVIOUS.rst
-set PREVIOUS=mdN
+   set PREVIOUS=mdN
    increase N by 1
-end
+   end
    ```
 
    Each of these simulations will run for 10 ns, the first 5 will be discarded as structural equilibration of the solute, and the last 10 produced files (100 ns in total) will be used for subsequent data analysis. 
