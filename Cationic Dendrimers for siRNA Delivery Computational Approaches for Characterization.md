@@ -28,7 +28,7 @@ while the first three terms represent the interactions between two (bonded), thr
 
 ### 2.2 Radius of Gyration and Asphericity
 
-The radius of gyration *R**g* provides a quantitative characterization of the real size of a dendrimer molecule, and is defined as:
+The radius of gyration *R*<sub>*g*</sub> provides a quantitative characterization of the real size of a dendrimer molecule, and is defined as:
 
 $$ \left\langle {R}_g^2\right\rangle =\frac{1}{M}\left\langle\ {\sum}_{i=1}^n{m}_i{\left({c}_i-C\right)}^2\ \right\rangle $$
 
