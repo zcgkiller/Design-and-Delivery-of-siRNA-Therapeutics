@@ -34,3 +34,5 @@
 [17.Fundamental and Practical Aspects in the Formulation of Colloidal Polyelectrolyte Complexes of Chitosan and siRNA](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Fundamental%20and%20Practical%20Aspects%20in%20the%20Formulation%20of%20Colloidal%20Polyelectrolyte%20Complexes%20of%20Chitosan%20and%20siRNA.md)
 
 [18.Cell-Penetrating Peptides Delivering siRNAs: An Overview](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Cell-Penetrating%20Peptides%20Delivering%20siRNAs%20An%20Overview.md)
+
+[19.Non-covalent Encapsulation of siRNA with Cell-Penetrating Peptides](https://github.com/zcgkiller/Design-and-Delivery-of-siRNA-Therapeutics/blob/main/Non-covalent%20Encapsulation%20of%20siRNA%20with%20Cell-Penetrating%20Peptides.md)
