@@ -48,64 +48,68 @@ Thus, we have established the methods to overcome such sequence-dependent limita
 
 1. siDirect2.0 software: http://siDirect2.RNAi.jp
 
-2. Guide strand sequence of siRNA against human vimentin gene (siVIM-270): 5′-UUGAACUCGGUGUUGAUGGCG-3′.
+2. Guide strand sequence of siRNA against human vimentin gene <span style=color:blue>针对人波形蛋白基因的siRNA的引导链序列</span> (siVIM-270): 5′-UUGAACUCGGUGUUGAUGGCG-3′.
 
-3. Passenger strand sequence against human vimentin gene (siVIM-270): 5′-CCAUCAACACCGAGUUCAAGA-3′.
+3. Passenger strand sequence against human vimentin gene <span style=color:blue>针对人波形蛋白基因的过客链序列</span>(siVIM-270): 5′-CCAUCAACACCGAGUUCAAGA-3′.
 
-   SiRNA against green fluorescent protein (siGY441), which does not have perfectly complementary sequences in complete-match (CM) and seed-match (SM) reporter constructs (*see* Subheading 2.2), is used as a negative control.
+   siRNA against green fluorescent protein (siGY441), which does not have perfectly complementary sequences in complete-match (CM) and seed-match (SM) reporter constructs (*see* Subheading 2.2), is used as a negative control.
 
-4. Guide strand of siGY441: 5′-AUGAUAUAGACGUUGUGGCUG-3′.
+   <span style=color:blue>针对绿色荧光蛋白 (siGY441) 的 siRNA 用作阴性对照，该蛋白在完全匹配 (CM) 和种子匹配 (SM) 报告构建体中不具有完全互补的序列（*参见*小标题 2.2）。</span>
 
-5. Passenger strand of siGY441: 5′-GCCACAACGUCUAUAUCAUGG-3′.
+4. Guide strand of siGY441<span style=color:blue>siGY441的引导链序列</span>: 5′-AUGAUAUAGACGUUGUGGCUG-3′.
 
-6. Annealing buffer (2×): 40 mM NaCl, 20 mM Tris–HCl, pH 7.5.
+5. Passenger strand of siGY441<span style=color:blue>siGY441的过客链序列</span>: 5′-GCCACAACGUCUAUAUCAUGG-3′.
 
-7. 19% Polyacrylamide gel .
+6. Annealing buffer <span style=color:blue>退火缓冲液</span> (2×): 40 mM NaCl, 20 mM Tris–HCl, pH 7.5.
+
+7. 19% Polyacrylamide gel <span style=color:blue>聚丙烯酰胺凝胶</span>.
 
 8. TBE buffer.
 
-### 2.2 Luciferase Reporter Vector and Oligonucleotides with CM and SM Sequences
+### 2.2 Luciferase Reporter Vector and Oligonucleotides with CM and SM Sequences 荧光素酶报告载体和具有 CM 和 SM 序列的寡核苷酸
 
-1. psiCHECK-1 vector (Promega).
+1. psiCHECK-1 vector <span style=color:blue>载体</span> (Promega). 
 
-2. Oligonucleotides with CM sequences of siVIM-270 guide strand (gCM) with cohesive XhoI/EcoRI ends: 5′-tcgaGCGCCATCAACACCGAGTTCAAGAG-3′ and 5′-aattCTCTTGAACTCGGTGTTGATGGCGC-3′.
+2. Oligonucleotides with CM sequences of siVIM-270 guide strand (gCM) with cohesive XhoI/EcoRI ends <span style=color:blue>具有 siVIM-270 引导链 (gCM) 的 CM 序列（具有粘性 XhoI/EcoRI 末端）的寡核苷酸:</span> 5′-tcgaGCGCCATCAACACCGAGTTCAAGAG-3′ and 5′-aattCTCTTGAACTCGGTGTTGATGGCGC-3′.
 
-3. Oligonucleotides with three tandem repeats of SM sequences of siVIM-270 guide strand (gSM) with cohesive XhoI/EcoRI ends: 5′-tcgaGAATGATGCACCAGGAGTTCAAGAAATGATGCACCAGGAGTTCAAGAAATGATGCACCAGGAGTTCAAGAG-3′ and 5′-aattCTCTTGAACTCCTGGTGCATCATTTCTTGAACTCCTGGTGCATCATTTCTTGAACTCCTGGTGCATCATTC-3′.
+3. Oligonucleotides with three tandem repeats of SM sequences of siVIM-270 guide strand (gSM) with cohesive XhoI/EcoRI ends <span style=color:blue>具有 siVIM-270 引导链 (gCM) CM 序列的三个串联重复序列和粘性 XhoI/EcoRI 末端的寡核苷酸:</span> 5′-tcgaGAATGATGCACCAGGAGTTCAAGAAATGATGCACCAGGAGTTCAAGAAATGATGCACCAGGAGTTCAAGAG-3′ and 5′-aattCTCTTGAACTCCTGGTGCATCATTTCTTGAACTCCTGGTGCATCATTTCTTGAACTCCTGGTGCATCATTC-3′.
 
-4. Oligonucleotides with three tandem repeats of CM sequences of siVIM-270 passenger strand (pCM) with cohesive XhoI/EcoRI ends: 5′-tcgaTCTTGAACTCGGTGTTGATGGCGAATCTTGAACTCGGTGTTGATGGCGAATCTTGAACTCGGTGTTGATGGCGAA-3′ and 5′-aattTTCGCCATCAACACCGAGTTCAAGATTCGCCATCAACACCGAGTTCAAGATTCGCCATCAACACCGAGTTCAAGA-3′.
+4. Oligonucleotides with three tandem repeats of CM sequences of siVIM-270 passenger strand (pCM) with cohesive XhoI/EcoRI ends <span style=color:blue>具有 siVIM-270 过客链 (pCM) CM 序列的三个串联重复序列和粘性 XhoI/EcoRI 末端的寡核苷酸</span>: 5′-tcgaTCTTGAACTCGGTGTTGATGGCGAATCTTGAACTCGGTGTTGATGGCGAATCTTGAACTCGGTGTTGATGGCGAA-3′ and 5′-aattTTCGCCATCAACACCGAGTTCAAGATTCGCCATCAACACCGAGTTCAAGATTCGCCATCAACACCGAGTTCAAGA-3′.
 
-5. Oligonucleotides with three tandem repeats of CM sequences of siVIM-270 passenger strand (pSM) with cohesive XhoI/EcoRI ends: 5′-tcgaAATGATGCACCAGGAGTTGATGGAATGATGCACCAGGAGTTGATGGAATGATGCACCAGGAGTTGATGG-3′ and 5′-aattCCATCAACTCCTGGTGCATCATTCCATCAACTCCTGGTGCATCATTCCATCAACTCCTGGTGCATCATT-3′.
+5. Oligonucleotides with three tandem repeats of CM sequences of siVIM-270 passenger strand (pSM) with cohesive XhoI/EcoRI ends <span style=color:blue>具有 siVIM-270 过客链 (pSM) CM 序列的三个串联重复序列和粘性 XhoI/EcoRI 末端的寡核苷酸:</span> 5′-tcgaAATGATGCACCAGGAGTTGATGGAATGATGCACCAGGAGTTGATGGAATGATGCACCAGGAGTTGATGG-3′ and 5′-aattCCATCAACTCCTGGTGCATCATTCCATCAACTCCTGGTGCATCATTCCATCAACTCCTGGTGCATCATT-3′.
 
-### 2.3 Cell Culture
+### 2.3 Cell Culture 细胞培养
 
-1. Human HeLa cells or other culture cells .
+1. Human HeLa cells or other culture cells <span style=color:blue>人HeLa细胞或其他培养细胞。</span>
 
-2. 24-Well plate (Sumitomo Bakelite).
+2. 24-Well plate (Sumitomo Bakelite) <span style=color:blue>24孔板 (Sumitomo Bakelite)</span>
 
-### 2.4 Transfection and Luciferase Reporter Assay Reagents
+### 2.4 Transfection and Luciferase Reporter Assay Reagents 转染和荧光素酶报告基因检测试剂
 
-1. pGL3-Control vector (Promega).
+1. pGL3-Control vector (Promega).<span style=color:blue>pGL3-对照载体（Promega）</span>
 
-2. Lipofectamine 2000 reagent (Thermofisher).
+2. Lipofectamine 2000 reagent (Thermofisher). <span style=color:blue>Lipofectamine 2000试剂(Thermofisher)。</span>
 
-3. Dual-Luciferase Reporter Assay System (Promega).
+3. Dual-Luciferase Reporter Assay System (Promega).<span style=color:blue>双荧光素酶报告基因检测系统(Promega)。</span>
 
-4. 1× passive lysis buffer (Promega).
+4. 1× passive lysis buffer (Promega).<span style=color:blue>1×被动裂解缓冲液（Promega）。</span>
 
-### 2.5 Calculation of *T*m
+### 2.5 Calculation of *T*~m~ *T*~m~（解链温度）计算
 
-The melting temperature (*T*m) values are calculated using the following formula using Δ*H* and Δ*S* thermodynamic parameters shown in Xia et al.  and Sugimoto et al..
+The melting temperature (*T*~m~) values are calculated using the following formula using Δ*H* and Δ*S* thermodynamic parameters shown in Xia et al.  and Sugimoto et al..
+
+<span style=color:blue>解链温度（*T*~m~）使用下式计算，热力学参数Δ*H*和 Δ*S*采用夏以及杉本等人文章中的值。</span>
 
 $$ {T}_{\mathrm{m}}=\left\{\left(1000\times \Delta H\right)/\left[A+\Delta S+\ln \left(\mathrm{Ct}/4\right)\right]\right\}-273.15+16.6\mathrm{log}\left[{\mathrm{Na}}^{+}\right]. $$
 
-- Δ*H* (kcal/mol), sum of nearest neighbor enthalpy change.
-- *A*, helix initiation constant (−10.8).
-- Δ*S*, sum of nearest neighbor entropy change.
-- *R*, gas constant (1.987 cal/deg/mol).
-- Ct, total molecular concentration of strand (100μM).
-- Fix [Na+] at 100 mM.
+- Δ*H* (kcal/mol), sum of nearest neighbor enthalpy change<span style=color:blue>最近邻焓变之和。</span>
+- *A*, helix initiation constant (−10.8)<span style=color:blue>螺旋起始常数（−10.8）。</span>
+- Δ*S*, sum of nearest neighbor entropy change<span style=color:blue>最近邻熵变之和。</span>
+- *R*, gas constant (1.987 cal/deg/mol)<span style=color:blue>气体常数 (1.987 cal/deg/mol)。</span>
+- Ct, total molecular concentration of strand (100μM)<span style=color:blue>链的总分子浓度（100μM）。</span>
+- Fix [Na+] at 100 mM.<span style=color:blue>将 [Na^+^] 固定在 100 mM。</span>
 
-### 2.6 Microarray Analysis
+### 2.6 Microarray Analysis 微阵列分析
 
 1. RNeasy kit (Qiagen).
 
@@ -117,27 +121,29 @@ $$ {T}_{\mathrm{m}}=\left\{\left(1000\times \Delta H\right)/\left[A+\Delta S+\ln
 
 5. Agilent SurePrint G3 human GE microarray (8 × 60 K, ver. 2.0, 3.0) (Agilent).
 
-## 3 Methods
+## 3 Methods 方法
 
-### 3.1 Designing and Preparing siRNAs with DNA or 2′-OMe Modifications in the Seed Region
+### 3.1 Designing and Preparing siRNAs with DNA or 2′-OMe Modifications in the Seed Region 设计和制备在种子区域具有 DNA 或 2'-OMe 修饰的 siRNA
 
 Highly functional siRNAs for mammalian cells (*see* **Note** **1**) can be designed using the web-based online software, siDirect 2.0. In this section, the procedure for selecting highly functional siRNA for human vimentin is shown as an example.
 
-1. Open “http://siDirect2.RNAi.jp/” with any appropriate web browser.
+<span style=color:blue>对于哺乳动物细胞(*见注释1*)，可以使用基于网络的在线软件siDirect 2.0设计高功能的siRNA。本节以选择人维门蛋白高功能siRNA为例展示该过程。</span>
 
-2. Input the cDNA sequence of vimentin in a nucleotide sequence box. Or enter the accession number of human vimentin (NM_003380) into the upper blank box.
+1. Open “http://siDirect2.RNAi.jp/” with any appropriate web browser.  <span style=color:blue>打开网页浏览器，访问 siDirect 2.0 网站：http://siDirect2.RNAi.jp/</span>
 
-3. Click “retrieve sequence” to get the nucleotide sequence from GenBank (https://www.ncbi.nlm.nih.gov/genbank).
+2. Input the cDNA sequence of vimentin in a nucleotide sequence box. Or enter the accession number of human vimentin (NM_003380) into the upper blank box.<span style=color:blue>将 vimentin cDNA 序列粘贴到核苷酸序列输入框中。或者，在顶部文本框中输入人类 vimentin 的基因序列编号 (NM_003380)。</span>
 
-4. Click the “Options: [click here]” button to set optional parameters if necessary (*see* **Note** **2**).
+3. Click “retrieve sequence” to get the nucleotide sequence from GenBank (https://www.ncbi.nlm.nih.gov/genbank).<span style=color:blue>点击 “retrieve sequence” 按钮，从 GenBank 数据库 (https://www.ncbi.nlm.nih.gov/genbank) 获取核苷酸序列。</span>
 
-5. Click “design siRNA ,” and you can get result.
+4. Click the “Options: [click here]” button to set optional parameters if necessary (*see* **Note** **2**).<span style=color:blue>根据需要，点击“Option:[click here]”按钮，设置可选参数。</span>
 
-6. Synthesize siRNAs shown in Fig. 3 with or without DNA and 2′-OMe modifications in the siRNA seed region chemically, respectively (*see* **Note** **3**).
+5. Click “design siRNA ,” and you can get result.<span style=color:blue>点击 “design siRNA” 按钮，即可获得 siRNA 设计结果。</span>
 
-7. Mix the solutions containing same amounts of guide and passenger strand RNAs, and add the same volume of 2× annealing buffer, and anneal by incubating the mixture at 95 °C for 3 min, at 37 °C for 30 min, and at 25 °C for 60 min.
+6. Synthesize siRNAs shown in Fig. 3 with or without DNA and 2′-OMe modifications in the siRNA seed region chemically, respectively (*see* **Note** **3**).<span style=color:blue>参照 Fig. 3 的 siRNA 序列，分别化学合成未修饰的 siRNA 以及 siRNA 种子区引入 DNA 或 2'-OMe 修饰的 siRNA (见注释 3)</span>
 
-8. Annealed products may be checked using 19% polyacrylamide gel electrophoresis in TBE buffer, which can separate 21-nt double-stranded siRNA with 2-nt 3′ overhangs from single-stranded RNA .
+7. Mix the solutions containing same amounts of guide and passenger strand RNAs, and add the same volume of 2× annealing buffer, and anneal by incubating the mixture at 95 °C for 3 min, at 37 °C for 30 min, and at 25 °C for 60 min.<span style=color:blue>将等摩尔的引导链和过客链 RNA 溶液混合，加入等体积的 2× 退火缓冲液，混合物按如下程序退火：95 °C 孵育 3 分钟，37 °C 孵育 30 分钟，25 °C 孵育 60 分钟。</span>
+
+8. Annealed products may be checked using 19% polyacrylamide gel electrophoresis in TBE buffer, which can separate 21-nt double-stranded siRNA with 2-nt 3′ overhangs from single-stranded RNA . <span style=color:blue>退火产物可以通过 TBE 缓冲液中的 19% 聚丙烯酰胺凝胶电泳进行检测。该方法可以将具有 2 个核苷酸 3' 末端突出结构的 21 核苷酸双链 siRNA 与单链 RNA 区分开来。</span>
 
 ### 3.2 Preparing Luciferase Reporters with CM and SM Sequences
 
