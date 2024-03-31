@@ -12,23 +12,43 @@ Despite the therapeutic utility of small interfering RNA (siRNA) molecules, the 
 
 Small interfering RNAs (siRNAs) have emerged as highly powerful therapeutic options for the treatment of a wide range of human pathologies. Their mechanism of action lies in the inhibition of gene expression at a posttranscriptional level, through the recognition of specific sites in target genes and consequent target mRNA degradation. Restoration of normal expression levels of genes altered in a given disease by siRNAs represents a safe strategy for personalized gene therapy, and many have entered clinical trials. One main hurdle for clinical translation of therapeutic siRNAs is the development of suitable carriers, allowing selective delivery to diseased cells and tissues, as well as efficient siRNA intracellular processing. From this perspective, nucleic acid aptamers are very interesting molecules. Aptamers are single-stranded DNAs or RNAs that fold into unique three-dimensional shapes, which bind with high affinity specific target molecules, including proteins, carbohydrates, small peptides, or other compounds. Aptamer specificity for the target is very strong; indeed, they can distinguish between even very close molecules, including conformational isomers, molecules that differ for functional groups, or a single amino acid mutation. For their mode of action, aptamers are also known as “nucleic acid antibodies.” Compared to antibodies, aptamers show different advantageous properties, including rapid and simple production, and easy chemical synthesis and modifications to improve pharmacokinetic and pharmacodynamics properties. Interestingly, aptamers targeting cell surface receptors overexpressed in pathological states can be internalized into diseased cells in a receptor-dependent manner and can be used as carriers for selective delivery of various therapeutics. Therefore, the use of aptamers for therapeutic siRNA delivery has been widely explored in the last decade, and different conjugation strategies have been employed, including both covalent and non-covalent approaches.
 
+<span style=color:blue> 小干扰 RNA (siRNA) 已成为治疗广泛人类疾病的强大选择。siRNA 的作用机制在于通过识别靶基因中的特定位点并降解靶 mRNA，从而在转录后水平抑制基因表达。利用 siRNA 恢复因疾病而改变的基因正常表达水平代表了一种安全的个性化基因治疗策略，许多 siRNA 已经进入临床试验阶段。然而，siRNA 临床转化的主要障碍之一在于合适载体的开发，这种载体需要能够选择性地将 siRNA 递送至患病细胞和组织，并有效地进行细胞内加工。从这个角度来看，核酸适配体是一种非常有趣的分子。适配体是单链 DNA 或 RNA，可以折叠成独特的立体结构，并能以高亲和力结合特异性靶标分子，包括蛋白质、碳水化合物、小肽或其他化合物。适配体对靶标的专一性非常强，甚至可以区分非常接近的分子，包括构象异构体、功能基团不同的分子或单个氨基酸突变的分子。由于其作用方式，适体也被称为“核酸抗体”。与抗体相比，适配体具有快速简便的生产、易于化学合成以及易于修饰以改善药代动力学和药效学性质等优点。有趣的是，靶向于病理状态下过表达的细胞表面受体的适体可以以依赖受体的方式被病变细胞内化，并可用作选择性递送各种治疗药物的载体。因此，在过去十年中，利用适配体进行治疗性 siRNA 递送的研究被广泛探索，并且采用了不同的结合策略，包括共价和非共价方法。</span>
+
 A covalent aptamer-siRNA construct (AsiC) was first described in 2006 by McNamara et al. . This group covalently linked an antihuman prostate-specific membrane antigen (PSMA) aptamer to siRNAs targeting polo-like kinase 1 (PLK1) and B cell lymphoma 2 (BCL2) pro-survival genes and demonstrated selective internalization of the chimeric molecule into PSMA+ tumor cells and consequent tumor cell growth inhibition both in vitro and in vivo.
+
+<span style=color:blue>2006 年，McNamara 等人首次描述了共价连接的适配体-siRNA 构建体 (AsiC)。该研究组将靶向人类前列腺特异性膜抗原 (PSMA) 的适体通过共价键连接到靶向细胞周期蛋白激酶 1 (PLK1) 和 B 细胞淋巴瘤 2 (BCL2) 抗凋亡基因的 siRNA 上，并证明了嵌合分子在 PSMA+ 肿瘤细胞中的选择性内化作用，以及体外和体内肿瘤细胞生长抑制的效果。</span>
 
 From this first description, the covalent approach has been applied to generate a wide number of aptamer-siRNA conjugates.
 
+<span style=color:blue>自从这一首次描述以来，共价连接方法已被用于生成多种适配体-siRNA 偶联物。</span>
+
 For example, an aptamer targeting the epithelial cell adhesion molecule (EpCAM), a tumor-associated antigen overexpressed on epithelial cancers and tumor-initiating cells, has been covalently linked to PLK1-specific siRNA via a U-U-U linker. The conjugate has demonstrated the ability to downregulate PLK1 selectively in EpCAM+ cancer cells, inhibiting mammosphere formation, and tumor progression. The anti-EpCAM aptamer has also been linked to siRNA targeting survivin, demonstrating effectiveness in sensitizing breast cancer stem cells to doxorubicin. Further, a double EpCAM targeting chimera has also been described. Subramanian et al. conjugated the EpCAM binding aptamer to a siRNA targeting EpCAM mRNA. The resulting bifunctional conjugate reduced EpCAM expression and inhibited cell proliferation and tumor progression.
+
+<span style=color:blue>例如，靶向上皮细胞粘附分子 (EpCAM) 的适配体（EpCAM 是肿瘤相关抗原，在上皮癌和肿瘤起始细胞中过表达）已通过 U-U-U 连接子共价连接到 PLK1 特异性 siRNA 上。该偶联物能够选择性地下调 EpCAM+ 癌细胞中的 PLK1 表达，抑制乳腺球体的形成和肿瘤进展。抗-EpCAM 适配体还被连接到靶向 survivin 的 siRNA 上，显示出增强乳腺癌干细胞对阿霉素耐药性的效果。此外，还描述了一种双重靶向 EpCAM 的嵌合体。Subramanian等人将 EpCAM 结合适体与靶向 EpCAM mRNA 的 siRNA 连接起来。所得的双功能偶联物降低了 EpCAM 的表达，并抑制了细胞增殖和肿瘤进展。</span>
 
 Anticancer immunotherapeutic approaches based on aptamer-siRNA conjugates have also been successfully proposed. Recently, Rajagopalan and colleagues designed a chimera in which an anti-4-1BB aptamer was linked to a siRNA targeting interleukin 2 (IL-2) receptor alpha chain (CD-25). The chimera effectively reduced CD25 mRNA levels in 4-1BB+ cells and activated antitumor immunity to the attenuation of the IL-2 signaling pathway in CD8+ T cells.
 
+<span style=color:blue>基于适配体-siRNA结合物的抗癌免疫治疗方法也已成功提出。最近，Rajagopalan及其同事设计了一种嵌合物，其中抗4-1BB的适配体与靶向白细胞介素2（IL-2）受体α链（CD-25）的siRNA共价连接。该嵌合物有效降低了4-1BB+细胞中CD25 mRNA水平，并通过抑制CD8+T细胞中IL-2信号传导途径的激活来激活抗肿瘤免疫。</span>
+
 In addition to cancer therapy, different covalent aptamer-siRNA conjugates have been widely applied to the treatment of HIV infections.
+
+<span style=color:blue>除了癌症治疗外，不同的共价连接适配体-siRNA 偶联物已被广泛应用于 HIV 感染的治疗。</span>
 
 While covalent aptamer-siRNA conjugates have the advantage of being ready to use, their cost of synthesis is high. Therefore, less expensive and more advantageous non-covalent conjugation strategies have been developed. Ellington and colleagues proposed a strategy based on biotin-streptavidin interaction to conjugate anti-PSMA aptamers to biotinylated siRNAs against lamin A/C or glyceraldehyde 3-phosphate dehydrogenase (GAPDH).
 
+<span style=color:blue>虽然共价连接的适配体-siRNA 构建体具有可以直接使用的优点，但其合成成本很高。因此，人们开发了更便宜、更具优势的非共价连接策略。Ellington及其同事提出了一种基于生物素-链亲和素相互作用的策略，将抗 PSMA 适配体与靶向层 lamin A/C 或甘油醛-3-磷酸脱氢酶 (GAPDH) 的生物素化 siRNA 偶联。</span>
+
 An innovative conjugation strategy based on the use of a “universal sticky-bridge” to generate a dual-inhibitory construct for HIV treatment has been described. An aptamer targeting the HIV gp120 glycoprotein was linked by annealing to siRNAs to address the suppression of HIV replication. In this “sticky” approach, the aptamer and the siRNA sequences are extended with complementary portions that allow their connection by annealing. The sticky-bridge based strategy has been successfully used by the same group for the selective delivery of anti-STAT3 siRNAs to multiple myeloma cells and by other groups. In our laboratory, we used a similar approach to conjugate an anti-PDGFRβ aptamer (Gint4.T) to anti-STAT3 siRNAs for selective delivery in glioblastoma (GBM) cells. The construct resulted in an efficient reduction of cell viability and migration and tumor growth inhibition in vivo.
+
+<span style=color:blue>已经描述了一种创新的连接策略，该策略基于使用“通用**棒-桥**”来生成用于 HIV 治疗的双重抑制构建体。靶向 HIV gp120 糖蛋白的配体通过退火与 siRNA 连接，以抑制 HIV 复制。这种“**棒-桥**”方法中，适配体和 siRNA 序列延伸出互补的部分，允许它们通过退火连接。“**棒-桥**”策略已由同一研究组成功用于将抗 STAT3 siRNA 选择性递送至多发性骨髓瘤细胞，并被其他研究组采用。在我们实验室，我们使用类似的方法将抗 PDGFRβ 适配体 (Gint4.T) 与抗 STAT3 siRNA 偶联，用于胶质母细胞瘤 (GBM) 细胞的选择性递送。该构建体导致细胞活力和迁移率有效降低，并能在体内抑制肿瘤生长。</span>
 
 The great advantage of the sticky-bridge based approach compared with other conjugation strategies is the possibility of easily interchanging different siRNAs with the same aptamer, functioning as a “building block” system. Moreover, synthesis costs are greatly reduced in this approach.
 
+<span style=color:blue>与其他连接策略相比，“棒-桥”方法的一大优势在于可以轻松地用不同的 siRNA 替换相同的适配体，起到“模块”系统的作用。此外，这种方法大大降低了合成成本。</span>
+
 Here, we provide protocols for the generation of sticky-bridge based AsiCs and describe key elements necessary to control the correct annealing and function of the constructs.
+
+<span style=color:blue>本文提供了基于棒-桥的 AsiC 的生成协议，并描述了控制构建体正确退火和功能所需的关键要素。</span>
 
 ## 2 Materials
 
