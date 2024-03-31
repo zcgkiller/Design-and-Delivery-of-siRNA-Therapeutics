@@ -107,7 +107,7 @@ $$ {T}_{\mathrm{m}}=\left\{\left(1000\times \Delta H\right)/\left[A+\Delta S+\ln
 - Δ*S*, sum of nearest neighbor entropy change<span style=color:blue>最近邻熵变之和。</span>
 - *R*, gas constant (1.987 cal/deg/mol)<span style=color:blue>气体常数 (1.987 cal/deg/mol)。</span>
 - Ct, total molecular concentration of strand (100μM)<span style=color:blue>链的总分子浓度（100μM）。</span>
-- Fix [Na+] at 100 mM.<span style=color:blue>将 [Na^+^] 固定在 100 mM。</span>
+- Fix [Na^+^] at 100 mM.<span style=color:blue>将 [Na^+^] 固定在 100 mM。</span>
 
 ### 2.6 Microarray Analysis 微阵列分析
 
