@@ -145,69 +145,123 @@ Highly functional siRNAs for mammalian cells (*see* **Note** **1**) can be desig
 
 8. Annealed products may be checked using 19% polyacrylamide gel electrophoresis in TBE buffer, which can separate 21-nt double-stranded siRNA with 2-nt 3′ overhangs from single-stranded RNA . <span style=color:blue>退火产物可以通过 TBE 缓冲液中的 19% 聚丙烯酰胺凝胶电泳进行检测。该方法可以将具有 2 个核苷酸 3' 末端突出结构的 21 核苷酸双链 siRNA 与单链 RNA 区分开来。</span>
 
-### 3.2 Preparing Luciferase Reporters with CM and SM Sequences
+### 3.2 Preparing Luciferase Reporters with CM and SM Sequences 利用 CM 和 SM 序列制备荧光素酶报告基因
 
 1. Both strands of DNA oligonucleotides for gCM and gSM reporters, or pCM and pSM reporters are mixed, respectively, and add the same volume of 2× annealing buffer. They are annealed by incubating at 95 °C for 3 min, at 37 °C for 30 min, and at 25 °C for 60 min.
 
-2. Insert the annealed oligonucleotides into the XhoI/EcoRI restriction enzyme sites within 3′ UTR region of *Renilla* luciferase gene in psiCHECK-1, and name each plasmid vector, such as psiCHECKgCM_VIM270, psiCHECK-gSM_VIM270, psiCHECK-pCM_VIM270, and psiCHECK-pSM_VIM270, respectively (Fig. [3](clbr://internal.invalid/OEBPS/html/485053_1_En_2_Chapter.xhtml#Fig3)). RNA silencing activities of the guide strand and passenger strand are measured using psiCHECKgCM_VIM270 and psiCHECK-pCM_VIM270, respectively. The seed-dependent off-target effects of the guide strand and passenger strand are measured using psiCHECK-gSM_VIM270 and psiCHECK-pSM_VIM270, respectively (*see* **Note** **4**).
+   <span style=color:blue>将 gCM 和 gSM 报告基因或 pCM 和 pSM 报告基因的 DNA 寡核苷酸双链分别混合，并加入等体积的 2× 退火缓冲液。 按以下步骤进行退火：95 °C 孵育 3 分钟，37 °C 孵育 30 分钟，25 °C 孵育 60 分钟。</span>
 
-### 3.3 RNA Silencing Activity Assay Using the Dual Luciferase Reporter System
+2. Insert the annealed oligonucleotides into the XhoI/EcoRI restriction enzyme sites within 3′ UTR region of *Renilla* luciferase gene in psiCHECK-1, and name each plasmid vector, such as psiCHECKgCM_VIM270, psiCHECK-gSM_VIM270, psiCHECK-pCM_VIM270, and psiCHECK-pSM_VIM270, respectively (Fig. 3). RNA silencing activities of the guide strand and passenger strand are measured using psiCHECKgCM_VIM270 and psiCHECK-pCM_VIM270, respectively. The seed-dependent off-target effects of the guide strand and passenger strand are measured using psiCHECK-gSM_VIM270 and psiCHECK-pSM_VIM270, respectively (*see* **Note** **4**).
+
+   <span style=color:blue>将退火后的寡核苷酸插入 psiCHECK-1 中 Renilla 荧光素酶基因的 3'UTR 区 XhoI/EcoRI 限制性酶切位点，并分别命名质粒载体，例如 psiCHECKgCM_VIM270、psiCHECK-gSM_VIM270、psiCHECK-pCM_VIM270 和 psiCHECK-pSM_VIM270 (见图 3)。 分别使用 psiCHECKgCM_VIM270 和 psiCHECK-pCM_VIM270 来测量引导链和乘客链的 RNA 沉默活性。 分别使用 psiCHECK-gSM_VIM270 和 psiCHECK-pSM_VIM270 来测量引导链和乘客链的种子依赖性脱靶效应 (见注释 4)。</span>
+
+### 3.3 RNA Silencing Activity Assay Using the Dual Luciferase Reporter System 利用双荧光素酶报告系统进行RNA沉默活性测定
 
 RNA silencing activity is measured using dual luciferase reporter assay system.
 
+<span style=color:blue>利用双荧光素酶报告测定系统测量RNA沉默活性。</span>
+
 1. Inoculate a human HeLa cell suspension (1.0 × 105 cells/mL) into a well of 24-well culture plate 1 day before transfection.
 
-2. Transfect 0.0005, 0.005, 0.05, 0.5, 5 nM of each siRNA (*see* **Note** **5), 0.1μg of pGL3-Control vector encoding the firefly luciferase gene, and 0.1μg of each psiCHECK-gCM_VIM270, psiCHECK-gSM_VIM270, psiCHECK-pCM_VIM270, and psiCHECK-pSM_VIM270 reporter construct simultaneously into HeLa cells using 2μL of Lipofectamine 2000.
+   <span style=color:blue>在24孔培养板的一个孔中接种人类HeLa细胞悬浮液（1.0 × 10^5^ 细胞/mL），在转染前一天进行接种。</span>
+
+2. Transfect 0.0005, 0.005, 0.05, 0.5, 5 nM of each siRNA (*see* **Note** **5**), 0.1μg of pGL3-Control vector encoding the firefly luciferase gene, and 0.1μg of each psiCHECK-gCM_VIM270, psiCHECK-gSM_VIM270, psiCHECK-pCM_VIM270, and psiCHECK-pSM_VIM270 reporter construct simultaneously into HeLa cells using 2μL of Lipofectamine 2000.
+
+   <span style=color:blue>使用2μL Lipofectamine 2000，将每个siRNA的0.0005、0.005、0.05、0.5、5 nM（*见* **注释5**），0.1μg编码萤火虫荧光素基因的pGL3-Control载体，以及0.1μg每个psiCHECK-gCM_VIM270、psiCHECK-gSM_VIM270、psiCHECK-pCM_VIM270和psiCHECK-pSM_VIM270报告构建同时转染到HeLa细胞中。</span>
 
 3. Lyse the transfected cells with 1× passive lysis buffer 24 h after transfection (*see* **Note** **6**).
 
+   <span style=color:blue>在转染后24小时，用1×被动裂解缓冲液裂解转染的细胞（*见* **注释6**）。</span>
+
 4. Measure luciferase activity using the Dual-Luciferase Reporter Assay System.
+
+   <span style=color:blue>使用双荧光素酶报告试剂盒测量荧光素活性。</span>
 
 5. Calculate the percentage of the *Renilla* luciferase activity normalized by firefly luciferase activity (*Renilla* luciferase activity/firefly luciferase activity × 100) for unmodified siRNA, and siRNA with DNA (*see* **Note** **7**) or 2′-OMe (*see* **Note** **8**) modification in the seed region.
 
+   <span style=color:blue>计算未修饰siRNA，以及在种子区域具有DNA（*见* **注释7**）或2′-OMe（*见* **注释8**）修饰的siRNA的*Renilla*荧光素活性相对于萤火虫荧光素活性的百分比（*Renilla*荧光素活性/萤火虫荧光素活性 × 100）。</span>
+
 ### 3.4 Microarray Analysis
 
-1. Inoculate HeLa cells in each 2 wells of 24-well plate at 1 × 105 cells/mL.
+1. Inoculate HeLa cells in each 2 wells of 24-well plate at 1 × 10^5^ cells/mL.
+
+   <span style=color:blue>在 24 孔培养板的每个孔中接种 1.0 × 10^5^ 个/mL 的 HeLa 细胞，每个样品重复 2 孔。</span>
 
 2. Transfect 50 nM of each siRNA into HeLa cells using 2μL of Lipofectamine 2000. Prepare mock-transfected cells treated with the transfection reagent in the absence of siRNA as a control.
 
+   <span style=color:blue>使用 2μL 的 Lipofectamine 2000 将 50 nM 的 siRNA 转染到 HeLa 细胞中。 作为对照，制备模拟转染的细胞，即仅用转染试剂处理而不添加 siRNA。</span>
+
 3. At 24 h post-transfection, purify total RNA from the transfected cells using an RNeasy kit.
+
+   <span style=color:blue>转染 24 小时后，使用 RNeasy 试剂盒从转染的细胞中纯化总 RNA。</span>
 
 4. Measure the concentration of purified RNA using a NanoDrop 2000 spectrophotometer and confirm its quality by a Bioanalyzer (*see* **Note** **9**).
 
+   <span style=color:blue>使用NanoDrop 2000分光光度计测量纯化RNA的浓度，并通过Bioanalyzer确认其质量（*见* **注释9**）。</span>
+
 5. Synthesize cDNA from 1μg of each total RNA sample using an Agilent one-color spike mix kit.
+
+   <span style=color:blue>使用Agilent单色探针混合试剂盒从1μg每个总RNA样品合成cDNA。</span>
 
 6. Hybridize the cDNA product to an Agilent SurePrint G3 human GE microarray according to the manufacturer’s protocol.
 
+   <span style=color:blue>根据制造商的方案，将cDNA产物杂交到Agilent SurePrint G3人类GE微阵列上。</span>
+
 7. Calculate the reduction of the expression levels of target vimentin mRNAs in the cells transfected with each siRNA relative to that in the mock-transfected cells, respectively.
+
+   <span style=color:blue>分别计算每个siRNA转染细胞中靶标波形蛋白mRNA表达水平相对于未转染细胞的降低。</span>
 
 8. Generate *M* (log ratio) and *A* (mean average) (*MA*) plot and cumulative distribution using microarray data of each siRNA by package in R-studio software to evaluate the RNA silencing activity (*see* **Note** **10**) and off-target effect (*see* **Note** **11**).
 
-## 4 Notes
+   <span style=color:blue>使用R-studio软件中的包，通过微阵列数据生成*M*（对数比率）和*A*（平均值）（*MA*）图和累积分布，评估RNA沉默活性（*见* **注释10**）和非靶效应（*见* **注释11**）。</span>
+
+## 4 Notes 注释
 
 1. siRNAs satisfied the following four sequence conditions simultaneously are considered to be functional: (a) A/U at the 5′-terminus of the siRNA guide strand, (b) G/C at the 5′-terminus of the siRNA passenger strand, (c) AU richness at the 5′ one-third of the guide strand, (d) absence of a long GC stretch (>9 nt). Bioinformatics analysis revealed that 14.7% of all the 23-mer subsequences in human mRNA satisfy functional siRNA sequence rules  (Fig. 2a, b).
 
-2. Using options, other siRNA selection algorithms established by Reynolds et al. or Amarzguioui and Prydz can be selected. Furthermore, the highly effective siRNA with reduced seed-dependent off-target effect is selectable using *T*m value in the seed-target duplex below 21.5 °C. *T*m value is a good benchmark to express the thermodynamic stability of the duplex between siRNA seed region and target mRNA. Calculated *T*m value of siRNA seed-target duplex in protein-free condition discriminates siRNA with almost weak off-target effect from that with strong off-target effect. Specificity of siRNA sequence in human, mouse, or rat can be also checked. Other options which impose the number of contiguous GC or AT nucleotides or GC content are also available. 
+   <span style=color:blue>满足以下四个序列条件的siRNA同时被认为是功能性的：（a）siRNA导引链的5'-末端为A/U，（b）siRNA被动链的5'-末端为G/C，（c）导引链的前1/3位置富含AU，（d）不存在长的GC连续序列（>9 nt）。生物信息学分析显示，人类mRNA中所有23个核苷酸子序列中有14.7%满足功能性siRNA序列规则（见图2a，b）。</span>
+
+2. Using options, other siRNA selection algorithms established by Reynolds et al. or Amarzguioui and Prydz can be selected. Furthermore, the highly effective siRNA with reduced seed-dependent off-target effect is selectable using *T*~m~ value in the seed-target duplex below 21.5 °C. *T*~m~ value is a good benchmark to express the thermodynamic stability of the duplex between siRNA seed region and target mRNA. Calculated *T*~m~ value of siRNA seed-target duplex in protein-free condition discriminates siRNA with almost weak off-target effect from that with strong off-target effect. Specificity of siRNA sequence in human, mouse, or rat can be also checked. Other options which impose the number of contiguous GC or AT nucleotides or GC content are also available. 
+
+   <span style=color:blue>可以使用Reynolds等人或Amarzguioui和Prydz建立的其他siRNA选择算法。此外，可以使用*T* ~m~值在21.5°C以下的siRNA选择高效的siRNA，以减少种子依赖性的非靶效应。*T* ~m~值是表达siRNA种子区域与靶mRNA之间的双链热力学稳定性的良好基准。在无蛋白条件下计算的siRNA种子-靶双链的*T* ~m~值可将几乎没有非靶效应的siRNA与具有强非靶效应的siRNA区分开。还可以检查人类、小鼠或大鼠siRNA序列的特异性。还提供了其他选项，例如连续GC或AT核苷酸的数量或GC含量。</span>
 
 3. DNA is a modified form of RNA with hydrogen at 2′-position of the pentose sugar. The 5′ one-third of siRNA is capable of replacement with DNA without substantial loss of RNAi activity. 2′-OMe is a well-known C2′-modified RNA that is known to increase stability in the serum and thermodynamic stability in base-pairing, and also considered to abrogate immunogenicity. 2′-OMe modification is tolerated at multiple positions in the siRNA guide strand because of its small size, comparable to the 2′-OH of natural RNA. 
 
+   <span style=color:blue>DNA是RNA的一种修改形式，在五碳糖的2'-位置具有氢。siRNA的前1/3位置可用DNA替换而不会显著降低RNAi活性。2'-OMe是一种众所周知的C2'-修饰RNA，它可以增加在血清中的稳定性和碱基对稳定性，还被认为可以减少免疫原性。由于其与天然RNA的2'-OH大小相似，2'-OMe修饰可在siRNA导引链的多个位置耐受。</span>
+
 4. In RNAi, a target mRNA is reduced by cleavage of target mRNA by AGO2. However, miRNA-mediated RNA silencing is induced by translational repression. 
 
-5. It is preferable to perform reporter assays at a series of multiple concentrations of each siRNA to calculate the IC50 of its RNA silencing activity quantitatively. 
+   <span style=color:blue>在RNAi中，通过AGO2的靶mRNA切割来降低目标mRNA。然而，miRNA介导的RNA沉默是通过转译抑制诱导的。</span>
+
+5. It is preferable to perform reporter assays at a series of multiple concentrations of each siRNA to calculate the IC~50~ of its RNA silencing activity quantitatively. 
+
+   <span style=color:blue>最好在每种siRNA的一系列多个浓度下执行报告基因分析，以定量计算其RNA沉默活性的IC~50~。</span>
 
 6. If the cell debris is formed from transfected cells, it is preferable to remove the debris clearly before addition of 1× passive lysis buffer to measure the luciferase activity correctly. 
 
-7. Unmodified siVIM-270 repressed the *Renilla* luciferase activity derived from psiCHECK-gCM for siVIM-270 (psiCHECK-gCM_VIM270) in a dose-dependent manner (Fig. 3). The calculated IC50 was 2 pM (Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_2_Chapter.xhtml#Tab1)). DNA-modified siVIM-270 repressed the *Renilla* luciferase activity at the almost equivalent level to that of unmodified siVIM-270, particularly at high concentrations (0.5 or 5 nM), and their IC50 was 4 pM (Table 1). The off-target effects on the SM target of the guide strand were also measured using psiCHECK-gSM_VIM270 (Fig. 3). Unmodified siVIM-270 showed strong off-target effects (IC50 = 10 pM), but DNA-modified siVIM-270 reduced the off-target effects (IC50 = 295 pM) (Table 1). This may be because thermodynamic stability in base-pairing of DNA-RNA duplex is weaker than that of RNA duplex. In fact, the calculated *T*m value of the RNA duplex between the seed region of unmodified siVIM-270 and target RNA was 31.4 °C, and that of DNA-RNA heteroduplex between the seed region of DNA-modified siVIM-270 and target RNA was 3.1 °C. Furthermore, it is possible that the passenger strand also induces unintended RNAi and seed sequence-dependent off-target effects. Then dual luciferase reporter assays were also performed using psiCHECK-pCM_VIM270 and psiCHECK-pSM_VIM270, respectively. However, almost no or little inhibitory effects on both CM and SM targets of the passenger strand were observed (Fig. 3). Because we used siRNA satisfying the four functional siRNA sequence conditions, such siRNA is expected to be easily unwound from the 5′ terminus of the guide strand, but not that of the passenger strand. 
+   <span style=color:blue>如果由转染细胞形成细胞碎片，则最好在添加1×无活性裂解缓冲液之前清除碎片，以正确测量荧光素酶活性。</span>
 
-8. The 2′-OMe-modified siVIM-270 repressed the *Renilla* luciferase activity derived from psiCHECK-gCM for siVIM-270 (psiCHECK-gCM_VIM270) at the almost equivalent level to that of unmodified siVIM-270, and its IC50 was 10 pM (Table 1). The off-target effects on the SM target of the guide strand of 2′-OMe-modified siVIM-270 measured using psiCHECK-gSM_VIM270 was significantly reduced, even though this modification is well-known modification to enhance base-pairing stability. It is known that the phosphates of RNA oligonucleotides interact with the amino acid side chains of human AGO protein. Therefore, 2′-OMe-modified single-stranded RNA structure on the AGO protein was examined computationally (Fig. [4](clbr://internal.invalid/OEBPS/html/485053_1_En_2_Chapter.xhtml#Fig4)). The 2′-OMe modification in the siRNA seed region at position 3 was essentially stable on the AGO protein. However, RNA structure of the nucleotide adjacent to the 2′-OMe-modified nucleotide was changed from that of unmodified RNA (Fig. 4a-d), suggesting that 2′-OMe modification in the siRNA seed region at least at position 3 from 5′ end may disturb base-pairing between siRNA guide strand and its target or off-target mRNAs. But, as shown in Fig. 3, the expression of the CM target was significantly repressed, suggesting that the non-seed region may compensate the incomplete seed-target base pairing for inducing RNAi on the CM target. 
+7. Unmodified siVIM-270 repressed the *Renilla* luciferase activity derived from psiCHECK-gCM for siVIM-270 (psiCHECK-gCM_VIM270) in a dose-dependent manner (Fig. 3). The calculated IC~50~ was 2 pM (Table 1). DNA-modified siVIM-270 repressed the *Renilla* luciferase activity at the almost equivalent level to that of unmodified siVIM-270, particularly at high concentrations (0.5 or 5 nM), and their IC~50~ was 4 pM (Table 1). The off-target effects on the SM target of the guide strand were also measured using psiCHECK-gSM_VIM270 (Fig. 3). Unmodified siVIM-270 showed strong off-target effects (IC~50~ = 10 pM), but DNA-modified siVIM-270 reduced the off-target effects (IC~50~ = 295 pM) (Table 1). This may be because thermodynamic stability in base-pairing of DNA-RNA duplex is weaker than that of RNA duplex. In fact, the calculated *T*m value of the RNA duplex between the seed region of unmodified siVIM-270 and target RNA was 31.4 °C, and that of DNA-RNA heteroduplex between the seed region of DNA-modified siVIM-270 and target RNA was 3.1 °C. Furthermore, it is possible that the passenger strand also induces unintended RNAi and seed sequence-dependent off-target effects. Then dual luciferase reporter assays were also performed using psiCHECK-pCM_VIM270 and psiCHECK-pSM_VIM270, respectively. However, almost no or little inhibitory effects on both CM and SM targets of the passenger strand were observed (Fig. 3). Because we used siRNA satisfying the four functional siRNA sequence conditions, such siRNA is expected to be easily unwound from the 5′ terminus of the guide strand, but not that of the passenger strand. 
+
+   <span style=color:blue>未修改的siVIM-270以剂量依赖的方式抑制了从psiCHECK-gCM_VIM270（siVIM-270的psiCHECK-gCM_VIM270派生的*Renilla*荧光素酶活性）产生的*Renilla*荧光素酶活性（见图3）。 计算得到的IC~50~为2 pM（表1）。 DNA修饰的siVIM-270在高浓度（0.5或5 nM）下抑制了*Renilla*荧光素酶活性，其IC~~50~~几乎与未修改的siVIM-270相当（表1）。 在psiCHECK-gSM_VIM270上也测量了引导链SM目标的非特定效应（见图3）。 未修改的siVIM-270显示出强烈的非特定效应（IC~50~ = 10 pM），但DNA修饰的siVIM-270减少了非特定效应（IC~50~ = 295 pM）（表1）。 这可能是因为DNA-RNA双链的碱基配对的热力学稳定性比RNA双链要弱。 实际上，未修改的siVIM-270种子区域与目标RNA之间的RNA双链的计算*T*m值为31.4°C，而DNA修饰的siVIM-270种子区域与目标RNA之间的DNA-RNA杂交双链的*T*m值为3.1°C。 此外，过客链也可能引发非预期的RNA干扰和种子序列依赖的非特定效应。 然后，还使用psiCHECK-pCM_VIM270和psiCHECK-pSM_VIM270进行了双荧光素酶报告基因测定，分别用于观察过客链的CM和SM目标的抑制效果。 然而，几乎未观察到对过客链的CM和SM目标的抑制作用（见图3）。 因为我们使用了满足四个功能性siRNA序列条件的siRNA，所以预期这种siRNA易于从引导链的5'末端解开，但不易于从过客链解开。</span>
+
+8. The 2′-OMe-modified siVIM-270 repressed the *Renilla* luciferase activity derived from psiCHECK-gCM for siVIM-270 (psiCHECK-gCM_VIM270) at the almost equivalent level to that of unmodified siVIM-270, and its IC50 was 10 pM (Table 1). The off-target effects on the SM target of the guide strand of 2′-OMe-modified siVIM-270 measured using psiCHECK-gSM_VIM270 was significantly reduced, even though this modification is well-known modification to enhance base-pairing stability. It is known that the phosphates of RNA oligonucleotides interact with the amino acid side chains of human AGO protein. Therefore, 2′-OMe-modified single-stranded RNA structure on the AGO protein was examined computationally (Fig. 4). The 2′-OMe modification in the siRNA seed region at position 3 was essentially stable on the AGO protein. However, RNA structure of the nucleotide adjacent to the 2′-OMe-modified nucleotide was changed from that of unmodified RNA (Fig. 4a-d), suggesting that 2′-OMe modification in the siRNA seed region at least at position 3 from 5′ end may disturb base-pairing between siRNA guide strand and its target or off-target mRNAs. But, as shown in Fig. 3, the expression of the CM target was significantly repressed, suggesting that the non-seed region may compensate the incomplete seed-target base pairing for inducing RNAi on the CM target. 
+
+   <span style=color:blue>2′-OMe修饰的siVIM-270在抑制源自psiCHECK-gCM_VIM270的*Renilla*荧光素酶活性方面几乎与未修改的siVIM-270相当，其IC50为10 pM（表1）。 使用psiCHECK-gSM_VIM270测量的2′-OMe修饰的siVIM-270引导链SM目标的非特定效应显着减少，即使这种修饰是已知的增强碱基配对稳定性的修饰。 众所周知，RNA寡核苷酸的磷酸与人类AGO蛋白的氨基酸侧链相互作用。 因此，通过计算分析了AGO蛋白上的2′-OMe修饰的单链RNA结构（见图4）。 在AGO蛋白上，siRNA种子区域中位置3的2′-OMe修饰基本稳定。 但是，与未修饰的RNA相比，2′-OMe修饰的核苷酸相邻核苷酸的RNA结构发生了变化（见图4a-d），表明至少从5'端的位置3处的siRNA种子区域的2′-OMe修饰可能会干扰siRNA引导链与其靶向或非特定mRNA之间的碱基配对。 但是，如图3所示，CM目标的表达显着受到抑制，表明非种子区域可能会补偿不完整的种子-靶标碱基配对以诱导对CM靶标的RNA干扰。</span>
 
 9. Particularly, it is recommended that the value of RNA Integrity Number (RIN), a quantitative measurement of RNA quality, of total RNA sample for microarray application is high. High-quality samples with RIN values higher than 9 are best for microarray application, but the reliable results are also obtained from the sample with the value as low as 7.0. 
 
+   <span style=color:blue>特别建议微阵列应用的总RNA样品的RNA完整性数值（RIN），这是RNA质量的定量测量值，应该很高。RIN值高于9的高质量样品最适合于微阵列应用，但从RIN值低至7.0的样品中也可以获得可靠的结果。</span>
+
 10. Unmodified siVIM-270 repressed the expression level of vimentin mRNA to 11%. DNA- and 2′-OMe-modified siVIM-270 repressed vimentin mRNA expression at almost equivalent level to 13% and 19%, respectively (Fig. 5a). 
 
-11. The seed-dependent off-target effect of each siRNA using microarray data can be evaluated by analyzing the expression profiles of genes with seed matched sequences in their 3′UTRs, since siRNA off-target effect is mainly induced by the mechanism similar to miRNA-mediated RNA silencing [[25](clbr://internal.invalid/OEBPS/html/485053_1_En_2_Chapter.xhtml#CR25)–[27](clbr://internal.invalid/OEBPS/html/485053_1_En_2_Chapter.xhtml#CR27)]. Off-target effects on mRNAs having complementary sequences with siRNA seed region in their 3′UTRs were examined. The obvious off-target effects were observed by the introduction of unmodified siVIM-270. However, DNA-modified siVIM-270 showed reduced off-target effects. On the other hand, 2′-OMe-modified siRNA showed little off-target effects (Fig. 5b-d). 
+    <span style=color:blue>未修饰的siVIM-270将波形蛋白mRNA的表达水平降低到11％。DNA和2'-OMe修饰的siVIM-270将波形蛋白mRNA的表达水平降低到几乎等同于13％和19％的水平（见图5a）。</span>
 
-**Table 1** IC50s of unmodified, DNA-modified, or 2′-OMe-modified siVIM-270 for RNAi activity or off-target effect measured by reporter assay
+11. The seed-dependent off-target effect of each siRNA using microarray data can be evaluated by analyzing the expression profiles of genes with seed matched sequences in their 3′UTRs, since siRNA off-target effect is mainly induced by the mechanism similar to miRNA-mediated RNA silencing. Off-target effects on mRNAs having complementary sequences with siRNA seed region in their 3′UTRs were examined. The obvious off-target effects were observed by the introduction of unmodified siVIM-270. However, DNA-modified siVIM-270 showed reduced off-target effects. On the other hand, 2′-OMe-modified siRNA showed little off-target effects (Fig. 5b-d). 
+
+    <span style=color:blue>利用微阵列数据评估每个siRNA的种子依赖性非靶效应可以通过分析其3'UTR中具有种子匹配序列的基因的表达谱来进行，因为siRNA非靶效应主要是通过与miRNA介导的RNA沉默类似的机制诱导的。通过引入未修饰的siVIM-270观察到明显的非靶效应。然而，DNA修饰的siVIM-270显示出减少的非靶效应。另一方面，2'-OMe修饰的siRNA显示出很少的非靶效应（见图5b-d）。</span>
+
+**Table 1** IC~50~s of unmodified, DNA-modified, or 2′-OMe-modified siVIM-270 for RNAi activity or off-target effect measured by reporter assay<span style=color:blue>未修饰、DNA 修饰或 2'-OMe 修饰的 siVIM-270 对于 RNAi 活性或通过报告基因测定测量的脱靶效应的 IC~50~s</span>
 
 | siRNA  | RNAi (pM) | Off-target effect (pM) |
 | :----- | :-------- | :--------------------- |
@@ -215,4 +269,4 @@ RNA silencing activity is measured using dual luciferase reporter assay system.
 | DNA    | 4         | 295                    |
 | 2′-OMe | 10        | ∞                      |
 
-∞ indicates that the IC50 is higher than 5000 pM
+∞ 表示 IC50 远超过 5000 pM
