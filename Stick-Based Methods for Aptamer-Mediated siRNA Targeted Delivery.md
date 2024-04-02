@@ -220,13 +220,13 @@ Construct preparation is performed in annealing buffer 1×: annealing buffer 10�
 ### 3.1 Aptamer-siRNA Design
 
 1. *Choice of an appropriate aptamer*. Choose the aptamer based on the cell system you want to target and on its ability to rapidly internalize within the cells overexpressing its target in a receptor-dependent manner. To generate the construct, extend the aptamer sequence at the 3′-end with the stick sequence. 
-2. *Choice of an appropriate siRNA*. Choose the siRNA based on experimentally tested sequences or by using siRNA tools available online (*see* **Note** [**11**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). The sequences reported here will be 19–21 nt in length. Extend the antisense strand at the 3′-end with the stick sequence. We recommend checking: (a) the correct annealing of the stick-antisense oligo to the corresponding siRNA sense strand by structure prediction (*see* **Note** [**12**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)) and gel electrophoresis (*see* below Subheading [3.6](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec16), **Note** [**13**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)); (b) the annealing with the stick-antisense sequence does not alter aptamer folding by using common structure prediction software (*see* **Note** [**12**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)); (c) the therapeutic efficacy of the generated siRNA duplex upon cell transfection (*see* Subheading [3.7](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec17), **Note** [**14**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). The general aspects of aptamer attachment to different siRNA strands or the optimization of used siRNA sequences have been well discussed in several studies [[20](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#CR20), [28](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#CR28)]. 
+2. *Choice of an appropriate siRNA*. Choose the siRNA based on experimentally tested sequences or by using siRNA tools available online (*see* **Note** **11**). The sequences reported here will be 19–21 nt in length. Extend the antisense strand at the 3′-end with the stick sequence. We recommend checking: (a) the correct annealing of the stick-antisense oligo to the corresponding siRNA sense strand by structure prediction (*see* **Note** **12**) and gel electrophoresis (*see* below Subheading 3.6, **Note** **13**); (b) the annealing with the stick-antisense sequence does not alter aptamer folding by using common structure prediction software (*see* **Note** **12**); (c) the therapeutic efficacy of the generated siRNA duplex upon cell transfection (*see* Subheading 3.7, **Note** **14**). The general aspects of aptamer attachment to different siRNA strands or the optimization of used siRNA sequences have been well discussed in several studies. 
 
-### 3.2 Construct Preparation (Fig. [1](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Fig1))
+### 3.2 Construct Preparation (Fig. 1)
 
-1. Determine the concentration of each RNA oligo dissolved in sterile RNAse-free water (*see* **Note** [**15**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)) spectrophotometrically, assuming that one A260 unit is equal to 40 mg/ml of RNA. 
+1. Determine the concentration of each RNA oligo dissolved in sterile RNAse-free water (*see* **Note** **15**) spectrophotometrically, assuming that one A260 unit is equal to 40 mg/ml of RNA. 
 2. To prepare constructs, anneal 5 μM antisense-stick siRNA strand to 5 μM of complementary siRNA guide (ratio 1:1) in 1× annealing buffer by incubating at 95 °C for 10 min, 55 °C for 10 min, and 37 °C for 20 min. Then, subject an equal amount of stick aptamer to short denaturation-renaturation steps (85 °C for 5 min, snap-cooling on ice for 2 min and warming up to 37 °C) and add it to the generated stick-siRNA duplex. Transfer the mixture at 37 °C for 30 min. 
-3. After annealing procedures, immediately use or store the constructs at −20 °C (*see* **Note** [**16**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). 
+3. After annealing procedures, immediately use or store the constructs at −20 °C (*see* **Note** **16**). 
 
 ![485053_1_En_3_Fig1_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_3_Fig1_HTML.png)
 
@@ -234,7 +234,7 @@ Construct preparation is performed in annealing buffer 1×: annealing buffer 10�
 
 ### 3.3 Control of the Correct Annealing by Gel Electrophoresis
 
-1. Control the correct annealing on a 12% non-denaturing PAGE gel. Load unconjugated RNAs or annealed constructs (10–15 pmol each) on the gel and run it in 1× TBE (*see* **Note** [**17**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). 
+1. Control the correct annealing on a 12% non-denaturing PAGE gel. Load unconjugated RNAs or annealed constructs (10–15 pmol each) on the gel and run it in 1× TBE (*see* **Note** **17**). 
 2. Visualize gel bands by ethidium bromide staining and GEL.DOC XR gel camera. 
 3. Monitor the correct annealing by the presence of a shifted band of migration as compared to the individual components (Fig. [2](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Fig2)). 
 
@@ -246,12 +246,12 @@ Construct preparation is performed in annealing buffer 1×: annealing buffer 10�
 
 1. Seed cells in 6-well plates the day before treatments. 
 2. For binding and internalization analysis, seed 2 × 105 cells per well. 
-3. For functional activity assays, seed 1.4 × 105 cells/well (about 60% confluence). Treat cells with 400 nM aptamer or aptamer-siRNA construct (*see* **Notes** [**18**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18) and [**19**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)) or transfect with 100 nM siRNA duplex as control using Lipofectamine 2000 according to manufacturer’s instructions. 
+3. For functional activity assays, seed 1.4 × 105 cells/well (about 60% confluence). Treat cells with 400 nM aptamer or aptamer-siRNA construct (*see* **Notes** **18** and **19**) or transfect with 100 nM siRNA duplex as control using Lipofectamine 2000 according to manufacturer’s instructions. 
 4. Following 3 days, process cells for functional analyses (either by RT-qPCR or by immunoblotting as detailed below). 
 
 ### 3.5 Binding and Internalization Analysis by RT-qPCR
 
-1. Add RNAs (aptamers or constructs) to the cells at 200 nM for different incubation times (ranging from 15 min to 2 h) at 37 °C in the presence of 100 mg/ml tRNA used as a nonspecific competitor. At selected times, wash cells three times with PBS (to remove unbound sequences and recover total bound sequences) or with PBS 0.5 M NaCl (to remove cell surface-bound sequences and measure amount of internalized RNA). Then, recover RNAs with 1 ml/sample TRIzol containing 0.5 pmol/ml of the CL4 oligo used as reference control (*see* **Note** [**20**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)) and extract. 
+1. Add RNAs (aptamers or constructs) to the cells at 200 nM for different incubation times (ranging from 15 min to 2 h) at 37 °C in the presence of 100 mg/ml tRNA used as a nonspecific competitor. At selected times, wash cells three times with PBS (to remove unbound sequences and recover total bound sequences) or with PBS 0.5 M NaCl (to remove cell surface-bound sequences and measure amount of internalized RNA). Then, recover RNAs with 1 ml/sample TRIzol containing 0.5 pmol/ml of the CL4 oligo used as reference control (*see* **Note** **20**) and extract. 
 2. Determine the amount of recovered RNA by performing a two-step RT-qPCR protocol. In step 1, RNA is reverse transcribed using specific 3′ primers and the following protocol: heating step at 65 °C for 5 min, annealing step at 22 °C for 5 min, extension at 42 °C for 30 min followed by end extension at 48 °C for 30 min and enzyme inactivation at 95 °C for 5 min. In step 2, the RT products are PCR amplified with iQ SYBR Green Supermix (Bio-Rad) by heating at 95 °C for 2 min, followed by 40 cycles of heating at 95 °C for 30 s, annealing at 55 °C for 30 s, and extending at 60 °C for 30 s. A melt curve stage by heating at 60–95 °C is performed. 
 3. Normalize data to the CL4 reference control. 
 
@@ -259,7 +259,7 @@ This experiment demonstrates that the siRNA conjugation to the aptamer does not 
 
 ### 3.6 AsiC Functional Activity Analyses by RT-qPCR
 
-To demonstrate the aptamer ability to deliver a functional siRNA, analyze the levels of the siRNA target by RT-qPCR and immunoblotting (*see* Subheading [3.7](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec17)) upon cell construct treatment.
+To demonstrate the aptamer ability to deliver a functional siRNA, analyze the levels of the siRNA target by RT-qPCR and immunoblotting (*see* Subheading  3.7) upon cell construct treatment.
 
 1. For RT-qPCR, recover RNAs from transfected or treated cells in 1 ml of TRiZol and extract according to manufacturer’s instructions. 
 2. Analyze the levels of the siRNA target by performing total RNA (1 μg) retrotranscription using a cDNA synthesis kit and subsequent amplification with SYBR Green Supermix and specific primers. Perform the amplification of a reference gene (i.e., actin, GAPDH) in parallel, and use the ΔΔCt method for relative quantization of gene expression. 
@@ -268,9 +268,9 @@ To demonstrate the aptamer ability to deliver a functional siRNA, analyze the le
 
 1. For immunoblotting , prepare cell protein extracts from transfected or treated cells by washing cells in ice-cold PBS and lysing in lysis buffer. Determine protein concentration by using the Bradford assay and bovine serum albumin as standard. 
 2. Run samples on SDS-polyacrylamide gels and transfer into PVDF membranes. 
-3. Probe filters with primary antibodies against the siRNA target (STAT3 in the reported example in Fig. [3](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Fig3)). Use antibodies against a reference protein (anti-actin in the reported example) to confirm equal loading. Visualize signals with peroxidase-conjugated secondary antibodies using the enhanced chemiluminescence system. 
+3. Probe filters with primary antibodies against the siRNA target (STAT3 in the reported example in Fig. 3). Use antibodies against a reference protein (anti-actin in the reported example) to confirm equal loading. Visualize signals with peroxidase-conjugated secondary antibodies using the enhanced chemiluminescence system. 
 
-An example of the results obtained with extracts from U87MG cells (PDGFRβ receptor-positive cells) treated with a chimera containing the anti-PDGFRβ internalizing aptamer [[25](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#CR25)] conjugated to STAT3 siRNA by stick-end annealing (indicated as Gint4.T-STAT3) [[26](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#CR26)] is shown in Fig. [3](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Fig3). As expected, the AsiC treatment results in a significant reduction of STAT3 levels as compared to cells left untreated or treated with a control aptamer or construct containing an unrelated aptamer. Notably, the extent of reduction is comparable to that obtained upon siSTAT3 duplex transfection.
+An example of the results obtained with extracts from U87MG cells (PDGFRβ receptor-positive cells) treated with a chimera containing the anti-PDGFRβ internalizing aptamer conjugated to STAT3 siRNA by stick-end annealing (indicated as Gint4.T-STAT3) is shown in Fig. 3. As expected, the AsiC treatment results in a significant reduction of STAT3 levels as compared to cells left untreated or treated with a control aptamer or construct containing an unrelated aptamer. Notably, the extent of reduction is comparable to that obtained upon siSTAT3 duplex transfection.
 
 ![485053_1_En_3_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_3_Fig3_HTML.png)
 
@@ -288,7 +288,7 @@ An example of the results obtained with extracts from U87MG cells (PDGFRβ recep
 8. The same primers are used for the aptamer and the construct. 
 9. Commercially available pre-casted gels may be used. 
 10. Transfer buffer can be used up to three times, checking that the voltage is maintained at a constant rate. 
-11. An example is the online tool available at [www.Dharmacon.com](http://www.dharmacon.com/). 
+11. An example is the online tool available at www.Dharmacon.com. 
 12. A prediction of bimolecular RNAs can be performed with common structure prediction software such as *RNAStructure*. 
 13. The correct annealing can be monitored by the presence of a shifted band of migration as compared to the antisense stick and the sense strands on non-denaturing PAGE gel. 
 14. The correct efficacy of the generated siRNA duplex can be monitored by analyzing the levels of the siRNA target by RT-qPCR and immunoblot following cell transfection with the duplex. 
