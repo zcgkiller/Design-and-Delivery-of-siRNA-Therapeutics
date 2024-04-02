@@ -208,7 +208,12 @@ Construct preparation is performed in annealing buffer 1×: annealing buffer 10�
 ### 2.7 Gene Expression by RT-qPCR
 
 1. TRiZol (Life Technologies) for total cell RNA recovering. 
+
+   <span style=color:blue>TRiZol（Life Technologies）用于总细胞RNA的回收。</span>
+
 2. Reagents to measure mRNA level: cDNA synthesis kit and SYBR Green Supermix; specific primers for gene amplification. 
+
+   <span style=color:blue>用于测量mRNA水平的试剂：cDNA合成试剂盒和SYBR Green Supermix；用于基因扩增的特异性引物。</span>
 
 ## 3 Methods
 
