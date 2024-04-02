@@ -50,79 +50,160 @@ Here, we provide protocols for the generation of sticky-bridge based AsiCs and d
 
 <span style=color:blue>本文提供了基于棒-桥的 AsiC 的生成协议，并描述了控制构建体正确退火和功能所需的关键要素。</span>
 
-## 2 Materials
+## 2 Materials 材料
 
 All solutions and RNAs are prepared using RNase-free ultrapure diethylpyrocarbonate (DEPC) treated water to assure absence of RNase activity.
 
-### 2.1 Oligonucleotides
+<span style=color:blue>为了确保没有 RNase 活性，所有溶液和 RNA 都使用经过 RNase-free 超纯二乙基焦碳酸酯 (DEPC) 处理的水制备。</span>
+
+### 2.1 Oligonucleotides 寡核苷酸
 
 Synthetic RNA oligonucleotides may be obtained from commercial or institute facilities.
+<span style=color:blue>合成 RNA 寡核苷酸可以从商业机构或研究所设施获得。</span>
 
-The following RNAs (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)) were used for the described protocol.
+The following RNAs (*see* **Note** **1**) were used for the described protocol.
 
-- Gint4.T-stick:
+<span style=color:blue>下表列出了用于所述方案的 RNA（见注释 1）。</span>
+
+- Gint4.T-stick<span style=color:blue>Gint4.T-棒桥</span>:
 
   5′ UGUCGUGGGGCAUCGAGUAAAUGCAAUUCGACAXGUACAUUCUAGAUAGCC 3′.
 
-- Human STAT3 Antisense strand stick (STAT3 AS-stick):
+- Human STAT3 Antisense strand stick <span style=color:blue>人STAT3反义链棒桥</span>(STAT3 AS-stick):
 
   5′ UUAGCCCAUGUGAUCUGACACCCUGAAGGCUAUCUAGAAUGUAC 3′.
 
-- Human STAT3 sense strand (STAT3 SS):
+- Human STAT3 sense strand<span style=color:blue>人STAT3正义链</span> (STAT3 SS):
 
   5′ CAGGGUGUCAGAUCACAUGGGCUAA 3′.
 
-- Control aptamer (indicated as CtrlApt):
+- Control aptamer<span style=color:blue> 对照适配体</span>(indicated as CtrlApt):
 
   5′ UUCGUACCGGGUAGGUUGGCUUGCACAUAGAACGUGUCA 3′.
 
-- Control aptamer stick (used in the control construct):
+- Control aptamer stick<span style=color:blue>对照适配体棒桥</span> (used in the control construct):
 
   5′ GCCGCUAGAACCUUCUAAGCGAAUACAUUACCGCXXXXGUACAUUCUAGAUAGCC 3′.
 
-RNAs are modified with 2′-F-pyrimidines (2′-FPy) (*see* **Note** [**2**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)); X within the sequences indicates the ((CH2)3) carbon spacer (*see* **Note** [**3**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)); stick sequences are underlined and consist of 2′-FPy and 2′-*O*-methyl-purines at all positions (*see* **Notes** [**4**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18) and [**5**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)).
+RNAs are modified with 2′-F-pyrimidines (2′-FPy) (*see* **Note** **2**); X within the sequences indicates the ((CH~2~)~3~) carbon spacer (*see* **Note** **3**); stick sequences are underlined and consist of 2′-FPy and 2′-*O*-methyl-purines at all positions (*see* **Notes** **4** and **5**).
 
-### 2.2 Construct Preparation
+<span style=color:blue>RNA 用 2'-F-嘧啶 (2'-FPy) 修饰（见注释 2）；序列中的 X 表示 ((CH~2~)~3~) 碳间隔物（见注释 3）；衔接片段序列下划线标注，并且在所有位置都由 2'-FPy 和 2'-O-甲基嘌呤组成（见注释 4 和 5）。</span>
 
-Construct preparation is performed in annealing buffer 1×: annealing buffer 10×: 200 mM 2-[4-(2-hydroxyethyl)piperazin-1-yl] ethanesulfonic acid (HEPES) buffer pH 7.5 (adjusted with NaOH), 1.5 mM NaCl, 20 mM CaCl2.
+### 2.2 Construct Preparation 构建体制备
 
-### 2.3 Non-denaturing Polyacrylamide Gel for Annealing Control
+Construct preparation is performed in annealing buffer 1×: annealing buffer 10×: 200 mM 2-[4-(2-hydroxyethyl)piperazin-1-yl] ethanesulfonic acid (HEPES) buffer pH 7.5 (adjusted with NaOH), 1.5 mM NaCl, 20 mM CaCl~2~.
+
+<span style=color:blue>构建体制备在退火缓冲液 1x 中进行：退火缓冲液 10x：200 mM 2-[4-(2-羟乙基)哌嗪-1-基] 乙磺酸 (HEPES) 缓冲液 pH 7.5 (用 NaOH 调节)，1.5 mM NaCl，20 mM CaCl~2~。</span>
+
+### 2.3 Non-denaturing Polyacrylamide Gel for Annealing Control 退火控制的非变性聚丙烯酰胺凝胶
 
 1. 10× Tris-borate–ethylenediaminetetraacetic acid (EDTA) buffer (TBE): 890 mM Tris base, 890 mM boric acid, 25 mM EDTA.
+
+   <span style=color:blue>10×三硼酸-乙二胺四乙酸（TBE）缓冲液：890 mM Tris碱、890 mM 硼酸、25 mM EDTA。</span>
+
 2. Non-denaturing polyacrylamide gel (12% final concentration): dilute 30% acrylamide/bis solution (37.5:1) in 1.5 ml 10× TBE (final concentration 1×) and water for a final volume of 15 ml.
+
+   <span style=color:blue>非变性聚丙烯酰胺凝胶（最终浓度12%）：在1.5 ml 10× TBE（最终浓度1×）和适量水中稀释30%丙烯酰胺/双乙烯基溴化乙烯（37.5:1）溶液至15 ml。</span>
+
 3. 10× gel loading buffer: 10 mM Tris–HCl (pH 7.6), 60 mM EDTA, 0.03% bromophenol blue (BBF), 60% glycerol.
+
+   <span style=color:blue>10×凝胶加载缓冲液：10 mM Tris–HCl（pH 7.6）、60 mM EDTA、0.03% 溴酚蓝（BBF）、60% 甘油。</span>
+
 4. GEL.DOC XR (Bio-Rad). 
+
 5. Running buffer: 1× TBE. 
 
-### 2.4 Cell Culture
+   <span style=color:blue>运行缓冲液：1× TBE。</span>
+
+### 2.4 Cell Culture 细胞培养
 
 1. PDGFRβ positive U87MG glioblastoma cells from ATCC (American Type Culture Collection, Manassas, VA). 
+
+   <span style=color:blue>来自ATCC（美国类型培养物收藏中心，Manassas, VA）的PDGFRβ阳性U87MG胶质母细胞瘤细胞。</span>
+
 2. Growth medium: DMEM supplemented with 10% fetal bovine serum (FBS). 
+
+   <span style=color:blue>生长培养基：含有10%胎牛血清（FBS）的DMEM。</span>
+
 3. Solution of trypsin and EDTA. 
 
-### 2.5 Binding and Internalization Analysis by Quantitative Real-Time PCR (RT-qPCR)
+   <span style=color:blue>胰蛋白酶和EDTA溶液</span>
 
-1. Buffer for incubation of RNAs : medium without serum containing 100 mg/ml tRNA (Sigma-Aldrich; *see* **Note** [**6**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). 
+### 2.5 Binding and Internalization Analysis by Quantitative Real-Time PCR (RT-qPCR) 运用RT-qPCR 分析结合和内化
+
+1. Buffer for incubation of RNAs : medium without serum containing 100 mg/ml tRNA (Sigma-Aldrich; *see* **Note** **6**). 
+
+   <span style=color:blue>用于RNA处理液的缓冲液：不含血清的培养基，含有100 mg/ml tRNA（Sigma-Aldrich；*见* **注** **6**）。</span>
+
 2. Washing buffer for binding analyses: 1× PBS. 
+
+   <span style=color:blue>用于结合分析的洗涤缓冲液：1×PBS。</span>
+
 3. Washing buffer for internalization analyses: 1× PBS supplemented with 0.5 M NaCl. 
-4. Recovering buffer: TRiZol (Invitrogen, Waltham, MA) containing a 0.5 pmol/ml of a reference sequence (as for example CL4 aptamer: 5′ GCCUUAGUAACGUGCUUUGAUGUCGAUUCGACAGGAGGC 3′) ([[27](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#CR27)]; *see* **Note** [**7**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). 
-5. Reagents for RT-qPCR: MMuLV reverse transcriptase, 10× NTP mix (10 mM CTP, 10 mM UTP,10 mM ATP, 10 mM GTP, Invitrogen, Waltham, MA), SYBR Green Supermix; specific primers designed on aptamer and reference sequences (*see* **Note** [**8**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). 
 
-### 2.6 Cell Lysis and Western Blotting for Functional Analysis
+   <span style=color:blue>用于内吞分析的洗涤缓冲液：含有0.5 M NaCl的1×PBS。</span>
 
-1. Buffer for cell extract : 50 mM Tris–HCl (pH 8.0) supplemented with 150 mM NaCl, 1% Nonidet P-40, 2 mg/ml aprotin, 1 mg/ml pepstatin, 2 mg/ml leupeptin, and 1 mM Na2VO4. 
+4. Recovering buffer: TRiZol (Invitrogen, Waltham, MA) containing a 0.5 pmol/ml of a reference sequence (as for example CL4 aptamer: 5′ GCCUUAGUAACGUGCUUUGAUGUCGAUUCGACAGGAGGC 3′) (*see* **Note** **7**). 
+
+   <span style=color:blue>回收缓冲液：含有0.5 pmol/ml参考序列的TRiZol（Invitrogen, Waltham, MA）（例如CL4 aptamer：5′ GCCUUAGUAACGUGCUUUGAUGUCGAUUCGACAGGAGGC 3′）（*见* **注** **7**）。</span>
+
+5. Reagents for RT-qPCR: MMuLV reverse transcriptase, 10× NTP mix (10 mM CTP, 10 mM UTP,10 mM ATP, 10 mM GTP, Invitrogen, Waltham, MA), SYBR Green Supermix; specific primers designed on aptamer and reference sequences (*see* **Note** **8**). 
+
+   <span style=color:blue>RT-qPCR 试剂：MMuLV 逆转录酶，10× NTP 混匀液 (10 mM CTP，10 mM UTP，10 mM ATP，10 mM GTP，Invitrogen, Waltham, MA)，SYBR Green Supermix；设计在适配体和参考序列上的特异性引物（见注释 8）。</span>
+
+### 2.6 Cell Lysis and Western Blotting for Functional Analysis 细胞裂解和功能分析的Western印迹
+
+1. Buffer for cell extract : 50 mM Tris–HCl (pH 8.0) supplemented with 150 mM NaCl, 1% Nonidet P-40, 2 mg/ml aprotin, 1 mg/ml pepstatin, 2 mg/ml leupeptin, and 1 mM Na~2~VO~4~. 
+
+   <span style=color:blue>用于细胞提取的缓冲液：50 mM Tris–HCl（pH 8.0）、150 mM NaCl、1% Nonidet P-40、2 mg/ml aprotinin、1 mg/ml pepstatin、2 mg/ml leupeptin和1 mM Na~2~VO~4~。</span>
+
 2. Gel separating buffer (4×): 1.5 M Tris–HCl (pH 8.7), 0.4% sodium dodecyl sulfate (SDS). 
+
+   <span style=color:blue>凝胶分离缓冲液（4×）：1.5 M Tris–HCl（pH 8.7）、0.4% SDS。</span>
+
 3. Gel stacking buffer (4×): 0.5% Tris–HCl (pH 6.8), 0.4% SDS. 
-4. 30% Acrylamide/bis solution (37.5:1): to dilute in the appropriate buffer to the desired final concentration: 5% for the gel stacking gel and 10% for the separating gel (*see* **Note** [**9**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). 
+
+   <span style=color:blue>凝胶堆积缓冲液（4×）：0.5% Tris–HCl（pH 6.8）、0.4% SDS。</span>
+
+4. 30% Acrylamide/bis solution (37.5:1): to dilute in the appropriate buffer to the desired final concentration: 5% for the gel stacking gel and 10% for the separating gel (*see* **Note** **9**). 
+
+   <span style=color:blue>30% 丙烯酰胺/双乙烯基溴化乙烯（37.5:1）溶液：根据所需的最终浓度在适当的缓冲液中稀释。凝胶堆积凝胶浓度为5%，分离凝胶为10%（*见* **注** **9**）。</span>
+
 5. Gel running buffer (5×): 125 mM Tris, 960 mM glycine, 0.5% SDS.
+
+   <span style=color:blue>凝胶运行缓冲液（5×）：125 mM Tris、960 mM甘氨酸、0.5% SDS。</span>
+
 6. Sample loading buffer (Laemmli): 2% SDS, 5% β-mercaptoethanol, 0.001% BBF, 10% glycerol. 
+
+   <span style=color:blue>样品加载缓冲液（Laemmli）：2% SDS、5% β-巯基乙醇、0.001% 溴酚蓝、10% 甘油。</span>
+
 7. Molecular weight markers. 
+
+   <span style=color:blue>分子量标记物</span>
+
 8. Polyvinylidenedifluoride (PVDF) membrane and 3MM chromatography paper. 
-9. Transfer buffer: 25 mM Tris, 190 mM glycine, 20% methanol, 0.05% SDS (*see* **Note** [**10**](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Sec18)). 
-10. Antibody against siRNA target (blot shown in Fig. [3](clbr://internal.invalid/OEBPS/html/485053_1_En_3_Chapter.xhtml#Fig3): anti-STAT3 antibody from Cell Signaling Technology Inc., Danvers, MA; anti-actin from Santa Cruz Biotechnology, Santa Cruz, CA). 
+
+   <span style=color:blue>聚偏氟乙烯（PVDF）膜和3MM色谱纸。</span>
+
+9. Transfer buffer: 25 mM Tris, 190 mM glycine, 20% methanol, 0.05% SDS (*see* **Note** **10**). 
+
+   <span style=color:blue>转移缓冲液：25 mM Tris、190 mM甘氨酸、20% 甲醇、0.05% SDS（*见* **注** **10**）。</span>
+
+10. Antibody against siRNA target (blot shown in Fig. 3: anti-STAT3 antibody from Cell Signaling Technology Inc., Danvers, MA; anti-actin from Santa Cruz Biotechnology, Santa Cruz, CA). 
+
+    <span style=color:blue>靶标的抗体（在图3中显示的blot中使用：来自Cell Signaling Technology Inc.的anti-STAT3抗体，Danvers, MA；来自Santa Cruz Biotechnology的anti-actin）。</span>
+
 11. Blocking and antibody incubation buffer: Tris-buffered saline supplemented with 0.1% Tween (T-TBS) and 5% nonfat dry milk. To prepare T-TBS, dilute 10× stock TBS solution (1.37 M NaCl, 27 mM KCl, 250 mM Tris–HCl pH 7.4) and add 0.1% Tween-20. 
+
+    <span style=color:blue>阻断和抗体孵育缓冲液：含有0.1% Tween的三氯甲烷（T-TBS）和5%非脱脂奶的三氯甲烷。要准备T-TBS，稀释10×储存的TBS溶液（1.37 M NaCl、27 mM KCl、250 mM Tris–HCl pH 7.4）并加入0.1% Tween-20。</span>
+
 12. Enhanced chemiluminescent (ECL) reagent . 
+
+    <span style=color:blue>增强化学发光（ECL）试剂。</span>
+
 13. Bio-Max ML film. 
+
+    <span style=color:blue>Bio-Max ML胶片。</span>
 
 ### 2.7 Gene Expression by RT-qPCR
 
