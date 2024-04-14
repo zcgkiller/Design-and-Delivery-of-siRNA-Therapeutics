@@ -284,49 +284,135 @@ Construct preparation is performed in annealing buffer 1×: annealing buffer 10�
 ### 3.5 Binding and Internalization Analysis by RT-qPCR
 
 1. Add RNAs (aptamers or constructs) to the cells at 200 nM for different incubation times (ranging from 15 min to 2 h) at 37 °C in the presence of 100 mg/ml tRNA used as a nonspecific competitor. At selected times, wash cells three times with PBS (to remove unbound sequences and recover total bound sequences) or with PBS 0.5 M NaCl (to remove cell surface-bound sequences and measure amount of internalized RNA). Then, recover RNAs with 1 ml/sample TRIzol containing 0.5 pmol/ml of the CL4 oligo used as reference control (*see* **Note** **20**) and extract. 
+
+   <span style=color:blue>将 RNA (适配体或构建体) 以 200 nM 的浓度加入到细胞中，并在 37 °C 孵育不同时间 (15 分钟到 2 小时)，加入 100 mg/ml tRNA 作为非特异性竞争物。 在选定的时间点，用 PBS 洗涤细胞三次 (去除未结合的序列并回收所有结合的序列) 或用含 0.5 M NaCl 的 PBS 洗涤 (去除细胞表面结合的序列并测量内化 RNA 的量)。 然后，使用含 0.5 pmol/ml 参考控制寡核苷酸 CL4 的 1 ml/样品 TRIzol 提取 RNA (见**注 20**)。</span>
+
 2. Determine the amount of recovered RNA by performing a two-step RT-qPCR protocol. In step 1, RNA is reverse transcribed using specific 3′ primers and the following protocol: heating step at 65 °C for 5 min, annealing step at 22 °C for 5 min, extension at 42 °C for 30 min followed by end extension at 48 °C for 30 min and enzyme inactivation at 95 °C for 5 min. In step 2, the RT products are PCR amplified with iQ SYBR Green Supermix (Bio-Rad) by heating at 95 °C for 2 min, followed by 40 cycles of heating at 95 °C for 30 s, annealing at 55 °C for 30 s, and extending at 60 °C for 30 s. A melt curve stage by heating at 60–95 °C is performed. 
+
+   <span style=color:blue>通过执行两步 RT-qPCR 实验来测定回收的 RNA 量。 第一步是使用特异性 3' 末端引物进行 RNA 逆转录，具体步骤为：65 °C 加热 5 分钟，22 °C 退火 5 分钟，42 °C 延伸 30 分钟，然后在 48 °C 延伸 30 分钟，最后 95 °C 灭活酶 5 分钟。 第二步，使用 iQ SYBR Green Supermix (Bio-Rad) 对 RT 产物进行 PCR 扩增，具体步骤为：95 °C 加热 2 分钟，然后进行 40 个循环，每个循环包含 95 °C 加热 30 秒，55 °C 退火 30 秒，60 °C 延伸 30 秒。 最后进行 60-95 °C 的熔解曲线分析。</span>
+
 3. Normalize data to the CL4 reference control. 
+
+   <span style=color:blue>将数据归一化到 CL4 参考控制。</span>
 
 This experiment demonstrates that the siRNA conjugation to the aptamer does not abrogate aptamer binding and internalization properties.
 
-### 3.6 AsiC Functional Activity Analyses by RT-qPCR
+<span style=color:blue>该实验表明，siRNA 与适配体的结合不会削弱其结合和内化特性。</span>
+
+### 3.6 AsiC Functional Activity Analyses by RT-qPCR 通过RT-qPCR分析AsiC的功能活性
 
 To demonstrate the aptamer ability to deliver a functional siRNA, analyze the levels of the siRNA target by RT-qPCR and immunoblotting (*see* Subheading  3.7) upon cell construct treatment.
 
+<span style=color:blue>为了证明适配体能够递送功能性 siRNA，需要通过 RT-qPCR 和免疫印迹 (见下文 3.7 节) 分析细胞接受构建体处理后 siRNA 靶标的水平。</span>
+
 1. For RT-qPCR, recover RNAs from transfected or treated cells in 1 ml of TRiZol and extract according to manufacturer’s instructions. 
+
+   <span style=color:blue>对于RT-qPCR，使用 1 ml TRIzol 从转染或处理过的细胞中提取 RNA，并按照制造商的说明进行操作。</span>
+
 2. Analyze the levels of the siRNA target by performing total RNA (1 μg) retrotranscription using a cDNA synthesis kit and subsequent amplification with SYBR Green Supermix and specific primers. Perform the amplification of a reference gene (i.e., actin, GAPDH) in parallel, and use the ΔΔCt method for relative quantization of gene expression. 
+
+   <span style=color:blue>分析siRNA靶标的水平，使用 cDNA 合成试剂盒对 1 μg 总 RNA 进行逆转录，然后使用 SYBR Green Supermix 和特异性引物进行扩增，从而分析 siRNA 靶标的水平。 同时扩增参考基因 (例如肌动蛋白、GAPDH)，并使用 ΔΔCt 方法进行基因表达的相对定量。</span>
 
 ### 3.7 AsiC Functional Activity Analyses by Immunoblotting
 
 1. For immunoblotting , prepare cell protein extracts from transfected or treated cells by washing cells in ice-cold PBS and lysing in lysis buffer. Determine protein concentration by using the Bradford assay and bovine serum albumin as standard. 
+
+   <span style=color:blue>对于免疫印迹法，需要用冰冷的 PBS 洗涤转染或处理过的细胞，然后用裂解缓冲液裂解细胞，获得细胞蛋白提取物。 使用 Bradford 法并以牛血清白蛋白为标准来测定蛋白质浓度。</span>
+
 2. Run samples on SDS-polyacrylamide gels and transfer into PVDF membranes. 
+
+   <span style=color:blue>将样品加入 SDS-聚丙烯酰胺凝胶电泳，并转印到 PVDF 膜上。</span>
+
 3. Probe filters with primary antibodies against the siRNA target (STAT3 in the reported example in Fig. 3). Use antibodies against a reference protein (anti-actin in the reported example) to confirm equal loading. Visualize signals with peroxidase-conjugated secondary antibodies using the enhanced chemiluminescence system. 
+
+   <span style=color:blue>用针对 siRNA 靶标 (本例中为 STAT3，见图 3) 的一抗探针孵育滤膜。 同时加入针对参考蛋白 (本例中为抗肌动蛋白) 的抗体，以确保样品上样量一致。使用增强型化学发光系统和过氧化物酶标记的二抗可视化信号。</span>
 
 An example of the results obtained with extracts from U87MG cells (PDGFRβ receptor-positive cells) treated with a chimera containing the anti-PDGFRβ internalizing aptamer conjugated to STAT3 siRNA by stick-end annealing (indicated as Gint4.T-STAT3) is shown in Fig. 3. As expected, the AsiC treatment results in a significant reduction of STAT3 levels as compared to cells left untreated or treated with a control aptamer or construct containing an unrelated aptamer. Notably, the extent of reduction is comparable to that obtained upon siSTAT3 duplex transfection.
 
+<span style=color:blue>图3显示了从U87MG细胞（PDGFRβ受体阳性细胞）提取的样品的结果示例，这些细胞经过使用包含anti-PDGFRβ内化的aptamer和STAT3 siRNA的构建体（用stick-end退火法连接，表示为Gint4.T-STAT3）处理。正如预期的那样，与未处理细胞或用控制适配体或包含无关适配体的构建体处理的细胞相比，AsiC 处理显著降低了 STAT3 蛋白水平。 值得注意的是，这种降低程度与 siSTAT3 双链转染获得的降低程度相当。</span>
+
 ![485053_1_En_3_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_3_Fig3_HTML.png)
 
-**Fig. 3** Functional analyses by immunoblotting. Cell extract from U87MG (PDGFRβ positive) cells left untreated (−) or treated with control construct (CtrlApt linked to siSTAT3), Gint4.T, control aptamer (CtrlApt), or Gint4.T-STAT3, or transfected with STAT3 siRNA duplex, were analyzed by immunoblotting with STAT3 or actin (used as loading control) antibodies
+<span style=font-family:kaiti>**Fig. 3** Functional analyses by immunoblotting. Cell extract from U87MG (PDGFRβ positive) cells left untreated (−) or treated with control construct (CtrlApt linked to siSTAT3), Gint4.T, control aptamer (CtrlApt), or Gint4.T-STAT3, or transfected with STAT3 siRNA duplex, were analyzed by immunoblotting with STAT3 or actin (used as loading control) antibodies<span style=color:blue>U87MG 细胞 (PDGFRβ 受体阳性) 的细胞提取物在未处理 (-)、用连接有 siSTAT3 的控制构建体 (CtrlApt linked to siSTAT3)、Gint4.T、控制适体 (CtrlApt) 或 Gint4.T-STAT3 处理或转染 siSTAT3 siRNA 双链后，通过免疫印迹与 STAT3 或肌动蛋白 (作为上样控制) 抗体进行分析。</span></span>
 
-## 4 Notes
+## 4 Notes 注释
 
 1. We recommend ordering HPLC-purification grade lyophilized RNAs. The RNAs are dissolved in sterile RNAse-free water before use. 
+
+   <span style=color:blue>我们建议订购经过 HPLC 纯化 (HPLC chun hua) 的冻干 (dong gan) RNA。使用前 RNA 需要溶解于无菌的 RNase 酶阴性水中。</span>
+
 2. 2′F-Py RNAs are used to increase nuclease resistance. 
+
+   <span style=color:blue>2′F-Py RNAs用于增加核酸酶的抵抗力。</span>
+
 3. The carbon linker increases the distance of the stick sequence from the aptamer, reducing possible interferences with the correct aptamer folding. 
+
+   <span style=color:blue>碳链连接子 可以增加棒-桥序列与适配体 之间的距离，减少对适配体正确折叠的潜在干扰。</span>
+
 4. The sequence of the stick portion may vary based on the specific aptamer used. It is important that the stick portion: (a) does not alter the correct aptamer folding; (b) produces a duplex with the most favorable annealing in the construct. 
-5. In addition to 2′-FPy, the stick portion contains 2′-*O*-methyl-purines to further increase the base pairing stability of the duplex. 
+
+   <span style=color:blue>棒-桥的序列可能因所使用的特定适配体而异。重要的是，棒-桥片段应该：（a）不改变适配体正确的折叠；（b）在构建体中形成具有最优退火的双链。</span>
+
+5. In addition to 2′-FPy, the stick portion contains 2′-*O*-methyl-purines to further increase the base pairing stability of the duplex.
+
+   <span style=color:blue>除了2′-FPy外，棒状部分还含有2′-O-甲基嘌呤，进一步增加了双链的碱基配对稳定性。</span> 
+
 6. Alterative nonspecific competitors (e.g., polyinosinic acid) may be used. 
+
+   <span style=color:blue>可以使用替代性的非特异性竞争物（例如，多肌苷酸）。</span>
+
 7. The reference control is an unrelated RNA that is used as an internal control to normalize any experimental errors between the analyzed samples. 
+
+   <span style=color:blue>参考对照是一种不相关的RNA，用作内部控制，以规范所分析样品之间的任何实验误差。</span>
+
 8. The same primers are used for the aptamer and the construct. 
+
+   <span style=color:blue>相同的引物用于适配体和构建物。</span>
+
 9. Commercially available pre-casted gels may be used. 
+
+   <span style=color:blue>可以使用市售的预制凝胶</span>
+
 10. Transfer buffer can be used up to three times, checking that the voltage is maintained at a constant rate. 
+
+    <span style=color:blue>转移缓冲液可重复使用最多三次，需检查电压是否保持在恒定速率。</span>
+
 11. An example is the online tool available at www.Dharmacon.com. 
+
+    <span style=color:blue>可用的在线工具示例是 www.Dharmacon.com 上的工具。</span>
+
 12. A prediction of bimolecular RNAs can be performed with common structure prediction software such as *RNAStructure*. 
+
+    <span style=color:blue>可以使用常见的结构预测软件（例如 *RNAStructure*）对双分子 RNA 进行预测。</span>
+
 13. The correct annealing can be monitored by the presence of a shifted band of migration as compared to the antisense stick and the sense strands on non-denaturing PAGE gel. 
+
+    <span style=color:blue>通过非变性PAGE凝胶上的移动带的出现与反义棒和正义链相比，可以监测正确退火的存在。</span>
+
 14. The correct efficacy of the generated siRNA duplex can be monitored by analyzing the levels of the siRNA target by RT-qPCR and immunoblot following cell transfection with the duplex. 
+
+    <span style=color:blue>通过细胞转染与双链后，可以通过RT-qPCR和免疫印迹法分析siRNA靶标的水平来监测所生成siRNA双链的正确功效</span>
+
 15. Once dissolved, we recommend the solution be aliquoted and stored at −20 °C. 
+
+    <span style=color:blue>溶解后，我们建议将溶液分成小份并储存在 -20 °C。</span>
+
 16. When constructs are stored at −20 °C, we recommended avoiding freezing-refreezing cycles. 
+
+    <span style=color:blue>当构建体储存在 -20 °C 时，我们建议避免反复冷冻-解冻 循环。</span>
+
 17. The gel is run until the sample dye front settles to the bottom. 
+
+    <span style=color:blue>电泳运行直到样品染料前端沉淀到底部。</span>
+
 18. Before treatment, constructs are warmed up to 37 °C, and the aptamers are subjected to the denaturation-renaturation steps (5 min 85 °C, 2 min snap-cooling on ice, warming up to 37 °C). 
+
+    <span style=color:blue>处理前，将构建体预热至 37 °C，并将适配体进行变性-复性步骤（85 °C 5 分钟，冰上快速冷却 2 分钟，升温至 37 °C）。</span>
+
 19. To ensure a correct aptamer folding, denaturation-renaturation steps must be performed at low aptamer concentration (no more than 20 μM). 
+
+    <span style=color:blue>为了确保适体正确折叠，必须在低适配体浓度（不超过 20 μM）下进行变性-复性步骤。</span>
+
 20. We recommend preparing a unique solution of TRIzol with the reference control for all experimental points.
+
+    <span style=color:blue>我们建议为所有实验点准备含有参考对照的唯一TRIzol溶液。</span>
