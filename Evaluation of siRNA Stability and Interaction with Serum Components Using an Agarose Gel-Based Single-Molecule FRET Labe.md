@@ -20,94 +20,179 @@ Tracking the integrity of siRNA in serum is crucial to the design of stable siRN
 
 The method relies on a double-stranded siRNA labeled at the 5′-end with the fluorophore carboxyfluorescein (FAM) and at the 3′-end with the quencher carboxytetramethylrhodamine (TAMRA) (Fig. 1a). The FRET pair TAMRA (Absmax = 557 nm; Emmax = 583 nm) and FAM (Absmax = 495 nm; Emmax = 520 nm) is based on the overlap between the absorption spectrum of TAMRA (acceptor) and the emission spectrum of FAM (donor) (*see* Fig. 1b). When the intact FRET-siRNA is excited in the wavelength of FAM absorption, the emission from FAM is weak due to TAMRA quenching. When degraded siRNA is excited in the wavelength of FAM absorption, the distance between FAM and TAMRA is more extended and the quenching effect of TAMRA decreases, leading to increased intensity of the green fluorescence. In contrast, the red fluorescence is similar for both intact and degraded siRNA.
 
+<span style=color:blue>该方法依赖于在5′端标记有荧光团羧基荧光素（FAM）和在3′端标记有猝灭剂羧基四甲基罗丹明（TAMRA）的双链siRNA（图1a）。FRET对TAMRA（吸收峰=557 nm；发射峰=583 nm）和FAM（吸收峰=495 nm；发射峰=520 nm）基于TAMRA（受体）的吸收光谱与FAM（供体）的发射光谱之间的重叠（见图1b）。当完整的FRET-siRNA在FAM吸收波长下被激发时，由于TAMRA的猝灭作用，FAM的发射较弱。当降解的siRNA在FAM吸收波长下被激发时，FAM和TAMRA之间的距离增加，TAMRA的猝灭效果减弱，导致绿色荧光强度增加。相反，对于完整和降解的siRNA，红色荧光的强度相似。</span>
+
 ![485053_1_En_4_Fig1_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig1_HTML.png)
 
-**Fig. 1** (**a**) A graphic representation of the fluorescence emission shift resulting from FRET-siRNA degradation. (**b**) Overlap of FAM emission and TAMRA absorption spectra. (Data retrieved from Spectra Viewer is available at www.thermofisher.com/order/spectra-viewer. Reprinted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)
+<span style=font-family:kaiti;text-align:center>**Fig. 1** (**a**) A graphic representation of the fluorescence emission shift resulting from FRET-siRNA degradation.<span style=color:blue>FRET-siRNA降解导致荧光发射变化的图示</span> (**b**) Overlap of FAM emission and TAMRA absorption spectra. (Data retrieved from Spectra Viewer is available at www.thermofisher.com/order/spectra-viewer. Reprinted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)<span style=color:blue>FAM发射光谱与TAMRA吸收光谱的重叠。（数据来自Thermo Fisher公司的Spectra Viewer，网址为：www.thermofisher.com/order/spectra-viewer。经许可转载自“Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020。ACS Med Chem Lett 11(2):195–202。版权所有2020年美国化学学会）</span></span>
 
 In this chapter, we will provide detailed protocols to exploit our recently proposed agarose gel electrophoresis of FRET-siRNA for the evaluation of the stability of siRNAs or siRNA-delivery systems. Initially, we describe the design of a FRET-siRNA molecule, and thereafter we provide protocols to employ the FRET-siRNA for the evaluation of siRNA stability in the presence of degrading enzymes (e.g., RNase A) and sera (e.g., fetal bovine, mouse, and human serum) as dose-response and kinetic assays. We also provide a detailed protocol to analyze the gel bands using FIJI ImageJ software.
 
-## 2 Materials
+<span style=color:blue>在本章中，我们将提供详细的实验方案，利用我们最近提出的FRET-siRNA琼脂糖凝胶电泳方法评估siRNA或siRNA递送系统的稳定性。首先，我们描述了FRET-siRNA分子的设计，然后提供了使用FRET-siRNA评估在降解酶（如RNase A）和血清（如胎牛血清、小鼠血清和人血清）存在下siRNA稳定性的剂量反应和动力学实验方案。我们还提供了使用FIJI ImageJ软件分析凝胶条带的详细步骤。</span>
 
-1. 10 μM Double-stranded FRET-labeled siRNA: Design the siRNA based on the desired target mRNA sequence using an available online tool (e.g., siDirect, [http://sidirect2.rnai.jp/](http://sidirect2.rnai.jp/)) to which suitable stabilizing chemical modifications are added. Label with FAM and TAMRA tags at 3′-end and 5′-end, respectively, on each strand of a double-stranded siRNA. In this way, the fluorescent intensity and FRET efficiency will be optimal, and a shift of fluorescence will be observed either in the case of siRNA cleavage or dissociation of two siRNA strands. Fluorescent-labeled oligonucleotides for the sense and antisense siRNA can be obtained from a synthesis service (e.g., GenScript) or produced in house (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)). Resuspend the oligonucleotides at 20 μM in RNase-free water. To anneal the two siRNA strands, mix equal volumes of each strand solution, incubate at 65 °C for 5 min, and cool down to room temperature for 30 min. 
+## 2 Materials 材料
+
+1. 10 μM Double-stranded FRET-labeled siRNA: Design the siRNA based on the desired target mRNA sequence using an available online tool (e.g., siDirect, http://sidirect2.rnai.jp/) to which suitable stabilizing chemical modifications are added. Label with FAM and TAMRA tags at 3′-end and 5′-end, respectively, on each strand of a double-stranded siRNA. In this way, the fluorescent intensity and FRET efficiency will be optimal, and a shift of fluorescence will be observed either in the case of siRNA cleavage or dissociation of two siRNA strands. Fluorescent-labeled oligonucleotides for the sense and antisense siRNA can be obtained from a synthesis service (e.g., GenScript) or produced in house (*see* **Note** **1**). Resuspend the oligonucleotides at 20 μM in RNase-free water. To anneal the two siRNA strands, mix equal volumes of each strand solution, incubate at 65 °C for 5 min, and cool down to room temperature for 30 min. 
+
+   <span style=color:blue>10 μM 双链FRET标记的siRNA：根据所需的目标mRNA序列，使用可用的在线工具（例如，siDirect，http://sidirect2.rnai.jp/）设计siRNA，并添加适当的稳定化学修饰。在双链siRNA的3′末端和5′末端分别标记FAM和TAMRA标签，这样荧光强度和FRET效率会达到最佳，不论siRNA切割或是两条siRNA链解离，都能观察到荧光的变化。可以通过合成服务（如GenScript）获得荧光标记的正义链和反义链寡核苷酸，或自行生产（参见**注释1**）。将寡核苷酸溶解在RNase-free水中至20 μM。为了退火两条siRNA链，将等体积的每条链溶液混合，在65°C下孵育5分钟，然后在室温下冷却30分钟。</span>
+
 2. PBS. 
+
 3. 10 mg/ml (700 U/ml) RNase A. 
+
 4. A vial mixer with thermal control. 
+
+   <span style=color:blue>带有热控功能的涡旋混合器</span>
+
 5. High-resolution agarose for Molecular Biology, powder. 
+
+   <span style=color:blue>分子生物学用高分辨率琼脂糖粉</span>
+
 6. 10× TAE buffer: 50 mM EDTA disodium salt, 2 M Tris base, 1 M glacial acetic acid. Add about 800 ml deionized water to a 1 l graduated cylinder or a glass beaker. Weigh 242 g Tris base and transfer to the cylinder. Add 18.61 g of disodium EDTA to the solution. Add 57.1 g Acetic Acid to the solution. Add deionized water to 900 ml. Mix and adjust pH with NaOH. Add deionized water to 1000 ml. Store at room temperature. Dilute to 1× prior to use. 
-7. Sample loading solution: 30% glycerol in ultrapure water (*see* **Note** [**2**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)). 
+
+   <span style=color:blue>10× TAE缓冲液：50 mM EDTA二钠盐，2 M Tris碱，1 M冰乙酸。将约800 ml去离子水加入到1升量筒或玻璃烧杯中。称量242 g Tris碱并转移到量筒中。加入18.61 g二钠EDTA。加入57.1 g冰乙酸。加入去离子水至900 ml。混合并用NaOH调节pH值。加入去离子水至1000 ml。室温保存。使用前稀释至1×</span>
+
+7. Sample loading solution: 30% glycerol in ultrapure water (*see* **Note** **2**). 
+
+   <span style=color:blue>样品加载溶液：30%甘油在超纯水中（参见**注释2**）</span>
+
 8. Horizontal electrophoresis apparatus. 
+
+   <span style=color:blue>水平电泳装置</span>
+
 9. Serum of interest: fetal bovine, mouse, or human serum. 
-10. A siRNA stabilizing agent (*see* **Note** [**3**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)).
+
+   <span style=color:blue>目标血清：胎牛血清、小鼠血清或人血清。</span>
+
+10. A siRNA stabilizing agent (*see* **Note** **3**).
+
+    <span style=color:blue>siRNA稳定剂（参见**注释3**）</span>
+
 11. A siRNA releasing agent that can release the siRNA from the tested carrier. For peptides and Lipofectamine 2000, we suggest 50 mg/ml dextran sulfate sodium. 
-12. Gel imager with the possibility of setting the excitation at 465 nm and the emission detection at 600 nm for TAMRA and 520 nm for FAM (*see* **Note** [**4**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)). 
-13. FIJI ImageJ (NIH) software (available for free of charge download at [https://imagej.net/Fiji](https://imagej.net/Fiji)). 
 
-## 3 Methods
+    <span style=color:blue>siRNA释放剂：能够从测试载体中释放siRNA。对于肽和Lipofectamine 2000，建议使用50 mg/ml葡聚糖硫酸钠。</span>
 
-### 3.1 Validation of Designed FRET-siRNA by RNase A Digestion
+12. Gel imager with the possibility of setting the excitation at 465 nm and the emission detection at 600 nm for TAMRA and 520 nm for FAM (*see* **Note**  **4**). 
 
-1. Prepare a 2% agarose gel in 1× TAE buffer with an 8-wells comb (*see* **Note** [**5**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)).
+    <span style=color:blue>凝胶成像仪：需能够设置激发光波长为465 nm和发射光检测波长为600 nm（TAMRA）和520 nm（FAM）（参见**注释4**）。</span>
+
+13. FIJI ImageJ (NIH) software (available for free of charge download at https://imagej.net/Fiji). 
+
+    <span style=color:blue>FIJI ImageJ（NIH）软件：可免费下载，网址：https://imagej.net/Fiji。</span>
+
+## 3 Methods 方法
+
+### 3.1 Validation of Designed FRET-siRNA by RNase A Digestion 通过RNase A消化实验验证FRET-siRNA的设计
+
+1. Prepare a 2% agarose gel in 1× TAE buffer with an 8-wells comb (*see* **Note** **5**).
+
+   <span style=color:blue>用1× TAE缓冲液配置一个2%的琼脂糖凝胶，并使用一个8孔梳子（详见**注释** **5**）。</span>
+
 2. Set the thermomixer at 37 °C. 
-3. Prepare eight Eppendorf tubes containing 7.5 pmol (22 μg) FRET ds-siRNA in PBS: add 2.5 μl of 10 μM siRNA to 6.5 μl of PBS (*see* **Note** [**6**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9) and Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab1)). 
-4. Prepare serial dilutions of RNase A from the 10 mg/ml stock solution according to Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab1). 
-5. Add 1 μl of corresponding RNase A solution according to Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab1). 
+
+   <span style=color:blue>将热混合器设置到37°C。</span>
+
+3. Prepare eight Eppendorf tubes containing 7.5 pmol (22 μg) FRET ds-siRNA in PBS: add 2.5 μl of 10 μM siRNA to 6.5 μl of PBS (*see* **Note**  **6** and Table 1).
+
+   <span style=color:blue>准备八个Eppendorf管，每个管中加入7.5 pmol（22 μg）的FRET双链siRNA溶于PBS中：加入2.5 μl的10 μM siRNA到6.5 μl的PBS中（详见**注释** **6**和表1）。</span> 
+
+4. Prepare serial dilutions of RNase A from the 10 mg/ml stock solution according to Table 1. 
+
+   <span style=color:blue>按照表1从10 mg/ml的RNase A储备溶液制备一系列稀释溶液。</span>
+
+5. Add 1 μl of corresponding RNase A solution according to Table 1. 
+
+   <span style=color:blue>根据表1向每个管中加入1 μl相应浓度的RNase A溶液。</span>
+
 6. Incubate the samples at 37 °C for 2 min with shaking. 
+
+   <span style=color:blue>在37°C下摇动孵育样品2分钟。</span>
+
 7. Add 2 μl of sample loading solution to each sample and load them on the agarose gel according to the sample number. 
+
+   <span style=color:blue>向每个样品中加入2 μl的样品加载缓冲液，并将它们按样品编号加载到琼脂糖凝胶中。</span>
+
 8. Perform the electrophoresis in 1× TAE buffer at 120 V for about 10 min. 
-9. Image the gel using a fluorescence gel imager. Excitation should be close to 465 nm for both fluorophores. Detection should be close to 520 nm for FAM and close to 600 nm for TAMRA. The suggested exposure time is 15 s (*see* **Note** [**7**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)). 
+
+   <span style=color:blue>在1× TAE缓冲液中以120 V电泳约10分钟。</span>
+
+9. Image the gel using a fluorescence gel imager. Excitation should be close to 465 nm for both fluorophores. Detection should be close to 520 nm for FAM and close to 600 nm for TAMRA. The suggested exposure time is 15 s (*see* **Note** **7**). 
+
+   <span style=color:blue>用荧光凝胶成像仪拍摄凝胶图像。激发波长应接近465 nm，用于两种荧光团。检测波长应分别接近520 nm和600 nm，用于FAM和TAMRA。建议曝光时间为15秒（详见**注释** **7**）。</span>
 
 **Table 1** Preparation of RNase-treated FRET-siRNA
 
-|      |                     | 1. Prepare 8 FRET-siRNA solutions | 2. Prepare 7 serial dilutions of RNase A from 10 mg/ml solution3. Add 1 μl of corresponding RNAse A dilution4. Incubate for 2 min at 37 °C |                                |                    |
-| :--- | :------------------ | --------------------------------- | :----------------------------------------------------------- | :----------------------------- | :----------------- |
-|      |                     | 9 μl siRNA solution               | RNase serial dilutions                                       |                                |                    |
-| #    | RNase A amount (μg) | Volume of 10 μM siRNA (μl)        | Volume of PBS (μl)                                           | Volume of RNase A (μl)         | Volume of PBS (μl) |
-| 1    | –                   | 2.5                               | 7.5                                                          | –                              | –                  |
-| 8    | 1                   | 2.5                               | 6.5                                                          | 1μl of 10 mg/ml stock solution | 9                  |
-| 7    | 0.5                 | 2.5                               | 6.5                                                          | 5 μl of 1 mg/ml solution       | 5                  |
-| 6    | 0.25                | 2.5                               | 6.5                                                          | 5 μl of 0.5 mg/ml solution     | 5                  |
-| 5    | 0.1                 | 2.5                               | 6.5                                                          | 1 μl of 1 mg/ml solution       | 9                  |
-| 4    | 0.05                | 2.5                               | 6.5                                                          | 5 μl of 0.1 mg/ml solution     | 5                  |
-| 3    | 0.025               | 2.5                               | 6.5                                                          | 5 μl of 0.05 mg/ml solution    | 5                  |
-| 2    | 0.01                | 2.5                               | 6.5                                                          | 1 μl of 0.1 mg/ml solution     | 9                  |
+<div class="c-article-table-container"><div class="c-article-table-border c-table-scroll-wrapper"><div class="c-table-scroll-wrapper__content c-table-scroll-wrapper__fade--transparent" data-component-scroll-wrapper=""><table class="data last-table"><thead class="c-article-table-head"><tr><th class="u-text-left ">&nbsp;</th><th class="u-text-left ">&nbsp;</th><th colspan="2"><p>1. Prepare 8 FRET-siRNA solutions</p></th><th colspan="2"><p>2. Prepare 7 serial dilutions of RNase A from 10&nbsp;mg/ml solution</p><p>3. Add 1&nbsp;μl of corresponding RNAse A dilution</p><p>4. Incubate for 2&nbsp;min at 37&nbsp;°C</p></th></tr><tr><th class="u-text-left ">&nbsp;</th><th class="u-text-left ">&nbsp;</th><th colspan="2"><p>9&nbsp;μl siRNA solution</p></th><th colspan="2"><p>RNase serial dilutions</p></th></tr><tr><th class="u-text-left "><p>#</p></th><th class="u-text-left "><p>RNase A amount (μg)</p></th><th class="u-text-char "><p>Volume of 10&nbsp;μM siRNA (μl)</p></th><th class="u-text-char "><p>Volume of PBS (μl)</p></th><th class="u-text-left "><p>Volume of RNase A (μl)</p></th><th class="u-text-left "><p>Volume of PBS (μl)</p></th></tr></thead><tbody><tr><td class="u-text-left "><p>1</p></td><td class="u-text-left "><p>–</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>7.5</p></td><td class="u-text-left "><p>–</p></td><td class="u-text-left "><p>–</p></td></tr><tr><td class="u-text-left "><p>8</p></td><td class="u-text-left "><p>1</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>1μl of 10&nbsp;mg/ml stock solution</p></td><td class="u-text-left "><p>9</p></td></tr><tr><td class="u-text-left "><p>7</p></td><td class="u-text-left "><p>0.5</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>5&nbsp;μl of 1&nbsp;mg/ml solution</p></td><td class="u-text-left "><p>5</p></td></tr><tr><td class="u-text-left "><p>6</p></td><td class="u-text-left "><p>0.25</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>5 μl&nbsp;of 0.5&nbsp;mg/ml solution</p></td><td class="u-text-left "><p>5</p></td></tr><tr><td class="u-text-left "><p>5</p></td><td class="u-text-left "><p>0.1</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>1&nbsp;μl of 1&nbsp;mg/ml solution</p></td><td class="u-text-left "><p>9</p></td></tr><tr><td class="u-text-left "><p>4</p></td><td class="u-text-left "><p>0.05</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>5&nbsp;μl of 0.1&nbsp;mg/ml solution</p></td><td class="u-text-left "><p>5</p></td></tr><tr><td class="u-text-left "><p>3</p></td><td class="u-text-left "><p>0.025</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>5&nbsp;μl of 0.05&nbsp;mg/ml solution</p></td><td class="u-text-left "><p>5</p></td></tr><tr><td class="u-text-left "><p>2</p></td><td class="u-text-left "><p>0.01</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>1&nbsp;μl of 0.1&nbsp;mg/ml solution</p></td><td class="u-text-left "><p>9</p></td></tr></tbody></table></div></div></div>
 
-#### 3.1.1 Evaluating Band Fluorescence Intensity by FIJI ImageJ Gel Analyzer Tool
+#### 3.1.1 Evaluating Band Fluorescence Intensity by FIJI ImageJ Gel Analyzer Tool 使用FIJI ImageJ凝胶分析工具评估条带荧光强度
 
 1. Import the images to FIJI ImageJ and assign the red channel to TAMRA and the green channel to FAM. 
 
+   <span style=color:blue>将图像导入FIJI ImageJ，分配红色通道给TAMRA，绿色通道给FAM</span>
+
 2. Convert the image to 8-bit (go to Image, Type, 8-bit) to obtain a grayscale image of the gel. 
+
+   <span style=color:blue>将图像转换为8位灰度图（在菜单栏选择图像->类型->8位）</span>
 
 3. Choose the Rectangular Selections tool from the ImageJ toolbar. 
 
+   <span style=color:blue>在ImageJ工具栏选择矩形选择工具</span>
+
 4. Draw a rectangle around the first lane. 
+
+   <span style=color:blue>在第一个泳道区域绘制矩形</span>
 
 5. Go to Analyze, Gels, Select First Lane to set the selection as “first lane.” A number 1 will appear over the first lane selection. 
 
-6. Move the rectangle selection to the next lane (*see* **Note** [**8**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)). 
+   <span style=color:blue>在菜单栏选择分析->凝胶->选择第一个泳道，将当前选择设为“第一个泳道”。第一个泳道上会出现数字1</span>
+
+6. Move the rectangle selection to the next lane (*see* **Note** **8**). 
+
+   <span style=color:blue>移动矩形选择工具到下一个泳道区域（详见**注释** **8**）</span>
 
 7. Go to Analyze, Gels, Select Next Lane to set the selection as “second lane.” A number 2 will appear over the second lane selection. 
 
+   <span style=color:blue>在菜单栏选择分析->凝胶->选择下一个泳道，将当前选择设为“第二个泳道”。第二个泳道上会出现数字2</span>
+
 8. Repeat **steps 6** and **7** for the remaining lanes of the gel. 
+
+   <span style=color:blue>对剩余的泳道重复**步骤6**和**步骤7**</span>
 
 9. Go to Analyze, Gels, Plot Lanes to obtain a profile plot of each lane. A pick will correspond to each lane. 
 
+   <span style=color:blue>在菜单栏选择分析->凝胶->绘制泳道，生成每个泳道的轮廓图。每个泳道都会出现一个峰值</span>
+
 10. Choose the straight-line selection tool from the ImageJ toolbar. 
+
+    <span style=color:blue>在ImageJ工具栏选择直线选择工具</span>
 
 11. Draw a line across the base of each peak to enclose the peak and remove the background noise. 
 
+    <span style=color:blue>绘制一条线穿过每个峰值的底部，围住峰值并去除背景噪音</span>
+
 12. Use the wand tool from the toolbar to click inside each peak. The measurements of the pick areas will appear in the Results window. The results can be exported to a spreadsheet. 
+
+    <span style=color:blue>使用工具栏中的魔棒工具点击每个峰值内部。峰值面积的测量结果会显示在结果窗口中，并可以导出到电子表格</span>
 
 13. Repeat the procedure for each channel (FAM and TAMRA). 
 
-14. Create a merged image (*see* **Note** [**9**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9) and Fig. [2a](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig2)) [[26](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#CR26), [27](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#CR27)]. 
+    <span style=color:blue>对每个通道（FAM和TAMRA）重复此过程</span>
 
-15. The amount of degraded siRNA is proportional to the FRET efficiency. Calculate the ladder as “relative ratiometric FRET efficiency,” or “relative proximity ratio,” EPR by using Eq. [1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Equ1) as from Eyal Nir et al. [[28](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#CR28)]:
+14. Create a merged image (*see* **Note** **9** and Fig. 2a) . 
 
-    $$ {E}_{\mathrm{PR}}=\frac{I_{\mathrm{A}}}{I_{\mathrm{A}}+{I}_{\mathrm{D}}}-\frac{I_{\mathrm{A}}^0}{I_{\mathrm{A}}^0+{I}_{\mathrm{D}}^0} $$         (1)
+    <span style=color:blue>创建一个合并图像（详见**注释** **9**和图2a）</span>
 
-    Factors on Eq. [1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Equ1) have been defined in our previous work “*I*A is the fluorescence intensity of the acceptor, *I*D is the fluorescence intensity of the donor, $$ {I}_{\mathrm{A}}^0 $$is the minimum fluorescence intensity of the acceptor, and $$ {I}_{\mathrm{D}}^0 $$ is the minimum fluorescence intensity of the donor” [[25](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#CR25)].
+15. The amount of degraded siRNA is proportional to the FRET efficiency. Calculate the ladder as “relative ratiometric FRET efficiency,” or “relative proximity ratio,” EPR by using Eq. 1 as from Eyal Nir et al. :
 
-16. Plot the relative ratiometric FRET efficiency against the RNase A amount (Fig. [2b](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig2)).
+    <span style=color:blue>降解的siRNA量与FRET效率成正比。使用Eyal Nir等人的方程1计算“相对比率FRET效率”或“相对接近比率”（EPR）</span>
+    $$
+    {E}_{\mathrm{PR}}=\frac{I_{\mathrm{A}}}{I_{\mathrm{A}}+{I}_{\mathrm{D}}}-\frac{I_{\mathrm{A}}^0}{I_{\mathrm{A}}^0+{I}_{\mathrm{D}}^0}
+    $$
+    Factors on Eq. 1 have been defined in our previous work “$ is the fluorescence intensity of the acceptor, *I*~D~ is the fluorescence intensity of the donor, $$ {I}_{\mathrm{A}}^0 $$is the minimum fluorescence intensity of the acceptor, and $$ {I}_{\mathrm{D}}^0 $$ is the minimum fluorescence intensity of the donor”.
+
+    <span style=color:blue>方程1中的参数在我们的前期工作中已定义：“*I*~A~是受体的荧光强度，*I*~D~是供体的荧光强度，$ {I}_{\mathrm{A}}^0 $是受体的最小荧光强度，$ {I}_{\mathrm{D}}^0 $是供体的最小荧光强度”。</span>
+
+16. Plot the relative ratiometric FRET efficiency against the RNase A amount (Fig. 2b).
 
 
 ![485053_1_En_4_Fig2_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig2_HTML.png)
@@ -120,35 +205,21 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
 
 2. Set the thermomixer at 37 °C.
 
-3. Prepare 10 samples of FRET ds-siRNA in PBS from 10 μM solution according to Table [2](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab2).
+3. Prepare 10 samples of FRET ds-siRNA in PBS from 10 μM solution according to Table 2.
 
 4. Treat with the serum of interest (e.g., human, mouse, fetal bovine serum) at a final concentration ranging from 1% to 50% according to Table [2](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab2).
 
 5. Incubate for 2 min at 37 °C with shaking. 
 
-6. Perform electrophoresis, imaging, and analysis as described in Subheading [3.1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec4).
+6. Perform electrophoresis, imaging, and analysis as described in Subheading 3.1.
 
-7. A strong gel shift of FAM and TAMRA bands indicates interaction with serum components. An individual shift of FAM band indicates interaction with serum RNases during degradation. Figure [3a–d](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig3) show the result obtained when degrading a FRET-siRNA with goat, mouse, fetal bovine, and human serum, respectively. 
+7. A strong gel shift of FAM and TAMRA bands indicates interaction with serum components. An individual shift of FAM band indicates interaction with serum RNases during degradation. Figure 3a-d show the result obtained when degrading a FRET-siRNA with goat, mouse, fetal bovine, and human serum, respectively. 
 
-8. Plot the corresponding relative ratiometric FRET efficiency against serum percentage (*see* Fig. [3e](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig3)).
-
+8. Plot the corresponding relative ratiometric FRET efficiency against serum percentage (*see* Fig. 3e).
 
 **Table 2** Preparation of serum-treated FRET-siRNA for dose-response analysis
 
-|      |                  | 1. Prepare 8 FRET-siRNA solutions | 2. Add serum solution3. Incubate for 2 min at 37 °C |                              |
-| :--- | :--------------- | --------------------------------- | :-------------------------------------------------- | ---------------------------- |
-|      |                  | siRNA solution                    | Volume of serum (μl)                                |                              |
-| #    | Serum percentage | Volume of 10 μM siRNA (μl)        | Volume of PBS (μl)                                  |                              |
-| 1    | –                | 2.5                               | 7.5                                                 | –                            |
-| 2    | 1                | 2.5                               | 6.5                                                 | 1μl of 10% serum solution    |
-| 3    | 2                | 2.5                               | 5.5                                                 | 2 μl of 10% serum solution   |
-| 4    | 4                | 2.5                               | 3.5                                                 | 4 μl of 10% serum solution   |
-| 5    | 6                | 2.5                               | 1.5                                                 | 6 μl of 10% serum solution   |
-| 6    | 10               | 2.5                               | 6.5                                                 | 1μl of serum stock solution  |
-| 7    | 20               | 2.5                               | 5.5                                                 | 2 μl of serum stock solution |
-| 8    | 30               | 2.5                               | 4.5                                                 | 3 μl of serum stock solution |
-| 9    | 40               | 2.5                               | 3.5                                                 | 4 μl of serum stock solution |
-| 10   | 50               | 2.5                               | 2.5                                                 | 5 μl of serum stock solution |
+<div class="c-article-table-container"><div class="c-article-table-border c-table-scroll-wrapper"><div class="c-table-scroll-wrapper__content c-table-scroll-wrapper__fade--transparent" data-component-scroll-wrapper=""><table class="data last-table"><thead class="c-article-table-head"><tr><th class="u-text-left ">&nbsp;</th><th class="u-text-left ">&nbsp;</th><th colspan="2"><p>1. Prepare 8 FRET-siRNA solutions</p></th><th class="u-text-left "><p>2. Add serum solution</p><p>3. Incubate for 2&nbsp;min at 37&nbsp;°C</p></th></tr><tr><th class="u-text-left ">&nbsp;</th><th class="u-text-left ">&nbsp;</th><th colspan="2"><p>siRNA solution</p></th><th rowspan="2" class="u-text-left "><p>Volume of serum (μl)</p></th></tr><tr><th class="u-text-left "><p>#</p></th><th class="u-text-left "><p>Serum percentage</p></th><th class="u-text-char "><p>Volume of 10&nbsp;μM siRNA (μl)</p></th><th class="u-text-char "><p>Volume of PBS (μl)</p></th></tr></thead><tbody><tr><td class="u-text-left "><p>1</p></td><td class="u-text-left "><p>–</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>7.5</p></td><td class="u-text-left "><p>–</p></td></tr><tr><td class="u-text-left "><p>2</p></td><td class="u-text-left "><p>1</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>1μl of 10% serum solution</p></td></tr><tr><td class="u-text-left "><p>3</p></td><td class="u-text-left "><p>2</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>5.5</p></td><td class="u-text-left "><p>2&nbsp;μl of 10% serum solution</p></td></tr><tr><td class="u-text-left "><p>4</p></td><td class="u-text-left "><p>4</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>3.5</p></td><td class="u-text-left "><p>4&nbsp;μl of 10% serum solution</p></td></tr><tr><td class="u-text-left "><p>5</p></td><td class="u-text-left "><p>6</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>1.5</p></td><td class="u-text-left "><p>6&nbsp;μl of 10% serum solution</p></td></tr><tr><td class="u-text-left "><p>6</p></td><td class="u-text-left "><p>10</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>1μl of serum stock solution</p></td></tr><tr><td class="u-text-left "><p>7</p></td><td class="u-text-left "><p>20</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>5.5</p></td><td class="u-text-left "><p>2&nbsp;μl of serum stock solution</p></td></tr><tr><td class="u-text-left "><p>8</p></td><td class="u-text-left "><p>30</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>4.5</p></td><td class="u-text-left "><p>3 μl&nbsp;of serum stock solution</p></td></tr><tr><td class="u-text-left "><p>9</p></td><td class="u-text-left "><p>40</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>3.5</p></td><td class="u-text-left "><p>4&nbsp;μl of serum stock solution</p></td></tr><tr><td class="u-text-left "><p>10</p></td><td class="u-text-left "><p>50</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-left "><p>5&nbsp;μl of serum stock solution</p></td></tr></tbody></table></div></div></div>
 
 ![485053_1_En_4_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig3_HTML.png)
 
@@ -160,31 +231,19 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
 
 2. Set the thermomixer at 37 °C. 
 
-3. Prepare 10 samples FRET ds-siRNA in PBS from 10 μM solution according to Table [3](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab3). 
+3. Prepare 10 samples FRET ds-siRNA in PBS from 10 μM solution according to Table 3. 
 
 4. Prepare a 0.2% solution of serum of interest. 
 
-5. Treat with 1 μl of 0.2% serum of interest at different time intervals for each sample and incubate at 37 °C according to Table [3](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab3). 
+5. Treat with 1 μl of 0.2% serum of interest at different time intervals for each sample and incubate at 37 °C according to Table 3). 
 
-6. Perform electrophoresis, imaging, and analysis as described in Subheading [3.1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec4) (*see* Fig. [4a](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig4)). 
+6. Perform electrophoresis, imaging, and analysis as described in Subheading 3.1 (*see* Fig. 4a). 
 
-7. Plot the relative ratiometric FRET efficiency against the time (*see* Fig. [4b](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig4)). 
-
+7. Plot the relative ratiometric FRET efficiency against the time (*see* Fig. 4b). 
 
 **Table 3** Preparation of serum-treated FRET-siRNA for kinetic analysis
 
-|      |                 | 1. Prepare 8 FRET-siRNA solutions | 2. Add 1 μl of 0.2% serum solution3. Incubate at 37 °C for different time intervals |                                          |
-| :--- | :-------------- | --------------------------------- | :----------------------------------------------------------- | ---------------------------------------- |
-|      |                 | siRNA solution                    | Volume of serum (μl)                                         |                                          |
-| #    | Incubation time | Volume of 10 μM siRNA (μl)        | Volume of PBS (μl)                                           |                                          |
-| 1    | –               | 2.5                               | 7.5                                                          | –                                        |
-| 2    | 1               | 2.5                               | 6.5                                                          | Add 1 μl of 0.2% serum after 39 min      |
-| 3    | 2               | 2.5                               | 6.5                                                          | Add 1 μl of 0.2% serum after 38 min      |
-| 4    | 5               | 2.5                               | 6.5                                                          | Add 1 μl of 0.2% serum after 35 min      |
-| 5    | 10              | 2.5                               | 6.5                                                          | Add 1 μl of 0.2% serum after 30 min      |
-| 6    | 20              | 2.5                               | 6.5                                                          | Add 1 μl of 0.2% serum after 20 min      |
-| 7    | 30              | 2.5                               | 6.5                                                          | Add 1 μl of 0.2% serum after 10 min      |
-| 8    | 40              | 2.5                               | 6.5                                                          | Add 1 μl of 0.2% serum after immediately |
+<div class="c-article-table-container"><div class="c-article-table-border c-table-scroll-wrapper"><div class="c-table-scroll-wrapper__content c-table-scroll-wrapper__fade--transparent" data-component-scroll-wrapper=""><table class="data last-table"><thead class="c-article-table-head"><tr><th class="u-text-left ">&nbsp;</th><th class="u-text-left ">&nbsp;</th><th colspan="2"><p>1. Prepare 8 FRET-siRNA solutions</p></th><th class="u-text-left "><p>2. Add 1&nbsp;μl of 0.2% serum solution</p><p>3. Incubate at 37&nbsp;°C for different time intervals</p></th></tr><tr><th class="u-text-left ">&nbsp;</th><th class="u-text-left ">&nbsp;</th><th colspan="2"><p>siRNA solution</p></th><th rowspan="2" class="u-text-left "><p>Volume of serum (μl)</p></th></tr><tr><th class="u-text-left "><p>#</p></th><th class="u-text-left "><p>Incubation time</p></th><th class="u-text-char "><p>Volume of 10&nbsp;μM siRNA (μl)</p></th><th class="u-text-char "><p>Volume of PBS (μl)</p></th></tr></thead><tbody><tr><td class="u-text-left "><p>1</p></td><td class="u-text-left "><p>–</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>7.5</p></td><td class="u-text-left "><p>–</p></td></tr><tr><td class="u-text-left "><p>2</p></td><td class="u-text-left "><p>1</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>Add 1&nbsp;μl of 0.2% serum after 39&nbsp;min</p></td></tr><tr><td class="u-text-left "><p>3</p></td><td class="u-text-left "><p>2</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>Add 1&nbsp;μl of 0.2% serum after 38&nbsp;min</p></td></tr><tr><td class="u-text-left "><p>4</p></td><td class="u-text-left "><p>5</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>Add 1&nbsp;μl of 0.2% serum after 35&nbsp;min</p></td></tr><tr><td class="u-text-left "><p>5</p></td><td class="u-text-left "><p>10</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>Add 1&nbsp;μl of 0.2% serum after 30&nbsp;min</p></td></tr><tr><td class="u-text-left "><p>6</p></td><td class="u-text-left "><p>20</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>Add 1&nbsp;μl of 0.2% serum after 20&nbsp;min</p></td></tr><tr><td class="u-text-left "><p>7</p></td><td class="u-text-left "><p>30</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>Add 1&nbsp;μl of 0.2% serum after 10&nbsp;min</p></td></tr><tr><td class="u-text-left "><p>8</p></td><td class="u-text-left "><p>40</p></td><td class="u-text-char "><p>2.5</p></td><td class="u-text-char "><p>6.5</p></td><td class="u-text-left "><p>Add 1&nbsp;μl of 0.2% serum after immediately</p></td></tr></tbody></table></div></div></div>
 
 ![485053_1_En_4_Fig4_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig4_HTML.png)
 
@@ -202,20 +261,20 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
 
 5. Add serum of interest to the samples to be treated at a chosen final percentage. Add the same volume of PBS to the untreated samples. 
 
-6. Incubate all samples at 37 °C for a desired time (*see* **Note** [**10**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)). 
+6. Incubate all samples at 37 °C for a desired time (*see* **Note** **10**). 
 
 7. Release the FRET-siRNA from the carrier by adding a releasing agent. For peptides and Lipofectamine 2000, dextran sulfate sodium is suggested to a final concentration of 10 mg/ml. 
 
-8. Perform electrophoresis, imaging, and analysis as described in Subheading [3.1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec4) (*see* Fig. [5a](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig5) and **Note** [**11**](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Sec9)).
+8. Perform electrophoresis, imaging, and analysis as described in Subheading 3.1 (*see* Fig. 5aand **Note** **11**).
 
 9. For each sample, normalize the relative ratiometric FRET efficiency value to the value from the corresponding untreated sample.
 
-10. Graph the normalized relative ratiometric FRET efficiency to compare the stabilizing effect of the carrier to the free FRET-siRNA degradation (*see* Fig. [5b](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig5)). 
+10. Graph the normalized relative ratiometric FRET efficiency to compare the stabilizing effect of the carrier to the free FRET-siRNA degradation (*see* Fig.  5b). 
 
 
 ![485053_1_En_4_Fig5_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig5_HTML.png)
 
-**Fig. 5** (**a**) Agarose gel electrophoresis of FRET-siRNA encapsulated with lipofectamine, TAT peptide, and SRCRP2-11R peptide and treated (+) or not (−) with human serum in PBS. Green and magenta represent FAM and TAMRA emission intensities, respectively. (**b**) Graphs showing the FRET efficiency obtained by ImageJ analysis of images shown in **a**. Data are shown as averages of three biological replicates. Bars are standard deviations. Asterisks indicate the level of significance, based on the Student’s *t*-test (**p* = 0.0021–0.04332, ***p* = 0.0002–0.0021, ****p* = 0.0001–0.0002, *****p* < 0.0001)
+**Fig. 5** (**a**) Agarose gel electrophoresis of FRET-siRNA encapsulated with lipofectamine, TAT peptide, and SRCRP2-11R peptide and treated (+) or not (−) with human serum in PBS. Green and magenta represent FAM and TAMRA emission intensities, respectively. (**b**) Graphs showing the FRET efficiency obtained by ImageJ analysis of images shown in **a**. Data are shown as averages of three biological replicates. Bars are standard deviations. Asterisks indicate the level of significance, based on the Student’s *t*-test (*\*p* = 0.0021–0.04332, \** *p* = 0.0002–0.0021, \*** *p*= 0.0001–0.0002,  \**** *p* < 0.0001)
 
 ## 4 Notes
 
@@ -229,13 +288,13 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
 
 5. The gel should be prepared without addition of any nucleic acid stain (e.g., Ethidium Bromide, Gel Red). Indeed, the imaging of the siRNA on the gel will rely on the presence of the fluorophores. Please note that for small oligonucleotides, a high percentage agarose gel is usually suggested to obtain a good resolution of the ladder. In this experiment, the ladder is not needed and we recommend employing a low-resolution gel to reduce the agarose background. 
 
-6. Work in a RNase-free area and keep all tubes in ice. Please note that in Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab1) samples are numbered after the loading order on the agarose gel. 
+6. Work in a RNase-free area and keep all tubes in ice. Please note that in Table 1samples are numbered after the loading order on the agarose gel. 
 
 7. Exposure time should be optimized based on gel thickness and instrument features. We recommend testing different exposure times before saving a protocol in the machine. 
 
 8. To move the rectangular selection to the next lane, you can use the mouse or the arrows on the keyboard. Do not create a new rectangular selection as the selection must be exactly the same size for all lanes. 
 
-9. As visible in Fig. [2a](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Fig2), if the resolution of the gel is high, it is possible to observe a slight shift of the siRNA band in parallel with fluorescence color shift that is due to the siRNA degradation. 
+9. As visible in Fig. 2a, if the resolution of the gel is high, it is possible to observe a slight shift of the siRNA band in parallel with fluorescence color shift that is due to the siRNA degradation. 
 
 10. We have encapsulated our FRET-siRNA with peptide SRCRP2-11R, peptide TAT, and lipofectamine 2000 (Thermofisher) in 1% human serum for 30 min. 
 
