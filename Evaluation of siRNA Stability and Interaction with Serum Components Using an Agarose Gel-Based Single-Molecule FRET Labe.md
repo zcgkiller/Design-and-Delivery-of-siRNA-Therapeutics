@@ -188,11 +188,13 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
     $$
     {E}_{\mathrm{PR}}=\frac{I_{\mathrm{A}}}{I_{\mathrm{A}}+{I}_{\mathrm{D}}}-\frac{I_{\mathrm{A}}^0}{I_{\mathrm{A}}^0+{I}_{\mathrm{D}}^0}
     $$
-    Factors on Eq. 1 have been defined in our previous work “$ is the fluorescence intensity of the acceptor, *I*~D~ is the fluorescence intensity of the donor, $$ {I}_{\mathrm{A}}^0 $$is the minimum fluorescence intensity of the acceptor, and $$ {I}_{\mathrm{D}}^0 $$ is the minimum fluorescence intensity of the donor”.
+    Factors on Eq. 1 have been defined in our previous work “${I}_{\mathrm{A}}$ is the fluorescence intensity of the acceptor,${I}_{\mathrm{D}}$ is the fluorescence intensity of the donor, $$ {I}_{\mathrm{A}}^0 $$is the minimum fluorescence intensity of the acceptor, and $$ {I}_{\mathrm{D}}^0 $$ is the minimum fluorescence intensity of the donor”.
 
-    <span style=color:blue>方程1中的参数在我们的前期工作中已定义：“*I*~A~是受体的荧光强度，*I*~D~是供体的荧光强度，$ {I}_{\mathrm{A}}^0 $是受体的最小荧光强度，$ {I}_{\mathrm{D}}^0 $是供体的最小荧光强度”。</span>
+    <span style=color:blue>方程1中的参数在我们的前期工作中已定义：“${I}_{\mathrm{A}}$是受体的荧光强度，${I}_{\mathrm{D}}$是供体的荧光强度，$ {I}_{\mathrm{A}}^0 $是受体的最小荧光强度，$ {I}_{\mathrm{D}}^0 $是供体的最小荧光强度”。</span>
 
 16. Plot the relative ratiometric FRET efficiency against the RNase A amount (Fig. 2b).
+
+    <span style=color:blue>绘制相对比率FRET效率与RNase A量的关系图（图2b）</span>
 
 
 ![485053_1_En_4_Fig2_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig2_HTML.png)
