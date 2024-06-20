@@ -199,25 +199,41 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
 
 ![485053_1_En_4_Fig2_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig2_HTML.png)
 
-**Fig. 2** (**a**) Agarose gel electrophoresis of FRET-siRNA degraded with RNase A. Green and magenta represents FAM and TAMRA emission intensities, respectively. Channels are shown both as separate images and merged. (**b**) Graph showing the relative ratiometric FRET efficiency of FRET-siRNA obtained by ImageJ analysis of images shown in **a**. Data are shown as averages of three biological replicates. Bars are standard errors of the mean. (Adapted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)
+<span style=font-family:kaiti;text-align:center;display:block;>**Fig. 2** (**a**) Agarose gel electrophoresis of FRET-siRNA degraded with RNase A. Green and magenta represents FAM and TAMRA emission intensities, respectively. Channels are shown both as separate images and merged.<span style=color:blue>显示经过RNase A降解的FRET-siRNA的琼脂糖凝胶电泳图。绿色和品红色分别代表FAM和TAMRA的发射强度。通道分别显示为独立图像和合并图像。</span> (**b**) Graph showing the relative ratiometric FRET efficiency of FRET-siRNA obtained by ImageJ analysis of images shown in **a**. Data are shown as averages of three biological replicates. Bars are standard errors of the mean. (Adapted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)<span style=color:blue>图表显示了通过ImageJ分析**a**中图像获得的FRET-siRNA相对比率FRET效率。数据为三个生物重复的平均值，误差条表示平均值的标准误差。（经许可改编自“Tuttolomondo M, Ditzel HJ, 2020. 简单FRET电泳方法用于精确和动态评估血清siRNA稳定性”. ACS Med Chem Lett 11(2):195–202. 版权归2020年美国化学会所有）</span></span>
 
-### 3.2 Tracking the Integrity of FRET-siRNA in Different Percentages of Serum and Evaluating Interaction with Serum Components
+### 3.2 Tracking the Integrity of FRET-siRNA in Different Percentages of Serum and Evaluating Interaction with Serum Components 在不同百分比血清中追踪FRET-siRNA的完整性并评估其与血清成分的相互作用
 
 1. Prepare a 2% agarose gel in 1× TAE buffer with a 10-wells comb.
 
+   <span style=color:blue>用1× TAE缓冲液配置一个2%的琼脂糖凝胶，并使用一个10孔梳子。</span>
+
 2. Set the thermomixer at 37 °C.
+
+   <span style=color:blue>将热混合器设置到37°C</span>
 
 3. Prepare 10 samples of FRET ds-siRNA in PBS from 10 μM solution according to Table 2.
 
-4. Treat with the serum of interest (e.g., human, mouse, fetal bovine serum) at a final concentration ranging from 1% to 50% according to Table [2](clbr://internal.invalid/OEBPS/html/485053_1_En_4_Chapter.xhtml#Tab2).
+   <span style=color:blue>按照表2从10 μM溶液中制备10个FRET双链siRNA样品于PBS中</span>
+
+4. Treat with the serum of interest (e.g., human, mouse, fetal bovine serum) at a final concentration ranging from 1% to 50% according to Table 2.
+
+   <span style=color:blue>根据表2，在最终浓度为1%到50%的范围内，用所需血清（例如，人类、小鼠、胎牛血清）处理样品</span>
 
 5. Incubate for 2 min at 37 °C with shaking. 
 
+   <span style=color:blue>在37°C下摇动孵育2分钟</span>
+
 6. Perform electrophoresis, imaging, and analysis as described in Subheading 3.1.
+
+   <span style=color:blue>按照3.1节中描述的方法进行电泳、成像和分析</span>
 
 7. A strong gel shift of FAM and TAMRA bands indicates interaction with serum components. An individual shift of FAM band indicates interaction with serum RNases during degradation. Figure 3a-d show the result obtained when degrading a FRET-siRNA with goat, mouse, fetal bovine, and human serum, respectively. 
 
+   <span style=color:blue>FAM和TAMRA条带的显著迁移表明与血清成分发生了相互作用。FAM条带的单独迁移表明在降解过程中与血清RNase的相互作用。图3a-d分别显示了用山羊、小鼠、胎牛和人类血清降解FRET-siRNA时的结果。</span>
+
 8. Plot the corresponding relative ratiometric FRET efficiency against serum percentage (*see* Fig. 3e).
+
+   <span style=color:blue>绘制相对比率FRET效率与血清百分比的关系图（详见图3e）</span>
 
 **Table 2** Preparation of serum-treated FRET-siRNA for dose-response analysis
 
@@ -225,23 +241,37 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
 
 ![485053_1_En_4_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig3_HTML.png)
 
-**Fig. 3** Agarose gel electrophoresis of FRET-siRNA degraded with goat serum (**a**), mouse serum (**b**), fetal bovine serum (**c**), or human serum (**d**) and corresponding relative ratiometric FRET efficiencies (**e**). Green and magenta represent FAM and TAMRA emission intensities, respectively. Data are averages of two biological replicates. Bars are standard errors of the mean. (Reprinted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)
+<span style=font-family:kaiti>**Fig. 3** Agarose gel electrophoresis of FRET-siRNA degraded with goat serum (**a**), mouse serum (**b**), fetal bovine serum (**c**), or human serum (**d**) and corresponding relative ratiometric FRET efficiencies (**e**). Green and magenta represent FAM and TAMRA emission intensities, respectively. Data are averages of two biological replicates. Bars are standard errors of the mean. (Reprinted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)<span style=color:blue>用山羊血清（**a**）、小鼠血清（**b**）、胎牛血清（**c**）或人类血清（**d**）降解的FRET-siRNA的琼脂糖凝胶电泳图及相应的相对比率FRET效率图（**e**）。绿色和品红色分别表示FAM和TAMRA的发射强度。数据为两个生物重复实验的平均值，误差条表示平均值的标准误差。（经许可转载自“Tuttolomondo M, Ditzel HJ, 2020. 简单FRET电泳方法用于精确和动态评估血清siRNA稳定性”. ACS Med Chem Lett 11(2):195–202. 版权归2020年美国化学会所有）</span></span>
 
-### 3.3 Degradation Kinetics of FRET-siRNA in Serum
+### 3.3 Degradation Kinetics of FRET-siRNA in Serum FRET-siRNA在血清中的降解动力学
 
 1. Prepare a 2% agarose gel in 1× TAE buffer with an 8-wells comb. 
 
+   <span style=color:blue>用1× TAE缓冲液配置一个2%的琼脂糖凝胶，并使用一个8孔梳子。</span>
+
 2. Set the thermomixer at 37 °C. 
+
+   <span style=color:blue>将热混合器设置到37 °C。</span>
 
 3. Prepare 10 samples FRET ds-siRNA in PBS from 10 μM solution according to Table 3. 
 
+   <span style=color:blue>按照表3从10 μM溶液中制备10个FRET双链siRNA样品于PBS中。</span>
+
 4. Prepare a 0.2% solution of serum of interest. 
+
+   <span style=color:blue>配制0.2%浓度的目标血清溶液。</span>
 
 5. Treat with 1 μl of 0.2% serum of interest at different time intervals for each sample and incubate at 37 °C according to Table 3). 
 
+   <span style=color:blue>在不同时间间隔内，用1 μl的0.2%血清溶液处理每个样品，并在37 °C孵育（详见表3）。</span>
+
 6. Perform electrophoresis, imaging, and analysis as described in Subheading 3.1 (*see* Fig. 4a). 
 
+   <span style=color:blue>按照3.1节中描述的方法进行电泳、成像和分析（详见图4a）。</span>
+
 7. Plot the relative ratiometric FRET efficiency against the time (*see* Fig. 4b). 
+
+   <span style=color:blue>绘制相对比率FRET效率与时间的关系图（详见图4b）。</span>
 
 **Table 3** Preparation of serum-treated FRET-siRNA for kinetic analysis
 
@@ -249,55 +279,97 @@ In this chapter, we will provide detailed protocols to exploit our recently prop
 
 ![485053_1_En_4_Fig4_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig4_HTML.png)
 
-**Fig. 4** (**a**) Agarose gel electrophoresis of FRET-siRNA degraded by human serum in time. Green and magenta represent FAM and TAMRA emission intensities, respectively. Channels are shown both as separate images and merged. (**b**) Plot showing the relative ratiometric FRET efficiency of FRET-siRNA degraded in time obtained by ImageJ analysis of image shown in **a**. Data are shown as averages of three biological replicates. Bars are standard errors of the mean. The curve is two-phase decay exponential regression. (Reprinted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)
+<span style=font-family:kaiti>**Fig. 4** (**a**) Agarose gel electrophoresis of FRET-siRNA degraded by human serum in time. Green and magenta represent FAM and TAMRA emission intensities, respectively. Channels are shown both as separate images and merged.<span style=color:blue>人类血清随时间降解FRET-siRNA的琼脂糖凝胶电泳图。绿色和品红色分别代表FAM和TAMRA的发射强度。图像分别显示为独立通道和合并通道。</span> (**b**) Plot showing the relative ratiometric FRET efficiency of FRET-siRNA degraded in time obtained by ImageJ analysis of image shown in **a**. Data are shown as averages of three biological replicates. Bars are standard errors of the mean. The curve is two-phase decay exponential regression. (Reprinted with permission from “Simple FRET Electrophoresis Method for Precise and Dynamic Evaluation of Serum siRNA Stability” by Tuttolomondo M, Ditzel HJ, 2020. ACS Med Chem Lett 11(2):195–202. Copyright 2020 American Chemical Society)<span style=color:blue>通过ImageJ分析**a**中图像获得的FRET-siRNA随时间降解的相对比率FRET效率图。数据为三个生物重复实验的平均值，误差条表示平均值的标准误差。曲线为双相衰减指数回归。（经许可转载自“Tuttolomondo M, Ditzel HJ, 2020. 简单FRET电泳方法用于精确和动态评估血清siRNA稳定性”. ACS Med Chem Lett 11(2):195–202. 版权归2020年美国化学会所有）</span></span>
 
-### 3.4 Evaluation of FRET-siRNA Stabilizing Effect of siRNA Carriers in Serum
+### 3.4 Evaluation of FRET-siRNA Stabilizing Effect of siRNA Carriers in Serum 评估siRNA载体在血清中对FRET-siRNA的稳定作用
 
 1. Prepare a 2% agarose gel in 1× TAE buffer with a 4-wells comb. 
 
+   <span style=color:blue>用1× TAE缓冲液配置一个2%的琼脂糖凝胶，并使用一个4孔梳子</span>
+
 2. Set the thermomixer at 37 °C. 
 
-3. Prepare two samples of FRET ds-siRNA in PBS from 10 μM solution at a final concentration 1.5 μM. One sample will be untreated free siRNA and the other serum-treated free siRNA. 
+   <span style=color:blue>将热混合器设置到37°C</span>
+
+3. Prepare two samples of FRET ds-siRNA in PBS from 10 μM solution at a final concentration 1.5 μM. One sample will be untreated free siRNA and the other serum-treated free siRNA.
+
+   <span style=color:blue>从10 μM溶液中制备两个最终浓度为1.5 μM的FRET双链siRNA样品于PBS中。一个样品为未处理的游离siRNA，另一个为血清处理的游离siRNA</span>
 
 4. Prepare two samples of FRET ds-siRNA encapsulated with the tested carrier according to standard lab protocol. One sample will be untreated FRET-siRNA+carrier and the other serum-treated FRET-siRNA+carrier. 
 
+   <span style=color:blue>按照标准实验室协议，制备两个包裹测试载体的FRET双链siRNA样品。一个样品为未处理的FRET-siRNA+载体，另一个为血清处理的FRET-siRNA+载体</span>
+
 5. Add serum of interest to the samples to be treated at a chosen final percentage. Add the same volume of PBS to the untreated samples. 
+
+   <span style=color:blue>在需要处理的样品中加入所需血清至选定的最终浓度。在未处理的样品中加入相同体积的PBS</span>
 
 6. Incubate all samples at 37 °C for a desired time (*see* **Note** **10**). 
 
+   <span style=color:blue>在37°C孵育所有样品至所需时间（详见注释**10**）</span>
+
 7. Release the FRET-siRNA from the carrier by adding a releasing agent. For peptides and Lipofectamine 2000, dextran sulfate sodium is suggested to a final concentration of 10 mg/ml. 
+
+   <span style=color:blue>通过加入释放剂从载体中释放FRET-siRNA。对于肽和Lipofectamine 2000，建议使用最终浓度为10 mg/ml的葡聚糖硫酸钠</span>
 
 8. Perform electrophoresis, imaging, and analysis as described in Subheading 3.1 (*see* Fig. 5aand **Note** **11**).
 
+   <span style=color:blue>按照3.1节中描述的方法进行电泳、成像和分析（详见图5a和注释**11**）</span>
+
 9. For each sample, normalize the relative ratiometric FRET efficiency value to the value from the corresponding untreated sample.
 
+   <span style=color:blue>对每个样品，将相对比率FRET效率值归一化到相应未处理样品的值</span>
+
 10. Graph the normalized relative ratiometric FRET efficiency to compare the stabilizing effect of the carrier to the free FRET-siRNA degradation (*see* Fig.  5b). 
+
+    <span style=color:blue>绘制归一化的相对比率FRET效率图，以比较载体对游离FRET-siRNA降解的稳定作用（详见图5b）</span>
 
 
 ![485053_1_En_4_Fig5_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_4_Fig5_HTML.png)
 
-**Fig. 5** (**a**) Agarose gel electrophoresis of FRET-siRNA encapsulated with lipofectamine, TAT peptide, and SRCRP2-11R peptide and treated (+) or not (−) with human serum in PBS. Green and magenta represent FAM and TAMRA emission intensities, respectively. (**b**) Graphs showing the FRET efficiency obtained by ImageJ analysis of images shown in **a**. Data are shown as averages of three biological replicates. Bars are standard deviations. Asterisks indicate the level of significance, based on the Student’s *t*-test (*\*p* = 0.0021–0.04332, \** *p* = 0.0002–0.0021, \*** *p*= 0.0001–0.0002,  \**** *p* < 0.0001)
+<span style=font-family:kaiti>**Fig. 5** (**a**) Agarose gel electrophoresis of FRET-siRNA encapsulated with lipofectamine, TAT peptide, and SRCRP2-11R peptide and treated (+) or not (−) with human serum in PBS. Green and magenta represent FAM and TAMRA emission intensities, respectively. <span style=color:blue>包裹在脂质体、TAT肽和SRCRP2-11R肽中的FRET-siRNA在PBS中经人血清处理（+）或未处理（−）的琼脂糖凝胶电泳图。绿色和品红色分别表示FAM和TAMRA的发射强度。</span>(**b**) Graphs showing the FRET efficiency obtained by ImageJ analysis of images shown in **a**. Data are shown as averages of three biological replicates. Bars are standard deviations. Asterisks indicate the level of significance, based on the Student’s *t*-test<span style=color:blue>图表显示了通过ImageJ分析**a**中图像获得的FRET效率。数据为三个生物重复实验的平均值，误差条表示标准偏差。星号表示基于Student's *t*检验的显著性水平。</span> (*\*p* = 0.0021–0.04332, \** *p* = 0.0002–0.0021, \*** *p*= 0.0001–0.0002,  \**** *p* < 0.0001)</span>
 
-## 4 Notes
+## 4 Notes 注释
 
 1. As sense and antisense siRNA, we employed the following oligonucleotide sequences: FAM-5′-GGUCUAGCUACAGAGAAAU-3′-TAMRA (sense siRNA strand); FAM-5′-AUUUCUCUGUAGCUAGACC-3′-TAMRA (antisense siRNA strand). We suggest purifying the oligonucleotides by RNase-free HPLC. 
 
+   <span style=color:blue>作为正义链和反义链siRNA，我们使用了以下寡核苷酸序列：FAM-5′-GGUCUAGCUACAGAGAAAU-3′-TAMRA（正义链siRNA）；FAM-5′-AUUUCUCUGUAGCUAGACC-3′-TAMRA（反义链siRNA）。我们建议通过无RNase的HPLC纯化这些寡核苷酸。</span>
+
 2. We suggest using a custom-made sample loading solution without dye since we observed that most dyes would run on top of the siRNA band, reducing the detection efficiency. 
+
+   <span style=color:blue>我们建议使用不含染料的定制样品加载液，因为我们发现大多数染料会在siRNA带的顶部运行，降低检测效率。</span>
 
 3. As stabilizing agents, we employed lipofectamine 2000 (Thermofisher), 0.5 mM TAT peptide (Genscript, GRKKRRQRRRPQ), and 1 mM SRCRP2-11R peptide (obtained by custom-made synthesis at 95% purity from Genscript, GRVRVLYRGSW). 
 
+   <span style=color:blue>作为稳定剂，我们使用了Lipofectamine 2000（Thermofisher）、0.5 mM TAT肽（Genscript, GRKKRRQRRRPQ）和1 mM SRCRP2-11R肽（由Genscript定制合成，纯度为95%，GRVRVLYRGSW）。</span>
+
 4. We used Spectrum In Vivo Imaging System (IVIS, PerkinElmer). 
+
+   <span style=color:blue>我们使用了Spectrum In Vivo成像系统（IVIS, PerkinElmer）。</span>
 
 5. The gel should be prepared without addition of any nucleic acid stain (e.g., Ethidium Bromide, Gel Red). Indeed, the imaging of the siRNA on the gel will rely on the presence of the fluorophores. Please note that for small oligonucleotides, a high percentage agarose gel is usually suggested to obtain a good resolution of the ladder. In this experiment, the ladder is not needed and we recommend employing a low-resolution gel to reduce the agarose background. 
 
+   <span style=color:blue>制备凝胶时不应添加任何核酸染料（如溴化乙锭、Gel Red）。实际上，siRNA在凝胶上的成像将依赖于荧光团的存在。请注意，对于小寡核苷酸，通常建议使用高浓度的琼脂糖凝胶以获得良好的梯形分辨率。在本实验中不需要梯形分辨率，我们建议使用低分辨率凝胶以减少琼脂糖背景。</span>
+
 6. Work in a RNase-free area and keep all tubes in ice. Please note that in Table 1samples are numbered after the loading order on the agarose gel. 
+
+   <span style=color:blue>在无RNase的区域工作，并将所有试管置于冰上。请注意，表1中的样品是按照在琼脂糖凝胶上的加载顺序编号的。</span>
 
 7. Exposure time should be optimized based on gel thickness and instrument features. We recommend testing different exposure times before saving a protocol in the machine. 
 
+   <span style=color:blue>曝光时间应根据凝胶厚度和仪器特性进行优化。我们建议在机器中保存协议之前测试不同的曝光时间。</span>
+
 8. To move the rectangular selection to the next lane, you can use the mouse or the arrows on the keyboard. Do not create a new rectangular selection as the selection must be exactly the same size for all lanes. 
+
+   <span style=color:blue>要将矩形选择移动到下一个泳道，可以使用鼠标或键盘上的箭头。不要创建新的矩形选择，因为选择必须对所有泳道完全相同的大小。</span>
 
 9. As visible in Fig. 2a, if the resolution of the gel is high, it is possible to observe a slight shift of the siRNA band in parallel with fluorescence color shift that is due to the siRNA degradation. 
 
+   <span style=color:blue>如图2a所示，如果凝胶的分辨率很高，可以观察到siRNA带的轻微移动，同时荧光颜色也会发生变化，这是由于siRNA降解所致。</span>
+
 10. We have encapsulated our FRET-siRNA with peptide SRCRP2-11R, peptide TAT, and lipofectamine 2000 (Thermofisher) in 1% human serum for 30 min. 
 
+    <span style=color:blue>我们在1%人血清中将FRET-siRNA与肽SRCRP2-11R、肽TAT和Lipofectamine 2000（Thermofisher）包裹30分钟。</span>
+
 11. For this assay, we observed that using completely degraded FRET-siRNA as a positive control could result in an overexposed band from a strong fluorescence intensity of FAM, which could lead to an increased background in the close lanes. To avoid this, we suggest leaving one empty well between samples when loading the agarose gel.
+
+    <span style=color:blue>在此实验中，我们观察到使用完全降解的FRET-siRNA作为阳性对照可能会导致FAM的强荧光强度产生过度曝光带，从而增加临近泳道的背景。为避免这种情况，我们建议在加载琼脂糖凝胶时在样品之间留一个空孔。</span>
