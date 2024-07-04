@@ -239,7 +239,7 @@ Representative siRNA designing algorithms and their attributes
 
 1. According to the guidelines of toxicity assessment , a series of studies need to be performed for Investigational New Drug (IND) application. These assessments include but not limited to acute toxicity test, long-term toxicity test, genetic toxicity test, reproductive toxicity test, and carcinogenic toxicity test. Herein, we mainly discuss some preliminary toxicity assessments. 
 
-2. Subcutaneously administer GalNAc-siRNA conjugate to toxicology-relevant animal species, such as rat and nonhuman primate (NHP), at toxicological doses (*see* **Notes** [**15**](clbr://internal.invalid/OEBPS/html/485053_1_En_6_Chapter.xhtml#Sec17) and [**16**](clbr://internal.invalid/OEBPS/html/485053_1_En_6_Chapter.xhtml#Sec17)). 
+2. Subcutaneously administer GalNAc-siRNA conjugate to toxicology-relevant animal species, such as rat and nonhuman primate (NHP), at toxicological doses (*see* **Notes** **15** and **16**). 
 
 3. Collect plasma or serum samples at 3–6 h or 24 h after administration. 
 
@@ -258,23 +258,23 @@ Representative siRNA designing algorithms and their attributes
 
 2. Some commonly used online siRNA design tools are shown as follows:
 
-   (a) siDESIGN Center ([https://horizondiscovery.com/products/tools/siDESIGN-Center](https://horizondiscovery.com/products/tools/siDESIGN-Center)).
+   (a) siDESIGN Center https://horizondiscovery.com/products/tools/siDESIGN-Center.
 
-   (b) siDirect 2.0 ([http://sidirect2.rnai.jp/](http://sidirect2.rnai.jp/)).
+   (b) siDirect 2.0 (http://sidirect2.rnai.jp/).
 
-   (c) Block-iT RNAi Designer ([https://rnaidesigner.invitrogen.com/rnaiexpress/setOption.do?designOption=sirna](https://rnaidesigner.invitrogen.com/rnaiexpress/setOption.do?designOption=sirna)).
+   (c) Block-iT RNAi Designer (https://rnaidesigner.invitrogen.com/rnaiexpress/setOption.do?designOption=sirna).
 
-   (d) DSIR ([http://www.bioinfo.ensmp.fr/dsir/](http://www.bioinfo.ensmp.fr/dsir/)).
+   (d) DSIR (http://www.bioinfo.ensmp.fr/dsir/).
 
-   (e) GenScript siRNA Target Finder ([https://www.genscript.com/tools/sirna-target-finder](https://www.genscript.com/tools/sirna-target-finder)).
+   (e) GenScript siRNA Target Finder (https://www.genscript.com/tools/sirna-target-finder).
 
-   (f) RNAi Design Tool ([https://sg.idtdna.com/site/order/designtool/index/DSIRNA_CUSTOM](https://sg.idtdna.com/site/order/designtool/index/DSIRNA_CUSTOM)).
+   (f) RNAi Design Tool (https://sg.idtdna.com/site/order/designtool/index/DSIRNA_CUSTOM).
 
-   (g) siDRM ([http://c1.accurascience.com/siDRM/index.php](http://c1.accurascience.com/siDRM/index.php)).
+   (g) siDRM (http://c1.accurascience.com/siDRM/index.php).
 
-   (h) siRNA Selection Server ([http://jura.wi.mit.edu/bioc/siRNAext/](http://jura.wi.mit.edu/bioc/siRNAext/)).
+   (h) siRNA Selection Server (http://jura.wi.mit.edu/bioc/siRNAext/).
 
-   (i) OptiRNA ([http://optirna.unl.edu/](http://optirna.unl.edu/)). 
+   (i) OptiRNA (http://optirna.unl.edu/). 
 
 3. Alternatively, design siRNAs separately with the transcripts for targeting conserved regions across species. Combine siRNA lists reported by different tools, and analyze their sequence features to determine if there is any siRNA targeting the conserved regions.
 
