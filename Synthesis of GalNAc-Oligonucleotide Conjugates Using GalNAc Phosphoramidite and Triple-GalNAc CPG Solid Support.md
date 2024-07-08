@@ -1,28 +1,34 @@
-# Synthesis of GalNAc-Oligonucleotide Conjugates Using GalNAc Phosphoramidite and Triple-GalNAc CPG Solid Support
+# Synthesis of GalNAc-Oligonucleotide Conjugates Using GalNAc Phosphoramidite and Triple-GalNAc CPG Solid Support 使用 GalNAc 亚磷酰胺和三重 GalNAc CPG 固体支持物合成 GalNAc-寡核苷酸缀合物
 
 Egor A. Ulashchik, Yury V. Martynenko-Makaev, Tatsiana P. Akhlamionok, Denis M. Melnik, Vadim V. Shmanai and Timofei S. Zatsepin
 
-## Abstract
+## Abstract 摘要
 
 GalNAc oligonucleotide conjugates demonstrate improved potency in vivo due to selective and efficient delivery to hepatocytes in the liver via receptor-mediated endocytosis. GalNAc-siRNA and GalNAc-antisense oligonucleotides are at various stages of clinical trials, while the first two drugs were already approved by FDA. Also, GalNAc conjugates are excellent tools for functional genomics and target validation in vivo. The number of GalNAc residues in a conjugate is crucial for delivery as cooperative interaction of several GalNAc residues with asialoglycoprotein receptor enhances delivery in vitro and in vivo. Here we provide a robust protocol for the synthesis of triple GalNAc CPG solid support and GalNAc phosphoramidite, synthesis and purification of RNA conjugates with multiple GalNAc residues either to 5′-end or 3′-end and siRNA duplex formation.
 
-## 1 Introduction
+<span style=color:blue>GalNAc寡核苷酸偶联物通过受体介导的内吞作用，选择性且高效地传递至肝脏中的肝细胞，从而在体内表现出更强的效力。GalNAc-siRNA和GalNAc反义寡核苷酸处于不同的临床试验阶段，其中前两种药物已获得FDA批准。此外，GalNAc偶联物还是体内功能基因组学和靶点验证的优秀工具。一个偶联物中GalNAc残基的数量对于传递至关重要，因为多个GalNAc残基与脱唾液酸糖蛋白受体的协同作用可增强体内外的传递效率。本文提供了一个完善的方案，包括三价GalNAc CPG固体支持物和GalNAc磷酰胺的合成，多GalNAc残基RNA偶联物的合成与纯化，以及5′端或3′端的siRNA双链形成。</span>
+
+## 1 Introduction 引言
 
 RNA therapeutics demonstrated a tremendous progress in last years—already ten oligonucleotide drugs are approved by FDA and EMA, even more are coming soon. Proof-of-concept for therapeutic use of nucleic acids was shown more than 40 years ago, but many challenges were overcome since late 1970s to develop oligonucleotide drugs, like Nusinersen and Givosiran. Among these issues are poor stability of native oligonucleotides in vivo, innate immune response to single-stranded and double-stranded DNA and RNA, and limited targeted delivery to the specific organ and cell type. Until now the most important and challenging task is targeted delivery of oligonucleotides, including specific intracellular delivery. Initial success in intrahepatic delivery of naked phosphorothioate antisense oligonucleotides (ASO) and siRNA formulated in lipid nanoparticles, uncovered adverse effects—partial nonspecific delivery, some local inflammatory response due to ASO/lipid toxicity under chronic treatment and other issues. Some of them can be resolved by use of biodegradable lipids and more potent ASO/siRNA with prolonged activity that allows to reduce doses and frequency of administration. However, alternative solution to use less toxic RNA conjugates with the ligands of cellular receptors seems to be more straightforward. Among such targeting, moieties are peptides, folate, *N*-acetylgalactosamine (GalNAc), aptamers, and even antibodies. Also, we would like to emphasize recent progress of hydrophobic conjugates that allow functional delivery to muscles and CNS. Together with high stability of chemically modified siRNA, listed above properties of conjugates result in longevity of the effect and specificity of siRNA action. Thus, conjugates are a new paradigm in siRNA delivery as they provide improved targeting and biodistribution in comparison to nanoparticles and naked oligonucleotides.
 
+<span style=color:blue>近年来，RNA疗法取得了巨大的进展——已有十种寡核苷酸药物获得了FDA和EMA的批准，更多的药物即将面世。早在40多年前就已经证明了核酸在治疗中的概念，但自20世纪70年代末以来，为开发如Nusinersen和Givosiran等寡核苷酸药物，克服了许多挑战。这些问题包括天然寡核苷酸在体内的稳定性差、单链和双链DNA和RNA引发的先天性免疫反应、以及有限的靶向传递到特定器官和细胞类型。时至今日，最重要且具有挑战性的任务仍是寡核苷酸的靶向传递，包括特定的细胞内传递。在最初的裸露磷酸硫代反义寡核苷酸（ASO）和脂质纳米颗粒包裹的siRNA肝内传递取得成功后，也暴露出了一些不良反应——部分非特异性传递、由于ASO/脂质在慢性治疗中的毒性引发的一些局部炎症反应等问题。其中一些问题可以通过使用可降解脂质和更有效的、具有长效活性的ASO/siRNA来解决，这可以减少剂量和给药频率。然而，另一种解决方案是使用与细胞受体配体结合的毒性较小的RNA偶联物，这似乎更为直接。在这些靶向配体中，包括肽、叶酸、*N*-乙酰半乳糖胺（GalNAc）、适配子，甚至抗体。此外，我们还要强调最近在允许功能性传递到肌肉和中枢神经系统的疏水性偶联物方面的进展。与化学修饰的siRNA的高稳定性相结合，以上列出的偶联物特性导致了效果的持久性和siRNA作用的特异性。因此，偶联物在siRNA传递中代表了一种新的范例，因为它们在靶向性和生物分布方面比纳米颗粒和裸露的寡核苷酸具有更好的表现。</span>
+
 Among many successful conjugates we want to emphasize the development of unique triple GalNAc conjugates that drive selective and efficient oligonucleotide delivery to hepatocytes via asialoglycoprotein receptor (ASGPR). ASGPR is a C-type lectin involved in the metabolism of glycoproteins and seems to be the optimal receptor for targeted RNA delivery among known ones. ASGPR is highly represented at the surface of hepatocytes (0.5–1 M receptors/cell) and undergoes fast clathrin-mediated turnover into endosomes (~10–15 min−1). Despite these tremendous properties, single GalNAc residue binds to the receptor with relatively low affinity (high μM range). However, cooperative interactions of several GalNAcs with multimerized receptor subunits clusters demonstrated much higher affinity to ASGPR than mono-GalNAc. Thus, multivalent (di-, tri-, tetra-) GalNAc clusters enhance delivery in vitro and in vivo. Last year first GalNAc-siRNA conjugates was approved by FDA (Givosiran to treat acute hepatic porphyria and Lumasiran to treat primary hyperoxaluria type 1) plus several siRNA- and ASO-GalNAc conjugates are at different stages of clinical trials. This delivery system together with multiple chemical modifications of siRNA provides a unique opportunity to downregulate specific proteins in the liver by biannual subcutaneous administration of the drug.
+
+<span style=color:blue>在众多成功的偶联物中，我们特别强调了独特的三价GalNAc偶联物的开发，这些偶联物通过天门冬氨酸糖蛋白受体（ASGPR）将寡核苷酸选择性且高效地传递到肝细胞。ASGPR是一种C型凝集素，参与糖蛋白的代谢，是目前已知的RNA靶向传递中最理想的受体。ASGPR在肝细胞表面高度表达（每个细胞0.5–1百万个受体），并且具有快速的网格蛋白介导的内吞周转率（约10–15分钟）。尽管ASGPR具有这些优异的性质，单个GalNAc残基与受体的结合亲和力相对较低（高微摩尔范围）。然而，多GalNAc与多聚受体亚基簇的协同作用表现出比单一GalNAc更高的亲和力。因此，多价（双、三、四）GalNAc簇在体外和体内显著增强了传递效果。去年，第一个GalNAc-siRNA偶联物获得了FDA的批准（Givosiran用于治疗急性肝卟啉病和Lumasiran用于治疗1型原发性高草酸尿症），另外还有几个siRNA和ASO-GalNAc偶联物正处于不同的临床试验阶段。这种传递系统结合siRNA的多种化学修饰，为通过每半年一次的皮下注射药物下调肝脏中特定蛋白质提供了独特的机会。</span>
 
 Here we provide a robust protocol for the synthesis of triple GalNAc CPG solid support and GalNAc phosphoramidite that can be used in standard automated oligonucleotide synthesis to introduce multiple GalNAc residues either to 5′-end or 3′-end of native or chemically modified DNA and RNA oligonucleotides (Fig. 1). The first sections outline the procedures for the synthesis, purification, and characterization of triple GalNAc TEG Support and mono GalNAc TEG phosphoramidite. The phosphoramidite can be used to build GalNAc clusters either at 3′-end, 5′-end, or both. Last sections of the protocol describe synthesis, purification, and characterization of GalNAc modified RNA oligonucleotides and siRNA duplex formation.
 
+<span style=color:blue>这里我们提供了一种稳健的合成三价GalNAc CPG固体支撑物和GalNAc磷酰胺的方法，这些材料可以在标准的自动化寡核苷酸合成过程中使用，以在天然或化学修饰的DNA和RNA寡核苷酸的5'端或3'端引入多个GalNAc残基（如图1所示）。前几节内容详细介绍了三价GalNAc TEG支撑物和单一GalNAc TEG磷酰胺的合成、纯化和表征步骤。该磷酰胺可以用来在3'端、5'端或两端构建GalNAc簇。最后几节则描述了GalNAc修饰的RNA寡核苷酸的合成、纯化和表征，以及siRNA双链体的形成。</span>
+
 ![485053_1_En_7_Fig1_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_7_Fig1_HTML.png)
 
-**Fig. 1**
+**Fig. 1** Synthesis of siRNA conjugates with different topology using GalNAc phosphoramidite and triple GalNAc TEG CPG
 
-Synthesis of siRNA conjugates with different topology using GalNAc phosphoramidite and triple GalNAc TEG CPG
+## 2 Materials 材料
 
-## 2 Materials
-
-### 2.1 Synthesis of Triple GalNAc TEG CPG Solid Support and GalNAc TEG Phosphoramidite
+### 2.1 Synthesis of Triple GalNAc TEG CPG Solid Support and GalNAc TEG Phosphoramidite 三价 GalNAc TEG CPG 固体载体和 GalNAc TEG 亚磷酰胺的合成
 
 1. Reagents were purchased from commercial suppliers and used as is:
 
