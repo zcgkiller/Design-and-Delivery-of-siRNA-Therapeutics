@@ -423,28 +423,46 @@ Isolate primary mouse hepatocytes from C57BL/6 mice according to the protocol re
 
 <span style=font-family:kaiti;text-align:center>**Fig. 7** The in vivo performances of GNA-modified GalNAc-sbiRNA conjugate targeting hydroxyacid oxidase 1 (HAO1). (**a**) The modification design of siRNA. (**b**) Off-target effect evaluated by RNA-seq in rat hepatocytes. (**c**, **d**) siRNA amount in liver tissue (**c**) and RISC (**d**) that quantified by stem-loop RT-qPCR. (**e**) Glutamate dehydrogenase (GLDH) levels measured with rat serum specimen. (**f**) H&E staining of the liver tissues collected at necropsy. Error bars represent standard deviation of the mean. **p* < 0.05.(The figure is adopted from the literature, Copyright 2018 Nature Publishing Group) **<span style=color:blue>GNA 修饰的 GalNAc-siRNA 结合物靶向羟基酸氧化酶 1 (HAO1) 的体内性能。(**a**) siRNA 的修饰设计。(**b**) 通过 RNA-seq 在大鼠肝细胞中评估的脱靶效应。(**c**, **d**) 通过茎环 RT-qPCR 量化的肝组织 (**c**) 和 RISC (**d**) 中的 siRNA 量。(**e**) 用大鼠血清样本测量谷氨酸脱氢酶 (GLDH) 水平。(**f**) 尸检时收集的肝组织的 H&E 染色。误差线表示平均值的标准差。**p* < 0.05。</span></span>
 
-### 3.6 In Vivo Toxicity of GalNAc-siRNA Conjugate
+### 3.6 In Vivo Toxicity of GalNAc-siRNA Conjugate GalNAc-siRNA偶联物的体内毒性
 
 1. According to the guidelines of toxicity assessment , a series of studies need to be performed for Investigational New Drug (IND) application. These assessments include but not limited to acute toxicity test, long-term toxicity test, genetic toxicity test, reproductive toxicity test, and carcinogenic toxicity test. Herein, we mainly discuss some preliminary toxicity assessments. 
 
+   <span style=color:blue>根据毒性评估指南，为了新药临床试验申请（IND），需要进行一系列研究。这些评估包括但不限于急性毒性试验、长期毒性试验、遗传毒性试验、生殖毒性试验和致癌毒性试验。在此，我们主要讨论一些初步的毒性评估。</span>
+
 2. Subcutaneously administer GalNAc-siRNA conjugate to toxicology-relevant animal species, such as rat and nonhuman primate (NHP), at toxicological doses (*see* **Notes** **15** and **16**). 
+
+   <span style=color:blue>皮下注射 GalNAc-siRNA 缀合物到用于毒性研究的动物物种，例如大鼠和非人类灵长类 (NHP)，剂量为毒理学剂量 (参见**注释** **15** 和 **16**)。</span>
 
 3. Collect plasma or serum samples at 3–6 h or 24 h after administration. 
 
+   <span style=color:blue>给药后 3-6 小时或 24 小时收集血浆或血清样本</span>
+
 4. Examine the cytokines, such as TNF-α, IFN-γ, IL-1β, IL-2, IL-5, IL-6, IL-12(p70), MCP-1, KC, GM-CSF using Luminex® assays (high-throughput multiplex bead-based assays) with Luminex 100 system or ELISA. 
 
-5. Count the blood cell with whole blood samples to analyze the profiles of the key components in the blood, such as red blood cells, white blood cells, hemoglobin, hematocrit, and platelets. 
+   <span style=color:blue>使用Luminex 100系统或ELISA，通过Luminex®测定法（高通量多重微球测定法）检查细胞因子，例如TNF-α, IFN-γ, IL-1β, IL-2, IL-5, IL-6, IL-12(p70), MCP-1, KC, GM-CSF</span>
+
+5. Count the blood cell with whole blood samples to analyze the profiles of the key components in the blood, such as red blood cells, white blood cells, hemoglobin, hematocrit, and platelets.
+
+   <span style=color:blue>用全血样品进行血细胞计数，分析血液中关键成分的含量，例如红细胞、白细胞、血红蛋白、血细胞比容和血小板</span> 
 
 6. In another study, do not collect any sample within 2 weeks after siRNA injection. Instead, perform clinical observations for 2 weeks. In this case, record clinical symptoms, including animal appearance, eating, drinking, excretion, behavior, and response to stimulation during this process. Finally, as an optional choice, collect the blood samples, measure parameters revealing the liver and kidney functions (e.g., aspartate transaminase (AST), alanine transaminase (ALT), alkaline phosphatase (ALP), total bilirubin (TBIL), glutamate dehydrogenase (GLDH), serum creatinine (CREA), blood urea nitrogen (BUN)), and analyze cytokines and the blood cells. Evaluate the pathological changes of the tissue samples. 
 
-7. An example of toxicity evaluation of GalNAc-siRNA conjugate is shown in Fig. [7e, f](clbr://internal.invalid/OEBPS/html/485053_1_En_6_Chapter.xhtml#Fig7). It has been demonstrated that GNA positioned at 7′ of siRNA guide strand can significantly erase the seed region-mediated off-target effect and therefore dramatically alleviate the hepatotoxicity. 
+   <span style=color:blue>在另一项研究中，在siRNA注射后两周内不收集任何样本。相反，进行为期两周的临床观察。在此过程中记录临床症状，包括动物的外观、进食、饮水、排泄、行为和对刺激的反应。最后，作为一个可选方案，收集血样，测量揭示肝肾功能的参数（例如，天冬氨酸转氨酶（AST）、丙氨酸转氨酶（ALT）、碱性磷酸酶（ALP）、总胆红素（TBIL）、谷氨酸脱氢酶（GLDH）、血清肌酐（CREA）、血尿氮（BUN）），分析细胞因子和血细胞。评估组织样本的病理变化。</span>
+
+7. An example of toxicity evaluation of GalNAc-siRNA conjugate is shown in Fig. 7e, f . It has been demonstrated that GNA positioned at 7′ of siRNA guide strand can significantly erase the seed region-mediated off-target effect and therefore dramatically alleviate the hepatotoxicity. 
+
+   <span style=color:blue>图 7e, f 展示了 GalNAc-siRNA 缀合物毒性评价的一个例子。该研究表明，定位于 siRNA 引导链 7' 端的 GNA 可以显著降低种子区介导的脱靶效应，从而大大减轻肝毒性。</span>
 
 
-## 4 Notes
+## 4 Notes 注释
 
 1. Use other alignment tools. 
 
+   <span style=color:blue>使用其他比对工具。</span>
+
 2. Some commonly used online siRNA design tools are shown as follows:
+
+   <span style=color:blue>一些常用的在线 siRNA 设计工具如下</span>
 
    (a) siDESIGN Center https://horizondiscovery.com/products/tools/siDESIGN-Center.
 
@@ -466,28 +484,56 @@ Isolate primary mouse hepatocytes from C57BL/6 mice according to the protocol re
 
 3. Alternatively, design siRNAs separately with the transcripts for targeting conserved regions across species. Combine siRNA lists reported by different tools, and analyze their sequence features to determine if there is any siRNA targeting the conserved regions.
 
+   <span style=color:blue>或者，使用转录本分别设计 siRNA，以靶向跨物种的保守区域。结合不同工具报告的 siRNA 列表，并分析其序列特征以确定是否有任何 siRNA 靶向保守区域。</span>
+
 4. Combine the siRNA sequences and verify if there is any siRNA that is reported by more than one tool when using multiple tools to design siRNA. Prefer siRNA(s) reported by more than one tool, especially if the algorithms are different from each other.
+
+   <span style=color:blue>在使用多种工具设计 siRNA 时，结合 siRNA 序列并验证是否有任何 siRNA 被多个工具报告。优先选择由多个工具报告的 siRNA，尤其是当算法彼此不同时。</span>
 
 5. Typically, select less than ten siRNAs for further activity evaluation for basic research because higher than 80% silencing efficiency usually can be achieved within these siRNAs. There is no necessity to consider the intellectual property issues if we do not intend to submit a patent application. Otherwise, select dozens or even thousands of siRNAs for screening and evaluation.
 
+   <span style=color:blue>通常，选择少于十个 siRNA 进行进一步的活性评估，用于基础研究，因为这些 siRNA 通常可以实现高于 80% 的沉默效率。如果我们不打算申请专利，就没有必要考虑知识产权问题。否则，选择几十甚至几千个siRNA进行筛选和评估。</span>
+
 6. Alternatively, chemically modified siRNA. Perform the following tests with the modified siRNAs. The advantage of using modified siRNA is saving time and cost. However, a potential risk is that we may miss some siRNAs with high activity when they are not modified. Because chemical modification may influence the activity although the modification chemistry is rationally designed and optimized.
+
+   <span style=color:blue>或者，化学修饰的siRNA。用修饰的siRNA进行以下测试。使用修饰的siRNA的优点是节省时间和成本。然而，一个潜在的风险是，我们可能会错过一些未经修饰的高活性siRNA。因为尽管修饰化学是合理设计和优化的，化学修饰也可能影响活性。</span>
 
 7. If the library of siRNAs is not large, for instance, less than 20 siRNAs, directly use RT-qPCR for activity evaluation instead of using luciferase reporter system.
 
-8. Evaluate the activity of siRNA with psiCheck reporter vector, because it is demonstrated that there is no significant difference between the siRNAs targeting the CDS region and those targeting the 3′-UTR, regarding to their silencing activities, as evaluated by reporter system [[9](clbr://internal.invalid/OEBPS/html/485053_1_En_6_Chapter.xhtml#CR9)]. 
+   <span style=color:blue>如果siRNA库不大，例如少于20个siRNA，则直接使用RT-qPCR进行活性评估，而不是使用荧光素酶报告系统。</span>
+
+8. Evaluate the activity of siRNA with psiCheck reporter vector, because it is demonstrated that there is no significant difference between the siRNAs targeting the CDS region and those targeting the 3′-UTR, regarding to their silencing activities, as evaluated by reporter system. 
+
+   <span style=color:blue>使用 psiCheck 报告载体评估 siRNA 的活性，因为已证明，靶向 CDS 区域的 siRNA 和靶向 3'-UTR 区域的 siRNA 在沉默活性方面没有显著差异，如报告系统所评估的</span>
 
 9. Use other nucleic acid transfection reagents, e.g., Lipofectamine 3000 and Lipofectamine RNAiMAX. 
 
+   <span style=color:blue>使用其他核酸转染试剂，例如 Lipofectamine 3000 和 Lipofectamine RNAiMAX。</span>
+
 10. Typically, use a scrambled siRNA in both luciferase assay and PCR assays, and normalize the activity of tested siRNA to that of the scrambled siRNA. However, if the Ct values of untreated sample, mock sample, and scrambled siRNA-treated sample are consistent, use all the above negative controls for normalization. 
+
+    <span style=color:blue>通常，在荧光素酶测定和 PCR 测定中使用乱序 siRNA，并将测试的 siRNA 的活性标准化为乱序 siRNA 的活性。但是，如果未处理样品、模拟样品和乱序 siRNA 处理样品的 Ct 值一致，则使用上述所有阴性对照进行标准化。</span>
 
 11. The sequence of a scrambled siRNA that is widely used: sense strand: UUCUCCGAACGUGUCACGUdTdT, antisense strand: ACGUGACACGUUCGGAGAAdTdT. Bioinformatics analysis shows that this siRNA target no transcript for human, mouse, rat, and monkey.
 
+    <span style=color:blue>一个广泛使用的siRNA序列：正链：UUCUCCGAACGUGUCACGUdTdT，反链：ACGUGACACGUUCGGAGAAdTdT。生物信息学分析表明该siRNA针对人、小鼠、大鼠和猴没有转录本。</span>
+
 12. Determine the protein expression level with Western Blotting. In this case, extract total protein and perform the assay according to the well-established standard protocols.
+
+    <span style=color:blue>用Western Blotting检测蛋白表达水平。此时，提取总蛋白并按照成熟的标准方案进行检测。</span>
 
 13. Change the dosage according to requirements of the assay. If the activity of the tested siRNA is extremely high, use low dose. If the duration of single dose of siRNA is intended to be observed, use relatively higher dose. 
 
+    <span style=color:blue>据检测要求改变剂量。如果测试的siRNA活性极高，则使用低剂量。如果要观察单剂量siRNA的持续时间，则使用相对较高的剂量。</span>
+
 14. If the duration of siRNA potency is intended to be evaluated, choose longer period, e.g., 1 month, even half year. 
+
+    <span style=color:blue>如果要评估siRNA效力的持续时间，则选择较长的时间，例如1个月，甚至半年。</span>
 
 15. Determine the toxicological doses that are normally higher than the treatment doses by using dose range finding (DRF) study. 
 
+    <span style=color:blue>利用剂量范围探索（DRF）研究确定通常高于治疗剂量的毒理学剂量。</span>
+
 16. Currently, siRNA therapeutics are managed as chemical drugs around the world and prefer toxicology study in NHP. Meanwhile, recommend safety evaluations in mice or rats.
+
+    <span style=color:blue>目前，siRNA 疗法在世界范围内作为化学药物进行管理，优先在 NHP 中进行毒理学研究。同时，建议在小鼠或大鼠中进行安全性评估。</span>
