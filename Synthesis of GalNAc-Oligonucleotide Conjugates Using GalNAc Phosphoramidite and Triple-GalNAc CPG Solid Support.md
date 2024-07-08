@@ -70,7 +70,7 @@ Here we provide a robust protocol for the synthesis of triple GalNAc CPG solid s
 
    (s) Amino-tri-(*t*-butoxycarbonylethoxymethyl)-methane **1**
 
-   (t) 12-(Benzyloxy)-12-oxododecanoic acid [[12](clbr://internal.invalid/OEBPS/html/485053_1_En_7_Chapter.xhtml#CR12)], 2-(2-(2-(2-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)ethoxy)ethoxy)ethoxy)ethylammonium trifluoroacetate **4**.
+   (t) 12-(Benzyloxy)-12-oxododecanoic acid, 2-(2-(2-(2-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)ethoxy)ethoxy)ethoxy)ethylammonium trifluoroacetate **4**.
 
    (u) 1-Amino-3-*O*-(4,4′-dimethoxytrityl)propan-2-ol.
 
