@@ -32,97 +32,109 @@ Here we provide a robust protocol for the synthesis of triple GalNAc CPG solid s
 
 1. Reagents were purchased from commercial suppliers and used as is:
 
-   (a) *N*,*N*-Diisopropylethylamine (DIEA).
+   <span style=color:blue>所用试剂购自商业供应商，直接使用</span>
 
-   (b) 2-Cyanoethyl *N*,*N*-diisopropylchlorophosphoramidite.
+   (a) *N*,*N*-Diisopropylethylamine (DIEA).<span style=color:blue>*N*,*N*-二异丙基乙胺 (DIEA)</span>
 
-   (c) Triethylamine (TEA).
+   (b) 2-Cyanoethyl *N*,*N*-diisopropylchlorophosphoramidite.<span style=color:blue>2-氰乙基*N*,*N*-二异丙基氯膦酰胺</span>
 
-   (d) 40% Aqueous methylamine solution.
+   (c) Triethylamine (TEA).<span style=color:blue>三乙胺 (TEA)</span>
 
-   (e) EDC·HCl.
+   (d) 40% Aqueous methylamine solution.<span style=color:blue>40% 甲胺水溶液</span>
 
-   (f) HOBt.
+   (e) EDC·HCl.<span style=color:blue>*N*-（3-二甲基氨基丙基）-*N*'-乙基碳二亚胺 盐酸盐</span>
 
-   (g) Trifluoroacetic acid (TFA).
+   (f) HOBt.<span style=color:blue>1-羟基苯并三唑</span>
 
-   (h) 10% (w/w) palladium on activated carbon.
+   (g) Trifluoroacetic acid (TFA).<span style=color:blue>三氟乙酸 (TFA)</span>
 
-   (i) Hydrogen.
+   (h) 10% (w/w) palladium on activated carbon.<span style=color:blue>10% (w/w) 钯/活性炭</span>
 
-   (j) Succinylated LCAA-CPG.
+   (i) Hydrogen.<span style=color:blue>氢气</span>
 
-   (k) DMAP.
+   (j) Succinylated LCAA-CPG.<span style=color:blue>琥珀酰化LCAA-CPG</span>
 
-   (l) Diisopropylcarbodiimide.
+   (k) DMAP.<span style=color:blue>4-二甲氨基吡啶</span>
 
-   (m) Pentafluorophenol.
+   (l) Diisopropylcarbodiimide.<span style=color:blue>二异丙基碳二亚胺</span>
 
-   (n) Piperidine.
+   (m) Pentafluorophenol.<span style=color:blue> 五氟苯酚</span>
 
-   (o) Acetic anhydride.
+   (n) Piperidine.<span style=color:blue>哌啶</span>
 
-   (p) 2,6-Lutidine.
+   (o) Acetic anhydride.<span style=color:blue>醋酸酐</span>
 
-   (q) 1-Methylimidazole.
+   (p) 2,6-Lutidine.<span style=color:blue>2,6-二甲基吡啶。</span>
 
-   (r) 2,2,2-Trifluoro-*N*-(4-hydroxy-1,1-bis(4-methoxyphenyl)-1-phenyl-2,6,9,12,15-pentaoxaoctadecan-18-yl)acetamide **9-**use an available custom synthesis service (e.g., Primetech) to obtain this item.
+   (q) 1-Methylimidazole.<span style=color:blue>1-甲基咪唑</span>
 
-   (s) Amino-tri-(*t*-butoxycarbonylethoxymethyl)-methane **1**
+   (r) 2,2,2-Trifluoro-*N*-(4-hydroxy-1,1-bis(4-methoxyphenyl)-1-phenyl-2,6,9,12,15-pentaoxaoctadecan-18-yl)acetamide **9-**use an available custom synthesis service (e.g., Primetech) to obtain this item.<span style=color:blue>2,2,2-三氟-*N*-(4-羟基-1,1-双(4-甲氧基苯基)-1-苯基-2,6,9,12,15-五氧杂十八烷-18-基)乙酰胺 **9**—通过使用可用的定制合成服务（例如Primetech）获得此项</span>
 
-   (t) 12-(Benzyloxy)-12-oxododecanoic acid, 2-(2-(2-(2-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)ethoxy)ethoxy)ethoxy)ethylammonium trifluoroacetate **4**.
+   (s) Amino-tri-(*t*-butoxycarbonylethoxymethyl)-methane **1**<span style=color:blue>氨基-三-(*t*-丁氧羰基乙氧基甲基)-甲烷 **1**</span>
 
-   (u) 1-Amino-3-*O*-(4,4′-dimethoxytrityl)propan-2-ol.
+   (t) 12-(Benzyloxy)-12-oxododecanoic acid, 2-(2-(2-(2-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)ethoxy)ethoxy)ethoxy)ethylammonium trifluoroacetate **4**.<span style=color:blue>12-(苄氧基)-12-氧代十二酸, 2-(2-(2-(2-(3,4,6-三-*O*-乙酰基-2-乙酰氨基-2-脱氧-β-d-半乳糖吡喃糖氧基)乙氧基)乙氧基)乙氧基)乙基铵三氟乙酸盐 **4**</span>
 
-   (v) 5-(((2*R*,3*R*,4*R*,5*R*,6*R*)-3-acetamido-4,5-diacetoxy-6-(acetoxymethyl)tetrahydro-2*H*-pyran-2-yl)oxy)pentanoic acid **11**—synthetize this item as described previously.
+   (u) 1-Amino-3-*O*-(4,4′-dimethoxytrityl)propan-2-ol.<span style=color:blue>1-氨基-3-*O*-(4,4'-二甲氧基三苯甲基)丙-2-醇</span>
 
-   (w) Iodine.
+   (v) 5-(((2*R*,3*R*,4*R*,5*R*,6*R*)-3-acetamido-4,5-diacetoxy-6-(acetoxymethyl)tetrahydro-2*H*-pyran-2-yl)oxy)pentanoic acid **11**—synthetize this item as described previously.<span style=color:blue>5-(((2*R*,3*R*,4*R*,5*R*,6*R*)-3-乙酰氨基-4,5-二乙酰氧基-6-(乙酰氧基甲基)四氢-2*H*-吡喃-2-基)氧基)戊酸 **11**—如前所述进行合成</span>
 
-   (x) Anhydrous sodium sulfate.
+   (w) Iodine.<span style=color:blue>碘</span>
 
-   (y) Sodium bicarbonate.
+   (x) Anhydrous sodium sulfate.<span style=color:blue>无水硫酸钠</span>
 
-   (z) Sodium chloride .
+   (y) Sodium bicarbonate.<span style=color:blue> 碳酸氢钠</span>
 
-   (aa) Potassium carbonate.
+   (z) Sodium chloride .<span style=color:blue>氯化钠。</span>
+
+   (aa) Potassium carbonate.<span style=color:blue>碳酸钾</span>
 
 2. Solvents available from common commercial suppliers were high-performance liquid chromatography (HPLC) grade and were used without further purification unless otherwise noted:
 
-   (a) Dichloromethane (DCM) was always used freshly distilled over calcium hydride.
+   <span style=color:blue>溶剂由普通商业供应商提供，为高效液相色谱 (HPLC) 级别，除非另有说明，否则不进行进一步纯化</span>
 
-   (b) Ethyl acetate (EtOAc).
+   (a) Dichloromethane (DCM) was always used freshly distilled over calcium hydride.<span style=color:blue>始终使用经过氢化钙蒸馏新制的二氯甲烷</span>
 
-   (c) Ethanol (EtOH).
+   (b) Ethyl acetate (EtOAc).<span style=color:blue>乙酸乙酯 (EtOAc)</span>
 
-   (d) Methanol (MeOH).
+   (c) Ethanol (EtOH).<span style=color:blue>乙醇 (EtOH)</span>
 
-   (e) Dimethylformamide (DMF) was freshly distilled under reduced pressure.
+   (d) Methanol (MeOH).<span style=color:blue>甲醇 (MeOH)</span>
 
-   (f) Toluene (PhMe).
+   (e) Dimethylformamide (DMF) was freshly distilled under reduced pressure.<span style=color:blue>减压蒸馏新制的二甲基甲酰胺</span>
 
-   (g) Petroleum ether.
+   (f) Toluene (PhMe).<span style=color:blue>甲苯 (PhMe)</span>
 
-   (h) Diethyl ether (Et2O).
+   (g) Petroleum ether.<span style=color:blue>石油醚</span>
 
-   (i) Tetrahydrofuran (THF).
+   (h) Diethyl ether (Et2O).<span style=color:blue>乙醚 (Et2O)</span>
 
-   (j) Hexane.
+   (i) Tetrahydrofuran (THF).<span style=color:blue>四氢呋喃 (THF)</span>
 
-   (k) Acetone.
+   (j) Hexane.<span style=color:blue>正己烷</span>
 
-   (l) Benzene.
+   (k) Acetone.<span style=color:blue>丙酮</span>
 
-   (m) Pyridine.
+   (l) Benzene.<span style=color:blue>苯</span>
 
-   (n) Acetonitrile. 
+   (m) Pyridine.<span style=color:blue>吡啶</span>
+
+   (n) Acetonitrile. <span style=color:blue> 乙腈</span>
 
 3. Chromatography:
 
+   <span style=color:blue>色谱条件</span>
+
    (a) Analytical thin-layer chromatography is performed on Kieselgel 60 F254 precoated aluminum plates (Merck); spots are visualized under UV light (254 nm). Phosphomolybdic acid stain solution preparation: dissolve 1 g of phosphomolybdic acid in 25 mL of absolute ethanol.
+
+   <span style=color:blue>(a) 分析薄层层析 (TLC) 使用默克公司预涂层 Kieselgel 60 F254 铝板进行，斑点在紫外光 (254 nm) 下显色。磷钼酸染色液制备：将 1 克磷钼酸溶解在 25 毫升无水乙醇中。</span>
 
    (b) Column chromatography is performed on silica gel (Merck Kieselgel 60 0.040–0.063 mm).
 
-4. ^1^H and ^13^C NMR spectra were recorded at 400 or 600 MHz and 101 or 151 MHz instruments, respectively. ^31^P NMR spectrum was recorded at 202 MHz instrument. Chemical shifts are reported in *δ* (ppm) units using residual ^1^H signals from deuterated solvents as references. The coupling constants (*J*) are given in Hz. 
+   <span style=color:blue>柱层析填料为硅胶 (默克 Kieselgel 60 0.040–0.063 mm)</span>
+
+4. <sup>1</sup>H and <sup>13</sup>C NMR spectra were recorded at 400 or 600 MHz and 101 or 151 MHz instruments, respectively. <sup>31</sup>P NMR spectrum was recorded at 202 MHz instrument. Chemical shifts are reported in *δ* (ppm) units using residual <sup>1</sup>H signals from deuterated solvents as references. The coupling constants (*J*) are given in Hz. 
+
+   <sup>1</sup>H 和<sup>13</sup>C 核磁共振 (NMR) 光谱分别使用 400 或 600 MHz 以及 101 或 151 MHz 的仪器进行记录。<sup>31</sup>P 核磁共振光谱则使用 202 MHz 的仪器记录。化学位移以 *δ* (ppm) 为单位报告，参考氘代溶剂中的残余 ^1^H 信号。偶合常数 (*J*) 以赫兹 (Hz) 为单位表示。
 
 ### 2.2 Oligonucleotide Synthesis
 
