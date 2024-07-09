@@ -134,7 +134,7 @@ Here we provide a robust protocol for the synthesis of triple GalNAc CPG solid s
 
 4. <sup>1</sup>H and <sup>13</sup>C NMR spectra were recorded at 400 or 600 MHz and 101 or 151 MHz instruments, respectively. <sup>31</sup>P NMR spectrum was recorded at 202 MHz instrument. Chemical shifts are reported in *δ* (ppm) units using residual <sup>1</sup>H signals from deuterated solvents as references. The coupling constants (*J*) are given in Hz. 
 
-   <sup>1</sup>H 和<sup>13</sup>C 核磁共振 (NMR) 光谱分别使用 400 或 600 MHz 以及 101 或 151 MHz 的仪器进行记录。<sup>31</sup>P 核磁共振光谱则使用 202 MHz 的仪器记录。化学位移以 *δ* (ppm) 为单位报告，参考氘代溶剂中的残余 ^1^H 信号。偶合常数 (*J*) 以赫兹 (Hz) 为单位表示。
+   <span style=color:blue><sup>1</sup>H 和<sup>13</sup>C 核磁共振 (NMR) 光谱分别使用 400 或 600 MHz 以及 101 或 151 MHz 的仪器进行记录。<sup>31</sup>P 核磁共振光谱则使用 202 MHz 的仪器记录。化学位移以 *δ* (ppm) 为单位报告，参考氘代溶剂中的残余 <sup>1</sup>H 信号。偶合常数 (*J*) 以赫兹 (Hz) 为单位表示。</span>
 
 ### 2.2 Oligonucleotide Synthesis
 
