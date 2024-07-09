@@ -136,61 +136,81 @@ Here we provide a robust protocol for the synthesis of triple GalNAc CPG solid s
 
    <span style=color:blue><sup>1</sup>H 和<sup>13</sup>C 核磁共振 (NMR) 光谱分别使用 400 或 600 MHz 以及 101 或 151 MHz 的仪器进行记录。<sup>31</sup>P 核磁共振光谱则使用 202 MHz 的仪器记录。化学位移以 *δ* (ppm) 为单位报告，参考氘代溶剂中的残余 <sup>1</sup>H 信号。偶合常数 (*J*) 以赫兹 (Hz) 为单位表示。</span>
 
-### 2.2 Oligonucleotide Synthesis
+### 2.2 Oligonucleotide Synthesis 寡核苷酸合成
 
 1. Standard reagents for oligonucleotide synthesis can be purchased from any commercial supplier:
 
-   (a) Protected 2′-*O*-methyl, 2′-deoxy, 2′-deoxy-2′-fluoro nucleoside phosphoramidites.
+   <span style=color:blue>用于寡核苷酸合成的标准试剂可从任何商业供应商处购买</span>
 
-   (b) Deprotection solution (3% trichloroacetic acid in DCM).
+   (a) Protected 2′-*O*-methyl, 2′-deoxy, 2′-deoxy-2′-fluoro nucleoside phosphoramidites.<span style=color:blue>保护的2'-*O*-甲基、2'-脱氧、2'-脱氧-2'-氟核苷磷酰胺</span>
 
-   (c) Oxidizing solution (0.02 M iodine in THF/pyridine/water (80/10/10, v/v/v)).
+   (b) Deprotection solution (3% trichloroacetic acid in DCM).<span style=color:blue>脱保护溶液（3%三氯乙酸溶于二氯甲烷中）</span>
 
-   (d) Capping solutions (Cap A: 10% acetic anhydride, 10% pyridine in THF; Cap B: 16% *N*-methylimidazole in THF).
+   (c) Oxidizing solution (0.02 M iodine in THF/pyridine/water (80/10/10, v/v/v)).<span style=color:blue>氧化溶液（0.02 M碘溶于四氢呋喃/吡啶/水（80/10/10, v/v/v）中）</span>
 
-   (e) Acetonitrile (DNA synthesis grade).
+   (d) Capping solutions (Cap A: 10% acetic anhydride, 10% pyridine in THF; Cap B: 16% *N*-methylimidazole in THF).<span style=color:blue>封端溶液（封端A：10%乙酸酐，10%吡啶溶于四氢呋喃中；封端B：16% *N*-甲基咪唑溶于四氢呋喃中）</span>
 
-   (f) Solution of activator (0.25 M 5-ethylthiotetrazole in acetonitrile).
+   (e) Acetonitrile (DNA synthesis grade).<span style=color:blue>乙腈（用于DNA合成）</span>
 
-   (g) Universal solid support. 
+   (f) Solution of activator (0.25 M 5-ethylthiotetrazole in acetonitrile).<span style=color:blue>活化剂溶液（0.25 M 5-乙基硫代四唑溶于乙腈中）</span>
+
+   (g) Universal solid support. <span style=color:blue>通用固相载体</span>
 
 2. Standard reagents for oligonucleotide purification and characterization by IE-HPLC and PAGE can be purchased from any commercial supplier:
 
-   (a) Acrylamide.
+   <span style=color:blue>用于通过离子交换高效液相色谱（IE-HPLC）和聚丙烯酰胺凝胶电泳（PAGE）进行寡核苷酸纯化和表征的标准试剂可从任何商业供应商处购买</span>
 
-   (b) Bis-acrylamide.
+   (a) Acrylamide.<span style=color:blue>丙烯酰胺</span>
 
-   (c) Tris.
+   (b) Bis-acrylamide.<span style=color:blue>双丙烯酰胺</span>
 
-   (d) Boric acid.
+   (c) Tris.<span style=color:blue>三羟甲基氨基甲烷</span>
 
-   (e) Urea.
+   (d) Boric acid.<span style=color:blue>硼酸</span>
 
-   (f) Sodium perchlorate.
+   (e) Urea.<span style=color:blue>尿素</span>
 
-   (g) Disodium EDTA.
+   (f) Sodium perchlorate.<span style=color:blue>高氯酸钠</span>
 
-   (h) HPLC-grade water.
+   (g) Disodium EDTA.<span style=color:blue>乙二胺四乙酸二钠</span>
 
-   (i) HPLC gradient grade acetonitrile . 
+   (h) HPLC-grade water.<span style=color:blue>HPLC级水</span>
 
-## 3 Methods
+   (i) HPLC gradient grade acetonitrile . <span style=color:blue>HPLC梯度级乙腈</span>
 
-### 3.1 Preparation of Triple GalNAc TEG Solid Support for RNA Synthesis
+## 3 Methods 方法
+
+### 3.1 Preparation of Triple GalNAc TEG Solid Support for RNA Synthesis 用于 RNA 合成的三价半乳糖胺 (GalNAc) TEG 固体载体制备
 
 Synthetic procedure is based on the synthesis of the key block—triple GalNAc TEG derivative **7** (Subheadings 3.1.1~3.1.4) followed by common transformations to obtain solid support **8** for automated oligonucleotide synthesis (Fig. [2](clbr://internal.invalid/OEBPS/html/485053_1_En_7_Chapter.xhtml#Fig2)). Before starting synthesis please read **Notes** **1** and **2**.
+
+<span style=color:blue>本方法以关键构建单元 - 三价半乳糖胺 (GalNAc) TEG 衍生物 **7** 的合成 (3.1.1~3.1.4 小节) 为基础，然后通过常规转化步骤获得用于自动寡核苷酸合成的固体载体 **8** (图 2)。 开始合成之前，请阅读 **注释** **1** 和 **2**。</span>
 
 ![485053_1_En_7_Fig2_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_7_Fig2_HTML.png)
 
 **Fig. 2** Synthesis of triple GalNAc TEG CPG solid support
 
-#### 3.1.1 Synthesis of 3,3′-((2-(12-(Benzyloxy)-12-oxododecanamido)-2-((2-carboxyethoxy)methyl)propane-1,3-diyl)bis(oxy))-dipropionic acid 3
+#### 3.1.1 Synthesis of 3,3′-((2-(12-(Benzyloxy)-12-oxododecanamido)-2-((2-carboxyethoxy)methyl)propane-1,3-diyl)bis(oxy))-dipropionic acid 3 3,3′-((2-(12-(苄氧基)-12-氧代十二烷酰胺基)-2-((2-羧基乙氧基)甲基)丙烷-1,3-二基)双(氧基))-二丙酸 **3**的合成
 
 1. Charge 2.15 g, 4.25 mmol amine **1** in a 50-mL round-bottom flask under dry argon atmosphere and add 20 mL of absolute DCM. Add 1.50 g, 4.89 mmol of 12-(Benzyloxy)-12-oxododecanoic acid and dissolve solid residues under magnetic stirring. Add sequentially 0.98 g, 5.1 mmol of EDC·HCl, 0.69 g, 5.1 mmol of HOBt, and 0.77 mL, 5.53 mmol of Et3N to the reaction mixture and stir it overnight. Monitor conversion of amine **1** (Rf 0.15) to the product **2** (Rf 0.85) by TLC in EtOAc–hexane, 1:1 v/v, to visualize spots—stain the plate with phosphomolybdic acid solution (*see* **Note** **3**). 
+
+   <span style=color:blue>在干燥的氩气气氛下，于 50 mL 圆底烧瓶中加入 2.15 g (4.25 mmol) 的胺 **1** 和 20 mL 的无水 DCM。加入 1.50 g (4.89 mmol) 的 12-(苄氧基)-12-氧代十二烷酸，并用磁力搅拌溶解固体残留物。然后依次向反应混合物中加入 0.98 g (5.1 mmol) 的 EDC·HCl、0.69 g (5.1 mmol) 的 HOBt 和 0.77 mL (5.53 mmol) 的 Et3N，并搅拌过夜。通过薄层层析 (TLC) 用乙酸乙酯-己烷 (1:1 v/v) 溶液监测胺 **1** (Rf 0.15) 转化成产物 **2** (Rf 0.85)，用磷钼酸溶液染色显色斑点 (*见* **注释** **3**)。</span>
+
 2. Dilute reaction mixture with 100 mL of DCM, pour the reaction mixture into a 250-mL separatory funnel and wash it thrice with 50 mL of water, thrice with 50 mL of 10% citric acid in water, thrice with 50 mL of saturated sodium bicarbonate in water and once with 50 mL of brine. Dry organic layer with sodium sulfate and concentrate to dryness using a rotary evaporator under reduced pressure to obtain amide **2** as a colorless oil. 
+
+   <span style=color:blue>用 100 mL DCM 稀释反应混合物，将反应物倒入 250 mL 分液漏斗中，用 50 mL 水洗涤 3 次，用 50 mL 10% 的柠檬酸水溶液洗涤 3 次，用 50 mL 饱和碳酸氢钠水溶液洗涤 3 次，用 50 mL 饱和盐水洗涤 1 次。用硫酸钠干燥有机层，并使用旋转蒸发器在减压下浓缩至干燥，得到酰胺 **2**，为无色油状物。</span>
+
 3. Dissolve the colorless oil in 20 mL of 25% TFA in DCM and stir the reaction mixture overnight. Monitor reaction by TLC in EtOAc–hexane, 1:1 v/v until amide **2** (Rf 0.85) is gone (stain the plate with phosphomolybdic acid solution). 
+
+   <span style=color:blue>将无色油状物溶解在 20 mL 的 25% TFA/DCM 溶液中，并搅拌反应混合物过夜。通过薄层层析 (TLC) 用乙酸乙酯-己烷 (1:1 v/v) 溶液监测反应，直至酰胺 **2** (Rf 0.85) 消失 (用磷钼酸溶液染色显色斑点)。</span>
+
 4. Concentrate the reaction mixture to dryness on a rotary evaporator under reduced pressure to obtain oil. Dissolve the oil in 20 mL of toluene and evaporate the solvent to remove residual TFA (repeat twice), then dissolve oil in 3 mL of ethyl acetate and precipitate the product with 16 mL of petroleum ether. Cool the mixture in a fridge (+4 °C for 2 h) and carefully decant the liquid phase. Dissolve the solid residue in 3 mL of ethyl acetate and precipitate the product again with 16 mL of petroleum ether. Decant liquid and dry residue in vacuum to obtain 2.36 g of pure product **3** (Rf 0.20) (EtOAc) as a white solid in 89% yield. 
-5. Confirm the purity of the compound **3** by ^1^H, ^13^C NMR spectroscopy and high-resolution mass-spectrometry (*see* **Note** **4**). ^1^H NMR (500 MHz, DMSO-d6) *δ* 12.16 (s, 3H), 7.39–7.28 (m, 5H), 6.90 (s, 1H), 5.07 (s, 2H), 3.59–3.50 (m, 12H), 2.41 (t, *J* = 6.3 Hz, 6H), 2.33 (t, *J* = 7.4 Hz, 2H), 2.03 (t, *J* = 7.3 Hz, 2H), 1.57–1.47 (m, 2H), 1.46–1.38 (m, 2H), 1.26–1.19 (m, 12H); ^13^C NMR (126 MHz, DMSO-d6) *δ* 172.80, 172.63, 172.51, 136.33, 128.43, 127.98, 127.94, 68.17, 66.69, 65.29, 59.52, 35.89, 34.60, 33.49, 28.92, 28.91, 28.85, 28.68, 28.53, 28.45, 25.30, 24.50; ESI HRMS *m*/*z* calculated for *m*/*z* calculated for [C~32~H~49~NO~12~ + H]^+^ 640.3333, found 640.3321.
+
+   <span style=color:blue>使用旋转蒸发器在减压下将反应混合物浓缩至干燥，得到油状物。将油状物溶解在 20 mL toluene中，蒸发溶剂以除去残留的 TFA (重复两次)，然后将油状物溶解在 3 mL 乙酸乙酯中，用 16 mL 石油醚沉淀产物。将混合物冷却于冰箱中 (+4 °C，2 小时)，小心地倾出液体部分。将固体残留物溶解在 3 mL 乙酸乙酯中，并用 16 mL 石油醚再次沉淀产物。倾出液体，将残留物干燥抽真空，得到 2.36 g 纯净产物 **3** (Rf 0.20) (乙酸乙酯) ，为白色固体，产率为 89%。</span>
+
+5. Confirm the purity of the compound **3** by <sup>1</sup>H, <sup>13</sup>C NMR spectroscopy and high-resolution mass-spectrometry (*see* **Note** **4**). <sup>1</sup>H NMR (500 MHz, DMSO-d6) *δ* 12.16 (s, 3H), 7.39–7.28 (m, 5H), 6.90 (s, 1H), 5.07 (s, 2H), 3.59–3.50 (m, 12H), 2.41 (t, *J* = 6.3 Hz, 6H), 2.33 (t, *J* = 7.4 Hz, 2H), 2.03 (t, *J* = 7.3 Hz, 2H), 1.57–1.47 (m, 2H), 1.46–1.38 (m, 2H), 1.26–1.19 (m, 12H); <sup>13</sup>C NMR (126 MHz, DMSO-d6) *δ* 172.80, 172.63, 172.51, 136.33, 128.43, 127.98, 127.94, 68.17, 66.69, 65.29, 59.52, 35.89, 34.60, 33.49, 28.92, 28.91, 28.85, 28.68, 28.53, 28.45, 25.30, 24.50; ESI HRMS *m*/*z* calculated for *m*/*z* calculated for [C<sub>32</sub>H<sub>49</sub>NO<sub>12</sub> + H]<sup>+</sup> 640.3333, found 640.3321.
+
+   <span style=color:blue>通过<sup>1</sup>H、<sup>13</sup>C NMR光谱和高分辨质谱确认化合物**3**的纯度（见**注释** **4**）。<sup>1</sup>H NMR (500 MHz, DMSO-d6) *δ* 12.16 (s, 3H), 7.39–7.28 (m, 5H), 6.90 (s, 1H), 5.07 (s, 2H), 3.59–3.50 (m, 12H), 2.41 (t, *J* = 6.3 Hz, 6H), 2.33 (t, *J* = 7.4 Hz, 2H, <sup>13</sup>C NMR (126 MHz, DMSO-d6) *δ* 172.80, 172.63, 172.51, 136.33, 128.43, 127.98, 127.94, 68.17, 66.69, 65.29, 59.52, 35.89, 34.60, 33.49, 28.92, 28.91, 28.85, 28.68, 28.53, 28.45, 25.30, 24.50; ESI HRMS *m/z* calculated for [C<sub>32</sub>H<sub>49</sub>NO<sub>12</sub> + H]<sup>+</sup>^ 640.3333, found 640.3321.</span>
 
 #### 3.1.2 *N*-(12-(Benzyloxy)-12-oxododecanamido)-tris[2,5,8,11,18-pentaoxa-14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)nonadecyl]methane 5
 
