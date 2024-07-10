@@ -212,68 +212,145 @@ Synthetic procedure is based on the synthesis of the key block—triple GalNAc T
 
    <span style=color:blue>通过<sup>1</sup>H、<sup>13</sup>C NMR光谱和高分辨质谱确认化合物**3**的纯度（见**注释** **4**）。<sup>1</sup>H NMR (500 MHz, DMSO-d6) *δ* 12.16 (s, 3H), 7.39–7.28 (m, 5H), 6.90 (s, 1H), 5.07 (s, 2H), 3.59–3.50 (m, 12H), 2.41 (t, *J* = 6.3 Hz, 6H), 2.33 (t, *J* = 7.4 Hz, 2H, <sup>13</sup>C NMR (126 MHz, DMSO-d6) *δ* 172.80, 172.63, 172.51, 136.33, 128.43, 127.98, 127.94, 68.17, 66.69, 65.29, 59.52, 35.89, 34.60, 33.49, 28.92, 28.91, 28.85, 28.68, 28.53, 28.45, 25.30, 24.50; ESI HRMS *m/z* calculated for [C<sub>32</sub>H<sub>49</sub>NO<sub>12</sub> + H]<sup>+</sup> 640.3333, found 640.3321.</span>
 
-#### 3.1.2 *N*-(12-(Benzyloxy)-12-oxododecanamido)-tris[2,5,8,11,18-pentaoxa-14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)nonadecyl]methane 5
+#### 3.1.2 *N*-(12-(Benzyloxy)-12-oxododecanamido)-tris[2,5,8,11,18-pentaoxa-14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)nonadecyl]methane 5 *N*-(12-(苄氧基)-12-氧代十二烷酰胺)-三[2,5,8,11,18-五氧杂-14-氮杂-15-氧代-19-(3,4,6-三-*O*-乙酰基-2-乙酰氨基-2-脱氧-β-D-半乳糖吡喃糖氧基)十九烷基]甲烷 5
 
 1. Charge 8.63 g, 13.56 mmol 2-(2-(2-(2-(((3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)ethoxy)ethoxy)ethoxy)ethylammonium trifluoroacetate (**4**) and 2.36 g, 3.77 mmol of triacid (**3**) in 100-mL round-bottom flask under dry argon atmosphere and dissolve in 50 mL DCM under magnetic stirring. Add sequentially 4.19 mL, 30.16 mmol of Et3N, 2.89 g, 15.08 mmol of EDC·HCl and 2.04 g, 15.08 mmol HOBt to the reaction mixture and stir it overnight. Monitor conversion of triacid **3** (Rf 0.05) to product **5** (Rf 0.65) by TLC in DCM–MeOH, 87/13, v/v, to visualize spots—stain the plate with phosphomolybdic acid solution (*see* **Note** **5**). 
-2. Dilute the reaction mixture with 100 mL of DCM, pour it into a 250-mL separatory funnel, and wash it thrice with 50 mL of water, thrice with 50 mL of 10% citric acid in water, thrice with 50 mL of saturated sodium bicarbonate in water, and once with 50 mL of brine. Dry organic layer with sodium sulfate and concentrate to dryness under reduced pressure using a rotary evaporator.
-3. Purify the residue by column chromatography on silica gel (use 4-cm diameter chromatography column filled with at least 125 g of silica gel in DCM) with a linear gradient of DCM–MeOH from 100:0 to 90:10 v/v. Combine and evaporate fractions that contain pure compound **5** (Rf 0.65 in DCM–MeOH, 87:13 v/v) to obtain 3.96 g of triamide **5** as a white solid in 78% yield. 
-4. Confirm the purity of compound **5** by ^1^H, ^13^C NMR spectroscopy and high-resolution mass-spectrometry. ^1^H NMR (500 MHz, DMSO-d6) *δ* 7.92 (t, *J* = 5.7 Hz, 3H), 7.81 (d, *J* = 9.3 Hz, 3H), 7.41–7.29 (m, 5H), 6.99 (s, 1H), 5.21 (d, *J* = 3.4 Hz, 3H), 5.07 (s, 2H), 4.96 (dd, *J* = 11.2, 3.4 Hz, 3H), 4.55 (d, *J* = 8.5 Hz, 3H), 4.05–3.98 (m, 9H), 3.88 (dt, *J* = 11.1, 8.8 Hz, 3H), 3.80–3.74 (m, 3H), 3.61–3.47 (m, 45H), 3.40–3.37 (m, 6H), 3.23–3.15 (m, 6H), 2.35–2.26 (m, 8H), 2.10 (s, 9H), 2.04 (t, *J* = 7.4 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.55–1.48 (m, 2H), 1.45–1.39 (m, 2H), 1.26–1.16 (m, 12H). ^13^C NMR (126 MHz, DMSO-d6) *δ* 173.84, 172.63, 170.40, 170.11, 170.04, 169.74, 169.48, 136.36, 128.50, 128.06, 127.99, 101.02, 78.55, 70.59, 69.96, 69.88, 69.77, 69.64, 69.52, 69.16, 68.41, 68.36, 68.34, 67.36, 66.78, 65.35, 61.53, 59.57, 49.39, 38.57, 35.92, 33.53, 28.97, 28.96, 28.89, 28.74, 28.69, 28.50, 25.38, 24.55, 22.84, 20.59, 20.53, 20.50. ESI-HRMS *m*/*z* calculated for [C~98~H~157~N~7~O~45~ + H]^+^ 2153.0290, found 2153.0279. 
 
-#### 3.1.3 *N*-(11-Carboxy-undecanamido)-tris[2,5,8,11,18-pentaoxa-14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)nonadecyl]methane 6
+   <span style=color:blue>在干燥的氩气氛下，将8.63克（13.56毫摩尔）的2-(2-(2-(2-(3,4,6-三-*O*-乙酰基-2-乙酰氨基-2-脱氧-β-D-半乳糖吡喃糖氧基)乙氧基)乙氧基)乙基)铵三氟乙酸盐(**4**)和2.36克（3.77毫摩尔）的三酸(**3**)加入100毫升的圆底烧瓶中，溶解在50毫升的二氯甲烷（DCM）中，磁力搅拌。依次加入4.19毫升（30.16毫摩尔）的三乙胺（Et3N）、2.89克（15.08毫摩尔）的1-(3-二甲氨基丙基)-3-乙基碳二亚胺盐酸盐（EDC·HCl）和2.04克（15.08毫摩尔）的1-羟基苯并三唑（HOBt），搅拌过夜。通过薄层色谱法（TLC）在DCM和甲醇（MeOH）的混合溶液（87:13，v/v）中监测三酸(**3**) (Rf 0.05)向产物**5** (Rf 0.65)的转化情况，用磷钼酸溶液染色（见注释**5**）。</span>
+
+2. Dilute the reaction mixture with 100 mL of DCM, pour it into a 250-mL separatory funnel, and wash it thrice with 50 mL of water, thrice with 50 mL of 10% citric acid in water, thrice with 50 mL of saturated sodium bicarbonate in water, and once with 50 mL of brine. Dry organic layer with sodium sulfate and concentrate to dryness under reduced pressure using a rotary evaporator.
+
+   <span style=color:blue>用100毫升的DCM稀释反应混合物，倒入250毫升的分液漏斗中，分别用50毫升的水洗三次，用50毫升的10%柠檬酸水溶液洗三次，用50毫升的饱和碳酸氢钠水溶液洗三次，再用50毫升的盐水洗一次。用无水硫酸钠干燥有机层，并在减压下用旋转蒸发器浓缩至干燥。</span>
+
+3. Purify the residue by column chromatography on silica gel (use 4-cm diameter chromatography column filled with at least 125 g of silica gel in DCM) with a linear gradient of DCM–MeOH from 100:0 to 90:10 v/v. Combine and evaporate fractions that contain pure compound **5** (Rf 0.65 in DCM–MeOH, 87:13 v/v) to obtain 3.96 g of triamide **5** as a white solid in 78% yield. 
+
+   <span style=color:blue>用硅胶柱层析法纯化残留物（使用直径4厘米的层析柱，填充至少125克硅胶），以DCM和甲醇从100:0到90:10（v/v）的线性梯度洗脱。合并并蒸发包含纯化合物**5** (Rf 0.65在DCM–MeOH，87:13 v/v)的部分，得到3.96克白色固体的三酰胺**5**，产率为78%。</span>
+
+4. Confirm the purity of compound **5** by <sup>1</sup>H, <sup>13</sup>C NMR spectroscopy and high-resolution mass-spectrometry. <sup>1</sup>H NMR (500 MHz, DMSO-d6) *δ* 7.92 (t, *J* = 5.7 Hz, 3H), 7.81 (d, *J* = 9.3 Hz, 3H), 7.41–7.29 (m, 5H), 6.99 (s, 1H), 5.21 (d, *J* = 3.4 Hz, 3H), 5.07 (s, 2H), 4.96 (dd, *J* = 11.2, 3.4 Hz, 3H), 4.55 (d, *J* = 8.5 Hz, 3H), 4.05–3.98 (m, 9H), 3.88 (dt, *J* = 11.1, 8.8 Hz, 3H), 3.80–3.74 (m, 3H), 3.61–3.47 (m, 45H), 3.40–3.37 (m, 6H), 3.23–3.15 (m, 6H), 2.35–2.26 (m, 8H), 2.10 (s, 9H), 2.04 (t, *J* = 7.4 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.55–1.48 (m, 2H), 1.45–1.39 (m, 2H), 1.26–1.16 (m, 12H). <sup>13</sup>C NMR (126 MHz, DMSO-d6) *δ* 173.84, 172.63, 170.40, 170.11, 170.04, 169.74, 169.48, 136.36, 128.50, 128.06, 127.99, 101.02, 78.55, 70.59, 69.96, 69.88, 69.77, 69.64, 69.52, 69.16, 68.41, 68.36, 68.34, 67.36, 66.78, 65.35, 61.53, 59.57, 49.39, 38.57, 35.92, 33.53, 28.97, 28.96, 28.89, 28.74, 28.69, 28.50, 25.38, 24.55, 22.84, 20.59, 20.53, 20.50. ESI-HRMS *m*/*z* calculated for [C<sub>98</sub>H<sub>157</sub>N<sub>7</sub>O<sub>45</sub> + H]<sup>+</sup> 2153.0290, found 2153.0279. 
+
+   <span style=color:blue>通过<sup>1</sup>H和<sup>13</sup>C核磁共振（NMR）光谱和高分辨率质谱（HRMS）确认化合物5的纯度。<sup>1</sup>H NMR (500 MHz, DMSO-d6) δ 7.92 (t, J = 5.7 Hz, 3H), 7.81 (d, J = 9.3 Hz, 3H), 7.41–7.29 (m, 5H), 6.99 (s, 1H), 5.21 (d, J = 3.4 Hz, 3H), 5.07 (s, 2H), 4.96 (dd, J = 11.2, 3.4 Hz, 3H), 4.55 (d, J = 8.5 Hz, 3H), 4.05–3.98 (m, 9H), 3.88 (dt, J = 11.1, 8.8 Hz, 3H), 3.80–3.74 (m, 3H), 3.61–3.47 (m, 45H), 3.40–3.37 (m, 6H), 3.23–3.15 (m, 6H), 2.35–2.26 (m, 8H), 2.10 (s, 9H), 2.04 (t, J = 7.4 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.55–1.48 (m, 2H), 1.45–1.39 (m, 2H), 1.26–1.16 (m, 12H)。<sup>13</sup>C NMR (126 MHz, DMSO-d6) δ 173.84, 172.63, 170.40, 170.11, 170.04, 169.74, 169.48, 136.36, 128.50, 128.06, 127.99, 101.02, 78.55, 70.59, 69.96, 69.88, 69.77, 69.64, 69.52, 69.16, 68.41, 68.36, 68.34, 67.36, 66.78, 65.35, 61.53, 59.57, 49.39, 38.57, 35.92, 33.53, 28.97, 28.96, 28.89, 28.74, 28.69, 28.50, 25.38, 24.55, 22.84, 20.59, 20.53, 20.50。ESI-HRMS m/z 计算值为 [C<sub>98</sub>H<sub>157</sub>N<sub>7</sub>O<sub>45</sub> + H]<sup>+</sup> 2153.0290，实测值为2153.0279。</span>
+
+#### 3.1.3 *N*-(11-Carboxy-undecanamido)-tris[2,5,8,11,18-pentaoxa-14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)nonadecyl]methane 6 *N*-(11-羧基-十一烷酰胺)-三[2,5,8,11,18-五氧杂-14-氮杂-15-氧代-19-(3,4,6-三-*O*-乙酰基-2-乙酰氨基-2-脱氧-β-D-半乳糖吡喃糖氧基)十九烷基]甲烷 6
 
 1. Charge 3.96 g, 1.84 mmol compound **5** in a 50-mL round-bottom flask, co-evaporate twice with 25 mL of absolute methanol, and dissolve in 25 mL of absolute methanol . 
-2. Add 196 mg, 0.18 mmol of 10% (w/w) palladium on activated carbon, vacuum the flask and fill with hydrogen and stir mixture under 1 atm hydrogen pressure for 30 min. Monitor conversion of compound **5** (Rf 0.65) to product **6** (Rf 0.60) by TLC in DCM–MeOH, 87: 13 v/v, to visualize spots—stain the plate with phosphomolybdic acid solution (*see* **Note** **6**). 
-3. Filter off the catalyst using glass filter filled with silica gel (bed height ~1 cm), wash it twice with 15 mL of hot methanol and combine methanol fractions in 100-mL round-bottom flask. Concentrate the filtrate to dryness under reduced pressure using a rotary evaporator to obtain 3.68 g compound **6** as a white solid in 97% yield. 
-4. Confirm the purity of compound **6** by ^1^H, ^13^C NMR spectroscopy and high-resolution mass-spectrometry. ^1^H NMR (500 MHz, DMSO-d6) *δ* 7.92 (t, *J* = 5.7 Hz, 3H), 7.81 (d, *J* = 9.2 Hz, 3H), 6.99 (s, 1H), 5.21 (d, *J* = 3.4 Hz, 3H), 4.96 (dd, *J* = 11.2, 3.4 Hz, 3H), 4.55 (d, *J* = 8.5 Hz, 3H), 4.06–4.00 (m, 9H), 3.88 (dt, *J* = 11.2, 8.9 Hz, 3H), 3.80–3.75 (m, 3H), 3.61–3.46 (m, 45H), 3.39–3.36 (m, 6H), 3.22–3.16 (m, 6H), 2.29 (t, *J* = 6.4 Hz, 6H), 2.17 (t, *J* = 7.4 Hz, 2H), 2.10 (s, 9H), 2.04 (t, *J* = 7.4 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.50–1.40 (m, 4H), 1.25–1.19 (m, 12H). ^13^C NMR (126 MHz, DMSO-d6) *δ* 174.60, 172.62, 170.38, 170.10, 170.03, 169.73, 169.46, 142.47, 101.01, 70.57, 69.96, 69.88, 69.76, 69.64, 69.52, 69.16, 68.41, 68.34, 68.33, 67.35, 66.78, 61.53, 59.56, 49.38, 38.57, 35.91, 33.73, 29.01, 28.99, 28.89, 28.82, 28.69, 28.64, 25.38, 24.58, 22.83, 20.58, 20.52, 20.50. ESI-HRMS *m*/*z* calculated for [C~91~H~151~N~7~O~45~ + H]^+ ^2062.9821, observed 2062.9832. 
 
-#### 3.1.4 *N*-(12-((3-*O*-(4,4′-Dimethoxytrityl)-2-hydroxypropyl)-amino)-12-oxododecanamido)-tris[2,5,8,11,18-pentaoxa14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxyβ-d-galactopyranosyloxy)nonadecyl]methane 7
+   <span style=color:blue>在一个50毫升的圆底烧瓶中，加入3.96克（1.84毫摩尔）的化合物**5**，用25毫升无水甲醇共蒸发两次，然后溶解在25毫升无水甲醇中。</span>
+
+2. Add 196 mg, 0.18 mmol of 10% (w/w) palladium on activated carbon, vacuum the flask and fill with hydrogen and stir mixture under 1 atm hydrogen pressure for 30 min. Monitor conversion of compound **5** (Rf 0.65) to product **6** (Rf 0.60) by TLC in DCM–MeOH, 87: 13 v/v, to visualize spots—stain the plate with phosphomolybdic acid solution (*see* **Note** **6**). 
+
+   <span style=color:blue>加入196毫克（0.18毫摩尔）的10%（w/w）钯/活性炭，将烧瓶抽真空并充满氢气，在1个大气压的氢气压力下搅拌30分钟。通过薄层色谱法（TLC）在二氯甲烷和甲醇的混合溶液（87:13，v/v）中监测化合物**5**（Rf 0.65）向产物**6**（Rf 0.60）的转化情况，显现斑点—用磷钼酸溶液染色（见注释**6**）。</span>
+
+3. Filter off the catalyst using glass filter filled with silica gel (bed height ~1 cm), wash it twice with 15 mL of hot methanol and combine methanol fractions in 100-mL round-bottom flask. Concentrate the filtrate to dryness under reduced pressure using a rotary evaporator to obtain 3.68 g compound **6** as a white solid in 97% yield.
+
+   <span style=color:blue>用填充有硅胶（床高度约1厘米）的玻璃滤器过滤催化剂，用15毫升热甲醇洗两次，并将甲醇部分合并于100毫升的圆底烧瓶中。用旋转蒸发器在减压下将滤液浓缩至干燥，得到3.68克白色固体化合物**6**，产率为97%。</span>
+
+4. Confirm the purity of compound **6** by <sup>1</sup>H, <sup>13</sup>C NMR spectroscopy and high-resolution mass-spectrometry. <sup>1</sup>H NMR (500 MHz, DMSO-d6) *δ* 7.92 (t, *J* = 5.7 Hz, 3H), 7.81 (d, *J* = 9.2 Hz, 3H), 6.99 (s, 1H), 5.21 (d, *J* = 3.4 Hz, 3H), 4.96 (dd, *J* = 11.2, 3.4 Hz, 3H), 4.55 (d, *J* = 8.5 Hz, 3H), 4.06–4.00 (m, 9H), 3.88 (dt, *J* = 11.2, 8.9 Hz, 3H), 3.80–3.75 (m, 3H), 3.61–3.46 (m, 45H), 3.39–3.36 (m, 6H), 3.22–3.16 (m, 6H), 2.29 (t, *J* = 6.4 Hz, 6H), 2.17 (t, *J* = 7.4 Hz, 2H), 2.10 (s, 9H), 2.04 (t, *J* = 7.4 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.50–1.40 (m, 4H), 1.25–1.19 (m, 12H). <sup>13</sup>C NMR (126 MHz, DMSO-d6) *δ* 174.60, 172.62, 170.38, 170.10, 170.03, 169.73, 169.46, 142.47, 101.01, 70.57, 69.96, 69.88, 69.76, 69.64, 69.52, 69.16, 68.41, 68.34, 68.33, 67.35, 66.78, 61.53, 59.56, 49.38, 38.57, 35.91, 33.73, 29.01, 28.99, 28.89, 28.82, 28.69, 28.64, 25.38, 24.58, 22.83, 20.58, 20.52, 20.50. ESI-HRMS *m*/*z* calculated for [C<sub>91</sub>H<sub>151</sub>N<sub>7</sub>O<sub>45</sub> + H]<sup>+ </sup>2062.9821, observed 2062.9832. 
+
+   <span style=color:blue>通过<sup>1</sup>H和<sup>13</sup>C核磁共振光谱及高分辨质谱确认化合物6的纯度。<sup>1</sup>H NMR (500 MHz, DMSO-d6) δ 7.92 (t, J = 5.7 Hz, 3H), 7.81 (d, J = 9.2 Hz, 3H), 6.99 (s, 1H), 5.21 (d, J = 3.4 Hz, 3H), 4.96 (dd, J = 11.2, 3.4 Hz, 3H), 4.55 (d, J = 8.5 Hz, 3H), 4.06–4.00 (m, 9H), 3.88 (dt, J = 11.2, 8.9 Hz, 3H), 3.80–3.75 (m, 3H), 3.61–3.46 (m, 45H), 3.39–3.36 (m, 6H), 3.22–3.16 (m, 6H), 2.29 (t, J = 6.4 Hz, 6H), 2.17 (t, J = 7.4 Hz, 2H), 2.10 (s, 9H), 2.04 (t, J = 7.4 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.50–1.40 (m, 4H), 1.25–1.19 (m, 12H)。<sup>13</sup>C NMR (126 MHz, DMSO-d6) δ 174.60, 172.62, 170.38, 170.10, 170.03, 169.73, 169.46, 142.47, 101.01, 70.57, 69.96, 69.88, 69.76, 69.64, 69.52, 69.16, 68.41, 68.34, 68.33, 67.35, 66.78, 61.53, 59.56, 49.38, 38.57, 35.91, 33.73, 29.01, 28.99, 28.89, 28.82, 28.69, 28.64, 25.38, 24.58, 22.83, 20.58, 20.52, 20.50。ESI-HRMS m/z 计算值为 [C<sub>91</sub>H<sub>151</sub>N<sub>7</sub>O<sub>45</sub> + H]<sup>+</sup> 2062.9821，实测值为2062.9832。</span>
+
+#### 3.1.4 *N*-(12-((3-*O*-(4,4′-Dimethoxytrityl)-2-hydroxypropyl)-amino)-12-oxododecanamido)-tris[2,5,8,11,18-pentaoxa14-aza-15-oxo-19-(3,4,6-tri-*O*-acetyl-2-acetamido-2-deoxyβ-d-galactopyranosyloxy)nonadecyl]methane 7 *N*-(12-((3-*O*-(4,4′-二甲氧基三苯甲基)-2-羟丙基)氨基)-12-氧代十二烷酰胺)-三[2,5,8,11,18-五氧杂-14-氮杂-15-氧代-19-(3,4,6-三-*O*-乙酰基-2-乙酰氨基-2-脱氧-β-D-半乳糖吡喃糖氧基)十九烷基]甲烷 7
 
 1. Charge 862 mg, 2.14 mmol 1-amino-3-*O*-(4,4′-dimethoxytrityl)propan-2-ol and 3.68 g, 1.78 mmol of acid **6** in 100-mL round-bottom flask and dissolve in 50 mL of DCM under magnetic stirring. Add 743 μL, 5.34 mmol of Et3N, 682 mg, 3.56 mmol of EDC·HCl and 480 mg, 3.56 mmol of HOBt to the reaction mixture and stir it overnight. Monitor conversion of acid **6** (Rf 0.60) to amide **7** (Rf 0.65) by TLC in DCM–MeOH, 87/13, v/v, to visualize spots—stain the plate with phosphomolybdic acid. 
+
+   <span style=color:blue>在100毫升的圆底烧瓶中，加入862毫克（2.14毫摩尔）的1-氨基-3-*O*-(4,4′-二甲氧基三苯甲基)丙-2-醇和3.68克（1.78毫摩尔）的酸**6**，在磁力搅拌下溶解于50毫升二氯甲烷。加入743微升（5.34毫摩尔）的三乙胺、682毫克（3.56毫摩尔）的EDC·HCl和480毫克（3.56毫摩尔）的HOBt，搅拌过夜。通过薄层色谱法（TLC）在二氯甲烷和甲醇的混合溶液（87:13，v/v）中监测酸**6**（Rf 0.60）向酰胺**7**（Rf 0.65）的转化情况，显现斑点—用磷钼酸溶液染色。</span>
+
 2. Dilute the reaction mixture with 400 mL of DCM, pour it into a 1000-mL separatory funnel, and wash it thrice with 150 mL of water, thrice with 150 mL of 10% citric acid in water, thrice with 150 mL of saturated sodium bicarbonate in water and with 150 mL of brine. Dry organic layer with sodium sulfate and concentrate to dryness under reduced pressure using a rotary evaporator. 
+
+   <span style=color:blue>用400毫升二氯甲烷稀释反应混合物，将其倒入1000毫升的分液漏斗中，先后用150毫升的水洗涤三次，用150毫升10%柠檬酸水溶液洗涤三次，用150毫升饱和碳酸氢钠水溶液洗涤三次，最后用150毫升盐水洗涤。用硫酸钠干燥有机层，并用旋转蒸发器在减压下浓缩至干燥。</span>
+
 3. Purify the residue by column chromatography on silica gel (use 4-cm diameter chromatography column filled with silica gel (at least 85 g) using 1% Et3N in DCM) with a linear gradient of DCM–MeOH–Et3N from 100:0:1 to 95:5:1 v/v/v. Combine and evaporate fractions that contain pure compound **7** (Rf 0.65 in DCM–MeOH, 87:13 v/v) to obtain 3.30 g of amide **7** as a white solid in 76% yield. 
-4. Confirm the purity of compound **7** by ^1^H, ^13^C NMR spectroscopy and high-resolution mass-spectrometry. ^1^H NMR (500 MHz, DMSO-d6) *δ* 7.94 (t, *J* = 5.7 Hz, 3H), 7.84 (d, *J* = 9.2 Hz, 3H), 7.67 (t, *J* = 5.7 Hz, 1H), 7.41–7.36 (m, 2H), 7.33–7.16 (m, 7H), 7.00 (s, 1H), 6.91–6.81 (m, 4H), 5.21 (d, *J* = 3.3 Hz, 3H), 5.01–4.93 (m, 4H), 4.56 (d, *J* = 8.5 Hz, 3H), 4.05–3.99 (m, 9H), 3.88 (dt, *J* = 11.1, 8.9 Hz, 3H), 3.81–3.75 (m, 3H), 3.73–3.71 (m, 6H), 3.71–3.65 (m, 2H), 3.61–3.45 (m, 48H), 3.40–3.37 (m, 6H), 3.22–3.16 (m, 6H), 3.00–2.94 (m, 1H), 2.91–2.81 (m, 1H), 2.29 (t, *J* = 6.5 Hz, 6H), 2.10 (s, 9H), 2.05 (t, *J* = 7.7 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.46–1.37 (m, 4H), 1.23–1.18 (m, 12H). ^13^C NMR (126 MHz, DMSO-d6) *δ* 172.61, 172.52, 170.37, 170.08, 170.01, 169.71, 169.45, 158.04, 145.15, 135.88, 129.78, 128.97, 127.80, 127.78, 127.69, 126.61, 113.12, 112.82, 101.00, 85.21, 70.58, 69.95, 69.87, 69.76, 69.63, 69.51, 69.14, 68.84, 68.40, 68.34, 67.35, 66.77, 65.78, 61.52, 59.55, 49.37, 42.64, 38.56, 35.97, 35.91, 35.42, 29.06, 29.03, 28.92, 28.88, 28.81, 28.72, 25.38, 22.83, 20.57, 20.50, 20.49. ESI-HRMS *m*/*z* calculated for [C~115~H~176~N~8~O~48~ + H]^+^2438.1650, observed 2438.1655. 
+
+   <span style=color:blue>用硅胶柱层析纯化残留物（使用4厘米直径的柱子，填充至少85克硅胶，用1%三乙胺的二氯甲烷进行层析），以二氯甲烷-甲醇-三乙胺的线性梯度（从100:0:1到95:5:1，v/v/v）洗脱。合并并蒸发含有纯化合物**7**（Rf 0.65在二氯甲烷-甲醇，87:13，v/v）部分，得到3.30克白色固体酰胺**7**，产率为76%。</span>
+
+4. Confirm the purity of compound **7** by <sup>1</sup>H, <sup>13</sup>C NMR spectroscopy and high-resolution mass-spectrometry. <sup>1</sup>H NMR (500 MHz, DMSO-d6) *δ* 7.94 (t, *J* = 5.7 Hz, 3H), 7.84 (d, *J* = 9.2 Hz, 3H), 7.67 (t, *J* = 5.7 Hz, 1H), 7.41–7.36 (m, 2H), 7.33–7.16 (m, 7H), 7.00 (s, 1H), 6.91–6.81 (m, 4H), 5.21 (d, *J* = 3.3 Hz, 3H), 5.01–4.93 (m, 4H), 4.56 (d, *J* = 8.5 Hz, 3H), 4.05–3.99 (m, 9H), 3.88 (dt, *J* = 11.1, 8.9 Hz, 3H), 3.81–3.75 (m, 3H), 3.73–3.71 (m, 6H), 3.71–3.65 (m, 2H), 3.61–3.45 (m, 48H), 3.40–3.37 (m, 6H), 3.22–3.16 (m, 6H), 3.00–2.94 (m, 1H), 2.91–2.81 (m, 1H), 2.29 (t, *J* = 6.5 Hz, 6H), 2.10 (s, 9H), 2.05 (t, *J* = 7.7 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.46–1.37 (m, 4H), 1.23–1.18 (m, 12H). <sup>13</sup>C NMR (126 MHz, DMSO-d6) *δ* 172.61, 172.52, 170.37, 170.08, 170.01, 169.71, 169.45, 158.04, 145.15, 135.88, 129.78, 128.97, 127.80, 127.78, 127.69, 126.61, 113.12, 112.82, 101.00, 85.21, 70.58, 69.95, 69.87, 69.76, 69.63, 69.51, 69.14, 68.84, 68.40, 68.34, 67.35, 66.77, 65.78, 61.52, 59.55, 49.37, 42.64, 38.56, 35.97, 35.91, 35.42, 29.06, 29.03, 28.92, 28.88, 28.81, 28.72, 25.38, 22.83, 20.57, 20.50, 20.49. ESI-HRMS *m*/*z* calculated for [C<sub>115</sub>H<sub>176</sub>N<sub>8</sub>O<sub>48</sub> + H]<sup>+</sup>2438.1650, observed 2438.1655. 
+
+   <span style=color:blue>通过<sup>1</sup>H、<sup>13</sup>C NMR光谱及高分辨质谱确认化合物7的纯度。<sup>1</sup>H NMR (500 MHz, DMSO-d6) δ 7.94 (t, J = 5.7 Hz, 3H), 7.84 (d, J = 9.2 Hz, 3H), 7.67 (t, J = 5.7 Hz, 1H), 7.41–7.36 (m, 2H), 7.33–7.16 (m, 7H), 7.00 (s, 1H), 6.91–6.81 (m, 4H), 5.21 (d, J = 3.3 Hz, 3H), 5.01–4.93 (m, 4H), 4.56 (d, J = 8.5 Hz, 3H), 4.05–3.99 (m, 9H), 3.88 (dt, J = 11.1, 8.9 Hz, 3H), 3.81–3.75 (m, 3H), 3.73–3.71 (m, 6H), 3.71–3.65 (m, 2H), 3.61–3.45 (m, 48H), 3.40–3.37 (m, 6H), 3.22–3.16 (m, 6H), 3.00–2.94 (m, 1H), 2.91–2.81 (m, 1H), 2.29 (t, J = 6.5 Hz, 6H), 2.10 (s, 9H), 2.05 (t, J = 7.7 Hz, 2H), 1.99 (s, 9H), 1.88 (s, 9H), 1.77 (s, 9H), 1.46–1.37 (m, 4H), 1.23–1.18 (m, 12H)。<sup>13</sup>C NMR (126 MHz, DMSO-d6) δ 172.61, 172.52, 170.37, 170.08, 170.01, 169.71, 169.45, 158.04, 145.15, 135.88, 129.78, 128.97, 127.80, 127.78, 127.69, 126.61, 113.12, 112.82, 101.00, 85.21, 70.58, 69.95, 69.87, 69.76, 69.63, 69.51, 69.14, 68.84, 68.40, 68.34, 67.35, 66.77, 65.78, 61.52, 59.55, 49.37, 42.64, 38.56, 35.97, 35.91, 35.42, 29.06, 29.03, 28.92, 28.88, 28.81, 28.72, 25.38, 22.83, 20.57, 20.50, 20.49。ESI-HRMS m/z 计算值为 [C<sub>115</sub>H<sub>176</sub>N<sub>8</sub>O<sub>48</sub> + H]<sup>+</sup> 2438.1650，实测值为2438.1655。</span>
 
 #### 3.1.5 TRIS-(GalNAc-TEG)-CPG (8)
 
 1. Charge 3.3 g, 1.35 mmol compound **7** in 25-mL round-bottom flask and dissolve in 8 mL of a 1:1 v/v pyridine-DMF mixture. Sequentially add 109 mg, 0.9 mmol of DMAP, 1.0 g of succinylated LCAA-CPG, and 2.16 mL, 13.8 mmol of diisopropylcarbodiimide under stirring. Leave the mixture at ambient temperature for 48 h and gently shake the mix daily. 
+
+   <span style=color:blue>将3.3 g, 1.35 mmol 的化合物**7**置于25 mL的圆底烧瓶中，并溶解在8 mL 1:1 v/v的吡啶-DMF混合物中。依次加入109 mg, 0.9 mmol 的DMAP，1.0 g的琥珀酰化LCAA-CPG，以及2.16 mL, 13.8 mmol 的二异丙基碳二亚胺，在搅拌下进行反应。在室温下放置48小时，每天轻轻摇动混合物一次。</span>
+
 2. Gently shake the mix and immediately take a small portion ~150 μL of CPG suspension into 1.5 mL tube and separate the CPG by decanting. Wash CPG twice with 1 mL of DCM, twice with 2 mL of acetonitrile, and 5 times with 1 mL of diethyl ether. Dry CPG in high vacuo for 1 h. Accurately transfer ~10 mg of CPG **8** into a 25-mL flask and add to 15 mL 3% TFA in DCM. After 15 min exposure measure the absorbance of the mixture at 505 nm using UV-VIS spectrophotometer (please use 3% TFA in DCM as a blanc) and calculate the loading of triple GalNAc TEG CPG **8** according to the following equation: *L* (μmol/g) = (*V* × 1000 × Abs)/78 × *m* where *m* is the mass of **8** (in mg), Abs—the absorbance of the mixture at 505 nm, *V* the total volume of the solution (mL). The loading of the solid support **8** was calculated ~43 μmol/g CPG (*see* **Note** **7**).
+
+   <span style=color:blue>轻轻摇动混合物，立即取出约150 μL的CPG悬浮液放入1.5 mL的管中，通过倾析分离CPG。分别用1 mL的二氯甲烷洗涤CPG两次，用2 mL的乙腈洗涤两次，再用1 mL的乙醚洗涤五次。将CPG在高真空下干燥1小时。准确转移约10 mg的CPG**8**到25 mL的烧瓶中，加入15 mL 3% TFA在二氯甲烷中的溶液。经过15分钟的反应后，用紫外-可见分光光度计在505 nm处测量混合物的吸光度（请使用3% TFA在二氯甲烷中的溶液作为空白对照），并根据以下公式计算三重GalNAc TEG CPG **8**的负载量：*L* (μmol/g) = (*V* × 1000 × 吸光度)/78 × *m*，其中*m*是**8**的质量（mg），吸光度是混合物在505 nm处的吸光度，*V*是溶液的总体积（mL）。固体载体**8**的负载量约为43 μmol/g CPG（*见* **注释** **7**）。</span>
+
 3. Add solution of 760 mg, 4.13 mmol pentafluorophenol in 2 mL pyridine and wait for 20 h. 
+
+   <span style=color:blue>加入760 mg, 4.13 mmol 五氟苯酚的2 mL吡啶溶液，静置20小时
+
 4. Separate CPG using glass filter and wash thoroughly with 15 mL of absolute pyridine. Charge CPG in a 25-mL round-bottom flask and add solution of 0.5 mL piperidine in 5 mL pyridine, leave it for 5 min to block unreacted carboxy groups (*see* **Note** **8**). 
+
+   <span style=color:blue>通过玻璃滤器分离CPG，用15 mL绝对吡啶彻底洗涤。将CPG置于25 mL的圆底烧瓶中，加入0.5 mL哌啶在5 mL吡啶中的溶液，放置5分钟以封闭未反应的羧基（*见* **注释** **8**）</span>
+
 5. Separate CPG through the glass filter, wash it with 20 mL pyridine, then with 20 mL acetonitrile and dry it in vacuo. Place CPG in a 25-mL round-bottom flask and suspend it in solution of 0.5 mL acetic anhydride, 0.9 mL 2,6-lutidine, and 0.5 mL 1-methylimidazole in 8.1 mL THF and leave for 2 h.
+
+   <span style=color:blue>通过玻璃滤器分离CPG，用20 mL吡啶洗涤，然后用20 mL乙腈洗涤，干燥后在真空中干燥。将CPG置于25 mL的圆底烧瓶中，悬浮在含有0.5 mL乙酸酐，0.9 mL 2,6-二甲基吡啶和0.5 mL 1-甲基咪唑在8.1 mL四氢呋喃中的溶液中，放置2小时。</span>
+
 6. Separate the CPG through the glass filter, wash it sequentially with 20 mL of DCM, 20 mL of MeOH, 20 mL of acetonitrile, and 20 mL of diethyl ether. Dry CPG in vacuo overnight to yield 1.08 g modified CPG **8** (*see* **Note** **9**). 
 
-### 3.2 Preparation of a Mono GalNAc TEG Phosphoramidite
+   <span style=color:blue>通过玻璃滤器分离CPG，依次用20 mL二氯甲烷，20 mL甲醇，20 mL乙腈和20 mL乙醚洗涤。将CPG在真空中干燥过夜，得到1.08 g修饰的CPG **8**（*见* **注释** **9**）。</span>
 
-The procedure includes the synthesis of the GalNAc TEG carboxy block **12** (Subheadings 3.2.1 and 3.2.2) followed by common transformations into phosphoramidite **13** (Fig. 3).
+### 3.2 Preparation of a Mono GalNAc TEG Phosphoramidite 单 GalNAc TEG 亚磷酰胺的制备
+
+The procedure includes the synthesis of the GalNAc TEG carboxy block **12** (Subheadings 3.2.1 and 3.2.2) followed by common transformations into phosphoramidite **13** (Fig. 3). 该过程包括 GalNAc TEG 羧基嵌段 **12** 的合成（子标题 3.2.1 和 3.2.2），然后通过常见转化成亚磷酰胺 **13**（图 3）。
 
 ![485053_1_En_7_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_7_Fig3_HTML.png)
 
-**Fig. 3**
+**Fig. 3** Synthesis of a mono GalNAc TEG phosphoramidite
 
-Synthesis of a mono GalNAc TEG phosphoramidite
-
-#### 3.2.1 Synthesis of 16-Amino-1-*O*-(4,4′-dimethoxytrityl)-4,7,10,13-tetraoxahexadecan-1,2-diol 10
+#### 3.2.1 Synthesis of 16-Amino-1-*O*-(4,4′-dimethoxytrityl)-4,7,10,13-tetraoxahexadecan-1,2-diol 10 合成16-氨基-1-*O*-(4,4′-二甲氧基三苯甲基)-4,7,10,13-四氧杂十六烷-1,2-二醇 10
 
 1. Charge 1.90 g, 2.80 mmol protected amine **9** in a 100-mL round-bottom flask and dissolve in 38 mL of methanol. Add 1.93 g, 13.98 mmol of potassium carbonate in 12 mL of water and stir the reaction mixture overnight under an argon atmosphere. Monitor conversion of trifluoroacetamide **9** (Rf 0.65) to amine **10** (Rf 0.10) by TLC in DCM–MeOH, 10/1, v/v, to visualize spots—stain the plate with phosphomolybdic acid solution. 
+
+   <span style=color:blue>将1.90克，2.80毫摩尔的保护氨基**9**加入100毫升的圆底烧瓶中，并溶解在38毫升甲醇中。加入1.93克，13.98毫摩尔的碳酸钾溶解在12毫升水中，并在氩气环境下搅拌过夜。通过薄层色谱（TLC）在二氯甲烷-甲醇，10/1，v/v中监测三氟乙酰胺**9**（Rf 0.65）向氨基**10**（Rf 0.10）的转化情况，以磷钼酸溶液显色。</span>
+
 2. Concentrate the mixture approximately to one third by volume under reduced pressure using a rotary evaporator. Add 40 mL of DCM and 25 mL of water to the mixture and pour the mixture into a 100-mL separatory funnel. Separate organic layer and wash the water fraction thrice with 50 mL DCM, combine organic fractions and dry with anhydrous sodium sulfate. Concentrate solution to dryness under reduced pressure using a rotary evaporator to obtain 1.61 g of amine **10** as a colorless oil and use it for the next step without purification . 
 
-#### 3.2.2 Synthesis of 5-(3,4,6-Tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)-*N*-(1-*O*-(4,4′-dimethoxytrityl)-1,2-dihydroxy-4,7,10,13-tetraoxahexadec-16-yl)pentylamide 12
+   <span style=color:blue>使用旋转蒸发仪在减压下将混合物体积浓缩至约三分之一。向混合物中加入40毫升二氯甲烷和25毫升水，将混合物倒入100毫升的分液漏斗中。分离有机层，并用50毫升二氯甲烷洗涤水层三次，合并有机层并用无水硫酸钠干燥。在减压下使用旋转蒸发仪将溶液浓缩至干，得到1.61克无色油状的氨基**10**，无需纯化直接用于下一步反应。</span>
+
+#### 3.2.2 Synthesis of 5-(3,4,6-Tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)-*N*-(1-*O*-(4,4′-dimethoxytrityl)-1,2-dihydroxy-4,7,10,13-tetraoxahexadec-16-yl)pentylamide 12 合成5-(3,4,6-三-*O*-乙酰基-2-乙酰氨基-2-脱氧-β-D-半乳糖吡喃糖氧基)-*N*-(1-*O*-(4,4′-二甲氧基三苯甲基)-1,2-二羟基-4,7,10,13-四氧杂十六烷基)戊酰胺 12
 
 1. Charge 1.61 g, 2.76 mmol amine **10** in 50-mL round-bottom flask and dissolve in 15 mL DCM under magnetic stirring. Add 1.16 mL, 8.28 mmol of Et3N, 1.24 g, 2.76 mmol of acid **11**, 1.06 g, 5.52 mmol of EDC·HCl, and 0.75 g, 5.52 mmol of HOBt to the reaction mixture and stir it overnight. Monitor conversion of amine **10** (Rf 0.10 in DCM–MeOH, 10:1, v/v) and acid **11** (Rf 0.55 in DCM–MeOH, 10:1 v/v) to amide **12** (Rf 0.20 in DCM–acetone, 1:1 v/v) by TLC. To visualize spots—stain the plate with phosphomolybdic acid solution. 
-2. Dilute the reaction mixture with 35 mL of DCM, pour it into a 100-mL separatory funnel, and wash it sequentially: twice with 25 mL of water, twice with 25 mL of 10% citric acid in water, twice with 25 mL of saturated sodium bicarbonate in water and with 25 mL of brine. Dry organic layer with anhydrous sodium sulfate, filtrate, and concentrate to dryness under reduced pressure using a rotary evaporator. 
-3. Purify the residue by column chromatography on silica gel (use 3-cm diameter chromatography column filled with at least 45 g silica gel using 1% Et3N in DCM) with a linear gradient of DCM–acetone–Et3N from 100:0:1 to 50:50:1 v/v/v. Combine and evaporate fractions that contain pure compound **12** (Rf 0.2, DCM–acetone, 1:1 v/v) to obtain 2.01 g of amide **12** as a white solid in 72% yield. 
-4. Confirm the purity of compound **12** by ^1^H, ^13^C NMR spectroscopy and high-resolution mass-spectrometry. ^1^H NMR (500 MHz, DMSO-d6) *δ* 7.81 (d, *J* = 9.2 Hz, 1H), 7.72 (t, *J* = 5.6 Hz, 1H), 7.42–7.39 (m, 2H), 7.32–7.28 (m, 2H), 7.28–7.24 (m, 4H), 7.23–7.19 (m, 1H), 6.90–6.86 (m, 4H), 5.21 (d, *J* = 3.4 Hz, 1H), 4.97 (dd, *J* = 11.2, 3.5 Hz, 1H), 4.86 (d, *J* = 5.4 Hz, 1H), 4.48 (d, *J* = 8.5 Hz, 1H), 4.05–3.99 (m, 3H), 3.87 (dt, *J* = 11.2, 8.8 Hz, 1H), 3.79–3.65 (m, 8H), 3.51–3.42 (m, 13H), 3.42–3.35 (m, 4H), 3.06 (q, *J* = 6.6 Hz, 2H), 2.92 (d, *J* = 5.5 Hz, 2H), 2.10 (s, 3H), 2.03 (t, *J* = 7.1 Hz, 2H), 1.99 (s, 3H), 1.89 (s, 3H), 1.77 (s, 3H), 1.59 (p, *J* = 6.7 Hz, 2H), 1.53–1.39 (m, 4H). ^13^C NMR (126 MHz, DMSO-d6) *δ* 171.82, 169.98, 169.89, 169.61, 169.30, 157.97, 145.12, 135.87, 129.71, 127.75, 127.70, 126.52, 113.06, 100.96, 85.09, 72.73, 70.45, 70.11, 69.81, 69.79, 69.77, 69.75, 69.74, 69.51, 68.76, 68.65, 68.08, 66.69, 64.94, 61.43, 55.00, 49.36, 35.70, 35.02, 29.41, 28.57, 22.75, 21.83, 20.51, 20.45, 20.44. ESI-HRMS *m*/*z* calculated for [C~52~H~72~N~2~O~18~ + H]^+^ 1013.4853, observed 1013.4859. 
 
-#### 3.2.3 Synthesis of 5-(3,4,6-Tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)-*N*-(1-*O*-(4,4′-dimethoxytrityl)-2-*O*-(*N*,*N*-diisopropylamino-(2-cyanoethyloxy)-phosphonamidic)-1,2-dihydroxy-4,7,10,13-tetraoxahexadec-16-yl)pentylamide 13
+   <span style=color:blue>将1.61克，2.76毫摩尔氨基**10**加入50毫升的圆底烧瓶中，并在磁力搅拌下溶解于15毫升二氯甲烷中。依次加入1.16毫升（8.28毫摩尔）三乙胺，1.24克（2.76毫摩尔）酸**11**，1.06克（5.52毫摩尔）EDC·HCl和0.75克（5.52毫摩尔）HOBt到反应混合物中，搅拌过夜。通过薄层色谱（TLC）监测氨基**10**（Rf 0.10，在二氯甲烷-甲醇，10:1，v/v中）和酸**11**（Rf 0.55，在二氯甲烷-甲醇，10:1，v/v中）向酰胺**12**（Rf 0.20，在二氯甲烷-丙酮，1:1，v/v中）的转化情况。用磷钼酸溶液显色。</span>
+
+2. Dilute the reaction mixture with 35 mL of DCM, pour it into a 100-mL separatory funnel, and wash it sequentially: twice with 25 mL of water, twice with 25 mL of 10% citric acid in water, twice with 25 mL of saturated sodium bicarbonate in water and with 25 mL of brine. Dry organic layer with anhydrous sodium sulfate, filtrate, and concentrate to dryness under reduced pressure using a rotary evaporator. 
+
+   <span style=color:blue>将反应混合物用35毫升二氯甲烷稀释，倒入100毫升的分液漏斗中，按顺序进行以下洗涤：两次用25毫升水洗涤，两次用25毫升10%柠檬酸水溶液洗涤，两次用25毫升饱和碳酸氢钠水溶液洗涤，最后用25毫升盐水洗涤。用无水硫酸钠干燥有机层，过滤后在减压下使用旋转蒸发仪将溶液浓缩至干，得到粗品。</span>
+
+3. Purify the residue by column chromatography on silica gel (use 3-cm diameter chromatography column filled with at least 45 g silica gel using 1% Et3N in DCM) with a linear gradient of DCM–acetone–Et3N from 100:0:1 to 50:50:1 v/v/v. Combine and evaporate fractions that contain pure compound **12** (Rf 0.2, DCM–acetone, 1:1 v/v) to obtain 2.01 g of amide **12** as a white solid in 72% yield. 
+
+   <span style=color:blue>使用硅胶柱色谱法纯化残留物（使用直径3厘米的色谱柱，填充至少45克硅胶，用1%三乙胺的二氯甲烷洗脱），用DCM-丙酮-三乙胺从100:0:1逐渐到50:50:1的线性梯度洗脱。合并并蒸发含有纯化合物**12**（Rf 0.2，DCM-丙酮，1:1，v/v）的馏分，得到2.01克白色固体酰胺**12**，产率为72%。</span>
+
+4. Confirm the purity of compound **12** by <sup>1</sup>H, <sup>13</sup>C NMR spectroscopy and high-resolution mass-spectrometry. <sup>1</sup>H NMR (500 MHz, DMSO-d6) *δ* 7.81 (d, *J* = 9.2 Hz, 1H), 7.72 (t, *J* = 5.6 Hz, 1H), 7.42–7.39 (m, 2H), 7.32–7.28 (m, 2H), 7.28–7.24 (m, 4H), 7.23–7.19 (m, 1H), 6.90–6.86 (m, 4H), 5.21 (d, *J* = 3.4 Hz, 1H), 4.97 (dd, *J* = 11.2, 3.5 Hz, 1H), 4.86 (d, *J* = 5.4 Hz, 1H), 4.48 (d, *J* = 8.5 Hz, 1H), 4.05–3.99 (m, 3H), 3.87 (dt, *J* = 11.2, 8.8 Hz, 1H), 3.79–3.65 (m, 8H), 3.51–3.42 (m, 13H), 3.42–3.35 (m, 4H), 3.06 (q, *J* = 6.6 Hz, 2H), 2.92 (d, *J* = 5.5 Hz, 2H), 2.10 (s, 3H), 2.03 (t, *J* = 7.1 Hz, 2H), 1.99 (s, 3H), 1.89 (s, 3H), 1.77 (s, 3H), 1.59 (p, *J* = 6.7 Hz, 2H), 1.53–1.39 (m, 4H). <sup>13</sup>C NMR (126 MHz, DMSO-d6) *δ* 171.82, 169.98, 169.89, 169.61, 169.30, 157.97, 145.12, 135.87, 129.71, 127.75, 127.70, 126.52, 113.06, 100.96, 85.09, 72.73, 70.45, 70.11, 69.81, 69.79, 69.77, 69.75, 69.74, 69.51, 68.76, 68.65, 68.08, 66.69, 64.94, 61.43, 55.00, 49.36, 35.70, 35.02, 29.41, 28.57, 22.75, 21.83, 20.51, 20.45, 20.44. ESI-HRMS *m*/*z* calculated for [C<sub>52</sub>H<sub>72</sub>N<sub>2</sub>O<sub>18</sub> + H]<sup>+</sup> 1013.4853, observed 1013.4859. 
+
+   <span style=color:blue>通过<sup>1</sup>H，<sup>13</sup>C NMR光谱和高分辨质谱（HRMS）确认化合物12的纯度。<sup>1</sup>H NMR (500 MHz, DMSO-d6) δ 7.81 (d, J = 9.2 Hz, 1H), 7.72 (t, J = 5.6 Hz, 1H), 7.42–7.39 (m, 2H), 7.32–7.28 (m, 2H), 7.28–7.24 (m, 4H), 7.23–7.19 (m, 1H), 6.90–6.86 (m, 4H), 5.21 (d, J = 3.4 Hz, 1H), 4.97 (dd, J = 11.2, 3.5 Hz, 1H), 4.86 (d, J = 5.4 Hz, 1H), 4.48 (d, J = 8.5 Hz, 1H), 4.05–3.99 (m, 3H), 3.87 (dt, J = 11.2, 8.8 Hz, 1H), 3.79–3.65 (m, 8H), 3.51–3.42 (m, 13H), 3.42–3.35 (m, 4H), 3.06 (q, J = 6.6 Hz, 2H), 2.92 (d, J = 5.5 Hz, 2H), 2.10 (s, 3H), 2.03 (t, J = 7.1 Hz, 2H), 1.99 (s, 3H), 1.89 (s, 3H), 1.77 (s, 3H), 1.59 (p, J = 6.7 Hz, 2H), 1.53–1.39 (m, 4H). <sup>13</sup>C NMR (126 MHz, DMSO-d6) δ 171.82, 169.98, 169.89, 169.61, 169.30, 157.97, 145.12, 135.87, 129.71, 127.75, 127.70, 126.52, 113.06, 100.96, 85.09, 72.73, 70.45, 70.11, 69.81, 69.79, 69.77, 69.75, 69.74, 69.51, 68.76, 68.65, 68.08, 66.69, 64.94, 61.43, 55.00, 49.36, 35.70, 35.02, 29.41, 28.57, 22.75, 21.83, 20.51, 20.45, 20.44. ESI-HRMS m/z 计算得出 [C<sub>52</sub>H<sub>72</sub>N<sub>2</sub>O<sub>18</sub> + H]<sup>+</sup> 1013.4853，观测到 1013.4859。</span>
+
+#### 3.2.3 Synthesis of 5-(3,4,6-Tri-*O*-acetyl-2-acetamido-2-deoxy-β-d-galactopyranosyloxy)-*N*-(1-*O*-(4,4′-dimethoxytrityl)-2-*O*-(*N*,*N*-diisopropylamino-(2-cyanoethyloxy)-phosphonamidic)-1,2-dihydroxy-4,7,10,13-tetraoxahexadec-16-yl)pentylamide 13 合成5-(3,4,6-三-*O*-乙酰基-2-乙酰氨基-2-脱氧-β-D-半乳糖吡喃糖氧基)-*N*-(1-*O*-(4,4′-二甲氧基三苯甲基)-2-*O*-(*N*,*N*-二异丙氨基-(2-氰基乙氧基)-磷酰胺基)-1,2-二羟基-4,7,10,13-四氧杂十六烷基)戊酰胺 13
 
 1. Charge 1.68 g, 1.66 mmol of compound **12** in 50-mL round-bottom flask and dissolve in 11 mL of anhydrous DCM under magnetic stirring in argon atmosphere. Add 300 μL, 2.16 mmol of Et3N followed by 471 mg, 1.99 mmol of 2-cyanoethyl *N*,*N*-diisopropylchlorophosphoramidite to the reaction mixture and stir for 2 h at room temperature. Monitor conversion of alcohol **12** (Rf 0.20) to phosphoramidite **13** (0.50) by TLC in DCM–acetone, 1:1 v/v; to visualize spots—stain the plate with phosphomolybdic acid solution. 
-2. Dilute the reaction mixture with 25 mL of DCM , pour it into a 100-mL separatory funnel, and wash it twice with 25 mL of saturated sodium bicarbonate in water and then with 25 mL of brine. Dry organic layer with sodium sulfate. 
-3. Purify the residue by column chromatography on silica gel (use 3-cm diameter chromatography column filled with at least 35 g of silica gel) using 1% Et3N in DCM with a linear gradient of DCM–acetone–Et3N from 100:0:1 to 50:50:1 v/v/v. Combine and evaporate fractions that contain pure compound **13** (Rf 0.50 in DCM–acetone, 1:1 v/v) to obtain 1.23 g of phosphoramidite **13** as a white solid in 61% yield. 
-4. Confirm the purity of compound **13** by ^31^P NMR spectroscopy and high-resolution mass-spectrometry. ^31^P NMR (202 MHz, CD3CN) *δ* 149.08, 148.58. ESI-HRMS *m*/*z* calculated for [C~61~H~89~N~4~O~19~P + H]^+^ 1213.5931, observed 1213.5935 (*see* **Note** **10**). 
 
-### 3.3 Synthesis of GalNAc-siRNA Conjugates
+   <span style=color:blue>将1.68克，1.66毫摩尔的化合物**12**加入50毫升的圆底烧瓶中，在氩气气氛下溶解于11毫升无水二氯甲烷中，并进行磁力搅拌。加入300微升（2.16毫摩尔）的三乙胺，再加入471毫克（1.99毫摩尔）的2-氰基乙基*N*,*N*-二异丙基氯磷酰胺到反应混合物中，在室温下搅拌2小时。通过薄层色谱（TLC）监测化合物**12**（Rf 0.20）向磷酰胺基**13**（Rf 0.50）的转化，使用二氯甲烷-丙酮（1:1，v/v）。用磷钼酸溶液显色</span>
+
+2. Dilute the reaction mixture with 25 mL of DCM , pour it into a 100-mL separatory funnel, and wash it twice with 25 mL of saturated sodium bicarbonate in water and then with 25 mL of brine. Dry organic layer with sodium sulfate. 
+
+   <span style=color:blue>将反应混合物用25毫升二氯甲烷稀释，倒入100毫升的分液漏斗中，用25毫升饱和碳酸氢钠溶液洗两次，然后用25毫升盐水洗。用无水硫酸钠干燥有机层。</span>
+
+3. Purify the residue by column chromatography on silica gel (use 3-cm diameter chromatography column filled with at least 35 g of silica gel) using 1% Et3N in DCM with a linear gradient of DCM–acetone–Et3N from 100:0:1 to 50:50:1 v/v/v. Combine and evaporate fractions that contain pure compound **13** (Rf 0.50 in DCM–acetone, 1:1 v/v) to obtain 1.23 g of phosphoramidite **13** as a white solid in 61% yield. 
+
+   <span style=color:blue>使用硅胶柱色谱法纯化残留物（使用直径3厘米的色谱柱，填充至少35克硅胶），用1%三乙胺的二氯甲烷洗脱，使用二氯甲烷-丙酮-三乙胺从100:0:1到50:50:1（v/v/v）的线性梯度洗脱。合并并蒸发含有纯化合物**13**（Rf 0.50，二氯甲烷-丙酮，1:1，v/v）的馏分，得到1.23克白色固体磷酰胺基**13**，产率为61%。</span>
+
+4. Confirm the purity of compound **13** by <sup>31</sup>P NMR spectroscopy and high-resolution mass-spectrometry. <sup>31</sup>P NMR  (202 MHz, CD3CN) *δ* 149.08, 148.58. ESI-HRMS *m*/*z* calculated for[C<sub>61</sub>H<sub>89</sub>N<sub>4</sub>O<sub>19</sub>P + H]<sup>+</sup> 1213.5931, observed 1213.5935 (*see* **Note** **10**). 
+
+   <span style=color:blue>通过<sup>31</sup>P NMR光谱和高分辨质谱（HRMS）确认化合物**13**的纯度。<sup>31</sup>P NMR（202 MHz, CD3CN）*δ* 149.08, 148.58。ESI-HRMS *m*/*z* 计算得出 [C<sub>61</sub>H<sub>89</sub>N<sub>4</sub>O<sub>19</sub>P + H]<sup>+</sup> 1213.5931，观测到 1213.5935（*参见* **注释** **10**）。</span>
+
+### 3.3 Synthesis of GalNAc-siRNA Conjugates 合成GalNAc-siRNA共轭物
 
 This section describes the preparation of 3′- and 5′-(triple GalNAc) modified siRNA, including automated oligonucleotide synthesis and purification of sense and antisense RNA strands (Table 1) using solid support **8** and GalNAc TEG phosphoramidite **13**.
+
+<span style=color:blue>本部分介绍3′和5′（三重GalNAc）修饰的siRNA的制备，包括使用固体支持物**8**和GalNAc TEG磷酰胺基**13**的自动寡核苷酸合成以及正义链和反义链RNA链的纯化（表1）。</span>
 
 **Table 1** Modified RNA and GalNAc-RNA conjugates synthesized in this study
 
@@ -291,36 +368,75 @@ This section describes the preparation of 3′- and 5′-(triple GalNAc) modifie
 
 Chemical modifications: mN—2′-*O*-methyl nucleotides, fN—2′-deoxy-2′-fluoronucleotides, N—2′-deoxynucleotides, *—phosphorothioate linkages
 
-#### 3.3.1 Synthesis of GalNAc-RNA Conjugates
+<span style=color:blue>化学修饰：mN—2′-*O*-甲基核苷酸、fN—2′-脱氧-2′-氟核苷酸、N—2′-脱氧核苷酸、*—硫代磷酸酯键</span>
+
+#### 3.3.1 Synthesis of GalNAc-RNA Conjugates 合成GalNAc-RNA偶联物
 
 1. RNA should be assembled in DNA/RNA synthesizer at 1 μmol scale (e.g., ABI 3400 or ASM-2000) using phosphoramidite method according to the manufacturer’s recommendations DMT-off mode using triple GalNAc TEG solid support **8** or DMT-on mode using mono GalNAc TEG phosphoramidite (*see* **Note** **11**). 
+
+   <span style=color:blue>使用DNA/RNA合成仪（如ABI 3400或ASM-2000），按照制造商的建议，在1 μmol规模下通过磷酰胺方法组装RNA。在使用三重GalNAc TEG固体支持物**8**时，选择DMT-off模式；在使用单一GalNAc TEG磷酰胺基时，选择DMT-on模式（*见* **注释** **11**）</span>
+
 2. After completion of the synthesis dry column in vacuo and transfer CPG with protected oligonucleotide into the screw-capped tube (1.5 mL). Add 750 μL of 40% aqueous methylamine solution and perform deprotection for 1 h at 45 °C under gentle shaking. Place the tubes with solution for 15 min at −20 °C, filter off solids, wash them thoroughly by water (2 × 200 μL), and evaporate combined washings using centrifuge vacuum concentrator to dryness. 
+
+   <span style=color:blue>合成完成后，将柱子在真空中干燥，并将含有保护性寡核苷酸的CPG转移到螺旋盖试管（1.5 mL）中。加入750 μL的40%水相甲胺溶液，在45°C下轻轻摇动进行脱保护1小时。将装有溶液的试管在-20°C下放置15分钟，过滤掉固体，分别用水洗涤两次（2 × 200 μL），然后使用离心真空浓缩器蒸发联合洗涤液至干燥。</span>
+
 3. Dissolve crude oligonucleotides in 1 mL pure water. 
 
-#### 3.3.2 Purification of GalNAc-RNA Conjugates
+   <span style=color:blue>将粗寡核苷酸溶解在1 mL纯水中</span>
+
+#### 3.3.2 Purification of GalNAc-RNA Conjugates 纯化GalNAc-RNA偶联物
 
 1. Purify the crude GalNAc-RNA conjugates by ion exchange HPLC equipped with TSKGEL SUPERQ-5PW 7.5 × 75 column using a linear gradient from 10–60% of buffer B for 40 min at a flow rate of 1 mL/min. Buffer A: 50 mM Tris–HCl pH 7.6 in sterile water/acetonitrile (9:1, v/v), buffer B: 600 mM NaClO4 and 50 mM Tris–HCl pH 7.6 in sterile water/acetonitrile (9:1, v/v). 
+
+   <span style=color:blue>通过配备TSKGEL SUPERQ-5PW 7.5 × 75柱的离子交换HPLC，在流速为1 mL/min的条件下，以10–60%的缓冲液B的线性梯度，持续40分钟，纯化粗GalNAc-RNA共轭物。缓冲液A：50 mM Tris–HCl pH 7.6在无菌水/乙腈（9:1，v/v）中的溶液，缓冲液B：600 mM高氯酸钠和50 mM Tris–HCl pH 7.6在无菌水/乙腈（9:1，v/v）中的溶液。</span>
+
 2. Pool the appropriate fractions with the conjugate, evaporate to the final volume ~100 μL, and add 1.2 mL of acetone (molecular biology grade) to precipitate RNA conjugate and to remove most of sodium perchlorate. 
+
+   <span style=color:blue>将适当的部分合并，蒸发至最终体积约100 μL，然后加入1.2 mL丙酮（分子生物学级）以沉淀RNA共轭物并去除大部分高氯酸钠。</span>
+
 3. A mixture is cooled in a freezer at −20 °C for 1 h and then RNA conjugate is isolated by centrifugation for 5 min at 10,000 × *g* followed by final drying of acetone traces. 
+
+   <span style=color:blue>将混合物在-20°C下冷却1小时，然后通过以10,000 × *g*离心5分钟，分离RNA共轭物，并最终去除丙酮痕迹。</span>
+
 4. Dissolve solid residue in 100 μL and add 1.2 mL of acetone (molecular biology grade) to precipitate RNA conjugate. Repeat **step 3**. 
+
+   <span style=color:blue>将固体残留物溶解在100 μL中，并加入1.2 mL丙酮（分子生物学级）沉淀RNA共轭物。重复**步骤3**。</span>
+
 5. Dissolve the product in water, and quantify the oligonucleotide by measuring the UV absorbance at 260 nm. Store the solution frozen. 
+
+   <span style=color:blue>将产品溶解在水中，通过在260 nm处测量UV吸光度定量寡核苷酸。将溶液冷冻保存。</span>
+
 6. Check the purity of the product by PAGE as described below or ESI-MS (*see* **Note** **12**). 
 
-#### 3.3.3 Analysis of GalNAc-RNA Conjugates by Polyacrylamide Gel Electrophoresis (Fig. 4b)
+   <span style=color:blue>通过PAGE或ESI-MS检查产品的纯度（*见* **注释** **12**）</span>
+
+#### 3.3.3 Analysis of GalNAc-RNA Conjugates by Polyacrylamide Gel Electrophoresis (Fig. 4b)通过聚丙烯酰胺凝胶电泳分析GalNAc-RNA共轭物
 
 The denaturing gel electrophoresis of RNA conjugates is performed in 15% PAGE containing 7 M urea in Tris-borate buffer (50 mM Tris, 50 mM boric acid, 1 mM EDTA, pH 8.3).
 
+<span style=color:blue>在含有7 M尿素的15%聚丙烯酰胺凝胶（PAGE）中，以Tris-硼酸盐缓冲液（50 mM Tris，50 mM硼酸，1 mM EDTA，pH 8.3）进行RNA共轭物的变性电泳分析。</span>
+
 1. Prepare large vertical gel chamber (gel size 200 × 200 × 1 mm) and pre-run the gel for 3 h at 200 V to remove salts. Dissolve an aliquot of RNA conjugates (4–5 nmol) in 20 μL of 80% formamide, denature the sample by heating at 90 °C for 3 min, then rapidly cool on ice. 
+
+   <span style=color:blue>准备大型垂直凝胶室（凝胶尺寸200 × 200 × 1毫米），并在200伏特下预运行凝胶3小时以去除盐分。将一份RNA共轭物（4-5纳摩尔）溶解在20微升的80%甲酰胺中，样品在90摄氏度下加热3分钟进行变性，然后迅速在冰上冷却。</span>
+
 2. Flush the wells of the gel with Tris-borate buffer to remove precipitated urea and load the solution of RNA conjugates. Run PAGE at constant voltage (500 V) and stop electrophoresis when the marker dyes have migrated an appropriate distance. For RNA conjugates a running time of 2 h is sufficient. 
+
+   <span style=color:blue>用Tris-硼酸盐缓冲液冲洗凝胶孔以去除沉淀的尿素，然后加载RNA共轭物的溶液。以恒定电压（500伏特）运行PAGE，当标记染料迁移到适当距离时停止电泳。对于RNA共轭物，运行时间为2小时。</span>
+
 3. Slab PAGE can be visualized under 254 nm UV lamp using fluorescent TLC plate (TLC Silica gel 60G F254 or analog) as a substrate (*see* **Note** **13**). 
+
+   <span style=color:blue>在254纳米的紫外灯下使用荧光薄层色谱板（TLC硅胶60G F254或类似产品）作为基底来可视化PAGE板（*参见* **注释** **13**）</span>
 
 ![485053_1_En_7_Fig4_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_7_Fig4_HTML.png)
 
 **Fig. 4** Analysis of GalNAc conjugated modified RNA purified by ion-exchange oligonucleotides. (**a**) Ion exchange HPLC profiles of conjugates. (**b**) Image of RNA conjugates separation using denaturative polyacrylamide gel electrophoresis
 
-#### 3.3.4 Annealing of GalNAc Modified siRNA Duplexes
+#### 3.3.4 Annealing of GalNAc Modified siRNA Duplexes GalNAc修饰的siRNA双链的退火
 
 Combine solutions with equimolar amounts (~30 nmol) of complementary RNA—**ON1**–**ON7**, **ON3**–**ON7**, **ON5**–**ON7**, **ON2**–**ON8**, **ON4**–**ON8**, **ON6**–**ON8** in individual 1.5-mL microcentrifuge tubes and evaporate solutions to dryness using a centrifugal vacuum concentrator. Add 200 μL of TE buffer to each tube and heat tubes to 95 °C, then turn off heating and slowly cool tubes to room temperature (at least 2–3 h) for duplex formation (*see* **Note** **14**).
+
+<span style=color:blue>将等摩尔量（约30纳摩尔）的互补RNA溶液——**ON1**–**ON7**、**ON3**–**ON7**、**ON5**–**ON7**、**ON2**–**ON8**、**ON4**–**ON8**、**ON6**–**ON8**分别放入各自的1.5毫升微量离心管中，并使用离心真空浓缩器将溶液蒸干。向每个管中加入200微升的TE缓冲液，加热至95摄氏度，然后关闭加热，并缓慢冷却至室温（至少2-3小时）以形成双链（*参见* **注释** **14**）</span>
 
 ## 4 Notes
 
