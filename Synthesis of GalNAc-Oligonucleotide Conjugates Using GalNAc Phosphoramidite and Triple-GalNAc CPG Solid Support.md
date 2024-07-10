@@ -441,19 +441,60 @@ Combine solutions with equimolar amounts (~30 nmol) of complementary RNA—**ON1
 ## 4 Notes
 
 1. All reactions must be carried out in a fume hood with switched on ventilation. Personal protective glasses and lab coats must be used. 
+
+   <span style=color:blue>所有反应必须在通风良好的化学通风罩下进行，必须佩戴个人防护眼镜和实验服。</span>
+
 2. All glassware should be oven dried, and all reactions should be performed under anhydrous conditions unless otherwise specified. 
+
+   <span style=color:blue>所有玻璃器皿必须经过烘干处理，并且除非另有规定，所有反应都必须在无水条件下进行。</span>
+
 3. If you still see a dot of amine **1**, add sequentially EDC·HCl (0.1 g, 0.5 mmol), HOBt (0.07 g, 0.5 mmol), and Et3N (0.07 mL, 0.5 mmol) to the reaction mixture and stir it overnight. Then repeat TLC analysis. 
+
+   <span style=color:blue>如果仍然看到胺的小点 **1**，请依次向反应混合物中加入EDC·HCl (0.1 g, 0.5 mmol), HOBt (0.07 g, 0.5 mmol) 和 Et3N (0.07 mL, 0.5 mmol)，并在室温下搅拌过夜。然后重复薄层色谱分析。</span>
+
 4. If the purity is below 95%, repeat **step 4**, Subheading 3.1.1 or carefully dry out the residual solvents. 
+
+   <span style=color:blue>如果纯度低于95%，请重复 **步骤 4**，3.1.1小标题或仔细干燥残留溶剂。</span>
+
 5. Before termination reaction, you should be sure that intermediate amide and diamide are also fully converted into a final triamide. 
+
+   <span style=color:blue>在终止反应之前，必须确保中间酰胺和二酰胺完全转化为最终的三酰胺。</span>
+
 6. If you observe partial conversion into the product, please repeat **step 2,** Subheading 3.1.3. 
+
+   <span style=color:blue>如果观察到部分转化成产物，请重复 **步骤 2**，3.1.3小标题。</span>
+
 7. If loading is below 40 μmol/g, then add diisopropylcarbodiimide (216 μL, 1.38 mmol) and wait for additional 12 h. 
+
+   <span style=color:blue>如果负载量低于40 μmol/g，则添加二异丙基碳二亚胺 (216 μL, 1.38 mmol)，等待额外12小时。</span>
+
 8. Do not exceed 5 min reaction time; otherwise partial loss of the triple GalNAc residue occurs. 
+
+   <span style=color:blue>反应时间不得超过5分钟；否则会部分丢失三重GalNAc残基。</span>
+
 9. Thorough washing of the CPG support is the must; otherwise partial loss of the triple GalNAc residue occurs during storage. CPG product should be stored in a fridge (−20 °C) and warmed to RT before opening to avoid degradation. 
+
+   <span style=color:blue>必须彻底清洗CPG支持物；否则会在储存过程中部分丢失三重GalNAc残基。CPG产物应存放在冰箱中 (−20 °C)，并在开封前将其升温至室温以避免降解。</span>
+
 10. Purity of the phosphoramidite is crucial for successful synthesis of RNA conjugates. First, admixtures of H-phosphonate or phosphoramide (31P NMR (202 MHz, CD3CN) *δ* 10–25) should be accurately removed by column chromatography. Second, traces of triethylamine should be removed by repetitive co-evaporation with acetonitrile, especially if you scale up the protocol. Residual triethylamine will dramatically drop down the yield of RNA conjugates. 
+
+    <span style=color:blue>磷酰胺基团的纯度对于成功合成RNA共轭物至关重要。首先，必须通过柱层析精确去除H-磷酸酯或磷酰胺的混合物 (31P NMR (202 MHz, CD3CN) *δ* 10–25)。其次，尤其在扩展协议时，必须通过重复共蒸发与乙腈去除三乙胺的微量。残留的三乙胺会大幅降低RNA共轭物的产率。</span>
+
 11. Synthesis of RNA **ON5** and **ON6** (or other with 5′-GalNac modification) requires DMT-on mode. If you remove DMT group before ammonia-based deprotection, partial degradation of the conjugate will occur via reaction of the primary hydroxy group with the phosphate residue. We observed several degradation products after DMT-off synthesis of **ON5** and **ON6** that can be separated either by ion exchange HPLC or PAGE (Fig. 5, peaks (A) or bands (B) a, b, c). These products correspond to the GalNac-cleavaged oligonucleotides: a—with two GalNac residues, b—with one and c—without GalNAc as confirmed by ESI-MS. Oligonucleotide with the same sequence as **ON5**, but without 5′ modifications (**ON9**) was used as reference. To avoid the loss of 5′ GalNAc modifications, one should always use DMTr-ON mode and remove DMTr group after deblock. 
+
+    <span style=color:blue>合成带有5′-GalNAc修饰的RNA **ON5** 和 **ON6** (或其他修饰) 需要使用DMT-on模式。如果在基于氨基的去保护之前去除DMT基团，将会导致共轭物的部分降解，主要是由于主要羟基与磷酸残基的反应。我们在对 **ON5** 和 **ON6** 进行DMT-off合成后观察到几种降解产物，可以通过离子交换HPLC或PAGE分离 (图 5，峰 (A) 或带 (B) a、b、c)。这些产物对应于经GalNac裂解的寡核苷酸：a—带有两个GalNAc残基，b—带有一个GalNAc残基，c—没有GalNAc，经ESI-MS确认。具有与 **ON5** 相同序列但没有5′修饰的寡核苷酸 (**ON9**) 用作参考。为避免丢失5′ GalNAc修饰，应始终使用DMTr-ON模式，并在去保护后去除DMTr基团。</span>
+
 12. PAGE usually provide better resolution than IE HPLC—one can compare HPLC traces at Fig. 4awith PAGE image at Fig. 4b. In case of **ON6** (and in part for **ON5**) IE HPLC failed to uncover n-1 admixture. 
+
+    <span style=color:blue>PAGE通常比IE HPLC提供更好的分辨率——可以比较HPLC示踪图 (图 4a) 与PAGE图像 (图 4b)。对于 **ON6** (以及部分 **ON5**)，IE HPLC未能揭示n-1杂质。</span>
+
 13. Each lane should contain only one individual band—presence of the ladder or smears confirm low purity of the GalNAc-RNA conjugate. Depending on the purity and the amount, the GalNAc-RNA conjugate should be repurified or resynthesized. 
+
+    <span style=color:blue>每条带中应仅包含一个单独的条带——阶梯或模糊带的存在确认了GalNAc-RNA共轭物的低纯度。根据纯度和数量的不同，GalNAc-RNA共轭物应重新纯化或重新合成。</span>
+
 14. Store the solution of siRNA without freezing to maintain it as a duplex. If you need long-term storage at −20 °C or −80 °C, repeat annealing stage after unfreezing before further use. 
+
+    <span style=color:blue>存储siRNA溶液时避免冷冻以保持其作为双链体的状态。如果需要长期存储在−20 °C或−80 °C，请在解冻后重复退火阶段，然后再进行进一步使用。</span>
 
 ![485053_1_En_7_Fig5_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_7_Fig5_HTML.png)
 
