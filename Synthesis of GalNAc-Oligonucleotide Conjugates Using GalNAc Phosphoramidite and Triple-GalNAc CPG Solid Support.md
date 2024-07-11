@@ -1,4 +1,4 @@
-# Synthesis of GalNAc-Oligonucleotide Conjugates Using GalNAc Phosphoramidite and Triple-GalNAc CPG Solid Support 使用 GalNAc 亚磷酰胺和三重 GalNAc CPG 固体支持物合成 GalNAc-寡核苷酸缀合物
+# Synthesis of GalNAc-Oligonucleotide Conjugates Using GalNAc Phosphoramidite and Triple-GalNAc CPG Solid Support 使用 GalNAc 亚磷酰胺和三重 GalNAc CPG 固体支持物合成 GalNAc-寡核苷酸偶联物
 
 Egor A. Ulashchik, Yury V. Martynenko-Makaev, Tatsiana P. Akhlamionok, Denis M. Melnik, Vadim V. Shmanai and Timofei S. Zatsepin
 
@@ -182,7 +182,7 @@ Here we provide a robust protocol for the synthesis of triple GalNAc CPG solid s
 
 ### 3.1 Preparation of Triple GalNAc TEG Solid Support for RNA Synthesis 用于 RNA 合成的三价半乳糖胺 (GalNAc) TEG 固体载体制备
 
-Synthetic procedure is based on the synthesis of the key block—triple GalNAc TEG derivative **7** (Subheadings 3.1.1~3.1.4) followed by common transformations to obtain solid support **8** for automated oligonucleotide synthesis (Fig. [2](clbr://internal.invalid/OEBPS/html/485053_1_En_7_Chapter.xhtml#Fig2)). Before starting synthesis please read **Notes** **1** and **2**.
+Synthetic procedure is based on the synthesis of the key block—triple GalNAc TEG derivative **7** (Subheadings 3.1.1~3.1.4) followed by common transformations to obtain solid support **8** for automated oligonucleotide synthesis (Fig. 2). Before starting synthesis please read **Notes** **1** and **2**.
 
 <span style=color:blue>本方法以关键构建单元 - 三价半乳糖胺 (GalNAc) TEG 衍生物 **7** 的合成 (3.1.1~3.1.4 小节) 为基础，然后通过常规转化步骤获得用于自动寡核苷酸合成的固体载体 **8** (图 2)。 开始合成之前，请阅读 **注释** **1** 和 **2**。</span>
 
@@ -294,7 +294,9 @@ Synthetic procedure is based on the synthesis of the key block—triple GalNAc T
 
 ### 3.2 Preparation of a Mono GalNAc TEG Phosphoramidite 单 GalNAc TEG 亚磷酰胺的制备
 
-The procedure includes the synthesis of the GalNAc TEG carboxy block **12** (Subheadings 3.2.1 and 3.2.2) followed by common transformations into phosphoramidite **13** (Fig. 3). 该过程包括 GalNAc TEG 羧基嵌段 **12** 的合成（子标题 3.2.1 和 3.2.2），然后通过常见转化成亚磷酰胺 **13**（图 3）。
+The procedure includes the synthesis of the GalNAc TEG carboxy block **12** (Subheadings 3.2.1 and 3.2.2) followed by common transformations into phosphoramidite **13** (Fig. 3). 
+
+<span style=color:blue>该过程包括 GalNAc TEG 羧基嵌段 **12** 的合成（子标题 3.2.1 和 3.2.2），然后通过常见转化成亚磷酰胺 **13**（图 3）。</span>
 
 ![485053_1_En_7_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_7_Fig3_HTML.png)
 
