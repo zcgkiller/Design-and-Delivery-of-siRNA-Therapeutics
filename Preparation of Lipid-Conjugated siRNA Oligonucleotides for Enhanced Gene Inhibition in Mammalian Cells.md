@@ -24,7 +24,11 @@ It is well known that also modifying chemically certain positions of natural nit
 
 The presence of hydrophobic pendent groups has made RNA oligonucleotide chains to increase in lipophilicity and thus turn into more drug-like molecules to induce a specific activity in vitro and in vivo. Several chemical strategies have been successfully developed to modify siRNA backbones with lipid moieties either at 5′- or 3′-termini of the passenger strand including both stable and cleavable linkages. For instance, a direct conjugation involving a lipid residue and siRNA was reported by Kubo et al. in 2013. Such chemical combination required a series of siRNAs which were modified properly with an amino modifier and a *N*-hydroxysuccinimide ester derivative that was attached to the corresponding lipid chains. This protocol allowed the authors to introduce covalently hydrophobic residues into a series of siRNAs at the 5′-end in the presence of *N*,*N*-diisopropylethylamine (DIEA) and a mixture of isopropanol:water (1:1).
 
+<span style=color:blue>由于引入了疏水的侧链基团，RNA寡核苷酸链变得更具亲脂性，因此更像药物分子，能够在体内外引发特定的活性。目前已经开发出多种化学策略，通过在正义链的5'或3'端附加稳定或可裂解的脂质部分来修饰siRNA骨架。例如，Kubo等人在2013年报道了一种直接结合脂质残基和siRNA的方法。该方法需要使用适当修饰了氨基和连接了脂质链的N-羟基琥珀酰亚胺酯衍生物的一系列siRNAs。在N,N-二异丙基乙胺（DIEA）和异丙醇：水（1:1）的混合物存在下，这种方法使得能够在一系列siRNAs的5'端共价引入疏水残基。</span>
+
 Introducing lipid moieties at the 3′-termini of siRNAs requires additional synthetic efforts based on derivatizing Controlled Pore Glass (CPG) solid supports with small molecule linkers. These units containing hydrophobic residues have been further modified with specific acid-labile protecting groups like trityl (Tr), 4-monomethoxy trityl (MMTr), or 4,4′-dimethoxy trityl (DMTr) giving rise to lipid-modified CPG solid supports that have been used in conjunction with automatic oligonucleotide synthesizers. In this regard, many examples have been described for the chemical conjugations of cholesterol and other lipids (e.g., α-tocopherol, lithocolic-oleyl, docosanoic acid, docosahexaenoic acid, and eicosapentaenoic acid) with siRNA oligonucleotides showing improved silencing activities and specific accumulations in liver but also other tissues like skeletal muscle and heart when injected intravenously (Fig. 1). While internalization mechanisms of some siRNA conjugates remain unclear, tissue uptake and cellular internalization efficacies are driven not only by the hydrophobic nature of the lipid pendent groups but also the effective binding of such conjugates to serum proteins such as high-density and low-density lipoproteins (HDL and LDL, respectively) as well as albumin.
+
+<span style=color:blue>在siRNA的3'端引入脂质部分需要额外的合成步骤，基于使用小分子连接物修饰的控制孔玻璃（CPG）固体支持。这些含有疏水残基的单元进一步用酸敏保护基如三苯甲基（Tr）、4-单甲氧基三苯甲基（MMTr）或4,4'-二甲氧基三苯甲基（DMTr）修饰，从而产生脂质修饰的CPG固体支持，它们已经与自动寡核苷酸合成器一起使用。在这方面，已经有许多将胆固醇和其他脂质（如α-生育酚、石胆酸-油酸、二十二酸、二十二碳六烯酸和二十碳五烯酸）与siRNA寡核苷酸进行化学结合的例子，这些结合显示出改进的沉默活性，并且在肝脏和其他组织如骨骼肌和心脏中有特异性积累，特别是在静脉注射时（图1）。尽管一些siRNA结合物的内化机制尚不清楚，但组织摄取和细胞内化效率不仅由脂质侧链基团的疏水性驱动，还由这些结合物与高密度和低密度脂蛋白（分别为HDL和LDL）以及白蛋白的有效结合驱动。</span>
 
 ![../images/485053_1_En_8_Chapter/485053_1_En_8_Fig1_HTML.png](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_8_Fig1_HTML.png)
 
@@ -32,11 +36,15 @@ Introducing lipid moieties at the 3′-termini of siRNAs requires additional syn
 
 In an effort to find additional strategies addressed to enhance the efficiency of siRNAs in transfection processes, our research group has studied the effect of several lipid modifications introduced either at the 3′- or 5′-termini of a siRNA passenger strand taking TNF-α as a target protein model (Fig. 2). TNF-α was selected because overexpression of this gene is found associated to many diseases such as cancer, autoimmune diseases: rheumatoid arthritis, ankylosing spondylitis, Crohn’s disease, psoriasis, refractory asthma. In order to connect the lipid moiety to the RNA molecules, we selected glycerol as a small linker to prepare a series of siRNA conjugates containing lipid pendent groups in the form of ether lipids both neutral and cationic at the 3′-end. On the other hand, other neutral and cationic lipids were also used to modify siRNA passenger strand at the 5′-termini by using the well-known phosphoramidite chemistry strategy.
 
+<span style=color:blue>为了进一步增强siRNA在转染过程中的效率，我们的研究团队以TNF-α为靶标蛋白模型（如图2所示），研究了在siRNA乘客链的3′或5′末端引入不同脂质修饰的效果。选择TNF-α作为研究对象是因为该基因的过度表达与许多疾病有关，包括癌症和多种自身免疫性疾病：类风湿性关节炎、强直性脊柱炎、克罗恩病、银屑病和顽固性哮喘。为了将脂质基团与RNA分子连接，我们选用了甘油作为小分子链接剂，制备了一系列在3′末端含有中性和阳离子醚脂的siRNA缀合物。同时，也通过广为人知的磷酰胺化学策略，将其他中性和阳离子脂质用于修饰siRNA乘客链的5′末端。</span>
+
 ![485053_1_En_8_Fig2_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_8_Fig2_HTML.png)
 
 **Fig. 2** Schematic representation of some glycerol-based lipids described for the preparation of lipid-siRNAs modifying the RNA passenger strand
 
 Herein, we describe specific experimental protocols that have been carried out in the field of siRNA delivery with the aim to increase both its potency and transfection efficiency. Particularly, we describe a protocol to synthesize a series of siRNA conjugates carrying neutral and cationic lipids at the 3′- and 5′-termini modifying chemically the siRNA guide strand (Fig. 2 and Table 1). In addition, a formulation method used for increasing the binding capacity of unmodified and chemically modified siRNAs through a process namely “pre-binding” is described. This protocol that we named as “*f-siRNA*” protocol is based on a short sonication of lipid-siRNA conjugates in the presence of serum with the aim to facilitate their binding to serum proteins such as albumin, HDL, and LDL. The ultrasound treatment carried out before adding the siRNA conjugates to cell culture showed a clear enhancement of cellular uptake and therefore resulted in an enhancement of the silencing activities promoted by such siRNA conjugates in vitro when compared with non-ultrasound-treated oligonucleotides.
+
+<span style=color:blue>本文中，我们介绍了一些在siRNA递送领域中执行的实验方案，目的是提升其效力和转染效率。特别是，我们详细描述了通过化学修饰siRNA引导链，在其3′和5′末端引入中性和阳离子脂质的合成过程（如图2和表1所示）。此外，我们还介绍了一种称为“预结合”的配方方法，用于增强未修饰和化学修饰siRNA的结合能力。我们将此方案命名为“*f-siRNA*”方案，其基于对脂质-siRNA缀合物进行短时间的超声处理，以促进它们与血清蛋白如白蛋白、高密度脂蛋白（HDL）和低密度脂蛋白（LDL）的结合。实验结果显示，在将siRNA缀合物加入细胞培养之前进行超声处理，与未处理的寡核苷酸相比，显著提高了细胞摄取效率，从而在体外增强了这些siRNA缀合物的基因沉默效果。</span>
 
 **Table 1** Lipid-siRNA conjugates carrying glycerol-based long linear alkyl chains. 
 
@@ -54,99 +62,109 @@ Structures for Chol, *lipid*_*C14*, *lipid*_*C18,* and *lipid*_*C14N* are shown 
 
 ## 2 Materials
 
-Use deionized pure water with a resistivity of 18.2 MΩ to dissolve both RNA strands (passenger and guide) and prepare buffer solutions (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). Reagents were used as received without being further purified.
+Use deionized pure water with a resistivity of 18.2 MΩ to dissolve both RNA strands (passenger and guide) and prepare buffer solutions (*see* **Note** **1**). Reagents were used as received without being further purified.
 
-### 2.1 RNA Oligonucleotide Synthesis
+<span style=color:blue>使用电阻率为18.2 MΩ的去离子纯水来溶解RNA链（包括载链和导链）并配制缓冲溶液（*详见* **注释** **1**）。所有试剂在未经进一步纯化的情况下直接使用。</span>
 
-Perform the protocols described below in a DNA synthesizer (Applied Biosystems 3400) using two different scales: LV200 and 1 μmol (*see* **Note** [**2**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). Use solvents and ancillary reagents with DNA synthesis grade (*see* **Note** [**3**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)).
+### 2.1 RNA Oligonucleotide Synthesis RNA寡核苷酸的合成
 
-1. A computer equipped with the 3400 DNA Synthesizer software. 
-2. A DNA synthesizer (e.g., Applied Biosystems 3400). 
-3. Unmodified DNA controlled-Pore Glass (CPG) solid support (3′-dT-CPG) (*see* **Note** [**4**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-4. Unmodified RNA CPG solid supports (Bz-A-RNA, Ac-C-RNA, Ac-G-RNA and U-RNA) (*see* **Note** [**5**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-5. RNA 2-cyanoethyl (CE) phosphoramidites (Bz-A-CE, Ac-C-CE, dmf-G-CE and U-CE phosphoramidites) (*see* **Note** [**5**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-6. RNA phosphoramidites modified at their 2′-position of the sugar with OMe (2′-OMe-A-CE, 2′-OMe-Ac-C-CE, 2′-OMe-dmf-G-CE and 2′-OMe-U-CE phosphoramidites) (*see* **Note** [**6**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-7. Anhydrous acetonitrile. 
-8. 3% Trichloroacetic acid (TCA) in dichloromethane. 
-9. Anhydrous dichloromethane. 
-10. 0.4 M 1*H*-tetrazol in acetonitrile. 
-11. Capping A: Acetic anhydride/pyridine/tetrahydrofurane (1:1:8). 
-12. Capping B: 10% *N*-methylimidazole in tetrahydrofurane. 
-13. 0.01 M Iodine in tetrahydrofurane/pyridine/water (7:2:1) (*see* **Note** [**7**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-14. Concentrated ammonia (32%) in water. 
-15. Triethylamine trihydrofluoride, 98% (TREAT-HF). 
-16. Triethylamine. 
-17. *N*-Methylpyrrolidone, 97%. 
-18. Isopropoxytrimethylsilane, 98%. 
-19. Annealing buffer: 10 mM Tris-Base [Tris(hydroxymethyl)aminomethane], 50 mM NaCl, 1 mM EDTA (ethylenediaminetetraacetic acid), pH 8.0. 
-20. 3 M Sodium acetate solution, pH 5.2. 
-21. Ethanol. 
-22. A centrifuge 5424 R instrument. 
-23. Argon or nitrogen sources. 
-24. 2 mL Glass screw vials. 
-25. Dry bath tube heating block. 
-26. Speed Vac evaporator. 
+Perform the protocols described below in a DNA synthesizer (Applied Biosystems 3400) using two different scales: LV200 and 1 μmol (*see* **Note** **2**). Use solvents and ancillary reagents with DNA synthesis grade (*see* **Note** **3**).
 
-### 2.2 High-Performance Liquid Chromatography (HPLC)
+<span style=color:blue>在DNA合成仪（Applied Biosystems 3400）上进行以下合成步骤，实验规模有LV200和1微摩尔两种（*详见* **注释** **2**）。使用符合DNA合成级别的溶剂和辅助试剂（*详见* **注释** **3**）。</span>
 
-Detach RNA single strand oligonucleotides from CPG solid supports once RNA synthesis has been completed (*see* Subheading [3.1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec11)). Analyze and purify by reverse-phase HPLC (RP-HPLC) in order to obtain the corresponding RNA oligonucleotide strands (guide or passenger) with high purity.
+1. A computer equipped with the 3400 DNA Synthesizer software.  <span style=color:blue>配备3400 DNA合成仪软件的计算机</span>
+2. A DNA synthesizer (e.g., Applied Biosystems 3400).  <span style=color:blue>DNA合成仪（例如，Applied Biosystems 3400）</span>
+3. Unmodified DNA controlled-Pore Glass (CPG) solid support (3′-dT-CPG) (*see* **Note** **4**).  <span style=color:blue>未修饰的DNA控制孔玻璃（CPG）固体载体（3′-dT-CPG）（*详见* **注释** **4**）</span>
+4. Unmodified RNA CPG solid supports (Bz-A-RNA, Ac-C-RNA, Ac-G-RNA and U-RNA) (*see* **Note** **5**).  <span style=color:blue>未修饰的RNA CPG固体载体（Bz-A-RNA, Ac-C-RNA, Ac-G-RNA和U-RNA）（*详见* **注释** **5**）</span>
+5. RNA 2-cyanoethyl (CE) phosphoramidites (Bz-A-CE, Ac-C-CE, dmf-G-CE and U-CE phosphoramidites) (*see* **Note** **5**).  <span style=color:blue>RNA 2-氰乙基（CE）磷酰胺（Bz-A-CE, Ac-C-CE, dmf-G-CE和U-CE磷酰胺）（*详见* **注释** **5**）</span>
+6. RNA phosphoramidites modified at their 2′-position of the sugar with OMe (2′-OMe-A-CE, 2′-OMe-Ac-C-CE, 2′-OMe-dmf-G-CE and 2′-OMe-U-CE phosphoramidites) (*see* **Note** **6**).  <span style=color:blue>2′-位经OMe修饰的RNA磷酰胺（2′-OMe-A-CE, 2′-OMe-Ac-C-CE, 2′-OMe-dmf-G-CE和2′-OMe-U-CE磷酰胺）（*详见* **注释** **6**）</span>
+7. Anhydrous acetonitrile.  <span style=color:blue>无水乙腈</span>
+8. 3% Trichloroacetic acid (TCA) in dichloromethane.  <span style=color:blue>3%三氯乙酸（TCA）在二氯甲烷中的溶液</span>
+9. Anhydrous dichloromethane.  <span style=color:blue>无水二氯甲烷</span>
+10. 0.4 M 1*H*-tetrazol in acetonitrile.  <span style=color:blue>0.4 M 1*H*-四氮唑在乙腈中的溶液</span>
+11. Capping A: Acetic anhydride/pyridine/tetrahydrofurane (1:1:8).  <span style=color:blue>封端试剂A：乙酸酐/吡啶/四氢呋喃（1:1:8）</span>
+12. Capping B: 10% *N*-methylimidazole in tetrahydrofurane.  <span style=color:blue>封端试剂B：10% *N*-甲基咪唑在四氢呋喃中的溶液</span>
+13. 0.01 M Iodine in tetrahydrofurane/pyridine/water (7:2:1) (*see* **Note** **7**).  <span style=color:blue>0.01 M 碘在四氢呋喃/吡啶/水（7:2:1）中的溶液（*详见* **注释** **7**）</span>
+14. Concentrated ammonia (32%) in water.  <span style=color:blue>水溶液中的浓氨水（32%）</span>
+15. Triethylamine trihydrofluoride, 98% (TREAT-HF).  <span style=color:blue>三乙胺三氟化物，纯度98%（TREAT-HF）</span>
+16. Triethylamine.  <span style=color:blue>三乙胺</span>
+17. *N*-Methylpyrrolidone, 97%.  <span style=color:blue>*N*-甲基吡咯烷酮，纯度97%</span>
+18. Isopropoxytrimethylsilane, 98%.  <span style=color:blue>异丙氧基三甲基硅烷，纯度98%</span>
+19. Annealing buffer: 10 mM Tris-Base [Tris(hydroxymethyl)aminomethane], 50 mM NaCl, 1 mM EDTA (ethylenediaminetetraacetic acid), pH 8.0.  <span style=color:blue>退火缓冲液：10 mM Tris-碱 [Tris（羟甲基）氨基甲烷]，50 mM NaCl，1 mM EDTA（乙二胺四乙酸），pH 8.0</span>
+20. 3 M Sodium acetate solution, pH 5.2.  <span style=color:blue>3 M醋酸钠溶液，pH 5.2</span>
+21. Ethanol.  <span style=color:blue>乙醇</span>
+22. A centrifuge 5424 R instrument.  <span style=color:blue>5424 R型离心机</span>
+23. Argon or nitrogen sources.  <span style=color:blue>氩气或氮气源</span>
+24. 2 mL Glass screw vials.  <span style=color:blue>2毫升玻璃螺旋瓶</span>
+25. Dry bath tube heating block.  <span style=color:blue>干浴加热块</span>
+26. Speed Vac evaporator.  <span style=color:blue>旋转蒸发仪</span>
 
-1. Analytical and/or semi-preparative RP-HPLCs are both equipped with a Waters 2695 Separation Module and a Waters 2998 Photodiode Array Detector. 
-2. A computer equipped with Empower™ 3 chromatography data software. 
-3. A HPLC reverse-phase column C18, with a size pore of 2.5 μm, and 4.6 × 50 mm column (*see* **Note** [**8**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-4. Gas-tight syringe.
-5. 2 mL Conical plastic tubes (*see* **Note** [**9**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-6. 1 M Aqueous triethylammonium acetate (TEAA): acetic acid, triethylamine, water, pH 7.01 (stock solution). 
-7. Buffered solution A (1 L): 5% acetonitrile, 0.1 M aqueous TEAA, pH 7.01. 
-8. Buffered solution B (1 L): 70% acetonitrile, 0.1 M aqueous TEEA, pH 7.01. 
+### 2.2 High-Performance Liquid Chromatography (HPLC) 高效液相色谱法
 
-### 2.3 Desalting RNA Oligonucleotide Solutions
+Detach RNA single strand oligonucleotides from CPG solid supports once RNA synthesis has been completed (*see* Subheading 3.1). Analyze and purify by reverse-phase HPLC (RP-HPLC) in order to obtain the corresponding RNA oligonucleotide strands (guide or passenger) with high purity.
 
-1. Disposable NAP DNA/RNA size-exclusion purification columns (NAP-5 or NAP-10 columns) (*see* **Note** [**10**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-2. Sephadex G-25. 
-3. RNAse-free water (DEPC-water) (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-4. Eyedropper. 
-5. 2 mL Conical plastic tubes (*see* **Note** [**9**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+<span style=color:blue>在RNA合成完成后，将RNA单链寡核苷酸从CPG固体载体中分离出来（*详见*小标题3.1）。通过反相HPLC（RP-HPLC）进行分析和纯化，以获得高纯度的RNA寡核苷酸链（导链或载链）</span>
 
-### 2.4 Ultraviolet-Visible (UV) Spectroscopy
+1. Analytical and/or semi-preparative RP-HPLCs are both equipped with a Waters 2695 Separation Module and a Waters 2998 Photodiode Array Detector. <span style=color:blue>分析型或半制备型RP-HPLC，配有Waters 2695分离模块和Waters 2998光二极管阵列检测器</span>
+2. A computer equipped with Empower™ 3 chromatography data software. <span style=color:blue>配有Empower™ 3色谱数据软件的计算机</span>
+3. A HPLC reverse-phase column C18, with a size pore of 2.5 μm, and 4.6 × 50 mm column (*see* **Note** **8**). <span style=color:blue>HPLC反相C18柱，孔径为2.5微米，柱长4.6 × 50毫米（*详见* **注释** **8**）</span>
+4. Gas-tight syringe.<span style=color:blue>气密注射器</span>
+5. 2 mL Conical plastic tubes (*see* **Note** **9**). <span style=color:blue>2毫升锥形塑料管（*详见* **注释** **9**）</span>
+6. 1 M Aqueous triethylammonium acetate (TEAA): acetic acid, triethylamine, water, pH 7.01 (stock solution). <span style=color:blue>1 M三乙胺醋酸盐（TEAA）水溶液：由醋酸、三乙胺和水配置，pH 7.01（储备溶液）</span>
+7. Buffered solution A (1 L): 5% acetonitrile, 0.1 M aqueous TEAA, pH 7.01. <span style=color:blue>缓冲液A（1升）：5%乙腈，0.1 M TEAA水溶液，pH 7.01</span>
+8. Buffered solution B (1 L): 70% acetonitrile, 0.1 M aqueous TEEA, pH 7.01. <span style=color:blue>缓冲液B（1升）：70%乙腈，0.1 M TEAA水溶液，pH 7.01</span>
 
-1. A computer equipped with the Spectra Manager™ II software. 
-2. A Jasco V-650 UV-VIS spectrophotometer equipped with a thermoregulated cell holder. 
-3. A 1 mL-UV quartz Hellma absorption cuvette with PTFE stoppers. 
-4. RNAse-free water (DEPC-water) (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-5. Eyedropper. 
-6. 2 mL Conical plastic tubes (*see* **Note** [**9**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+### 2.3 Desalting RNA Oligonucleotide Solutions RNA寡核苷酸溶液的脱盐
 
-### 2.5 Matrix-Assisted Laser Desorption/Ionization Time-of-Flight (MALDI-TOF) Mass Spectrometry
+1. Disposable NAP DNA/RNA size-exclusion purification columns (NAP-5 or NAP-10 columns) (*see* **Note** **10**). <span style=color:blue>一次性NAP DNA/RNA尺寸排阻纯化柱（NAP-5或NAP-10柱）（*详见* **注释** **10**）</span>
+2. Sephadex G-25. <span style=color:blue>葡聚糖凝胶G-25</span>
+3. RNAse-free water (DEPC-water) (*see* **Note** **1**). <span style=color:blue>无RNA酶水（DEPC水）（*详见* **注释** **1**）</span>
+4. Eyedropper. <span style=color:blue>滴管</span>
+5. 2 mL Conical plastic tubes (*see* **Note** **9**). <span style=color:blue>2毫升锥形塑料管（*详见* **注释** **9**）</span>
+
+### 2.4 Ultraviolet-Visible (UV) Spectroscopy 紫外-可见光 (UV) 光谱分析
+
+1. A computer equipped with the Spectra Manager™ II software. <span style=color:blue> 配有Spectra Manager™ II软件的计算机</span>
+2. A Jasco V-650 UV-VIS spectrophotometer equipped with a thermoregulated cell holder. <span style=color:blue>配有温控池座的Jasco V-650紫外-可见分光光度计</span>
+3. A 1 mL-UV quartz Hellma absorption cuvette with PTFE stoppers. <span style=color:blue>1毫升的UV石英Hellma吸收比色皿，配有PTFE塞子</span>
+4. RNAse-free water (DEPC-water) (*see* **Note** **1**). <span style=color:blue>无RNA酶水（DEPC水）（*详见* **注释** **1**）</span>
+5. Eyedropper. <span style=color:blue>滴管</span>
+6. 2 mL Conical plastic tubes (*see* **Note** **9**). <span style=color:blue>2毫升锥形塑料管（*详见* **注释** **9**）</span>
+
+### 2.5 Matrix-Assisted Laser Desorption/Ionization Time-of-Flight (MALDI-TOF) Mass Spectrometry 基质辅助激光解吸/电离飞行时间 (MALDI-TOF) 质谱分析
 
 Identify and characterize the correct mass of RNA oligonucleotides carrying lipid pendent groups using a MALDI-TOF mass spectrometry .
 
-1. *Perseptive* Voyager-DE™RP spectrometer (Applied Biosystems) in negative mode equipped with nitrogen laser at 337 nm with a 3 ns-pulse. 
-2. A computer equipped with Data Explorer™ software. 
-3. 2,4,6-Trihydroxyacetophenone (THAP): 10 mg/mL in a mixture of acetonitrile:water (1:1). 
-4. Ammonium citrate (CA): 50 mg/mL aqueous solution (*see* **Note** [**11**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-5. RNAse-free water (DEPC-water) (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+<span style=color:blue>使用MALDI-TOF质谱法来识别和表征带有脂质侧链的RNA寡核苷酸的准确质量</span>
 
-### 2.6 Cell Culture Models
+1. *Perseptive* Voyager-DE™RP spectrometer (Applied Biosystems) in negative mode equipped with nitrogen laser at 337 nm with a 3 ns-pulse. <span style=color:blue>使用*Perseptive* Voyager-DE™RP质谱仪（Applied Biosystems），负离子模式，配有337纳米波长的氮激光器，脉冲时间为3纳秒</span>
+2. A computer equipped with Data Explorer™ software. <span style=color:blue>配有Data Explorer™软件的计算机</span>
+3. 2,4,6-Trihydroxyacetophenone (THAP): 10 mg/mL in a mixture of acetonitrile:water (1:1). <span style=color:blue>2,4,6-三羟基苯乙酮（THAP）：浓度为10 mg/mL的乙腈和水（1:1）混合溶液</span>
+4. Ammonium citrate (CA): 50 mg/mL aqueous solution (*see* **Note** **11**). <span style=color:blue>柠檬酸铵（CA）：浓度为50 mg/mL的水溶液（*详见* **注释** **11**）</span>
+5. RNAse-free water (DEPC-water) (*see* **Note** **1**). <span style=color:blue>无RNA酶水（DEPC水）（*详见* **注释** **1**）</span>
 
-1. Immortal human cervical cancer HeLa cells or 4T1 murine breast cancer cells. 
-2. Dulbecco’s Modified Eagle Medium (DMEM) with Glutamax supplement (500 mL). 
-3. Opti-MEM reduced serum medium (500 mL). 
-4. 1× Phosphate-buffered saline solution (PBS) (500 mL). 
-5. Fetal bovine serum (FBS) (500 mL). 
-6. Penicillin and streptomycin (100 U/mL and 100 mg/mL, respectively). 
-7. Lipofectamine™ 2000 transfection reagent (0.75 mL, ThermoFischer Scientific). 
+### 2.6 Cell Culture Models 细胞培养模型
 
-### 2.7 Enzyme-Linked Immunosorbent Assay (ELISA)
+1. Immortal human cervical cancer HeLa cells or 4T1 murine breast cancer cells. <span style=color:blue>永生化人宫颈癌HeLa细胞或4T1小鼠乳腺癌细胞</span>
+2. Dulbecco’s Modified Eagle Medium (DMEM) with Glutamax supplement (500 mL). <span style=color:blue>含Glutamax补充剂的杜氏改良鹰培养基（DMEM）（500毫升）</span>
+3. Opti-MEM reduced serum medium (500 mL). <span style=color:blue>Opti-MEM低血清培养基（500毫升）</span>
+4. 1× Phosphate-buffered saline solution (PBS) (500 mL). <span style=color:blue>1×磷酸盐缓冲盐溶液（PBS）（500毫升）</span>
+5. Fetal bovine serum (FBS) (500 mL). <span style=color:blue>胎牛血清（FBS）（500毫升）</span>
+6. Penicillin and streptomycin (100 U/mL and 100 mg/mL, respectively). <span style=color:blue>青霉素和链霉素（分别为100 U/mL和100 mg/mL）</span>
+7. Lipofectamine™ 2000 transfection reagent (0.75 mL, ThermoFischer Scientific). <span style=color:blue>Lipofectamine™ 2000转染试剂（0.75毫升，ThermoFischer Scientific）</span>
+
+### 2.7 Enzyme-Linked Immunosorbent Assay (ELISA) 酶联免疫吸附测定 (ELISA)
 
 Detect and quantify the presence of ligands or antigens by carrying out the ELISA assay. To do so, use the Murin TNF-α Instant Elisa (Bender MedSystems) instead of the conventional one to detect quantitatively TNF-α from the cell culture supernatant following the manufacturer’s instructions.
 
-1. A pre-coated 96-well microplate. 
-2. A biotinylated detection antibody.
-3. A SAV-HRP conjugate, generally an antibody or streptavidin. 
-4. Diluent and wash buffers. 
-5. A substrate solution. 
-6. Lysis buffer 10×.
+<span style=color:blue>通过进行酶联免疫吸附测定（ELISA）来检测和定量配体或抗原的存在。使用Murin TNF-α Instant Elisa（Bender MedSystems）代替传统方法，根据制造商的说明，从细胞培养上清液中定量检测TNF-α。</span>
+
+1. A pre-coated 96-well microplate. <span style=color:blue>预涂层96孔微孔板</span>
+2. A biotinylated detection antibody.<span style=color:blue>生物素化的检测抗体</span>
+3. A SAV-HRP conjugate, generally an antibody or streptavidin. <span style=color:blue>SAV-HRP缀合物，通常是抗体或链霉亲和素</span>
+4. Diluent and wash buffers. <span style=color:blue>稀释液和洗涤缓冲液</span>
+5. A substrate solution. <span style=color:blue>底物溶液</span>
+6. Lysis buffer 10×.<span style=color:blue>裂解缓冲液10×</span>
 
 ## 3 Methods
 
