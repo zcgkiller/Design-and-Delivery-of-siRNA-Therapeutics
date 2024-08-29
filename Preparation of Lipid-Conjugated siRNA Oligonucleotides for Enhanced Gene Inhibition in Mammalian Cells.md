@@ -172,34 +172,34 @@ Detect and quantify the presence of ligands or antigens by carrying out the ELIS
 
 #### 3.1.1 Preparation of 3′- and 5′-Lipid RNA Oligonucleotide Conjugates
 
-Glycerol-based CPG solid supports as well as modified neutral and cationic lipid phosphoramidites were previously synthesized according to well-established experimental procedures [[13](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR13), [14](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR14)].
+Glycerol-based CPG solid supports as well as modified neutral and cationic lipid phosphoramidites were previously synthesized according to well-established experimental procedures.
 
-1. Weigh 20–30 mg of commercially available CPG modified with cholesterol (Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1); Chol) and glycerol-based CPG solid supports (Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1); 106, 107, 110, 111, and SCR). Place them in a DNA synthesizer (*see* **Note** [**12**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-2. Dissolve the corresponding lipid phosphoramidite (Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1); **8**) in an appropriate anhydrous solvent like acetonitrile (ACN) to give a final concentration of 0.1 M (*see* **Note** [**13**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+1. Weigh 20–30 mg of commercially available CPG modified with cholesterol (Table 1; Chol) and glycerol-based CPG solid supports (Table 1; 106, 107, 110, 111, and SCR). Place them in a DNA synthesizer (*see* **Note** **12**). 
+2. Dissolve the corresponding lipid phosphoramidite (Table 1; **8**) in an appropriate anhydrous solvent like acetonitrile (ACN) to give a final concentration of 0.1 M (*see* **Note** **13**). 
 3. The resultant lipid phosphoramidite solutions must be finally integrated into the automated synthesizer. 
-4. Program the sequences (both guide and passenger strands) displayed on Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1) in the DNA/RNA synthesizer. 
-5. Remove the modified CPG solid supports (Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1)) carrying the desired oligonucleotides and the selected lipids once the automated synthesis has ended up (*see* **Note** [**14**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)).
+4. Program the sequences (both guide and passenger strands) displayed on Table 1 in the DNA/RNA synthesizer. 
+5. Remove the modified CPG solid supports (Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1)) carrying the desired oligonucleotides and the selected lipids once the automated synthesis has ended up (*see* **Note** **14**).
 6. Transfer the solid supports to a 2 mL-screw glass vial. Add 1 mL of a mixture of concentrated ammonia (32%) in ethanol (3:1) and heat the suspension up at 55 °C for 1 h. 
 7. Filter the CPG solid supports off and wash with additional ethanol in autoclaved conical tubes. 
 8. Evaporate the mixture of solvents (water and ethanol) in a Speed Vac evaporator to dryness. 
 9. Dissolve the residue containing the RNA oligonucleotide conjugates with 0.15 mL solution containing triethylamine trihydrofluoride, triethylamine, and *N*-methylpyrrolidone (4:3:6) for 2.5 h at 65 °C in order to remove both the silyl (TBDMS) and 3,3′-dimethoxytrytil (DMTr) protecting groups. 
 10. Add isopropoxytrimethylsilane (0.3 mL) to stop the deprotection reaction and diethyl ether (0.75 mL). 
-11. Vortex the final mixture solutions and cool down overnight at 4 °C to facilitate the precipitation of the expected DMT*off*-RNA oligonucleotide conjugates (*see* **Note** [**15**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+11. Vortex the final mixture solutions and cool down overnight at 4 °C to facilitate the precipitation of the expected DMT*off*-RNA oligonucleotide conjugates (*see* **Note** **15**). 
 12. Centrifuge conical tubes containing RNA oligonucleotide conjugates at 14,086 × *g* at 4 °C for 5 min. 
 13. Wash the corresponding pellets with diethyl ether and centrifuge again using the same conditions as described above. 
 14. Dry the RNA pellets carefully using a weak nitrogen stream . 
 
 #### 3.1.2 Purification of RNA Oligonucleotide Conjugates by HPLC
 
-1. Dissolve the RNA pellets obtained in Subheading [3.1.1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec12) in RNAse-free miliQ-water or DEPC-treated water. 
+1. Dissolve the RNA pellets obtained in Subheading 3.1.1 in RNAse-free miliQ-water or DEPC-treated water. 
 2. Use the appropriate desalting columns (Sephadex NAP-5 or NAP-10 columns) following the manufacturer’s instructions. 
-3. Use “Solvent A” and “Solvent B” as buffered solutions (*see* Subheading [2](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec2)) and placed them in labeled bottles. 
-4. Analyze the corresponding RNA oligonucleotide conjugates. Run a 10-min linear gradient starting at 0% to 35% B and a flow rate of 1 mL/min (*see* **Note** [**16**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)).
-5. Program a specific method and use a flow rate of 3 mL/min and 20-min linear gradient from 15% to 80% B maintaining 5 additional minutes to 80% B to purify the RNA oligonucleotide conjugates (*see* **Note** [**16**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-6. Load a syringe with 200 μL crude RNA oligonucleotide solutions (*see* **Note** [**17**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+3. Use “Solvent A” and “Solvent B” as buffered solutions (*see* Subheading 2) and placed them in labeled bottles. 
+4. Analyze the corresponding RNA oligonucleotide conjugates. Run a 10-min linear gradient starting at 0% to 35% B and a flow rate of 1 mL/min (*see* **Note** **16**).
+5. Program a specific method and use a flow rate of 3 mL/min and 20-min linear gradient from 15% to 80% B maintaining 5 additional minutes to 80% B to purify the RNA oligonucleotide conjugates (*see* **Note** **16**). 
+6. Load a syringe with 200 μL crude RNA oligonucleotide solutions (*see* **Note** **17**). 
 7. Collect pure RNA oligonucleotide samples in conical tubes and use a Speed Vac evaporator to concentrate the samples to dryness. 
 8. Characterize the collected fractions by analytical HPLC and mass spectrometry (MALDI-TOF). Use a UV-spectrophotometer to calculate the final concentration of the pure RNA oligonucleotide strand. 
-9. An example of a HPLC chromatogram and a MALDI-TOF spectrum of a modified lipid RNA passenger strand is shown in Fig. [3](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig3). 
+9. An example of a HPLC chromatogram and a MALDI-TOF spectrum of a modified lipid RNA passenger strand is shown in Fig. 3. 
 
 ![../images/485053_1_En_8_Chapter/485053_1_En_8_Fig3_HTML.png](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_8_Fig3_HTML.png)
 
@@ -222,9 +222,9 @@ Glycerol-based CPG solid supports as well as modified neutral and cationic lipid
 
 Use these general protocols with the aim to transfect the corresponding unmodified and modified lipid-siRNA conjugates in two specific adherent cell culture lines (e.g., HeLa and 4T1). Detailed protocols are described below.
 
-1. Use HeLa and 4T1 cell lines for in vitro gene silencing studies to inhibit TNF-α gene expression (*see* **Note** [**18**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)).
-2. Transfect a plasmid expressing such gene (pCAm TNF-α; 250 ng) using a commercially available cationic lipid, namely Lipofectamine™ 2000 when working with HeLa cell lines following the manufacturer’s instructions (*see* **Note** [**18**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)).
-3. Incubate both unmodified and siRNA bioconjugate duplexes (100 nM) displayed on Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1) with fetal calf serum (FCS) previously (*see* the “Pre-binding Strategy” section for further details) (Fig. [4](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig4)).
+1. Use HeLa and 4T1 cell lines for in vitro gene silencing studies to inhibit TNF-α gene expression (*see* **Note** **18**).
+2. Transfect a plasmid expressing such gene (pCAm TNF-α; 250 ng) using a commercially available cationic lipid, namely Lipofectamine™ 2000 when working with HeLa cell lines following the manufacturer’s instructions (*see* **Note** **18**).
+3. Incubate both unmodified and siRNA bioconjugate duplexes (100 nM) displayed on Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1) with fetal calf serum (FCS) previously (*see* the “Pre-binding Strategy” section for further details) (Fig. 4).
 4. Transfect either HeLa or 4T1 cells with the corresponding siRNA complexes.
 5. Use the same siRNA duplexes and transfect them using the cell lines described before without being incubated with fetal calf serum (FCS).
 6. Transfection processes in **steps 4** and **5** must be performed in the absence of Lipofectamine™ 2000. 
@@ -235,22 +235,22 @@ Use these general protocols with the aim to transfect the corresponding unmodifi
 
 ##### Pre-binding Strategy
 
-1. Culture and grow exponentially HeLa cells under standard conditions (37 °C, 5% CO2) in DMEM as a suitable medium supplemented with 10% FBS and antibiotics (*see* **Note** [**19**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+1. Culture and grow exponentially HeLa cells under standard conditions (37 °C, 5% CO2) in DMEM as a suitable medium supplemented with 10% FBS and antibiotics (*see* **Note** **19**). 
 2. Remove the growing media and use 500 μL of fresh DMEM supplemented with 10% FBS without antibiotics to perform the transfection experiments. 
 3. Use a 40–60% confluence to perform the transfection experiments. 
 4. Use 250 ng of a plasmid expressing murine TNF-α (pCAm TNF-α) and mix with Lipofectamine™ 2000 in Opti-MEM (300 μL). 
 5. Incubate the resulting liposomes for 15 min at room temperature. 
 6. Add 100 μL of the preformed liposome solution in three wells to get a final volume of 600 μL. 
-7. Incubate HeLa cells for 4 h under standard conditions (37 °C, 5% CO2) (*see* **Note** [**20**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+7. Incubate HeLa cells for 4 h under standard conditions (37 °C, 5% CO2) (*see* **Note** **20**). 
 8. Wash thoroughly with 1× PBS in order to remove the lipid-based transfecting agent. 
 9. Mix those siRNA duplexes (100 nM) displayed on Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Tab1) with FCS in the ratio of 0.66 μg siRNA/25 μL FCS. 
-10. Place siRNA/serum complexes on a sonication bath for 5 min (*see* **Note** [**21**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+10. Place siRNA/serum complexes on a sonication bath for 5 min (*see* **Note** **21**). 
 11. Add the resulting siRNA/FCS complexes (“*f-siRNA*”) to HeLa cultured cells in the presence of Opti-MEM medium and in the absence of a commercially available cationic lipid. 
 12. Incubate HeLa cells containing *f-siRNA* for 4 h under standard conditions (37 °C, 5% CO2). 
 13. Remove media and add fresh DMEM supplemented with 10% FBS after 4 h-incubation. 
 14. Incubate HeLa cells for 48 h under standard conditions (37 °C, 5% CO2). 
-15. Analyze the amount of TNF-α produced by HeLa cells by the enzyme-linked immunosorbent assay (ELISA) according to manufacturer’s instructions (*see* **Note** [**22**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
-16. Results are shown in Figs. [5](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig5) and [6](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig6).
+15. Analyze the amount of TNF-α produced by HeLa cells by the enzyme-linked immunosorbent assay (ELISA) according to manufacturer’s instructions (*see* **Note** **22**). 
+16. Results are shown in Figs. 5 and 6.
 
 ![485053_1_En_8_Fig5_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_8_Fig5_HTML.png)
 
@@ -267,7 +267,7 @@ In the case of using 4T1 breast cancer cells use only **steps 9**–**14** (with
 1. Perform the same experiments using same siRNA duplex amounts but without sonicating them in the presence of FCS. 
 2. Add siRNA duplexes (100 nM) to HeLa cultured cells in the absence of a commercially available cationic lipid and incubate cells and siRNA duplexes for 48 h under standard conditions (37 °C, 5% CO2). 
 3. Analyze the amount of TNF-α produced by HeLa cells by the enzyme-linked immunosorbent assay (ELISA) according to the manufacturer’s instructions . 
-4. Results are shown in Figs. [5](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig5) and [6](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig6). 
+4. Results are shown in Figs. 5 and 6. 
 
 ## 4 Notes
 
@@ -275,11 +275,11 @@ In the case of using 4T1 breast cancer cells use only **steps 9**–**14** (with
 2. This is a solid-phase automated process in which building blocks (DNA or RNA phosphoramidites) are coupled to a growing oligonucleotide in an orderly manner leading to a specific sequence that has been previously programmed. The average yield for the coupling of RNA monomers is usually around 97–98%. Several building blocks derived from the phosphoramidite method (e.g., protected 2′-deoxynucleosides, ribonucleosides, locked nucleic acids and bridge nucleic acids) can be used in an automated oligonucleotide synthesis. 
 3. Ancillary reagents used during the RNA synthesis are the following: in DCM (detritylation step); 0.4 M 1*H*-tetrazol in ACN (activation step); acetic anhydride/pyridine/tetrahydrofurane (THF) (1:1:8) (capping A); 10% *N*-methylimidazole in THF (capping B) and 0.01 M iodine in THF/pyridine/water (7:2:1) (oxidation step). This oxidizing agent readily oxidizes the phosphorous (III) to phosphorous (V). These ancillary reagents are available from Merck Sigma-Aldrich (Madrid, Spain), Link Technologies (Scotland, UK), Glen Research (Sterling, VI, USA), or Applied Biosystems (Foster City, CA, USA) among many others. 
 4. Unmodified siRNA duplexes usually have their 3′-end passenger and guide strands modified with two thymidines (dT) with the aim to protect siRNAs from degradation. However, siRNAs without bearing these dTs at the ends have been also prepared and used in cell culture experiments. 
-5. Common protecting groups are the following: *Bz* is a benzoyl group; *Ac* is an acetyl and *dmf* is a dimethylformamidine protecting groups. The 2′-OH protecting group used for natural RNA monomers is usually the *tert*-butyldimethylsilyl (TBDMS) protecting group although other silyl derivatives have been also reported like TOM (triisopropylsilyloxymethyl) [[21](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR21)]. 
+5. Common protecting groups are the following: *Bz* is a benzoyl group; *Ac* is an acetyl and *dmf* is a dimethylformamidine protecting groups. The 2′-OH protecting group used for natural RNA monomers is usually the *tert*-butyldimethylsilyl (TBDMS) protecting group although other silyl derivatives have been also reported like TOM (triisopropylsilyloxymethyl). 
 6. Several companies can provide not only regular CPG solid supports and natural RNA phosphoramidites as described before, but also minor 2′-OMe-RNA phosphoramidites like Glen Research (Sterling, VI, USA) to afford RNA oligonucleotides with improved stabilities. 
-7. In addition to obtaining phosphate linkages in the presence of iodine, water, and a weak base, other oxidizing reagents like *tert*-butyl hydroperoxide [[22](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR22)] and (1*S*)-(+)-(10-camphorsulfonyl)-oxaziridine (CSO) [[23](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR23)] can be also used. On the other hand, sulfurizing reagents can be integrated into automatized synthesis in order to replace one of the phosphate’s oxygens in the oligonucleotide chain by a sulfur atom and therefore obtaining RNA oligonucleotide derivatives containing phosphorothioate linkages. To do so, *N*,*N*,*N*,*N*-tetraethylthiuram disulfide (TETD) [[24](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR24)], Beaucage reagent [[25](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR25)] or 3-(dimethylaminomethylidene)amino-3*H*-1,2,4-dithiazole-3-thione (DDTT) [[26](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#CR26)] have been reported giving rise to the expected phosphorothioate linkages. It is worth mentioning that using DDTT affords better sulfurization kinetics as well as stability in solution when comparing to other sulfurizing reagents described above. 
+7. In addition to obtaining phosphate linkages in the presence of iodine, water, and a weak base, other oxidizing reagents like *tert*-butyl hydroperoxide  and (1*S*)-(+)-(10-camphorsulfonyl)-oxaziridine (CSO) can be also used. On the other hand, sulfurizing reagents can be integrated into automatized synthesis in order to replace one of the phosphate’s oxygens in the oligonucleotide chain by a sulfur atom and therefore obtaining RNA oligonucleotide derivatives containing phosphorothioate linkages. To do so, *N*,*N*,*N*,*N*-tetraethylthiuram disulfide (TETD), Beaucage reagent or 3-(dimethylaminomethylidene)amino-3*H*-1,2,4-dithiazole-3-thione (DDTT) have been reported giving rise to the expected phosphorothioate linkages. It is worth mentioning that using DDTT affords better sulfurization kinetics as well as stability in solution when comparing to other sulfurizing reagents described above. 
 8. Reverse and anion-exchange HPLC columns can be chosen to analyze and purify oligonucleotides (e.g., XBridge™ C18, DNAPac RP LC columns, DNASwift™ SAX-1S, Nucleosil 120-10 C18 (250 × 4 mm), among others). 
-9. Polypropylene or polystyrene conical tubes should be previously autoclaved (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Sec19)). 
+9. Polypropylene or polystyrene conical tubes should be previously autoclaved (*see* **Note** **1**). 
 10. NAP DNA/RNA columns (GE Healthcare) are available in three sizes: NAP-5 (0.5 mL), NAP-10 (1.0 mL), and NAP-25 (2.5 mL). The number in brackets is the dead volume of the columns. 
 11. Other common matrices used in MALDI-TOF mass spectrometry are: sinapinic acid (SA), α-cyano-4-hydroxycinnamic acid (ACH), 2,5-dihydroxybenzoic acid (DHB), or 3-hydroxypicolinic acid (3HPA), among others. 
 12. The required amount of CPG solid support for oligonucleotide synthesis will rely on DMTr-functionalization by calculating the resin loading. Interestingly, CPG solid supports modified with hydrophobic residues like cholesterol and palmitate can be found commercially available from Link Technologies (Scotland, UK) or Glen Research (Sterling, VI, USA). 
@@ -292,4 +292,4 @@ In the case of using 4T1 breast cancer cells use only **steps 9**–**14** (with
 19. A penicillin streptomycin solution (between 0.5 and 1.0 mL) is added to cell culture media (100 mL) to prevent bacterial contamination. A final concentration of penicillin (50–100 IU/mL) and streptomycin (50–100 μg/mL) must be obtained. 
 20. A 1-h incubation involving murine expressing TNF-α plasmid and Lipofectamine™ 2000 has been also carried out obtaining similar transfection efficiencies. 
 21. Lipid-siRNA duplexes were stable during the sonication process as observed by gel electrophoresis after phenol extraction of the serum proteins. 
-22. The results from these experiments show that the amount of TNF-α produced by cells after 48 h with lipid-siRNA conjugates combined with 10% FCS differ from those transfection processes performed in the absence of the *pre-binding* strategy. In this sense, a 40–50% inhibition of the TNF-α production compared with the scrambled control was observed only if siRNAs were transfected using the *pre-binding* approach. Interestingly, the nature of lipid pendent groups at the 3′- and 5′-termini of the passenger strand is also important in the inhibition of the TNF-α expression. The strongest inhibition (80% in 4T1 cells) was observed when a siRNA duplex was modified with the hydrophobic lipid chain C14 at the 3′-termini of the sense strand (Figs. [5](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig5) and [6](clbr://internal.invalid/OEBPS/html/485053_1_En_8_Chapter.xhtml#Fig6)).
+22. The results from these experiments show that the amount of TNF-α produced by cells after 48 h with lipid-siRNA conjugates combined with 10% FCS differ from those transfection processes performed in the absence of the *pre-binding* strategy. In this sense, a 40–50% inhibition of the TNF-α production compared with the scrambled control was observed only if siRNAs were transfected using the *pre-binding* approach. Interestingly, the nature of lipid pendent groups at the 3′- and 5′-termini of the passenger strand is also important in the inhibition of the TNF-α expression. The strongest inhibition (80% in 4T1 cells) was observed when a siRNA duplex was modified with the hydrophobic lipid chain C14 at the 3′-termini of the sense strand (Figs. 5 and 6).
