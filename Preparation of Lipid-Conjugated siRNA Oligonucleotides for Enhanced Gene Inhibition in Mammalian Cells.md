@@ -1,4 +1,4 @@
-# Preparation of Lipid-Conjugated siRNA Oligonucleotides for Enhanced Gene Inhibition in Mammalian Cells 制备脂质共轭 siRNA 寡核苷酸以增强哺乳动物细胞的基因抑制能力 
+# Preparation of Lipid-Conjugated siRNA Oligonucleotides for Enhanced Gene Inhibition in Mammalian Cells 制备脂质偶联 siRNA 寡核苷酸以增强哺乳动物细胞的基因抑制能力 
 
 Santiago Grijalvo, Sandra M. Ocampo, José Carlos Peralesand Ramon Eritja
 
