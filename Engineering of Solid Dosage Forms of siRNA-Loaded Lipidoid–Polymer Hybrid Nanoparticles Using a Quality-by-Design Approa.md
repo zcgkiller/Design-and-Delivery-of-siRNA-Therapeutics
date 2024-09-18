@@ -331,48 +331,48 @@ Configuration for absolute scan measurement program for measuring X-ray powder d
 
 **Fig. 9** Representative X-ray powder diffraction patterns of spray-dried mannitol (black) and siRNA-loaded lipidoid-polymer hybrid nanoparticles (blue). Both samples exhibit similar diffraction patterns, which reflect their crystalline nature
 
-## 4 Notes
+## 4 Notes 注释
 
-1. Calculations of the amounts and volumes used in formulating TNF-α siRNA-loaded LPNs. An example of the calculations for a formulation with an L5 content of 15% (w/w) and an L5:TNF-α siRNA weight ratio of 15:1 is provided below:
+1. Calculations of the amounts and volumes used in formulating TNF-α siRNA-loaded LPNs. An example of the calculations for a formulation with an L5 content of 15% (w/w) and an L5:TNF-α siRNA weight ratio of 15:1 is provided below<span style=color:blue>TNF-α siRNA载LPNs制剂的计算示例。以L5含量为15%（w/w）、L5:TNF-α siRNA质量比为15:1的配方为例：</span>
 
-   (a) Final batch weight (mg) = weight of L5 (mg) + weight of PLGA (mg) = 15 mg.
+   (a) Final batch weight (mg) = weight of L5 (mg) + weight of PLGA (mg) = 15 mg.<span style=color:blue>**最终批次重量（mg）** = L5重量（mg）+ PLGA重量（mg）= 15 mg。</span>
 
-   (b) L5 content (15% w/w of total batch size) = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>1</mn><mn>5</mn></mrow><mrow><mn>1</mn><mn>0</mn><mn>0</mn></mrow></mfrac><mo>&#xd7;</mo><mn>1</mn><mn>5</mn><mo>=</mo><mn>2</mn><mi>.</mi><mn>2</mn><mn>5</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></mrow></math>.
+   (b) L5 content (15% w/w of total batch size) = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>1</mn><mn>5</mn></mrow><mrow><mn>1</mn><mn>0</mn><mn>0</mn></mrow></mfrac><mo>&#xd7;</mo><mn>1</mn><mn>5</mn><mo>=</mo><mn>2</mn><mi>.</mi><mn>2</mn><mn>5</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></mrow></math>.<span style=color:blue> **L5含量** (占总批次重量的15% w/w) =<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>1</mn><mn>5</mn></mrow><mrow><mn>1</mn><mn>0</mn><mn>0</mn></mrow></mfrac><mo>&#xd7;</mo><mn>1</mn><mn>5</mn><mo>=</mo><mn>2</mn><mi>.</mi><mn>2</mn><mn>5</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></mrow></math>。</span>
 
-   (c) Weight of PLGA (mg) = final batch weight (mg) − weight of L5 (mg) = 15 − 2.25 = 12.75 mg.
+   (c) Weight of PLGA (mg) = final batch weight (mg) − weight of L5 (mg) = 15 − 2.25 = 12.75 mg.<span style=color:blue>**PLGA重量（mg）** = 最终批次重量（mg）− L5重量（mg）= 15 − 2.25 = 12.75 mg。</span>
 
-   (d) Concentration of stock solution of TNF-α siRNA = 18 mg/mL.
+   (d) Concentration of stock solution of TNF-α siRNA = 18 mg/mL.<span style=color:blue>**TNF-α siRNA储备液浓度** = 18 mg/mL。
 
-   (e) Amount of TNF-α siRNA (mg) = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mn>1</mn><mrow><mn>1</mn><mn>5</mn></mrow></mfrac><mo>&#xd7;</mo><mn>2</mn><mi>.</mi><mn>2</mn><mn>5</mn><mo>=</mo><mn>0</mn><mi>.</mi><mn>1</mn><mn>5</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></mrow></math>
+   (e) Amount of TNF-α siRNA (mg) = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mn>1</mn><mrow><mn>1</mn><mn>5</mn></mrow></mfrac><mo>&#xd7;</mo><mn>2</mn><mi>.</mi><mn>2</mn><mn>5</mn><mo>=</mo><mn>0</mn><mi>.</mi><mn>1</mn><mn>5</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></mrow></math><span style=color:blue>**TNF-α siRNA量（mg）** = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mn>1</mn><mrow><mn>1</mn><mn>5</mn></mrow></mfrac><mo>&#xd7;</mo><mn>2</mn><mi>.</mi><mn>2</mn><mn>5</mn><mo>=</mo><mn>0</mn><mi>.</mi><mn>1</mn><mn>5</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">g</mi></mrow></mrow></mrow></math>。</span>
 
-   (f) Volume of TNF-α siRNA (μL) = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>0</mn><mi>.</mi><mn>1</mn><mn>5</mn></mrow><mrow><mn>1</mn><mn>8</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mi>.</mi><mn>0</mn><mn>0</mn><mn>8</mn><mn>3</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow><mo>=</mo><mn>8</mn><mi>.</mi><mn>3</mn><mtext>&#xa0;</mtext><mrow><mi mathvariant="normal">&#x3bc;</mi></mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow></math>
+   (f) Volume of TNF-α siRNA (μL) = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>0</mn><mi>.</mi><mn>1</mn><mn>5</mn></mrow><mrow><mn>1</mn><mn>8</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mi>.</mi><mn>0</mn><mn>0</mn><mn>8</mn><mn>3</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow><mo>=</mo><mn>8</mn><mi>.</mi><mn>3</mn><mtext>&#xa0;</mtext><mrow><mi mathvariant="normal">&#x3bc;</mi></mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow></math><span style=color:blue>**TNF-α siRNA体积（μL）** = <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>0</mn><mi>.</mi><mn>1</mn><mn>5</mn></mrow><mrow><mn>1</mn><mn>8</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mi>.</mi><mn>0</mn><mn>0</mn><mn>8</mn><mn>3</mn><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow><mo>=</mo><mn>8</mn><mi>.</mi><mn>3</mn><mtext>&#xa0;</mtext><mrow><mi mathvariant="normal">&#x3bc;</mi></mrow><mrow><mi mathvariant="normal">L</mi></mrow></mrow></math>。</span>
 
-2. I-optimal designs (also referred to as IV or Integrated Variance) provide lower average prediction variance across the region of experimentation. I-optimality is desirable for response surface methods (RSM) where prediction is important. 
+2. I-optimal designs (also referred to as IV or Integrated Variance) provide lower average prediction variance across the region of experimentation. I-optimality is desirable for response surface methods (RSM) where prediction is important. <span style=color:blue>**I-最佳设计** (I-optimal designs) 或称为IV（集成方差）设计，在实验区域内提供较低的平均预测方差。I-最佳设计对于响应面方法（RSM）尤其适用，尤其当预测至关重要时</span>
 
-3. When a model is selected in Design-Expert® software, make sure to go through all the evaluation parameters, especially lack of fit and aliasing. Correct the model by excluding specific terms from the equation. 
+3. When a model is selected in Design-Expert® software, make sure to go through all the evaluation parameters, especially lack of fit and aliasing. Correct the model by excluding specific terms from the equation. <span style=color:blue>**Design-Expert® 软件中的模型选择**，确保评估所有参数，特别是拟合缺失和别名效应。可以通过从方程中排除特定项来修正模型。</span>
 
-4. All responses may not be significant and should be carefully analyzed when evaluating the statistical parameters. 
+4. All responses may not be significant and should be carefully analyzed when evaluating the statistical parameters. <span style=color:blue>**响应结果分析**，并非所有响应都显著，评估统计参数时需仔细分析。</span>
 
-5. Care should be taken while constructing these plots and interpreting data. The OOS may appear to be dynamic when responses are added/removed, criteria are modified, data is over-fitted, and/or the model is aliased. This can result in questionable data quality. 
+5. Care should be taken while constructing these plots and interpreting data. The OOS may appear to be dynamic when responses are added/removed, criteria are modified, data is over-fitted, and/or the model is aliased. This can result in questionable data quality. <span style=color:blue>**图形构建和数据解释**应谨慎。当添加/删除响应、更改标准、过度拟合数据或模型别名时，OOS（超过规范）可能会表现出动态变化，影响数据质量。</span>
 
-6. The goal is set to “minimize” for the PDI to aim for a monodisperse formulation. 
+6. The goal is set to “minimize” for the PDI to aim for a monodisperse formulation. <span style=color:blue>**PDI（多分散指数）目标设置为“最小化”**，以期获得单分散配方。</span>
 
-7. The desirability displays values between 0 and 1, the latter being a highly desirable condition. However, it may be misinterpreted because the desirability function is entirely dependent on how close the upper and lower limits are set in the QTPP. The goal of optimization is how well the set conditions meet the goals rather than achieving a high desirability. 
+7. The desirability displays values between 0 and 1, the latter being a highly desirable condition. However, it may be misinterpreted because the desirability function is entirely dependent on how close the upper and lower limits are set in the QTPP. The goal of optimization is how well the set conditions meet the goals rather than achieving a high desirability. <span style=color:blue>**理想度（Desirability）值** 介于0和1之间，1为高度理想状态。需注意的是，理想度函数依赖于在QTPP中设置的上下限。优化的目标是确保设定条件尽可能达到目标，而非单纯追求高理想度。</span>
 
-8. Make sure that the entire content remains at the bottom of the vial with sufficient headspace for effective evaporation. 
+8. Make sure that the entire content remains at the bottom of the vial with sufficient headspace for effective evaporation. <span style=color:blue>**确保内容物位于瓶底，且留有足够空间进行有效蒸发**。</span>
 
-9. It is essential to mix by pipetting because vortexing usually results in liquid spill or loss in the caps, which affects the true yield of the process. 
+9. It is essential to mix by pipetting because vortexing usually results in liquid spill or loss in the caps, which affects the true yield of the process. <span style=color:blue>**混合时需通过移液器进行**，因为涡旋搅拌通常会导致液体溢出或盖内损失，影响产率。</span>
 
-10. The inner layer of the collection vial is coated with a hydrophobic material and using hard tools may scratch the surface, resulting in loss of the product. The true yield is calculated as the sum of powder lost during the spray drying and the transfer from the collection vial to the storage vial. 
+10. The inner layer of the collection vial is coated with a hydrophobic material and using hard tools may scratch the surface, resulting in loss of the product. The true yield is calculated as the sum of powder lost during the spray drying and the transfer from the collection vial to the storage vial. <span style=color:blue>**收集瓶的内层涂有疏水材料**，使用硬工具可能会刮伤表面，导致产物损失。真正产率的计算包括喷雾干燥过程中和从收集瓶转移到储存瓶时丢失的粉末总量。</span>
 
-11. Consider that the tiny hook of the thermogravimetric instrument needs to grab the pan. If the bow is bent, restructure it carefully with a pair of tweezers to bend it in a vertical direction so that the bow is directed outside. 
+11. Consider that the tiny hook of the thermogravimetric instrument needs to grab the pan. If the bow is bent, restructure it carefully with a pair of tweezers to bend it in a vertical direction so that the bow is directed outside. <span style=color:blue>**热重仪的小钩子需要抓住盘子**，若弓形部件弯曲，需用镊子小心矫正，使弓形朝外。</span>
 
-12. Do not get the sample on the bow or overload the pan. The weighing will be done automatically. 
+12. Do not get the sample on the bow or overload the pan. The weighing will be done automatically. <span style=color:blue>**不要将样品放在弓形部件上或过量加载盘子**，称重将自动完成。</span>
 
-13. Only put a tiny amount of powder on the carbon tape and spread it as a single layer. 
+13. Only put a tiny amount of powder on the carbon tape and spread it as a single layer. <span style=color:blue>**在碳胶带上只需放置少量粉末**，并将其均匀铺展为单层。</span>
 
-14. The instrument will be properly turned on if the vacuum in the glass chamber is reached, which is evidenced by a tight seal between the O ring and glass tube. 
+14. The instrument will be properly turned on if the vacuum in the glass chamber is reached, which is evidenced by a tight seal between the O ring and glass tube. <span style=color:blue>**设备在玻璃室达到真空状态时已正确启动**，此时O形圈与玻璃管之间应形成密封。</span>
 
-15. The lid can be opened very easily when the chamber has repressurized. Do not force the lid to open. 
+15. The lid can be opened very easily when the chamber has repressurized. Do not force the lid to open. <span style=color:blue>**当腔室重新加压后，盖子可轻松打开**，切勿强行打开盖子。</span>
 
-16. The height should be adjusted in such a way that the specimen holder is placed just beneath the cylindrical metal bar on top.
+16. The height should be adjusted in such a way that the specimen holder is placed just beneath the cylindrical metal bar on top.<span style=color:blue>**调整高度**，以使样品托盘位于上方圆柱金属杆下方。</span>
