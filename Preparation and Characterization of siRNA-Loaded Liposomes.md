@@ -12,64 +12,66 @@ The major challenge for RNAi-based therapy is the fabrication of the delivery sy
 
 RNA interference (RNAi) is a revolutionary tool to suppress the expression of the target gene with relevance to any disease. However, the siRNA will have to be delivered to the diseased cells in an efficient manner. The major challenges in achieving efficient siRNA delivery in vivo include low stability in blood serum, rapid excretion by renal clearance, nonspecific tissue distribution, poor cellular uptake, and inefficient intracellular release. Numerous materials have been explored to overcome these multiscale extracellular and intracellular barriers to the delivery of siRNA. Although viral vectors provide excellent in vivo activity of RNAi, safety concerns and difficulties with large-scale manufacture limit their use in clinic. Therefore, nonviral vectors such as liposome-based vehicles have been intensively explored as safe and effective alternatives. The only siRNA drug approved by FDA uses a nonviral vector. Despite the successful examples of using cationic liposomes for in vivo siRNA delivery, their short half-life in plasma and the toxicity of cationic lipids still limit the clinical application. To address these issues, we have redesigned the conventional cationic liposomes by incorporating a “core-shell” structure into the nanoparticles (NPs). This concept was originally developed earlier in our lab for plasmid DNA delivery, which involves pre-complexation of plasmid DNA with protamine sulfate followed by the addition of cationic liposomes. The DNA was condensed by protamine sulfate, a highly positively charged peptide that is approved by FDA for clinical use. When this method was later adapted for siRNA delivery, the cationic polymers formed a looser complex with siRNA than with the plasmid DNA, resulting in formulation of unstable particles and reduced delivery efficiency. Hyaluronic acid (HA), a polyanionic polysaccharide, was therefore employed in order to provide multivalent charges and improve the particle condensation. We mixed siRNA with HA before complexing with protamine. These components spontaneously self-assemble to form NPs. Steric stabilization was introduced by post-inserting PEGylated lipid onto the surface of LPH. LPH demonstrated efficient gene silencing via systemic delivery of siRNA in tumor-xenograft animal models. The sub-cellular distribution study in the cancer cells indicated that the siRNA might be sequestered in the endosomes, and incorporating an endosomal lytic mechanism might further improve the NP formulation. We then formulated the NP core with calcium phosphate (CaP) which could dissolve at the acidic endosome pH. This gave the birth of Lipid-Calcium-Phosphate (LCP) NPs. We proposed and later proved that dissolved CaP significantly increased the osmotic pressure of the endosome and induced swelling and rupture of the organelle, resulting in the release of the encapsulated siRNA. Here we describe methods for preparing siRNA-loaded LPH and LCP. Technical details of preparation and characterization of NPs are presented. This protocol could be used to deliver siRNA into cancer cells.
 
-## 2 Materials
+<span style=color:blue>RNA干扰（RNAi）技术是一种革命性的工具，能够有效抑制与疾病相关的靶基因表达。然而，成功递送siRNA到病变细胞是RNAi疗法的主要挑战。体内高效递送siRNA面临的主要困难包括：血清中的稳定性差、肾脏快速排泄、组织分布不精准、细胞摄取效率低以及细胞内释放不充分。为了克服这些在细胞外和细胞内的多重障碍，已经开发出多种材料来提高siRNA的递送效果。尽管病毒载体在体内具有较好的RNAi活性，但其安全隐患和难以大规模生产的问题限制了其在临床中的使用。因此，非病毒载体，尤其是基于脂质体的递送系统，已成为一种安全、有效的替代方案。事实上，FDA批准的唯一siRNA药物就使用了非病毒载体。尽管阳离子脂质体在体内siRNA递送方面有许多成功案例，但其在血浆中的短暂半衰期和阳离子脂质的毒性依然限制了其临床应用。为解决这些问题，我们对传统的阳离子脂质体进行了改造，在纳米颗粒中引入了“核壳”结构。这一概念最早由我们的实验室提出，用于质粒DNA的递送，方法是先用鱼精蛋白与质粒DNA形成复合物，然后加入阳离子脂质体。鱼精蛋白硫酸盐是一种高度带正电的肽类，已获FDA批准用于临床，它能将质粒DNA有效压缩。当该方法用于siRNA递送时，发现阳离子聚合物与siRNA的结合相对松散，导致颗粒不稳定，递送效率降低。因此，我们引入了透明质酸（HA），一种多阴离子多糖，以增强颗粒的凝聚效果。我们将siRNA与透明质酸混合，再与鱼精蛋白复合，形成纳米颗粒。通过在LPH表面插入PEG化脂质，实现了纳米颗粒的空间稳定性。LPH在肿瘤异种移植动物模型中通过系统性递送siRNA，显示了良好的基因沉默效果。在癌细胞内的亚细胞分布研究表明，siRNA可能被滞留在内涵体中，因此引入内涵体溶解机制可能会进一步提高纳米颗粒的效果。为此，我们将纳米颗粒核心设计为磷酸钙（CaP），其能在酸性内涵体pH环境下溶解，形成了脂质-钙-磷（LCP）纳米颗粒。我们提出并验证了溶解的磷酸钙显著提高了内涵体的渗透压，导致内涵体膨胀并破裂，从而释放出封装的siRNA。本文详细介绍了siRNA载体LPH和LCP的制备方法及纳米颗粒的表征分析，所述方案可用于将siRNA递送至癌细胞。</span>
 
-### 2.1 Preparation of LPH
+## 2 Materials 材料
 
-1. 1,2-Dioleoyl-3-trimethylammonium -propane (DOTAP) (Avanti Polar Lipids, Alabaster, AL). 
-2. 1,2-Distearoyl-*sn*-glycero-3-phosphoethanolamine-*N*-[poly(ethylene glycol)2000] (DSPE-PEG2000) (Avanti Polar Lipids, Alabaster, AL).
-3. Cholesterol. 
-4. Anti-luciferase siRNA with FAM labeling, 5′-CTT ACG CTG AGT ACT TCG A-3′. 
-5. Protamine sulfate (fraction X from salmon). 
-6. Hyaluronic acid sodium salt from *Streptococcus equi* (HA). 
-7. 25-mL Round-bottomed spherical flask. 
-8. Rotary evaporator. 
-9. Mini-extruder set (Avanti Polar Lipids, Alabaster, AL). 
-10. Polycarbonate Membranes with pore size of 1.0, 0.4 and 0.1μm (Avanti Polar Lipids, Alabaster, AL). 
-11. 1.5-mL Microcentrifuge tube. 
+### 2.1 Preparation of LPH LPH的制备
 
-### 2.2 Characterization of LPH
+1. 1,2-Dioleoyl-3-trimethylammonium -propane (DOTAP) (Avanti Polar Lipids, Alabaster, AL). <span style=color:blue>1,2-二油酰基-3-三甲基氨基丙烷（DOTAP），供应商：Avanti Polar Lipids（美国阿拉巴马州，Alabaster）。</span>
+2. 1,2-Distearoyl-*sn*-glycero-3-phosphoethanolamine-*N*-[poly(ethylene glycol)2000] (DSPE-PEG2000) (Avanti Polar Lipids, Alabaster, AL).<span style=color:blue>1,2-二硬脂酰基-sn-甘油-3-磷酸乙醇胺-N-[聚乙二醇2000]（DSPE-PEG2000），供应商：Avanti Polar Lipids（美国阿拉巴马州，Alabaster）。</span>
+3. Cholesterol. <span style=color:blue>胆固醇</span>
+4. Anti-luciferase siRNA with FAM labeling, 5′-CTT ACG CTG AGT ACT TCG A-3′. <span style=color:blue>FAM标记的抗荧光素酶siRNA，序列为5′-CTT ACG CTG AGT ACT TCG A-3′。</span>
+5. Protamine sulfate (fraction X from salmon). <span style=color:blue>鱼精蛋白硫酸盐（取自鲑鱼的X级部分）。</span>
+6. Hyaluronic acid sodium salt from *Streptococcus equi* (HA). <span style=color:blue>从马链球菌（*Streptococcus equi*）提取的透明质酸钠（HA）。</span>
+7. 25-mL Round-bottomed spherical flask. <span style=color:blue>25毫升的圆底烧瓶。</span>
+8. Rotary evaporator. <span style=color:blue>旋转蒸发仪。</span>
+9. Mini-extruder set (Avanti Polar Lipids, Alabaster, AL). <span style=color:blue>迷你挤出器套装（Avanti Polar Lipids，美国阿拉巴马州，Alabaster）。</span>
+10. Polycarbonate Membranes with pore size of 1.0, 0.4 and 0.1μm (Avanti Polar Lipids, Alabaster, AL). <span style=color:blue>孔径为1.0、0.4、0.1微米的聚碳酸酯膜，供应商：Avanti Polar Lipids（美国阿拉巴马州，Alabaster）。</span>
+11. 1.5-mL Microcentrifuge tube. <span style=color:blue>1.5毫升微量离心管。</span>
 
-1. Dynamic light scattering (DLS) particle sizer analyzer. 
-2. Sepharose CL4B size exclusion column (PharmaciaBiotech, Uppsala, Sweden). 
-3. Lysis buffer, 2 mM EDTA with 0.05% Triton X-100 in pH 7.8 Tris buffer. 
-4. Plate reader. 
+### 2.2 Characterization of LPH LPH的表征
 
-### 2.3 Preparation of LCP
+1. Dynamic light scattering (DLS) particle sizer analyzer. <span style=color:blue>动态光散射（DLS）粒径分析仪。</span>
+2. Sepharose CL4B size exclusion column (PharmaciaBiotech, Uppsala, Sweden). <span style=color:blue>Sepharose CL4B尺寸排阻柱，供应商：Pharmacia Biotech（瑞典乌普萨拉）。</span>
+3. Lysis buffer, 2 mM EDTA with 0.05% Triton X-100 in pH 7.8 Tris buffer. <span style=color:blue>裂解缓冲液，成分为2 mM EDTA和0.05% Triton X-100的pH 7.8 Tris缓冲液。</span>
+4. Plate reader. <span style=color:blue>微孔板阅读器。</span>
 
-1. Dioleoylphosphatidic acid (DOPA) (Avanti Polar Lipids, Alabaster, AL).
-2. Anti-luciferase siRNA, 5′-CTT ACG CTG AGT ACT TCG A-3′. 
-3. Control siRNA, 5′-AAT TCT CCG AAC GTG TCA CGT-3′. 
-4. Anti-luciferase siRNA with FAM labeling, 5′-CTT ACG CTG AGT ACT TCG A-3′. 
-5. Cyclohexane. 
-6. Igepal CO-520. 
-7. Triton X-100. 
-8. Hexanol. 
-9. 100-mL Round-bottomed spherical flask. 
-10. 500 mM Calcium chloride (CaCl2). 
-11. 25 mM Disodium hydrogen phosphate (Na2HPO4), pH = 9.0. 
-12. Ultracentrifuge. 
-13. Ethanol, 200 proof (100%), USP. 
-14. 7-mL Borosilicate glass scintillation vial. 
-15. Bath-type sonicator.
-16. Vacuum desiccator. 
+### 2.3 Preparation of LCP LCP的制备
 
-### 2.4 Characterization of LCP
+1. Dioleoylphosphatidic acid (DOPA) (Avanti Polar Lipids, Alabaster, AL).<span style=color:blue>二油酰基磷脂酸（DOPA），供应商：Avanti Polar Lipids（美国阿拉巴马州，Alabaster）。</span>
+2. Anti-luciferase siRNA, 5′-CTT ACG CTG AGT ACT TCG A-3′. <span style=color:blue>抗荧光素酶siRNA，序列为5′-CTT ACG CTG AGT ACT TCG A-3′。</span>
+3. Control siRNA, 5′-AAT TCT CCG AAC GTG TCA CGT-3′. <span style=color:blue>对照siRNA，序列为5′-AAT TCT CCG AAC GTG TCA CGT-3′。</span>
+4. Anti-luciferase siRNA with FAM labeling, 5′-CTT ACG CTG AGT ACT TCG A-3′. <span style=color:blue>FAM标记的抗荧光素酶siRNA，序列为5′-CTT ACG CTG AGT ACT TCG A-3′。</span>
+5. Cyclohexane. <span style=color:blue>环己烷。</span>
+6. Igepal CO-520. <span style=color:blue>聚(氧乙烯)壬基苯基醚</span>
+7. Triton X-100. <span style=color:blue></span>
+8. Hexanol. <span style=color:blue>乙醇</span>
+9. 100-mL Round-bottomed spherical flask. <span style=color:blue>100毫升的圆底烧瓶</span>
+10. 500 mM Calcium chloride (CaCl<sub>2</sub>). <span style=color:blue>500 mM氯化钙</span>
+11. 25 mM Disodium hydrogen phosphate (Na<sub>2</sub>HPO<sub>4</sub>), pH = 9.0. <span style=color:blue>25 mM磷酸氢二钠</span>
+12. Ultracentrifuge. <span style=color:blue>超速离心机</span>
+13. Ethanol, 200 proof (100%), USP. <span style=color:blue>无水乙醇（200 proof，100%）</span>
+14. 7-mL Borosilicate glass scintillation vial. <span style=color:blue>7毫升的硼硅酸盐西林瓶</span>
+15. Bath-type sonicator.<span style=color:blue>浴式超声波清洗器</span>
+16. Vacuum desiccator. <span style=color:blue>真空干燥器</span>
 
-1. DLS particle sizer analyzer. 
-2. Lysis buffer, 2 mM EDTA with 0.05% Triton X-100 in pH 7.8 Tris buffer. 
-3. Plate reader. 
-4. 200 Mesh carbon-coated copper grids (Ted Pella, Inc., Redding, CA).
-5. 2% Uranyl acetate. 
-6. Transmission electron microscope (TEM). 
+### 2.4 Characterization of LCP LCP的表征
 
-### 2.5 In Vivo Luciferase Silencing Effect of LCP
+1. DLS particle sizer analyzer. <span style=color:blue>动态光散射（DLS）粒径分析仪</span>
+2. Lysis buffer, 2 mM EDTA with 0.05% Triton X-100 in pH 7.8 Tris buffer. <span style=color:blue>裂解缓冲液，成分为2 mM EDTA和0.05% Triton X-100的pH 7.8 Tris缓冲液</span>
+3. Plate reader. <span style=color:blue>微孔板阅读器</span>
+4. 200 Mesh carbon-coated copper grids (Ted Pella, Inc., Redding, CA).<span style=color:blue>200目碳膜涂层铜网，供应商：Ted Pella, Inc.（美国加利福尼亚州雷丁）</span>
+5. 2% Uranyl acetate. <span style=color:blue>2%醋酸铀染色剂</span>
+6. Transmission electron microscope (TEM). <span style=color:blue>透射电子显微镜（TEM）</span>
 
-1. Female athymic nude mice (age 6–8 weeks, Charles River Laboratories, Wilmington, MA).
-2. Lysis buffer, 2 mM EDTA with 0.05% Triton X-100 in pH 7.8 Tris buffer. 
-3. Luciferase substrate (Luciferase Assay System, Promega Co., Madison, WI). 
-4. Plate reader. 
-5. Protein assay kit (Micro BCA™ Protein Assay Kit, Pierce). 
+### 2.5 In Vivo Luciferase Silencing Effect of LCP LCP在体内的荧光素酶基因沉默效果
+
+1. Female athymic nude mice (age 6–8 weeks, Charles River Laboratories, Wilmington, MA).<span style=color:blue>雌性无胸腺裸鼠（年龄6到8周），供应商：Charles River Laboratories（美国马萨诸塞州Wilmington）</span>
+2. Lysis buffer, 2 mM EDTA with 0.05% Triton X-100 in pH 7.8 Tris buffer. <span style=color:blue>裂解缓冲液，成分为2 mM EDTA和0.05% Triton X-100的pH 7.8 Tris缓冲液</span>
+3. Luciferase substrate (Luciferase Assay System, Promega Co., Madison, WI). <span style=color:blue>荧光素酶底物（供应商：Promega Co.，美国威斯康星州Madison，荧光素酶检测试剂盒）</span>
+4. Plate reader. <span style=color:blue>微孔板阅读器</span>
+5. Protein assay kit (Micro BCA™ Protein Assay Kit, Pierce). <span style=color:blue>蛋白质检测试剂盒（Micro BCA™蛋白质检测试剂盒，供应商：Pierce）</span>
 
 ## 3 Methods
 
