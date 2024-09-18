@@ -75,106 +75,106 @@ RNA interference (RNAi) is a revolutionary tool to suppress the expression of th
 
 ## 3 Methods
 
-### 3.1 Preparation of LPH
+### 3.1 Preparation of LPH LPH的制备步骤
 
-1. Add 1 mL of DOTAP (10 mM) and 1 mL of cholesterol (10 mM) (*see* **Note** **1**) in a 1:1 molar ratio to a 25-mL round-bottomed flask. 
-2. Dry the lipid mixture under vacuum by using a rotary evaporator to form a thin film on the wall of the flask. 
-3. Add 2 mL of water (*see* **Note** **2**) to the flask and hydrate the lipid film to give a final concentration of total lipids at 40 mM. 
-4. Sonicate the liposomes in a bath-type sonicator. 
-5. Incubate the liposomes at 50 °C for 10 min and then sequentially extruded through polycarbonate membranes with the following pore sizes: 1.0, 0.4 and 0.1μm. This size extrusion method produces unilamellar DOTAP liposomes with particles around 100 nm. 
-6. Mixing 12.5μg siRNA (*see* **Note** **3**) and 12.5μg HA (weight ratio 1:1) in 100μL of water in a 1.5-mL tube. 
-7. Add 13μg protamine in 100μL of water to the mixture, and keep the mixture at room temperature for 10 min to form the core (*see* **Note** **5**). 
-8. Add 60μL of DOTAP/cholesterol liposomes to the core, and keep the mixture at room temperature for 10 min to form LPH.
-9. Add 15–30μL of micelle suspension of DSPE-PEG2000 (25 mg/mL in water) to the 260μL preformed LPH and then incubated at 50 °C for 10 min.
-10. Allow the PEGylated LPH to cool to room temperature before storage or further application (*see* **Note** **5**, Fig. 1).
+1. Add 1 mL of DOTAP (10 mM) and 1 mL of cholesterol (10 mM) (*see* **Note** **1**) in a 1:1 molar ratio to a 25-mL round-bottomed flask. <span style=color:blue>将1 mL的DOTAP（10 mM）和1 mL的胆固醇（10 mM）按1:1摩尔比加入25 mL的圆底烧瓶中（*参见* **注释1**）。</span>
+2. Dry the lipid mixture under vacuum by using a rotary evaporator to form a thin film on the wall of the flask. <span style=color:blue>使用旋转蒸发仪，在真空下干燥脂质混合物，使其在烧瓶壁上形成一层薄膜。</span>
+3. Add 2 mL of water (*see* **Note** **2**) to the flask and hydrate the lipid film to give a final concentration of total lipids at 40 mM. <span style=color:blue>向烧瓶中加入2 mL水（*参见* **注释2**），水化脂质薄膜，使最终脂质浓度达到40 mM。</span>
+4. Sonicate the liposomes in a bath-type sonicator. <span style=color:blue>使用浴式超声波清洗器对脂质体进行超声处理。</span>
+5. Incubate the liposomes at 50 °C for 10 min and then sequentially extruded through polycarbonate membranes with the following pore sizes: 1.0, 0.4 and 0.1μm. This size extrusion method produces unilamellar DOTAP liposomes with particles around 100 nm. <span style=color:blue>将脂质体在50°C下孵育10分钟，然后依次通过孔径为1.0、0.4和0.1μm的聚碳酸酯膜进行挤出。此尺寸挤出法可生成粒径约100 nm的单层DOTAP脂质体。</span>
+6. Mixing 12.5μg siRNA (*see* **Note** **3**) and 12.5μg HA (weight ratio 1:1) in 100μL of water in a 1.5-mL tube. <span style=color:blue>将12.5μg siRNA（*参见* **注释3**）和12.5μg透明质酸（HA）（重量比1:1）混合在100μL水中，置于1.5 mL离心管中。</span>
+7. Add 13μg protamine in 100μL of water to the mixture, and keep the mixture at room temperature for 10 min to form the core (*see* **Note** **5**). <span style=color:blue>向该混合物中加入13μg鱼精蛋白溶于100μL水中，并在室温下放置10分钟，以形成核心结构（*参见* **注释5**）。</span>
+8. Add 60μL of DOTAP/cholesterol liposomes to the core, and keep the mixture at room temperature for 10 min to form LPH.<span style=color:blue>向核心结构中加入60μL DOTAP/胆固醇脂质体，并在室温下保持混合物10分钟，形成LPH。</span>
+9. Add 15–30μL of micelle suspension of DSPE-PEG2000 (25 mg/mL in water) to the 260μL preformed LPH and then incubated at 50 °C for 10 min.<span style=color:blue>向260μL预形成的LPH中加入15-30μL DSPE-PEG2000（25 mg/mL水溶液）的胶束悬浮液，然后在50°C下孵育10分钟。</span>
+10. Allow the PEGylated LPH to cool to room temperature before storage or further application (*see* **Note** **5**, Fig. 1).<span style=color:blue>让PEG化的LPH冷却至室温后再进行储存或进一步应用（*参见* **注释5**，见图1）。</span>
 
 ![485053_1_En_10_Fig1_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_10_Fig1_HTML.png)
 
-**Fig. 1** Illustration for the preparation of LPH. (Reprint from [[10](clbr://internal.invalid/OEBPS/html/485053_1_En_10_Chapter.xhtml#CR10)] with permission)
+**Fig. 1** Illustration for the preparation of LPH. (Reprint from 10 with permission)
 
-### 3.2 Characterization of LPH
+### 3.2 Characterization of LPH LPH的表征
 
-#### 3.2.1 Particle Size and Zeta Potential
+#### 3.2.1 Particle Size and Zeta Potential 粒径和Zeta电位
 
-1. Dilute a dispersion of LPH into an appropriate concentration with water.
-2. Use the DLS method to determine the particle size and zeta potential of LPH (*see* **Note** **6**).
+1. Dilute a dispersion of LPH into an appropriate concentration with water.<span style=color:blue>用水将LPH分散液稀释至适当浓度。</span>
+2. Use the DLS method to determine the particle size and zeta potential of LPH (*see* **Note** **6**).<span style=color:blue>使用动态光散射（DLS）法测定LPH的粒径和Zeta电位（*参见* **注释6**）。</span>
 
-#### 3.2.2 Trapping Efficiency of siRNA
+#### 3.2.2 Trapping Efficiency of siRNA siRNA的包封效率
 
-1. Prepare the standard siRNA solutions by diluting the FAM-labeled siRNA in the lysis buffer.
-2. Prepare LPH with the FAM-labeled siRNA. 
-3. Pass the 200μL of LPH through a Sepharose CL4B size exclusion column and collect the resulting eluents of both unentrapped siRNA and LPH.
-4. Dissolve all the LPH samples in the lysis buffer. 
-5. Add 100μL of standard solutions and LPH samples into a 96-well plate, and measure the fluorescence intensity at 525 nm by using a plate reader.
-6. Calculate the amount of entrapped siRNA according to the standard calibration curve. 
+1. Prepare the standard siRNA solutions by diluting the FAM-labeled siRNA in the lysis buffer.<span style=color:blue>通过在裂解缓冲液中稀释FAM标记的siRNA，制备标准siRNA溶液。</span>
+2. Prepare LPH with the FAM-labeled siRNA. <span style=color:blue>用FAM标记的siRNA制备LPH。</span>
+3. Pass the 200μL of LPH through a Sepharose CL4B size exclusion column and collect the resulting eluents of both unentrapped siRNA and LPH.<span style=color:blue>将200μL的LPH通过Sepharose CL4B尺寸排阻柱，收集未包封的siRNA和LPH的洗脱液。</span>
+4. Dissolve all the LPH samples in the lysis buffer. <span style=color:blue>将所有LPH样品溶解在裂解缓冲液中。</span>
+5. Add 100μL of standard solutions and LPH samples into a 96-well plate, and measure the fluorescence intensity at 525 nm by using a plate reader.<span style=color:blue>将100μL的标准溶液和LPH样品加入96孔板中，使用酶标仪在525 nm处测量荧光强度。</span>
+6. Calculate the amount of entrapped siRNA according to the standard calibration curve. <span style=color:blue>根据标准曲线计算包封的siRNA量。</span>
 
-### 3.3 Preparation of LCP
+### 3.3 Preparation of LCP LCP的制备
 
-1. Mix cyclohexane/Igepal CO-520 (71:29, V:V) and cyclohexane/Triton X-100/hexanol (75:15:10, V:V:V) (3:1) to make the oil phase.
-2. Mix 300μL of 500 mM CaCl2 with 100μL of 2 mg/mL siRNA, and disperse the mixture in 15 mL oil phase to form a water-in-oil reverse micro-emulsion (siRNA emulsion).
-3. Disperse 300μL of 25 mM Na2HPO4 (pH = 9.0) in a separate 15 mL oil phase, then add 200μL of DOPA (20 mg/mL) in chloroform to the mixture to form the phosphate microemulsion.
-4. Mix the two emulsions and keep stirring the mixture for 30 min.
-5. After that, add 30 mL of absolute ethanol to break the micro-emulsion.
-6. Centrifuge the mixture at 12,000 × *g* for at least 15 min to precipitate the CaP-siRNA cores.
-7. Wash the precipitated pellets with ethanol for 2–3 times to remove cyclohexane and surfactants.
-8. After being extensively washed, re-disperse the pellets in 1 mL of chloroform and store in a glass vial for further modification, discard excess salts or aggregates.
-9. To create the outer leaflet lipid coating, mix 1 mL of CaP-siRNA cores, 100μL of 20 mM DOTAP/Cholesterol (molar ratio 1:1), and 50μL of 10 mM DSPE-PEG2000 in a glass vial.
-10. Dry the mixture with N2 gas to remove the chloroform solvent.
-11. Vacuum desiccate the dried film for at least 10 min.
-12. Add a small volume of ethanol and 1 mL water to the vial, then hydrate the film and suspended the particles under vortexing.
-13. Sonicate the sample in a bath-type sonicator.
+1. Mix cyclohexane/Igepal CO-520 (71:29, V:V) and cyclohexane/Triton X-100/hexanol (75:15:10, V:V:V) (3:1) to make the oil phase.<span style=color:blue>混合环己烷/Igepal CO-520（71:29，体积比）和环己烷/Triton X-100/己醇（75:15:10，体积比）(3:1) 制备油相。</span>
+2. Mix 300μL of 500 mM CaCl<sub>2</sub> with 100μL of 2 mg/mL siRNA, and disperse the mixture in 15 mL oil phase to form a water-in-oil reverse micro-emulsion (siRNA emulsion).<span style=color:blue>将300μL的500 mM CaCl<sub>2</sub>与100μL的2 mg/mL siRNA混合，并分散于15 mL油相中以形成水包油反相微乳（siRNA乳液）。</span>
+3. Disperse 300μL of 25 mM Na<sub>2</sub>HPO<sub>4</sub> (pH = 9.0) in a separate 15 mL oil phase, then add 200μL of DOPA (20 mg/mL) in chloroform to the mixture to form the phosphate microemulsion.<span style=color:blue>将300μL的25 mM Na<sub>2</sub>HPO<sub>4</sub>（pH = 9.0）分散在单独的15 mL油相中，然后加入200μL的DOPA（20 mg/mL，溶于氯仿）以形成磷酸盐微乳。</span>
+4. Mix the two emulsions and keep stirring the mixture for 30 min.<span style=color:blue>混合两种微乳液，并持续搅拌30分钟。</span>
+5. After that, add 30 mL of absolute ethanol to break the micro-emulsion.<span style=color:blue>加入30 mL无水乙醇破坏微乳。</span>
+6. Centrifuge the mixture at 12,000 × *g* for at least 15 min to precipitate the CaP-siRNA cores.<span style=color:blue>以12,000 × *g*离心至少15分钟，以沉淀CaP-siRNA核心。</span>
+7. Wash the precipitated pellets with ethanol for 2–3 times to remove cyclohexane and surfactants.<span style=color:blue>用乙醇清洗沉淀颗粒2–3次，去除环己烷和表面活性剂。</span>
+8. After being extensively washed, re-disperse the pellets in 1 mL of chloroform and store in a glass vial for further modification, discard excess salts or aggregates.<span style=color:blue>在充分清洗后，将沉淀颗粒重新分散于1 mL氯仿中，储存在玻璃瓶中以进行进一步修饰，弃去多余的盐或聚集体。</span>
+9. To create the outer leaflet lipid coating, mix 1 mL of CaP-siRNA cores, 100μL of 20 mM DOTAP/Cholesterol (molar ratio 1:1), and 50μL of 10 mM DSPE-PEG2000 in a glass vial.<span style=color:blue>为了形成外层脂质涂层，将1 mL CaP-siRNA核心、100μL的20 mM DOTAP/胆固醇（摩尔比1:1）和50μL的10 mM DSPE-PEG2000混合在玻璃瓶中。</span>
+10. Dry the mixture with N2 gas to remove the chloroform solvent.<span style=color:blue>用氮气干燥混合物，去除氯仿溶剂。</span>
+11. Vacuum desiccate the dried film for at least 10 min.<span style=color:blue>用真空干燥干燥的薄膜至少10分钟。</span>
+12. <span style=color:blue>Add a small volume of ethanol and 1 mL water to the vial, then hydrate the film and suspended the particles under vortexing.向玻璃瓶中加入少量乙醇和1 mL水，然后水化薄膜，在涡旋器上悬浮颗粒。</span>
+13. Sonicate the sample in a bath-type sonicator.<span style=color:blue>使用浴式超声仪对样品进行超声处理。</span>
 
-### 3.4 Characterization of LCP (Fig. 2)
+### 3.4 Characterization of LCP (Fig. 2) LCP的表征
 
-#### 3.4.1 Particle Size and Zeta Potential
+#### 3.4.1 Particle Size and Zeta Potential 粒径和Zeta电位
 
-1. Dilute a dispersion of LCP into an appropriate concentration with water.
-2. Use the DLS method to determine the particle size and zeta potential of LCP (*see* **Note** **7**).
+1. Dilute a dispersion of LCP into an appropriate concentration with water.<span style=color:blue>用水将LCP分散液稀释至适当浓度。</span>
+2. Use the DLS method to determine the particle size and zeta potential of LCP (*see* **Note** **7**).<span style=color:blue>使用动态光散射（DLS）法测定LCP的粒径和Zeta电位（*参见* **注释7**）。</span>
 
 ![../images/485053_1_En_10_Chapter/485053_1_En_10_Fig2_HTML.png](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_10_Fig2_HTML.png)
 
 **Fig. 2** Illustration for the preparation of LCP. (Figure is adapted from with permission)
 
-#### 3.4.2 Transmission Electron Microscopy
+#### 3.4.2 Transmission Electron Microscopy 透射电子显微镜（TEM）
 
-1. Place a drop of 5μL dispersion of LCP onto the grid and allow to deposit for 5 min.
-2. Blot the excess liquid by touching with a piece of filter paper.
-3. Stain the sample with 2% uranyl acetate (5μL), followed by overnight air drying at room temperature.
-4. Acquire TEM images (*see* **Note** **8**).
+1. Place a drop of 5μL dispersion of LCP onto the grid and allow to deposit for 5 min.<span style=color:blue>将5μL的LCP分散液滴到网格上，静置5分钟。</span>
+2. Blot the excess liquid by touching with a piece of filter paper.<span style=color:blue>使用滤纸轻轻触碰样品表面，去除多余液体。</span>
+3. Stain the sample with 2% uranyl acetate (5μL), followed by overnight air drying at room temperature.<span style=color:blue>使用2%的醋酸铀（5μL）对样品进行染色，然后在室温下空气干燥过夜。</span>
+4. Acquire TEM images (*see* **Note** **8**).<span style=color:blue>获取TEM图像（*参见* **注释8**）。</span>
 
-#### 3.4.3 Trapping Efficiency of siRNA
+#### 3.4.3 Trapping Efficiency of siRNA siRNA的包封效率
 
-1. Prepare the standard siRNA solutions by diluting the FAM-labeled siRNA in the lysis buffer.
-2. Prepare LCP with the FAM-labeled siRNA, and dissolve the NPs in the lysis buffer.
-3. Add 100μL of standard solutions and LCP solution into a 96-well plate, and measure the fluorescence intensity at 525 nm by using a plate reader.
-4. Calculate the amount of entrapped siRNA according to the standard calibration curve.
+1. Prepare the standard siRNA solutions by diluting the FAM-labeled siRNA in the lysis buffer.<span style=color:blue>通过在裂解缓冲液中稀释FAM标记的siRNA，制备标准siRNA溶液。</span>
+2. Prepare LCP with the FAM-labeled siRNA, and dissolve the NPs in the lysis buffer.<span style=color:blue>用FAM标记的siRNA制备LCP，并将纳米颗粒溶解在裂解缓冲液中。</span>
+3. Add 100μL of standard solutions and LCP solution into a 96-well plate, and measure the fluorescence intensity at 525 nm by using a plate reader.<span style=color:blue>将100μL的标准溶液和LCP溶液加入96孔板中，使用酶标仪在525 nm处测量荧光强度。</span>
+4. Calculate the amount of entrapped siRNA according to the standard calibration curve.<span style=color:blue>根据标准曲线计算包封的siRNA量。</span>
 
-### 3.5 In Vivo Luciferase Silencing Effect of LCP
+### 3.5 In Vivo Luciferase Silencing Effect of LCP LCP在体内的荧光素酶沉默效果
 
-1. Inject luciferase labeled H-460 cells (2 × 105) subcutaneously into the lower back of female nude mice, and allow the tumor to grow to a size of about 400 mm3. Randomly assign the mice to three treatment groups: normal saline, anti-luciferase siRNA, or the control siRNA (*n* = 5 for each group).
-2. Inject normal saline or LCP into the mice via tail-vein, LCP contains anti-luciferase siRNA or the control siRNA.
-3. After 24 h, sacrifice the mice and harvest the tumors. Weigh the tumor and homogenize it in the lysis buffer (the volume of lysis buffer (mL) to tumor weight (g) ratio is 2). Incubate the homogenized tumor at 4 °C for 1 h.
-4. Mixed 20μL of lysate with 80μL of substrate in a 96-well plate and measure the luminescence intensity by using a plate reader.
-5. Determine the total protein concentration in the lysate by using a Micro BCA™ Protein Assay Kit. The activity of luciferase is shown as the luminescence intensity per μg protein (*see* **Notes** **9**, **10** and **11**).
+1. Inject luciferase labeled H-460 cells (2 × 10<sup>5</sup>) subcutaneously into the lower back of female nude mice, and allow the tumor to grow to a size of about 400 mm<sup>3</sup>. Randomly assign the mice to three treatment groups: normal saline, anti-luciferase siRNA, or the control siRNA (*n* = 5 for each group).<span style=color:blue>将标记荧光素酶的H-460细胞（2 × 10<sup>5</sup>个细胞）皮下注射到雌性裸鼠的下背部，允许肿瘤生长至约400 mm³。然后随机将小鼠分为三组：生理盐水组、抗荧光素酶siRNA组或对照siRNA组（每组*n* = 5）。</span></span>
+2. Inject normal saline or LCP into the mice via tail-vein, LCP contains anti-luciferase siRNA or the control siRNA.<span style=color:blue>通过尾静脉注射生理盐水或LCP到小鼠体内，LCP含有抗荧光素酶siRNA或对照siRNA。</span>
+3. After 24 h, sacrifice the mice and harvest the tumors. Weigh the tumor and homogenize it in the lysis buffer (the volume of lysis buffer (mL) to tumor weight (g) ratio is 2). Incubate the homogenized tumor at 4 °C for 1 h.<span style=color:blue>在24小时后，处死小鼠并收获肿瘤。称重肿瘤并将其在裂解缓冲液中匀浆（裂解缓冲液的体积（mL）与肿瘤重量（g）的比例为2）。将匀浆的肿瘤在4°C下孵育1小时。</span>
+4. Mixed 20μL of lysate with 80μL of substrate in a 96-well plate and measure the luminescence intensity by using a plate reader.<span style=color:blue>在96孔板中，将20μL裂解液与80μL底物混合，使用酶标仪测量发光强度。</span>
+5. Determine the total protein concentration in the lysate by using a Micro BCA™ Protein Assay Kit. The activity of luciferase is shown as the luminescence intensity per μg protein (*see* **Notes** **9**, **10** and **11**).<span style=color:blue>使用Micro BCA™蛋白质定量试剂盒测定裂解液中的蛋白质总浓度。荧光素酶活性以每微克蛋白质的发光强度表示（*参见* **注释9**、**10** 和 **11**）。</span>
 
 ## 4 Notes
 
-1. Unless stated otherwise, all lipids are dissolved in chloroform to prepare the stock solutions at specific concentrations.
-2. Unless stated otherwise, Milli Q water should be used in water and all solutions.
-3. Unless stated otherwise, all siRNAs are purchased in the deprotected, desalted, annealed form.
-4. The LPH formulation is optimized by fine-tuning the ratio of siRNA, HA, and protamine with different amount of cationic liposomes. The particle size, zeta potential, encapsulation efficiency, and in vitro intracellular siRNA delivery are analyzed for optimization. Slightly excess amount of the cationic lipid is required to fully coat the LPH. Further increase of the lipid/siRNA ratio elevates the zeta potential and decreases the delivery efficiency. This might be due to the competitive binding with the cells from the excess cationic liposomes.
-5. Postinsertion of DSPE-PEG into the lipid bilayers of LPH is to shield the positive charge and prevent aggregation with serum proteins. The in vivo activity can be further improved if a targeting ligand such as aminoethylanisamide is attached to the surface of the NPs.
-6. The particle size, zeta potential, and trapping efficiency of LPH are approximately 120 nm, 25 mV, and 90%, respectively.
-7. The particle size, zeta potential, and trapping efficiency of LCP are approximately 40 nm, 0–15 mV, and 40%, respectively.
-8. Figure 3 shows the TEM image of LCP with the “core-shell” structure. The coating lipid membrane of the NP could be seen by negative staining (arrows in Fig. 3b). The average size of LCP measure by TEM was about 25–30 nm in diameter, which was slightly smaller than the hydrodynamic diameter (40 nm) obtained by dynamic light scattering since TEM images were obtained under a dehydrated condition. It has been suggested that the optimal particle size for a cancer-targeting nanoparticle carrier is 20–100 nm. Therefore LCP are large enough to avoid renal filtration and small enough to extravasate through the leaky vasculatures in the tumor.
-9. The asymmetric structure of the lipid layer is verified by the measurement of zeta potential and the quenching efficiency of a fluorescence lipid marker.
-10. Beside the commonly accepted proton sponge effect and ion-pair formation mechanisms, we proposed a CaP dissolution-driven mechanism for cargo release from the endosome. Hypoxia-induced endosome acidification is well known in the tumor cells. Protons will penetrate the lipid membrane of LCP and dissolve the CaP core. The release of calcium ions increased the osmotic pressure and caused endosome swelling and bursting to release the entrapped siRNA. This de-assembly process of LCP has been verified by monitoring the particle size at an acidic pH and fluorescent intensity of Fura-2-acetoxymethyl ester (a cellular calcium concentration indicator) in cells.
-11. Figure [4](clbr://internal.invalid/OEBPS/html/485053_1_En_10_Chapter.xhtml#Fig4) shows the in vivo silencing effect of luciferase siRNA delivered with LCP. The estimated ED50 for LCP-mediated delivery of siRNA is approximately 0.6 mg/kg. Similar studies have been conducted using LPH.
-12. Different composition of outer leaflet lipids could be used to coat LCP. When either DOTAP or DOPC was mentioned as the outer leaflet lipid, DOTAP or DOPC was mixed with the same molar amount of cholesterol. The outer leaflet lipid plays an important role in determining the biodistribution of LCP.
-13. We have demonstrated that LCP with a neutral (DOPC) or a cationic lipid (DOTAP) exhibited similar level of in vitro silencing effect. However, in vivo studies have indicated that the LCP containing a cationic lipid (DOTAP) delivered siRNA more efficiently than the one containing neutral lipid (DOPC). For the in vivo application, the amount of NP that is delivered to the same endosome might not be sufficient; therefore cationic lipid might still be important for endosome escape.
-14. Like LPH, the in vivo activity of LCP could be further improved by using a targeting ligand such as aminoethylanisamide which was tethered to the distal end of PEG. LCP-PEG-AA had a significantly improved silencing effect compared to untargeted LCP-PEG.
-15. Compared to the conventional cationic liposomes, the LPH and LCP have a lipid layer supported by the complex core, which could accommodate a higher density of PEGylation, resulting in a better shielding of charge and reduced opsonization by serum proteins. This gives both LPH and LCP a relatively low degree of uptake by the liver and spleen, and a high level of accumulation in the tumor.
-16. In vitro study suggested that LCP might outperform LPH in the gene silencing effect. However, since LCP require multiple steps of preparation, while LPH are formulated in a self-assembly manner in a few steps, LPH are now more frequently used in our lab for in vivo siRNA delivery.
+1. Unless stated otherwise, all lipids are dissolved in chloroform to prepare the stock solutions at specific concentrations.<span style=color:blue>除非另有说明，所有脂质均溶解在氯仿中，以特定浓度制备储备溶液。</span>
+2. Unless stated otherwise, Milli Q water should be used in water and all solutions.<span style=color:blue>除非另有说明，水和所有溶液应使用Milli Q水。</span>
+3. Unless stated otherwise, all siRNAs are purchased in the deprotected, desalted, annealed form.<span style=color:blue>除非另有说明，所有siRNA均以去保护、脱盐、退火的形式购买。</span>
+4. The LPH formulation is optimized by fine-tuning the ratio of siRNA, HA, and protamine with different amount of cationic liposomes. The particle size, zeta potential, encapsulation efficiency, and in vitro intracellular siRNA delivery are analyzed for optimization. Slightly excess amount of the cationic lipid is required to fully coat the LPH. Further increase of the lipid/siRNA ratio elevates the zeta potential and decreases the delivery efficiency. This might be due to the competitive binding with the cells from the excess cationic liposomes.<span style=color:blue>LPH的配方通过微调siRNA、HA和鱼精蛋白的比例，并加入不同量的阳离子脂质体进行优化。优化分析包括颗粒大小、电位、封装效率和体外细胞内siRNA递送。需要稍多的阳离子脂质才能完全包覆LPH，进一步增加脂质/siRNA的比例会提高电位，但降低递送效率，这可能是由于过多的阳离子脂质体与细胞竞争结合所致。</span>
+5. Postinsertion of DSPE-PEG into the lipid bilayers of LPH is to shield the positive charge and prevent aggregation with serum proteins. The in vivo activity can be further improved if a targeting ligand such as aminoethylanisamide is attached to the surface of the NPs.<span style=color:blue>将DSPE-PEG后插入LPH的脂质双层中，以屏蔽正电荷并防止与血清蛋白的聚集。如果在NPs表面附加靶向配体如氨基乙基茴香酰胺，体内活性可以进一步提高。</span>
+6. The particle size, zeta potential, and trapping efficiency of LPH are approximately 120 nm, 25 mV, and 90%, respectively.<span style=color:blue>LPH的颗粒大小、电位和包封效率大约为120 nm、25 mV和90%。</span>
+7. The particle size, zeta potential, and trapping efficiency of LCP are approximately 40 nm, 0–15 mV, and 40%, respectively.<span style=color:blue>LCP的颗粒大小、电位和包封效率大约为40 nm、0–15 mV和40%。</span>
+8. Figure 3 shows the TEM image of LCP with the “core-shell” structure. The coating lipid membrane of the NP could be seen by negative staining (arrows in Fig. 3b). The average size of LCP measure by TEM was about 25–30 nm in diameter, which was slightly smaller than the hydrodynamic diameter (40 nm) obtained by dynamic light scattering since TEM images were obtained under a dehydrated condition. It has been suggested that the optimal particle size for a cancer-targeting nanoparticle carrier is 20–100 nm. Therefore LCP are large enough to avoid renal filtration and small enough to extravasate through the leaky vasculatures in the tumor.<span style=color:blue>图3展示了具有“核壳”结构的LCP的TEM图像。通过负染色可以观察到NP的包膜（图3b中的箭头）。TEM测量的LCP平均大小约为25–30 nm，比动态光散射法测得的水动力直径（40 nm）略小，因为TEM图像是在脱水条件下获取的。研究表明，癌症靶向纳米载体的最佳颗粒大小为20–100 nm。LCP足够大以避免肾脏过滤，同时又足够小可以通过肿瘤中漏出的血管。</span>
+9. The asymmetric structure of the lipid layer is verified by the measurement of zeta potential and the quenching efficiency of a fluorescence lipid marker.<span style=color:blue>通过电位测量和荧光脂质标记的猝灭效率，验证了脂质层的不对称结构。</span>
+10. Beside the commonly accepted proton sponge effect and ion-pair formation mechanisms, we proposed a CaP dissolution-driven mechanism for cargo release from the endosome. Hypoxia-induced endosome acidification is well known in the tumor cells. Protons will penetrate the lipid membrane of LCP and dissolve the CaP core. The release of calcium ions increased the osmotic pressure and caused endosome swelling and bursting to release the entrapped siRNA. This de-assembly process of LCP has been verified by monitoring the particle size at an acidic pH and fluorescent intensity of Fura-2-acetoxymethyl ester (a cellular calcium concentration indicator) in cells.<span style=color:blue>除了常见的质子海绵效应和离子对形成机制外，我们提出了钙磷酸盐（CaP）溶解驱动的内涵体释放机制。肿瘤细胞中的缺氧诱导内涵体酸化。质子穿透LCP的脂质膜，溶解CaP核心，释放的钙离子增加渗透压，引发内涵体膨胀和破裂，释放包封的siRNA。通过在酸性pH下监测颗粒大小和细胞内钙浓度指示剂Fura-2-acetoxymethyl ester的荧光强度，已验证LCP的解组装过程。</span>
+11. Figure 4 shows the in vivo silencing effect of luciferase siRNA delivered with LCP. The estimated ED<sub>50</sub> for LCP-mediated delivery of siRNA is approximately 0.6 mg/kg. Similar studies have been conducted using LPH.<span style=color:blue>图4显示了LCP递送siRNA体内沉默荧光素酶的效果。LCP介导的siRNA递送的ED<sub>50</sub>约为0.6 mg/kg。类似研究已用LPH进行。</span>
+12. Different composition of outer leaflet lipids could be used to coat LCP. When either DOTAP or DOPC was mentioned as the outer leaflet lipid, DOTAP or DOPC was mixed with the same molar amount of cholesterol. The outer leaflet lipid plays an important role in determining the biodistribution of LCP.<span style=color:blue>LCP的外层脂质可以使用不同的成分进行包裹。当DOTAP或DOPC作为外层脂质时，它们与相同摩尔量的胆固醇混合。外层脂质在决定LCP的生物分布中起着重要作用。</span>
+13. We have demonstrated that LCP with a neutral (DOPC) or a cationic lipid (DOTAP) exhibited similar level of in vitro silencing effect. However, in vivo studies have indicated that the LCP containing a cationic lipid (DOTAP) delivered siRNA more efficiently than the one containing neutral lipid (DOPC). For the in vivo application, the amount of NP that is delivered to the same endosome might not be sufficient; therefore cationic lipid might still be important for endosome escape.<span style=color:blue>我们已证明，含有中性脂质（DOPC）或阳离子脂质（DOTAP）的LCP在体外表现出相似的沉默效果。然而，体内研究表明，含有阳离子脂质（DOTAP）的LCP比含有中性脂质的LCP更有效地递送siRNA。在体内应用中，递送到同一个内涵体的NP数量可能不足，因此阳离子脂质在内涵体逃逸中可能仍然重要。</span>
+14. Like LPH, the in vivo activity of LCP could be further improved by using a targeting ligand such as aminoethylanisamide which was tethered to the distal end of PEG. LCP-PEG-AA had a significantly improved silencing effect compared to untargeted LCP-PEG.<span style=color:blue>类似于LPH，LCP的体内活性可以通过在PEG末端附加靶向配体（如氨基乙基茴香酰胺）进一步改善。LCP-PEG-AA的沉默效果显著优于未靶向的LCP-PEG。</span>
+15. Compared to the conventional cationic liposomes, the LPH and LCP have a lipid layer supported by the complex core, which could accommodate a higher density of PEGylation, resulting in a better shielding of charge and reduced opsonization by serum proteins. This gives both LPH and LCP a relatively low degree of uptake by the liver and spleen, and a high level of accumulation in the tumor.<span style=color:blue>与传统阳离子脂质体相比，LPH和LCP具有由复杂核心支撑的脂质层，可以容纳更高密度的PEG化，从而更好地屏蔽电荷并减少血清蛋白的调理作用。这使得LPH和LCP具有相对较低的肝脏和脾脏摄取率，同时在肿瘤中积累较多。</span>
+16. In vitro study suggested that LCP might outperform LPH in the gene silencing effect. However, since LCP require multiple steps of preparation, while LPH are formulated in a self-assembly manner in a few steps, LPH are now more frequently used in our lab for in vivo siRNA delivery.<span style=color:blue>体外研究表明，LCP在基因沉默效果上可能优于LPH。然而，由于LCP需要多步制备，而LPH是通过自组装方式在几步内制备完成的，因此我们实验室现在更常使用LPH进行体内siRNA递送。</span>
 
 ![485053_1_En_10_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_10_Fig3_HTML.jpg)
 
