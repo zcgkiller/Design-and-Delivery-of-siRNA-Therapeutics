@@ -145,31 +145,31 @@ siRNA (30 nM) is used for transfection assay . Serum-free OPTI-MEM medium is use
 9. For blank cells, 1 ml serum-free OPTI-MEM medium is added <span style=color:blue>对于空白细胞，添加1 ml无血清OPTI-MEM培养基。</span>
 10. Incubate the cell for 4–6 h at a cell culture incubator.<span style=color:blue>在细胞培养箱中孵育4-6小时。</span>
 11. The serum-free OPTI-MEM medium is changed with full culture medium for a further 24–48 h culture before harvesting. <span style=color:blue>将无血清OPTI-MEM培养基更换为完全培养基，并继续培养24-72小时以进行转染效果评估。</span>
-12. After 24–48 h culture, the old medium is removed, and the cells are rinsed with 1 ml PBS.<span style=color:blue>在24–48小时培养后，移除旧培养基，用1 ml PBS冲洗细胞。
-13. 100μl of trypsin-EDTA is used to trypsinize the cell for 3 min in a cell culture incubator.<span style=color:blue>使用100μl胰蛋白酶-EDTA在细胞培养箱中对细胞进行胰蛋白酶处理3分钟。
-14. After 3 min, 1 ml of complete medium is added to each well, and cells are collected in polystyrene round bottom 12 × 75 mm<sup>2</sup> falcon tubes for further analysis.<span style=color:blue>处理3分钟后，每孔添加1 ml完全培养基，并将细胞收集于聚苯乙烯圆底12 × 75 mm²的法尔康管中，以备进一步分析。
+12. After 24–48 h culture, the old medium is removed, and the cells are rinsed with 1 ml PBS.<span style=color:blue>在24–48小时培养后，移除旧培养基，用1 ml PBS冲洗细胞。</span>
+13. 100μl of trypsin-EDTA is used to trypsinize the cell for 3 min in a cell culture incubator.<span style=color:blue>使用100μl胰蛋白酶-EDTA在细胞培养箱中对细胞进行胰蛋白酶处理3分钟。</span>
+14. After 3 min, 1 ml of complete medium is added to each well, and cells are collected in polystyrene round bottom 12 × 75 mm<sup>2</sup> falcon tubes for further analysis.<span style=color:blue>处理3分钟后，每孔添加1 ml完全培养基，并将细胞收集于聚苯乙烯圆底12 × 75 mm²的法尔康管中，以备进一步分析。</span>
 
 ### 3.5 Antibody Staining for Flow Cytometry Analysis 流式细胞术分析的抗体染色
 
 The antibody staining protocol (e.g., antibody concentration, staining time, temperature) should be optimized according to the certain types of cells and antibody.
 
-<span style=color:blue>抗体染色方案（例如，抗体浓度、染色时间、温度）应根据特定类型的细胞和抗体进行优化。
+<span style=color:blue>抗体染色方案（例如，抗体浓度、染色时间、温度）应根据特定类型的细胞和抗体进行优化。</span>
 
-1. The cells harvested in Subheading 3.4 are washed with PBS and resuspended in 100μl ice-cold PBS with 3% FBS.<span style=color:blue>将在3.4小节中收集的细胞用PBS洗涤，并重悬于100μl冰冷PBS中，加入3% FBS。
-2. Transfer 50μl of cell suspension to a new tube for isotype staining.<span style=color:blue>将50μl细胞悬液转移至新管中用于同型对照染色。
-3. Add 0.1μg/ml of conjugated primary antibody (or the corresponding isotype) to the cell suspension.<span style=color:blue>向细胞悬液中添加0.1μg/ml的标记主抗体（或相应的同型对照）。
-4. Incubate at R.T. for 20 min in dark.<span style=color:blue>在室温下避光孵育20分钟。
-5. Wash the cells three times with PBS and centrifuge at 400 × *g* for 5 min (*see* **Note** **17**).<span style=color:blue>用PBS洗涤细胞三次，并以400 × *g*离心5分钟（*见* **注释** **17**）。
-6. Resuspend the cells in 200μl of ice-cold PBS with 10% FBS, 1% sodium azide.<span style=color:blue>将细胞重悬于200μl冰冷PBS中，加入10% FBS和1%叠氮化钠。
-7. Keep the cells in fridge until analysis.<span style=color:blue>将细胞放置在冰箱中直至分析。
-8. For best result, analyze the cells with flow cytometry as soon as possible.<span style=color:blue>为了获得最佳结果，尽快用流式细胞仪分析细胞。
-9. Fixation of the cells may be needed for cells kept longer than 1 h before analysis (*see* **Note** **18**).<span style=color:blue>对于在分析前存放超过1小时的细胞，可能需要进行固定处理（*见* **注释** **18**）。
+1. The cells harvested in Subheading 3.4 are washed with PBS and resuspended in 100μl ice-cold PBS with 3% FBS.<span style=color:blue>将在3.4小节中收集的细胞用PBS洗涤，并重悬于100μl冰冷PBS中，加入3% FBS。</span>
+2. Transfer 50μl of cell suspension to a new tube for isotype staining.<span style=color:blue>将50μl细胞悬液转移至新管中用于同型对照染色。</span>
+3. Add 0.1μg/ml of conjugated primary antibody (or the corresponding isotype) to the cell suspension.<span style=color:blue>向细胞悬液中添加0.1μg/ml的标记主抗体（或相应的同型对照）。</span>
+4. Incubate at R.T. for 20 min in dark.<span style=color:blue>在室温下避光孵育20分钟。</span>
+5. Wash the cells three times with PBS and centrifuge at 400 × *g* for 5 min (*see* **Note** **17**).<span style=color:blue>用PBS洗涤细胞三次，并以400 × *g*离心5分钟（*见* **注释** **17**）。</span>
+6. Resuspend the cells in 200μl of ice-cold PBS with 10% FBS, 1% sodium azide.<span style=color:blue>将细胞重悬于200μl冰冷PBS中，加入10% FBS和1%叠氮化钠。</span>
+7. Keep the cells in fridge until analysis.<span style=color:blue>将细胞放置在冰箱中直至分析。</span>
+8. For best result, analyze the cells with flow cytometry as soon as possible.<span style=color:blue>为了获得最佳结果，尽快用流式细胞仪分析细胞。</span>
+9. Fixation of the cells may be needed for cells kept longer than 1 h before analysis (*see* **Note** **18**).<span style=color:blue>对于在分析前存放超过1小时的细胞，可能需要进行固定处理（*见* **注释** **18**）。</span>
 
 ### 3.6 Flow Cytometry Analysis for Target Protein Expression 目标蛋白表达的流式细胞术分析
 
-1. Samples collected from Subheading 3.5 are analyzed with flow cytometry (BD FACSCalibur, using CellQuest software) using 488 nm excitation and a 585 nm bandpass filter for fluorescein detection (*see* **Note** **19**).<span style=color:blue>从3.5小节中收集的样品使用流式细胞仪（BD FACSCalibur，使用CellQuest软件）进行分析，采用488 nm激发波长和585 nm带通滤光片进行荧光素检测（*见* **注释** **19**）。
-2. 10,000 events per sample are analyzed.<span style=color:blue>每个样品分析10,000个事件。
-3. Isotype controls are also analyzed for each sample.<span style=color:blue>每个样品也分析同型对照。
+1. Samples collected from Subheading 3.5 are analyzed with flow cytometry (BD FACSCalibur, using CellQuest software) using 488 nm excitation and a 585 nm bandpass filter for fluorescein detection (*see* **Note** **19**).<span style=color:blue>从3.5小节中收集的样品使用流式细胞仪（BD FACSCalibur，使用CellQuest软件）进行分析，采用488 nm激发波长和585 nm带通滤光片进行荧光素检测（*见* **注释** **19**）。</span>
+2. 10,000 events per sample are analyzed.<span style=color:blue>每个样品分析10,000个事件。</span>
+3. Isotype controls are also analyzed for each sample.<span style=color:blue>每个样品也分析同型对照。</span>
 
 ### 3.7 Data Analysis 数据分析
 
@@ -177,13 +177,13 @@ Subsequent analysis of the target expression is done using FlowJo software (Tree
 
 <span style=color:blue>目标表达的后续分析使用FlowJo软件（TreeStar，Ashland，OR）进行。
 
-1. A subset of data can be defined through a gate, which is a numerical or graphical boundary that can be used to define the characteristics of particles to include for further analysis. A gate is set on the FSC vs. SSC plot to exclude any debris and allow further analysis of the viable cell population.<span style=color:blue>可以通过设置门（gate）来定义数据的子集，门是用于定义颗粒特征的数值或图形边界，以便进行进一步分析。在FSC与SSC图上设置门以排除任何碎片，并允许进一步分析活细胞群体。
+1. A subset of data can be defined through a gate, which is a numerical or graphical boundary that can be used to define the characteristics of particles to include for further analysis. A gate is set on the FSC vs. SSC plot to exclude any debris and allow further analysis of the viable cell population.<span style=color:blue>可以通过设置门（gate）来定义数据的子集，门是用于定义颗粒特征的数值或图形边界，以便进行进一步分析。在FSC与SSC图上设置门以排除任何碎片，并允许进一步分析活细胞群体。</span>
 
-2. Using the viable cells gate, another gate of target expression is set on the isotype stained sample to ensure the observed staining is due to specific antibody binding to the target and is not an artifact.<span style=color:blue>使用活细胞门，基于同型对照样本设置目标表达的另一个门，以确保观察到的染色是由于特异性抗体与目标结合，而非伪影。
+2. Using the viable cells gate, another gate of target expression is set on the isotype stained sample to ensure the observed staining is due to specific antibody binding to the target and is not an artifact.<span style=color:blue>使用活细胞门，基于同型对照样本设置目标表达的另一个门，以确保观察到的染色是由于特异性抗体与目标结合，而非伪影。</span>
 
-3. The same gate from the isotype sample is applied to the corresponding sample to determine the expression of the target, the representative dot plots are shown in Fig. 2.<span style=color:blue>将同型样本的门应用于相应样本，以确定目标的表达，代表性的点图如图2所示。
+3. The same gate from the isotype sample is applied to the corresponding sample to determine the expression of the target, the representative dot plots are shown in Fig. 2.<span style=color:blue>将同型样本的门应用于相应样本，以确定目标的表达，代表性的点图如图2所示。</span>
 
-4. The mean fluorescence intensity (MFI) is exported and relative target expression % (Fig. 3) is calculated as follows:<span style=color:blue>导出平均荧光强度（MFI），并计算相对目标表达百分比（图3），计算公式如下：
+4. The mean fluorescence intensity (MFI) is exported and relative target expression % (Fig. 3) is calculated as follows:<span style=color:blue>导出平均荧光强度（MFI），并计算相对目标表达百分比（图3），计算公式如下：</span>
 
    <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mrow><mrow><mi mathvariant="normal">R</mi></mrow><mrow><mi mathvariant="normal">e</mi></mrow><mrow><mi mathvariant="normal">l</mi></mrow><mrow><mi mathvariant="normal">a</mi></mrow><mrow><mi mathvariant="normal">t</mi></mrow><mrow><mi mathvariant="normal">i</mi></mrow><mrow><mi mathvariant="normal">v</mi></mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">t</mi></mrow><mrow><mi mathvariant="normal">a</mi></mrow><mrow><mi mathvariant="normal">r</mi></mrow><mrow><mi mathvariant="normal">g</mi></mrow><mrow><mi mathvariant="normal">e</mi></mrow><mrow><mi mathvariant="normal">t</mi></mrow></mrow><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">e</mi></mrow><mrow><mi mathvariant="normal">x</mi></mrow><mrow><mi mathvariant="normal">p</mi></mrow><mrow><mi mathvariant="normal">r</mi></mrow><mrow><mi mathvariant="normal">e</mi></mrow><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mi mathvariant="normal">i</mi></mrow><mrow><mi mathvariant="normal">o</mi></mrow><mrow><mi mathvariant="normal">n</mi></mrow></mrow><mi>%</mi><mo>=</mo><mfrac><mrow><mrow><mrow><mi mathvariant="normal">M</mi></mrow><mrow><mi mathvariant="normal">F</mi></mrow><mrow><mi mathvariant="normal">I</mi></mrow></mrow><mtext>&#xa0;</mtext><mrow><mfenced open='(' close=')'><mrow><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mi mathvariant="normal">a</mi></mrow><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mi mathvariant="normal">p</mi></mrow><mrow><mi mathvariant="normal">l</mi></mrow><mrow><mi mathvariant="normal">e</mi></mrow></mrow></mfenced></mrow></mrow><mrow><mrow><mrow><mi mathvariant="normal">M</mi></mrow><mrow><mi mathvariant="normal">F</mi></mrow><mrow><mi mathvariant="normal">I</mi></mrow></mrow><mtext>&#xa0;</mtext><mrow><mfenced open='(' close=')'><mrow><mrow><mi mathvariant="normal">b</mi></mrow><mrow><mi mathvariant="normal">l</mi></mrow><mrow><mi mathvariant="normal">a</mi></mrow><mrow><mi mathvariant="normal">n</mi></mrow><mrow><mi mathvariant="normal">k</mi></mrow></mrow><mtext>&#xa0;</mtext><mrow><mrow><mi mathvariant="normal">c</mi></mrow><mrow><mi mathvariant="normal">e</mi></mrow><mrow><mi mathvariant="normal">l</mi></mrow><mrow><mi mathvariant="normal">l</mi></mrow><mrow><mi mathvariant="normal">s</mi></mrow></mrow></mfenced></mrow></mrow></mfrac><mo>&#xd7;</mo><mn>1</mn><mn>0</mn><mn>0</mn></mrow></math>
 
@@ -197,22 +197,22 @@ Subsequent analysis of the target expression is done using FlowJo software (Tree
 
 ## 4 Notes 注释
 
-1. Spray the work bench with RNaseZap each time to minimize the degradation of the nucleic acids.
-2. Cationic polymer is the same polymer used to functionalize carbon nanotube samples and it may vary according to different purposes. Here we use free cationic polymer as a control to cationic polymer-CNT samples.
-3. The properties of cationic polymer used to functionalize CNT and the method of functionalization may vary according to different purposes.
-4. Cell culture medium is prepared with 500 ml medium and added supplements for the whole bottle. Aliquots are taken each time for medium warm up instead of warming the whole bottle.
-5. Sonicate the cationic polymer and ensure it is fully dissolved in PBS.
-6. Sonicate the cationic polymer-CNT samples every time for at least 10 min before use to ensure the well dispersity of the sample.
-7. Agarose powder must be uniformly dispersed in buffer prior to hydration to avoid clumping. To determine gel volume using the following estimation: Gel volume = surface area of the casting chamber × gel depth (3–5 mm thick).
-8. For smaller or larger volumes, increase or decrease heating times proportionally to volume size.
-9. Heating times will vary depending on the wattage of your microwave oven, size of the flask used, and the agarose concentration. Caution: Handle the hot flask very carefully. Microwaved solutions may become superheated and boil over when moved or touched.
-10. Allow the agarose solution to cool to ~50–55 °C before pouring the gel into the prepared casting stand. This will result in a gel with a more uniform pore size and prevent warping of the gel apparatus.
-11. The voltage and time for gel running may vary according to sample properties and gel apparatus.
-12. Use the converted gel image (white background and gray bands) for siRNA binding analysis.
-13. Trypsinization time may vary for different cell types.
-14. The seeded cell density may vary with different cell type and experiment design. For low-passage cells, make sure cells are healthy and around 80–90% viable before transfection. For high-passage cells, adjust the seeded cell number accordingly and take into account also with the cytotoxicity of the transfection agents. The assay timepoint should also be considered—lower cell densities for long-term assays and higher cell numbers for short-term experiments.
-15. siRNA concentration and transfection medium used may vary according to the design of the experiment and also the cell type. Do not add antibiotics to the medium during the transfection as this reduces the transfection efficiency and causes cell death.
-16. 100μl siRNA solution is prepared for transfection done in 12-well plate. The amount of siRNA solution may vary according to different well plate applied, and the amount of cationic polymer should also be changed accordingly.
-17. This step is to remove any unbound free antibody extensively.
-18. For extended storage as well as for greater flexibility in planning time on the cytometer, resuspend cells in 1–4% paraformaldehyde to prevent deterioration.
-19. The excitation wavelength and filter may vary according to the specific dye and flow cytometer used.
+1. Spray the work bench with RNaseZap each time to minimize the degradation of the nucleic acids.<span style=color:blue>每次在工作台上喷洒RNaseZap，以最小化核酸的降解。</span>
+2. Cationic polymer is the same polymer used to functionalize carbon nanotube samples and it may vary according to different purposes. Here we use free cationic polymer as a control to cationic polymer-CNT samples.<span style=color:blue>阳离子聚合物是用于功能化碳纳米管样品的相同聚合物，可能根据不同用途有所变化。在此，我们使用自由阳离子聚合物作为对照，与阳离子聚合物-CNT样品进行比较。</span>
+3. The properties of cationic polymer used to functionalize CNT and the method of functionalization may vary according to different purposes.<span style=color:blue>用于功能化CNT的阳离子聚合物的性质和功能化方法可能根据不同用途有所不同。</span>
+4. Cell culture medium is prepared with 500 ml medium and added supplements for the whole bottle. Aliquots are taken each time for medium warm up instead of warming the whole bottle.<span style=color:blue>细胞培养基使用500 ml培养基和添加补充剂准备整瓶。每次取出一定量进行培养基加热，而不是加热整瓶。</span>
+5. Sonicate the cationic polymer and ensure it is fully dissolved in PBS.<span style=color:blue>超声波处理阳离子聚合物，确保其在PBS中完全溶解。</span>
+6. Sonicate the cationic polymer-CNT samples every time for at least 10 min before use to ensure the well dispersity of the sample.<span style=color:blue>每次使用前，阳离子聚合物-CNT样品需超声处理至少10分钟，以确保样品良好的分散性。</span>
+7. Agarose powder must be uniformly dispersed in buffer prior to hydration to avoid clumping. To determine gel volume using the following estimation: Gel volume = surface area of the casting chamber × gel depth (3–5 mm thick).<span style=color:blue>在水合前，琼脂糖粉末必须在缓冲液中均匀分散，以避免结块。使用以下估算来确定凝胶体积：凝胶体积 = 铸模腔的表面积 × 凝胶深度（厚度为3–5 mm）。</span>
+8. For smaller or larger volumes, increase or decrease heating times proportionally to volume size.<span style=color:blue>对于较小或较大的体积，相应地增加或减少加热时间。</span>
+9. Heating times will vary depending on the wattage of your microwave oven, size of the flask used, and the agarose concentration. Caution: Handle the hot flask very carefully. Microwaved solutions may become superheated and boil over when moved or touched.<span style=color:blue>加热时间会因微波炉的功率、所用烧瓶的大小以及琼脂糖浓度而有所不同。注意：在处理热烧瓶时要非常小心，微波加热的溶液可能会过热，当移动或触碰时会沸腾溢出。</span>
+10. Allow the agarose solution to cool to ~50–55 °C before pouring the gel into the prepared casting stand. This will result in a gel with a more uniform pore size and prevent warping of the gel apparatus.<span style=color:blue>在将琼脂糖溶液倒入准备好的铸模支架之前，允许其冷却至约50–55 °C。这将使凝胶具有更均匀的孔径，并防止凝胶设备的变形。</span>
+11. The voltage and time for gel running may vary according to sample properties and gel apparatus.<span style=color:blue>凝胶运行的电压和时间可能根据样品性质和凝胶设备而有所不同。</span>
+12. Use the converted gel image (white background and gray bands) for siRNA binding analysis.<span style=color:blue>使用转换后的凝胶图像（白色背景和灰色带）进行siRNA结合分析。</span>
+13. Trypsinization time may vary for different cell types.<span style=color:blue>胰蛋白酶处理时间可能因不同细胞类型而有所不同。</span>
+14. The seeded cell density may vary with different cell type and experiment design. For low-passage cells, make sure cells are healthy and around 80–90% viable before transfection. For high-passage cells, adjust the seeded cell number accordingly and take into account also with the cytotoxicity of the transfection agents. The assay timepoint should also be considered—lower cell densities for long-term assays and higher cell numbers for short-term experiments.<span style=color:blue>种子细胞密度可能因不同细胞类型和实验设计而异。对于低传代细胞，确保细胞健康且存活率在80–90%之间；对于高传代细胞，适当调整种子细胞数量，同时考虑转染试剂的细胞毒性。实验的时间点也应考虑——长期实验需较低的细胞密度，而短期实验需较高的细胞数量。</span>
+15. siRNA concentration and transfection medium used may vary according to the design of the experiment and also the cell type. Do not add antibiotics to the medium during the transfection as this reduces the transfection efficiency and causes cell death.<span style=color:blue>siRNA浓度和使用的转染培养基可能根据实验设计和细胞类型有所不同。在转染过程中，请勿在培养基中添加抗生素，因为这会降低转染效率并导致细胞死亡。</span>
+16. 100μl siRNA solution is prepared for transfection done in 12-well plate. The amount of siRNA solution may vary according to different well plate applied, and the amount of cationic polymer should also be changed accordingly.<span style=color:blue>为12孔板转染准备100μl siRNA溶液。根据所应用的不同孔板，siRNA溶液的量可能有所不同，阳离子聚合物的量也应相应调整。</span>
+17. This step is to remove any unbound free antibody extensively.<span style=color:blue>此步骤是为彻底去除任何未结合的自由抗体。</span>
+18. For extended storage as well as for greater flexibility in planning time on the cytometer, resuspend cells in 1–4% paraformaldehyde to prevent deterioration.<span style=color:blue>为了延长储存时间以及在流式细胞仪上规划时间的灵活性，使用1–4%多聚甲醛重悬细胞，以防止细胞变质。</span>
+19. The excitation wavelength and filter may vary according to the specific dye and flow cytometer used.<span style=color:blue>激发波长和滤光片可能根据特定染料和所用流式细胞仪而有所不同。</span>
