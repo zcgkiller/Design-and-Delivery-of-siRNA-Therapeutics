@@ -148,80 +148,80 @@ This chapter will provide a detailed protocol for Alkyl-PEI/SPIO-siRNA complexes
 3. Then replace the medium with fresh one followed by continuously culture for 48 h.<span style=color:blue>随后更换培养基并继续培养48小时。</span>
 4. Add CCK-8 work solution after removing the culture medium for cytotoxicity assay and measure the absorption value at 450 nm after 2–4 h incubation.<span style=color:blue>在移除培养基后添加CCK-8工作液，孵育2–4小时后在450 nm处测定吸光值，以评估细胞毒性。</span>
 
-### 3.5 Transfection Efficiency Evaluation
+### 3.5 Transfection Efficiency Evaluation 转染效率评估
 
-#### 3.5.1 Luciferase Activity Assay
+#### 3.5.1 Luciferase Activity Assay 荧光素酶活性测定
 
-1. Establish luciferase stably expressed 4T1 cells (4T1-fluc). Seed 4T1 cells into 6-well plate at a density of 1–2 × 10<sup>5</sup>/well and transfected cells with pcDNA3.1 vector expressing cytomegalovirus-firefly luciferase (fluc) using Lipofectamine 2000 according to the standard reagent protocol. After 48 h transfection, transmit cells in one well to a 10-cm culture dish for monoclonal cell group selection. Add 1 mg/mL G418 antibiotic to the culture medium for cell selection and replace it every 2 days. Two weeks later, select several single clones and transfer them into separate wells of a 48-well culture plate. Screen the clones using a Xenogen IVIS-100 system by adding the substrate d-luciferin. Select and scale up the highest fluc activity clones for further study (*see* **Note** **5**).
-2. Transfect the selected 4T1-fluc cells with Alkyl-PEI/SPIO-siRNA (fluc siRNA and negative control siRNA) complexes as described above. Prepare Lipofectamine 2000, PEI2k, and Alkyl-PEI2k as comparing groups.
-3. Lyse the cells and collect the supernatants followed by adding the substrate d-luciferin for luciferase activity assay as described above (Fig. 3). 
+1. Establish luciferase stably expressed 4T1 cells (4T1-fluc). Seed 4T1 cells into 6-well plate at a density of 1–2 × 10<sup>5</sup>/well and transfected cells with pcDNA3.1 vector expressing cytomegalovirus-firefly luciferase (fluc) using Lipofectamine 2000 according to the standard reagent protocol. After 48 h transfection, transmit cells in one well to a 10-cm culture dish for monoclonal cell group selection. Add 1 mg/mL G418 antibiotic to the culture medium for cell selection and replace it every 2 days. Two weeks later, select several single clones and transfer them into separate wells of a 48-well culture plate. Screen the clones using a Xenogen IVIS-100 system by adding the substrate d-luciferin. Select and scale up the highest fluc activity clones for further study (*see* **Note** **5**).<span style=color:blue>构建稳定表达荧光素酶的4T1细胞系（4T1-fluc）。在6孔板中按1–2 × 10<sup>5</sup>/孔的密度接种4T1细胞，按标准步骤使用Lipofectamine 2000转染表达巨细胞病毒-萤火虫荧光素酶的pcDNA3.1载体。转染48小时后，将一个孔的细胞转入10 cm培养皿中进行单克隆筛选。加入1 mg/mL G418抗生素以筛选阳性克隆，每2天更换培养基。两周后，挑选单克隆并转至48孔板，加入d-荧光素底物后，通过Xenogen IVIS-100系统筛选克隆。选择活性最高的克隆用于后续实验（详见注释5）。</span>
+2. Transfect the selected 4T1-fluc cells with Alkyl-PEI/SPIO-siRNA (fluc siRNA and negative control siRNA) complexes as described above. Prepare Lipofectamine 2000, PEI2k, and Alkyl-PEI2k as comparing groups.<span style=color:blue>用烷基化PEI/SPIO-siRNA复合物（fluc siRNA和阴性对照siRNA）转染筛选出的4T1-fluc细胞，并分别用Lipofectamine 2000、PEI2k和烷基化PEI2k作为对照组。</span>
+3. Lyse the cells and collect the supernatants followed by adding the substrate d-luciferin for luciferase activity assay as described above (Fig. 3). <span style=color:blue>裂解细胞后收集上清液，加入d-荧光素底物后测定荧光素酶活性（图3）。</span>
 
 ![485053_1_En_13_Fig3_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_13_Fig3_HTML.png)
 
 **Fig. 3** Relative luciferase activity of 4T1-fluc cells after siRNA transfection. 
 
-#### 3.5.2 Western Blot Analysis
+#### 3.5.2 Western Blot Analysis 蛋白质印迹分析（Western Blot）
 
-1. Transfect P-gp overexpressed MCF-7/ADR cells with Alkyl-PEI/SPIO-siRNA (P—Prepared Lipofectamine 2000 as control group).
-2. Lyse cells by RIPA buffer added with protease inhibitor for 15 min at 0 °C following centrifuging at 10,000 × *g* for 15 min.
-3. Add 5× SDS loading buffer to the collected supernatants from above step following boiling at 100 °C for 5 min.
-4. Then subject the samples to 10% SDS-polyacrylamide gel electrophoresis for 1 h at 100 V.
-5. Transfer the protein from the gel to the methanol pretreated PVDF membrane in transfer buffer (1.5 h at 100 V).
-6. Split the band of β-actin (45 kDa) and P-gp (130 kDa) and block the membranes for 1 h at RT using 5% nonfat milk.
-7. Wash the membranes with TBST for three times followed by incubation with diluted primary antibody (1:1000) in TBST overnight at 4 °C.
-8. After washing the membrane with TBST for three times, incubate the membranes with HRP conjugated secondary antibody (1:5000) in TBST at room temperature for 1–2 h.
-9. Thoroughly wash the membrane with TBST for four times and capture the images by Molecular Imager ChemiDoc XRS+ after adding chemiluminescent HRP substrates. 
+1. Transfect P-gp overexpressed MCF-7/ADR cells with Alkyl-PEI/SPIO-siRNA (P—Prepared Lipofectamine 2000 as control group).<span style=color:blue>将P-gp过表达的MCF-7/ADR细胞转染烷基化PEI/SPIO-siRNA（Lipofectamine 2000作为对照组）。</span>
+2. Lyse cells by RIPA buffer added with protease inhibitor for 15 min at 0 °C following centrifuging at 10,000 × *g* for 15 min.<span style=color:blue>用添加蛋白酶抑制剂的RIPA裂解缓冲液在0 °C裂解细胞15分钟，然后以10,000 × g离心15分钟。</span>
+3. Add 5× SDS loading buffer to the collected supernatants from above step following boiling at 100 °C for 5 min.<span style=color:blue>向上一步收集的上清液中加入5× SDS加载缓冲液，并在100 °C煮沸5分钟。</span>
+4. Then subject the samples to 10% SDS-polyacrylamide gel electrophoresis for 1 h at 100 V.<span style=color:blue>将样品在10% SDS-聚丙烯酰胺凝胶上以100 V电泳1小时。</span>
+5. Transfer the protein from the gel to the methanol pretreated PVDF membrane in transfer buffer (1.5 h at 100 V).<span style=color:blue>将凝胶中的蛋白质转移至甲醇预处理的PVDF膜，在转移缓冲液中以100 V转移1.5小时。</span>
+6. Split the band of β-actin (45 kDa) and P-gp (130 kDa) and block the membranes for 1 h at RT using 5% nonfat milk.<span style=color:blue>分割出β-肌动蛋白（45 kDa）和P-gp（130 kDa）条带，用5%的脱脂奶粉在室温下封闭1小时。</span>
+7. Wash the membranes with TBST for three times followed by incubation with diluted primary antibody (1:1000) in TBST overnight at 4 °C.<span style=color:blue>用TBST清洗膜三次，然后用稀释的（1:1000）一抗在4 °C孵育过夜。</span>
+8. After washing the membrane with TBST for three times, incubate the membranes with HRP conjugated secondary antibody (1:5000) in TBST at room temperature for 1–2 h.<span style=color:blue>清洗膜三次后，在室温下用HRP标记的二抗（1:5000）在TBST中孵育1–2小时。</span>
+9. Thoroughly wash the membrane with TBST for four times and capture the images by Molecular Imager ChemiDoc XRS+ after adding chemiluminescent HRP substrates. <span style=color:blue>彻底用TBST洗膜四次，加入化学发光HRP底物后，通过Molecular Imager ChemiDoc XRS+捕捉图像。</span>
 
-#### 3.5.3 Immunofluorescent Staining (Fig. 4)
+#### 3.5.3 Immunofluorescent Staining (Fig. 4) 免疫荧光染色（图4）
 
-1. Transfect P-gp overexpressed MCF-7/ADR cells with Alkyl-PEI/SPIO-siRNA (P-gp siRNA, negative control siRNA) complexes as described above. Prepare Lipofectamine 2000 as control group.
-2. Remove culture medium and wash cells with PBS for three times.
-3. Fix cells with 4% PFA for 10 min at room temperature followed by washing with PBS for three times.
-4. Incubate cells with P-gp primary antibody (1:200) overnight at 4 °C.
-5. After washing with PBS for three times, stain cells with Cy5 conjugated secondary antibody (1:5000) for 1 h at room temperature.
-6. Counterstain the fixed cells with DAPI after washing with PBS for three times. Observe and capture images by using Florescent microscope.
+1. Transfect P-gp overexpressed MCF-7/ADR cells with Alkyl-PEI/SPIO-siRNA (P-gp siRNA, negative control siRNA) complexes as described above. Prepare Lipofectamine 2000 as control group.<span style=color:blue>将P-gp过表达的MCF-7/ADR细胞用烷基化PEI/SPIO-siRNA复合物（P-gp siRNA、阴性对照siRNA）转染，准备Lipofectamine 2000作为对照组。</span>
+2. Remove culture medium and wash cells with PBS for three times.<span style=color:blue>去除培养基，用PBS洗涤细胞三次。</span>
+3. Fix cells with 4% PFA for 10 min at room temperature followed by washing with PBS for three times.<span style=color:blue>用4% PFA在室温下固定细胞10分钟，然后用PBS洗涤三次。</span>
+4. Incubate cells with P-gp primary antibody (1:200) overnight at 4 °C.<span style=color:blue>用P-gp一抗（1:200）在4 °C孵育细胞过夜。</span>
+5. After washing with PBS for three times, stain cells with Cy5 conjugated secondary antibody (1:5000) for 1 h at room temperature.<span style=color:blue>用PBS清洗三次后，加入Cy5标记的二抗（1:5000）于室温孵育1小时。</span>
+6. Counterstain the fixed cells with DAPI after washing with PBS for three times. Observe and capture images by using Florescent microscope.<span style=color:blue>用DAPI染色细胞核，清洗后通过荧光显微镜观察并记录图像。</span>
 
 ![485053_1_En_13_Fig4_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_13_Fig4_HTML.png)
 
 **Fig. 4** Immunofluorescence staining for P-gp in MCF-7/ADR cells. Fluorescent microscopic images of MCF-7/ADR cells after transfection with P-gp siRNA complexed with Alkyl-PEI/SPIO. The nuclei were stained with DAPI. Scale bars: 50 μm. Untreated cells are served as control group.
 
-### 3.6 MRI Study of Transfected Cells (Fig. 5)
+### 3.6 MRI Study of Transfected Cells (Fig. 5) 细胞转染后的MRI成像实验（图5）
 
-1. Seed 4T1-fluc into 6-well plate followed by transfection with Alkyl-PEI/SPIO-siRNA complexes as above described.
-2. At the end of transfection, wash cells with PBS and then digest them with 0.25% trypsin, which are then collected by centrifuging at 200 × *g* for 5 min.
-3. Resuspend cell pellets in 4% PFA to fix at 4 °C for 30 min.
-4. Then centrifuge cells at 200 × *g* for 5 min and wash the cells with PBS for three times. Disperse cells in a final concentration of 1% gelatin phantom (200 μL) crosslinked with glutaraldehyde in microcentrifuge tubes. Prepare the gelatin phantoms with untreated cells as negative control.
-5. Perform MR imaging of the phantoms at 3.0 T MRI scanner using a clinical head coil. Acquire *T*<sub>*2*</sub>-weighted fast spin echo (TSE) images with the following parameters: repetition time (TR) = 2300 ms, echo time (TE) = 104 ms, slice thickness = 1.0 mm, no gap, field of view (FOV) = 70 × 70 mm, flip angle = 90°, number of signal averaged (NSA) = 8.
+1. Seed 4T1-fluc into 6-well plate followed by transfection with Alkyl-PEI/SPIO-siRNA complexes as above described.<span style=color:blue>在6孔板中种植4T1-fluc细胞，随后按照前述步骤将其用烷基化PEI/SPIO-siRNA复合物进行转染。</span>
+2. At the end of transfection, wash cells with PBS and then digest them with 0.25% trypsin, which are then collected by centrifuging at 200 × *g* for 5 min.<span style=color:blue>转染完成后，用PBS洗细胞，然后用0.25%胰蛋白酶消化，接着以200 × g离心5分钟收集细胞。</span>
+3. Resuspend cell pellets in 4% PFA to fix at 4 °C for 30 min.<span style=color:blue>将细胞重悬于4% PFA中，在4 °C固定30分钟。</span>
+4. Then centrifuge cells at 200 × *g* for 5 min and wash the cells with PBS for three times. Disperse cells in a final concentration of 1% gelatin phantom (200 μL) crosslinked with glutaraldehyde in microcentrifuge tubes. Prepare the gelatin phantoms with untreated cells as negative control.<span style=color:blue>以200 × g离心5分钟后，用PBS清洗三次。最后将细胞分散在1%戊二醛交联的明胶凝胶中（200 μL），并置于微量离心管中。未处理的细胞作为阴性对照。</span>
+5. Perform MR imaging of the phantoms at 3.0 T MRI scanner using a clinical head coil. Acquire *T*<sub>*2*</sub>-weighted fast spin echo (TSE) images with the following parameters: repetition time (TR) = 2300 ms, echo time (TE) = 104 ms, slice thickness = 1.0 mm, no gap, field of view (FOV) = 70 × 70 mm, flip angle = 90°, number of signal averaged (NSA) = 8.<span style=color:blue>使用3.0 T MRI扫描仪和临床头线圈对明胶凝胶样品进行成像。获取*T*<sub>*2*</sub>-加权快速自旋回波（TSE）图像，参数设定为：重复时间（TR）= 2300 ms，回波时间（TE）= 104 ms，层厚 = 1.0 mm，无间隔，视野（FOV）= 70 × 70 mm，翻转角 = 90°，信号平均次数（NSA）= 8。</span>
 
 ![485053_1_En_13_Fig5_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_13_Fig5_HTML.png)
 
 **Fig. 5** (**a**) *T* <sub>*2*</sub>-weighted magnetic resonance images of agarose gel phantoms containing the fluc-4T1 cells treated with Alkyl-PEI/SPIO-siRNA complexes; (**b**) negative correlation between the *T* <sub>*2*</sub>contrast and the N/P ratios of the Alkyl-PEI/SPIO-siRNA complexes (Probability value, *p* < 0.05). 
 
-### 3.7 siRNA Delivery by Alkyl-PEI/SPIO Nanovehicle In Vivo
+### 3.7 siRNA Delivery by Alkyl-PEI/SPIO Nanovehicle In Vivo 体内siRNA递送实验（使用烷基化PEI/SPIO纳米载体）
 
-#### 3.7.1 Luciferase Activity Assay
+#### 3.7.1 Luciferase Activity Assay  荧光素酶活性检测
 
-1. Subcutaneously inject 1 × 10<sup>6 </sup>4T1-fluc cells suspended in serum-free medium into posterior flank of female athymic nude mice (6–8 weeks old, five per group).
-2. Intratumorally inject 250 pmol fluc siRNA wrapped with Alkyl-PEI/SPIO (N/P = 20) every other day for three times while the tumor diameter reached about 4–6 mm. Prepare same volume of PBS, free siRNA, and Alkyl-PEI/SPIO as control group (*see* **Note** **5**).
-3. After 2 days of each injection, intraperitoneally administrate mice with 50 mg/kg d-luciferin potassium salt and then anesthetize them by 2% isoflurane in O<sub>2</sub>.
-4. Measure bioluminescence by a Xenogen IVIS-100 system between 5 and 20 min after the d-luciferin administration (Fig. 6).
+1. Subcutaneously inject 1 × 10<sup>6 </sup>4T1-fluc cells suspended in serum-free medium into posterior flank of female athymic nude mice (6–8 weeks old, five per group).<span style=color:blue>将1 × 10<sup>6</sup> 4T1-fluc细胞悬浮于无血清培养基中后，皮下注射到6–8周龄雌性裸鼠的后背皮肤，每组5只。</span>
+2. Intratumorally inject 250 pmol fluc siRNA wrapped with Alkyl-PEI/SPIO (N/P = 20) every other day for three times while the tumor diameter reached about 4–6 mm. Prepare same volume of PBS, free siRNA, and Alkyl-PEI/SPIO as control group (*see* **Note** **5**).<span style=color:blue>当肿瘤直径达到约4–6毫米时，每隔一天向肿瘤内注射250 pmol 荧光素酶siRNA（包裹于N/P比为20的烷基化PEI/SPIO纳米颗粒中），连续注射三次。使用相同体积的PBS、游离siRNA和烷基化PEI/SPIO作为对照组（*参见* **注释5**）。</span>
+3. After 2 days of each injection, intraperitoneally administrate mice with 50 mg/kg d-luciferin potassium salt and then anesthetize them by 2% isoflurane in O<sub>2</sub>.<span style=color:blue>每次注射后两天，腹腔注射50 mg/kg的d-荧光素钾盐，并用2%异氟烷和氧气麻醉小鼠。</span>
+4. Measure bioluminescence by a Xenogen IVIS-100 system between 5 and 20 min after the d-luciferin administration (Fig. 6).<span style=color:blue>在注射d-荧光素5至20分钟后，利用Xenogen IVIS-100系统检测小鼠的生物发光信号（图6）。</span>
 
 ![485053_1_En_13_Fig6_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_13_Fig6_HTML.png)
 
 **Fig. 6** Gene-silencing effect by Alkyl-PEI/SPIO-siRNA complexes in vivo. (**A**) In vivo optical images and (**B**) quantitative analysis of fluc-expressing tumors after intratumoral injection of Alkyl-PEI/SPIO-siRNA complexes.
 
-#### 3.7.2 Tissue Western Blot Assay
+#### 3.7.2 Tissue Western Blot Assay 组织样本的蛋白印迹分析
 
-1. Orthotopically inject 1 × 10<sup>6</sup> MCF-7/ADR cells suspended in 50 μL Matrigel into mammary fat pad of female athymic nude mice (6–8 weeks old, five per group).
-2. Intratumorally inject 250 pmol of P-gp-siRNA wrapped with Alkyl-PEI/SPIO (N/P = 20) every 2 days for four times while the tumor diameter reached about 4–6 mm. Prepare same volume of PBS, free siRNA, as well as Lipofectamine wrapped P-gp-siRNA as the control group (*see* **Note** **5**). 
-3. After 2 days of last injection , extract and ground the tumor tissues in liquid nitrogen after sacrificing the mice.
-4. Lyse the tumor tissue power about 0.1 g of each group in 100 μL RIPA buffer added with protein protease inhibitor.
-5. After 30 min lysis at 4 °C, collect the supernatants for the western blot analysis by centrifugation of the samples at 10,000 × *g* for 15 min at 4 °C as described above.
+1. Orthotopically inject 1 × 10<sup>6</sup> MCF-7/ADR cells suspended in 50 μL Matrigel into mammary fat pad of female athymic nude mice (6–8 weeks old, five per group).<span style=color:blue>将1 × 10<sup>6</sup>个MCF-7/ADR细胞悬浮于50 μL的Matrigel中后，正位注射到6–8周龄雌性裸鼠的乳腺脂肪垫中，每组5只。</span>
+2. Intratumorally inject 250 pmol of P-gp-siRNA wrapped with Alkyl-PEI/SPIO (N/P = 20) every 2 days for four times while the tumor diameter reached about 4–6 mm. Prepare same volume of PBS, free siRNA, as well as Lipofectamine wrapped P-gp-siRNA as the control group (*see* **Note** **5**). <span style=color:blue>当肿瘤直径达到约4–6毫米时，每隔两天向肿瘤内注射250 pmol的P-gp-siRNA（包裹在N/P比为20的烷基化PEI/SPIO中），共注射四次。使用相同体积的PBS、游离siRNA和脂质体包裹的P-gp-siRNA作为对照组（*参见* **注释5**）。</span>
+3. After 2 days of last injection , extract and ground the tumor tissues in liquid nitrogen after sacrificing the mice.<span style=color:blue>在最后一次注射后两天，处死小鼠后提取肿瘤组织，并在液氮中研磨成粉末。</span>
+4. Lyse the tumor tissue power about 0.1 g of each group in 100 μL RIPA buffer added with protein protease inhibitor.<span style=color:blue>将每组约0.1克的肿瘤组织粉末溶于100 μL含有蛋白酶抑制剂的RIPA裂解液中。</span>
+5. After 30 min lysis at 4 °C, collect the supernatants for the western blot analysis by centrifugation of the samples at 10,000 × *g* for 15 min at 4 °C as described above.<span style=color:blue>在4 °C下裂解30分钟后，以10,000 × *g*离心15分钟收集上清液进行蛋白印迹分析，如上所述。</span>
 
-## 4 Notes
+## 4 Notes 注释
 
-1. The Alkyl-PEI/SPIO-siRNA complex forming protocol can be employed for multiple siRNA sequences.
-2. When forming the Alkyl-PEI/SPIO-siRNA complex for gene transfection, the volume of siRNA solution should be less than or equal to the nanocomposite dispersions.
-3. When using Alkyl-PEI/SPIO for other cells siRNA transfection, the seeded cell number is determined by the cell growth rate reaching a confluent of 70–90%.
-4. When constructing other luciferase stably expressed cell lines, the dosage and time of antibiotic need to be further screened.
-5. When intratumorally inject the agents, about 30 s retention is suggested to prevent the leakage after each injection by using 1 mL syringe with 18 G needle.
+1. The Alkyl-PEI/SPIO-siRNA complex forming protocol can be employed for multiple siRNA sequences.<span style=color:blue>烷基化PEI/SPIO-siRNA复合物的制备方法适用于多种siRNA序列。</span>
+2. When forming the Alkyl-PEI/SPIO-siRNA complex for gene transfection, the volume of siRNA solution should be less than or equal to the nanocomposite dispersions.<span style=color:blue>在基因转染时，siRNA溶液的体积应小于或等于纳米复合物分散液的体积。</span>
+3. When using Alkyl-PEI/SPIO for other cells siRNA transfection, the seeded cell number is determined by the cell growth rate reaching a confluent of 70–90%.<span style=color:blue>使用烷基化PEI/SPIO进行其他细胞的siRNA转染时，细胞播种密度应以生长达到70–90%融合度为准。</span>
+4. When constructing other luciferase stably expressed cell lines, the dosage and time of antibiotic need to be further screened.<span style=color:blue>构建其他稳定表达荧光素酶的细胞系时，需进一步筛选抗生素的剂量和作用时间。</span>
+5. When intratumorally inject the agents, about 30 s retention is suggested to prevent the leakage after each injection by using 1 mL syringe with 18 G needle.<span style=color:blue>肿瘤内注射药剂时，建议使用1 mL的注射器和18 G的针头，并保留约30秒，以防止注射后药物的渗漏。</span>
