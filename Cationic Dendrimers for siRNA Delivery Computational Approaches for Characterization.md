@@ -295,60 +295,70 @@ In each pmemd command (*see* **Note** **1**) the option *-i* and *-o* specify th
 
 1. Use AMBER’s nab program to create an initial 3D structure of the desired siRNA sequence. This will ensure that the siRNA PDB file created will respect the naming conventions used in the AMBER forcefield. Firstly, create a text file called siRNA.nab with the following code:
 
+   <span style=color:blue>利用 AMBER 的 *nab* 程序生成目标 siRNA 序列的初始三维结构。此方法确保生成的 siRNA PDB 文件符合 AMBER 力场的命名规则。首先，创建一个名为 **siRNA.nab** 的文本文件，并写入以下代码：</span>
+
    ```shell
-molecule m;
+   molecule m;
    fd_helix( “arna”, “YOUR_RNA_SEQUENCE”, “rna”)
-putpdb(“siRNA.pdb”, m, “-wwpdb”)
+   putpdb(“siRNA.pdb”, m, “-wwpdb”)
    ```
 
 2. Run nab with the following commands to generate the siRNA.pdb file:
+
+   <span style=color:blue>通过以下命令运行 *nab* 程序，生成 **siRNA.pdb** 文件：</span>
 
    ```shell
    nab siRNA.nab
    ./a.out
    ```
-   
+
 3. Follow the procedure reported in Subheadings 3.1 and 3.2 to obtain a solvated siRNA structure and an MD equilibrated siRNA trajectory in an aqueous environment. 
 
+   <span style=color:blue>按照子章节 3.1 和 3.2 的流程，对 siRNA 结构进行溶剂化处理，并通过分子动力学模拟生成在水环境中达到平衡的 siRNA 轨迹。</span>
 
-### 3.5 Complex Creation and Simulation
+
+### 3.5 Complex Creation and Simulation 复合物的创建与模拟
 
 Electrostatic interactions are usually at the base of the formation of cationic dendrimer/siRNA complexes, and the intermolecular recognition does not depend on a specific sequence on the nucleic acid fragment (base-aspecific). Nonetheless, any information available from laboratory experiments, literature, or previous knowledge on the particular binding of the specific dendrimer to the given siRNA sequence studied should be taken into consideration when creating the relevant complex model.
 
-1. Using Chimera or VMD extract the final equilibrated structure of the dendrimer from its last data collection trajectory.
+<span style=color:blue>复合物创建与模拟主要依赖于阳离子型树枝状分子和siRNA的静电相互作用，这种结合通常不特异于核酸片段的特定序列。但在构建复合物模型时，应充分参考实验、文献或先前研究中的任何特定结合信息。</span>
 
-2. With the same software, extract the final equilibrated structure of the siRNA from its last data collection trajectory.
+1. Using Chimera or VMD extract the final equilibrated structure of the dendrimer from its last data collection trajectory.<span style=color:blue>通过 **Chimera** 或 **VMD** 提取树枝状分子在最后一次模拟轨迹中的平衡结构。</span>
 
-3. Load both the extracted equilibrated 3D structures of the siRNA and the dendrimer into the visualization software, and place the dendrimer in close proximity of the siRNA yet avoiding visible clashes between their atoms.
+2. With the same software, extract the final equilibrated structure of the siRNA from its last data collection trajectory.<span style=color:blue>同样方法提取 siRNA 的最终平衡结构。</span>
 
-4. Save the obtained starting 3D structure of the complex to a coordinates PDB file.
+3. Load both the extracted equilibrated 3D structures of the siRNA and the dendrimer into the visualization software, and place the dendrimer in close proximity of the siRNA yet avoiding visible clashes between their atoms.<span style=color:blue>在可视化工具中加载上述提取的三维结构，将树枝状分子放置于siRNA附近，确保两者没有原子间的直接碰撞。</span>
 
-5. Follow all the steps in Subheadings 3.1 and 3.2 to obtain a solvated complex structure and perform data collection.
+4. Save the obtained starting 3D structure of the complex to a coordinates PDB file.<span style=color:blue>将调整后的初始复合物结构保存为 PDB 格式。</span>
 
-6. Repeat **steps 3**–**5** two more times, each time rotating the dendrimer and placing it to a different position in relation to the siRNA fragment. At the end of this section, three MD trajectories files will be obtained, each generated from the different dendrimer/siRNA complex starting structures and yet converging to the same equilibrium structure at the end of the corresponding simulation. Should this structural convergence not be achieved, the number of MD simulation must be increased (from 15 to 20 or more) until this condition is satisfied.
+5. Follow all the steps in Subheadings 3.1 and 3.2 to obtain a solvated complex structure and perform data collection.<span style=color:blue>按照 **3.1** 和 **3.2** 的溶剂化与模拟流程，对复合物进行结构优化和数据收集。</span>
+
+6. Repeat **steps 3**–**5** two more times, each time rotating the dendrimer and placing it to a different position in relation to the siRNA fragment. At the end of this section, three MD trajectories files will be obtained, each generated from the different dendrimer/siRNA complex starting structures and yet converging to the same equilibrium structure at the end of the corresponding simulation. Should this structural convergence not be achieved, the number of MD simulation must be increased (from 15 to 20 or more) until this condition is satisfied.<span style=color:blue>更换树枝状分子的初始位置（通过旋转和重新摆放），重复**步骤3至5**两次。此过程将生成三个不同初始结构的分子动力学轨迹文件，预期轨迹应在模拟后期收敛到一致的平衡结构。若未能达到预期的结构收敛，建议将模拟次数从15次增加至20次或更多，以保证可靠的结果。</span>
 
 
-### 3.6 Dendrimer Analysis
+### 3.6 Dendrimer Analysis 树枝状分子分析
 
 The analysis of every MD simulation should always begin with a careful observation of the relevant trajectories, as some peculiar phenomena taking place during any phase of the calculation can be intuitively identified and, eventually, further investigated. All analysis steps reported here and in the subsequent section have to be repeated for the three replicate trajectories, and the relevant calculated properties or quantities must be reported as average values. As mentioned above for structural model convergence, also the properties of interest obtained from the different MD trajectories must converge to the same value, and if this is not the case, the simulation cannot be trusted. A possible solution for is to run the simulations longer until convergence is achieved. To enter AMBER’s analysis software cpptraj , just type cpptraj on the AMBER command line. Then, execute the following within cpptraj.
 
-1. Load the equilibrated 100 ns-long dendrimer MD trajectory by typing:
+<span style=color:blue>对每次分子动力学 (MD) 模拟的分析都应从仔细观察相关轨迹开始，因为计算过程中的某些特殊现象可以直观地被识别出来，并在需要时进行进一步研究。本节及后续部分中描述的所有分析步骤需针对三个独立轨迹重复进行，并将计算的属性或量值作为平均值报告。如同结构模型的收敛性要求，不同MD轨迹计算出的目标属性也必须收敛至相同值，否则模拟结果将不可被信赖。一种可能的解决办法是延长模拟时间，直至达到收敛。在进入AMBER的分析软件cpptraj时，只需在AMBER命令行中输入 `cpptraj`，然后按以下步骤执行分析。</span>
+
+1. Load the equilibrated 100 ns-long dendrimer MD trajectory by typing:<span style=color:blue>加载平衡态的100 ns树枝状分子MD轨迹，输入以下命令</span>
 
    ```shell
-parm dendrimer.prmtop
+   parm dendrimer.prmtop
    for i=6;i&lt;16;i++
-trajin MD$i.nc 1 last 10
+   trajin MD$i.nc 1 last 10
    done
-autoimage
+   autoimage
    ```
 
-2. Use the command *radgyr* with the *tensor* option to compute the dendrimer radius of gyration *R*<sub>*g*</sub> and the relevant gyration tensor ***R***<sub>*g*</sub>, from which the molecular asphericity *b* can be obtained (*see* Subheading 2.2 and **Note** **4**):
+2. Use the command *radgyr* with the *tensor* option to compute the dendrimer radius of gyration *R*<sub>*g*</sub> and the relevant gyration tensor ***R***<sub>*g*</sub>, from which the molecular asphericity *b* can be obtained (*see* Subheading 2.2 and **Note** **4**):<span style=color:blue>**计算树枝状分子的回转半径 (\*R\*<sub>\*g\*</sub>) 及相关的回转张量 (\*R\*<sub>\*g\*</sub> tensor)**，使用 *radgyr* 命令和 *tensor* 选项。由此结果可以进一步计算分子的非球形度 *b* (详见子章节 **2.2** 及**注释4**)</span>
 
    ```shell
-radgyr RgyrDendrimer :DENDRIMER_MASK out rgyr_dendrimer_alone.out tensor
+   radgyr RgyrDendrimer :DENDRIMER_MASK out rgyr_dendrimer_alone.out tensor
    ```
 
-3. Next*,* use the command *radial* with the *rawrdf* and *center2* options and selecting the dendrimer as *solute* to calculate any radial monomer density *ρ(r)* from the dendrimer center of mass (*see* Subheading [2.3](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Sec5)). Set the maximum radius equal to (*R*<sub>*g*</sub> × 1.3 + 15) Å, in which *R*<sub>*g*</sub> is the value of the dendrimer radius of gyration calculated in the preceding step (2). Set spacing = 0.5 Å. This command must be three times, each time selecting i) the water oxygens, ii) the dendrimer terminal nitrogens, and iii) the whole dendrimer atoms, respectively, to obtain corresponding *ρ(r)* profiles around the center of mass of the dendrimer (*see* **Note** **5**). Accordingly, type:
+3. Next*,* use the command *radial* with the *rawrdf* and *center2* options and selecting the dendrimer as *solute* to calculate any radial monomer density *ρ(r)* from the dendrimer center of mass (*see* Subheading 2.3). Set the maximum radius equal to (*R*<sub>*g*</sub> × 1.3 + 15) Å, in which *R*<sub>*g*</sub> is the value of the dendrimer radius of gyration calculated in the preceding step (2). Set spacing = 0.5 Å. This command must be three times, each time selecting i) the water oxygens, ii) the dendrimer terminal nitrogens, and iii) the whole dendrimer atoms, respectively, to obtain corresponding *ρ(r)* profiles around the center of mass of the dendrimer (*see* **Note** **5**). Accordingly, type:<span style=color:blue>**计算树枝状分子的径向单体密度 \*ρ(r)\***，使用 *radial* 命令，同时选择 *rawrdf* 和 *center2* 选项，树枝状分子被选为 *solute*。径向分布的计算半径范围应设为 (*R*<sub>*g*</sub> × 1.3 + 15) Å，其中 *R*<sub>*g*</sub> 为先前步骤计算得到的回转半径，间隔设为0.5 Å。每次分别选定以下三种情况执行命令：</span>
 
    ```shell
    radial out radial_density.out 0.5 MAX_RADIUS \
@@ -358,8 +368,8 @@ radgyr RgyrDendrimer :DENDRIMER_MASK out rgyr_dendrimer_alone.out tensor
    radial out radial_density.out 0.5 MAX_RADIUS \
    :DENDRIMER_MASK :DENDRIMER_MASK rawrdf center2
    ```
-   
-4. Now use the command *molsurf* selecting the dendrimer atoms to compute the relevant accessible surface area (*ASA)* (*see* Subheading 2.4). This command has to be issued multiple time, varying the *probe* option from 0.5 Å to 9.5 Å at 0.3 Å interval. The dendrimer interior cavities and voids can then be identified by plotting the square root of the *ASA* values thus obtained as a function of the probe radius used (*see* **Note** **6**). Accordingly, type:
+
+4. Now use the command *molsurf* selecting the dendrimer atoms to compute the relevant accessible surface area (*ASA)* (*see* Subheading 2.4). This command has to be issued multiple time, varying the *probe* option from 0.5 Å to 9.5 Å at 0.3 Å interval. The dendrimer interior cavities and voids can then be identified by plotting the square root of the *ASA* values thus obtained as a function of the probe radius used (*see* **Note** **6**). Accordingly, type:<span style=color:blue>**计算树枝状分子的可及表面积 (\*ASA\*)**，使用 *molsurf* 命令，选择树枝状分子的所有原子作为输入，设置不同的探针半径，从0.5 Å至9.5 Å，间隔为0.3 Å。通过绘制得到的 *ASA* 值的平方根与探针半径的关系图，可以识别树枝状分子内部的孔隙和空腔 (详见子章节 **2.4** 及**注释6**)。输入以下命令：</span>
 
    ```shell
    molsurf ASA_05 :DENDRIMER_MASK out ASA_05.out probe 0.5
@@ -369,46 +379,49 @@ radgyr RgyrDendrimer :DENDRIMER_MASK out rgyr_dendrimer_alone.out tensor
    molsurf ASA_95 :DENDRIMER_MASK out ASA_95.out probe 9.5
    ```
 
-### 3.7 siRNA-Dendrimer Complex Structural Analysis
 
-1. Load the equilibrated 100 ns-long dendrimer/siRNA complex MD trajectory into AMBER’s *cpptraj* software by issuing the same commands described in the previous step. 
+### 3.7 siRNA-Dendrimer Complex Structural Analysis siRNA-树枝状分子复合体的结构分析
 
-2. Within *cpptraj,* select the dendrimer atoms and use the command *radgyr* with the *tensor* option to compute the *R*<sub>*g*</sub>, ***R***<sub>*g*</sub> and *b* of the siRNA-bound dendrimer over time. Compare these values with those obtained for the uncomplexed dendrimer in solution obtained at point 2 in Subheading 3.6.
+1. Load the equilibrated 100 ns-long dendrimer/siRNA complex MD trajectory into AMBER’s *cpptraj* software by issuing the same commands described in the previous step. <span style=color:blue>**加载平衡态的100 ns树枝状分子/siRNA复合体MD轨迹**，按照 **3.6** 节中描述的相同命令，在 AMBER 的 *cpptraj* 软件中加载树枝状分子/siRNA复合体的轨迹。</span>
 
-3. Next use the command *radial* with the *rawrdf* and *center2* options and selecting the dendrimer as *solute*. Follow the same procedure described in **step 3** of Subheading 3.6 to set the corresponding values of the maximum radius and spacing. Issue this command 4 times, each time selecting different atoms as *solvent* (water atoms, the terminal nitrogen atoms, the whole dendrimer atoms and the siRNA atoms, respectively), to obtain the *ρ(r)* profiles for the selected atoms around the dendrimer center of mass (*see* **Note** **5**).
+2. Within *cpptraj,* select the dendrimer atoms and use the command *radgyr* with the *tensor* option to compute the *R*<sub>*g*</sub>, ***R***<sub>*g*</sub> and *b* of the siRNA-bound dendrimer over time. Compare these values with those obtained for the uncomplexed dendrimer in solution obtained at point 2 in Subheading 3.6.<span style=color:blue>**计算复合状态下树枝状分子的回转半径、回转张量及非球形度**，在 *cpptraj* 中选择树枝状分子原子，使用 *radgyr* 命令及 *tensor* 选项，计算树枝状分子结合siRNA后的 *R*<sub>*g*</sub>、***R***<sub>*g*</sub> 和非球形度 *b* 的时间变化。将这些值与 **3.6** 节中未结合状态下的树枝状分子数据进行比较。</span>
+
+3. Next use the command *radial* with the *rawrdf* and *center2* options and selecting the dendrimer as *solute*. Follow the same procedure described in **step 3** of Subheading 3.6 to set the corresponding values of the maximum radius and spacing. Issue this command 4 times, each time selecting different atoms as *solvent* (water atoms, the terminal nitrogen atoms, the whole dendrimer atoms and the siRNA atoms, respectively), to obtain the *ρ(r)* profiles for the selected atoms around the dendrimer center of mass (*see* **Note** **5**).<span style=color:blue>**计算复合体的径向密度分布 </span>\*ρ(r)\***，使用 *radial* 命令及 *rawrdf* 和 *center2* 选项，将树枝状分子作为 *solute*，按 **3.6** 节步骤3中描述的方法设置最大半径和间距。重复命令4次，分别选定以下原子作为 *solvent*：水原子；树枝状分子的末端氮原子；树枝状分子的所有原子；siRNA原子。通过这些命令，获得不同选定原子围绕树枝状分子质心的 *ρ(r)* 分布。</span>
 
 
-### 3.8 siRNA-Dendrimer Energy of Binding Analysis
 
-1. Use AMBER’s MMPBSA.py script to compute the enthalpic contribution to free energy of binding . Select the last two equilibrated MD trajectories obtained for dendrimer, siRNA and their complex, respectively, and pick one every 10 MD frames. The corresponding total number of frames thus will be 200. In the *&pb* section set *inp* equal 1 (to separate the dispersion and cavity formation terms) and *indi* equal 3, as required when dealing with highly charged macromolecules. Also, turn on energy decomposition with *&dec*, to obtain the contribution of each dendrimer residue to siRNA binding (*see* **Note** [**7**](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Sec17)). Then, move all trajectories and topology files to the same directory, and use the following command line:
+### 3.8 siRNA-Dendrimer Energy of Binding Analysis siRNA-树枝状分子结合自由能分析
 
-   ```shell
-MMPBSA -O -i mmpbsa_enth.in -o dH_dendrimer_siRNA.out \
-   -sp complex.solvated.prmtop -cp complex.prmtop \
--rp siRNA.prmtop -srp siRNA.solvated.prmtop
-   -lp dendrimer.prmtop -slp dendrimer.solvated.prmtop \
--y md14.complex.nc md15.complex.nc \
-   -yr md14.siRNA.nc md15.siRNA.nc \
--yl md14.dendrimer.nc md15.dendrimer.nc
-   ```
-
-   where the options *-i* and *-o* specify the input and output files, the options *-sp*, *−slp*, *−srp* select the topology files of the solvated complex, dendrimer (ligand) and siRNA (receptor), respectively. Likewise, the options *-cp*, *−lp*, *−rp* and *-y*, *−yl*, *−yr* select the un-solvated topologies for the same systems and their corresponding solvated trajectories, respectively. The content of the mmpbsa_enth.in file is reported in Table 2.
-
-2. Use AMBER’s MMPBSA.py script to compute the entropic contribution to free energy of binding. Select the same equilibrated trajectories used for enthalpy calculations, and pick one every 50 frames, for a total of 20 analyzed frames. Then, use the following command:
+1. Use AMBER’s MMPBSA.py script to compute the enthalpic contribution to free energy of binding . Select the last two equilibrated MD trajectories obtained for dendrimer, siRNA and their complex, respectively, and pick one every 10 MD frames. The corresponding total number of frames thus will be 200. In the *&pb* section set *inp* equal 1 (to separate the dispersion and cavity formation terms) and *indi* equal 3, as required when dealing with highly charged macromolecules. Also, turn on energy decomposition with *&dec*, to obtain the contribution of each dendrimer residue to siRNA binding (*see* **Note 7**). Then, move all trajectories and topology files to the same directory, and use the following command line:<span style=color:blue>**计算结合焓 (\*ΔH\*)**，使用 AMBER 的 *MMPBSA.py* 脚本计算结合自由能中的焓贡献。选择树枝状分子、siRNA及其复合体的最后两个平衡MD轨迹，每隔10帧选择一个，总共200帧。在 *&pb* 部分设置 *inp=1* （分离分散和空腔形成项）和 *indi=3*（针对高电荷大分子）。同时启用 *&dec* 能量分解功能，获取每个树枝状分子残基对siRNA结合的贡献。将所有轨迹和拓扑文件移动到同一目录下，输入以下命令：</span>
 
    ```shell
-MMPBSA -O -i mmpbsa_entr_nmode.in -o TdS_dendrimer_siRNA.out \
+   MMPBSA -O -i mmpbsa_enth.in -o dH_dendrimer_siRNA.out \
    -sp complex.solvated.prmtop -cp complex.prmtop \
--rp siRNA.prmtop -srp siRNA.solvated.prmtop
+   -rp siRNA.prmtop -srp siRNA.solvated.prmtop
    -lp dendrimer.prmtop -slp dendrimer.solvated.prmtop \
--y md14.complex.nc md15.complex.nc \
+   -y md14.complex.nc md15.complex.nc \
    -yr md14.siRNA.nc md15.siRNA.nc \
--yl md14.dendrimer.nc md15.dendrimer.nc
+   -yl md14.dendrimer.nc md15.dendrimer.nc
    ```
 
-   The content of the mmpbsa_entr_nmode.in file is reported in Table 2.
+   where the options *-i* and *-o* specify the input and output files, the options *-sp*, *−slp*, *−srp* select the topology files of the solvated complex, dendrimer (ligand) and siRNA (receptor), respectively. Likewise, the options *-cp*, *−lp*, *−rp* and *-y*, *−yl*, *−yr* select the un-solvated topologies for the same systems and their corresponding solvated trajectories, respectively. The content of the mmpbsa_enth.in file is reported in Table 2.<span style=color:blue>*-i* 和 *-o* 指定输入和输出文件。*-sp*, *-slp*, *-srp* 分别指定溶剂化复合体、树枝状分子（配体）及siRNA（受体）的拓扑文件。*-cp*, *-lp*, *-rp* 和 *-y*, *-yl*, *-yr* 分别指定非溶剂化拓扑文件及对应的溶剂化轨迹。*mmpbsa_enth.in* 文件的内容详见 **表2**。</span>
 
-3. As the last step, use the fundamental Gibbs equation, *ΔG*~bind~ = *ΔH*~bind~ − *TΔS*~bind~, to obtain the corresponding free energy of binding between the dendrimer and the siRNA (*see* Subheading 2.5, **Notes** **8** and **9**).
+2. Use AMBER’s MMPBSA.py script to compute the entropic contribution to free energy of binding. Select the same equilibrated trajectories used for enthalpy calculations, and pick one every 50 frames, for a total of 20 analyzed frames. Then, use the following command:<span style=color:blue>**计算结合熵 (\*TΔS\*)**，使用相同轨迹，选择焓计算所用的平衡轨迹，每隔50帧选择一个，总共分析20帧。输入以下命令：</span>
+
+   ```shell
+   MMPBSA -O -i mmpbsa_entr_nmode.in -o TdS_dendrimer_siRNA.out \
+   -sp complex.solvated.prmtop -cp complex.prmtop \
+   -rp siRNA.prmtop -srp siRNA.solvated.prmtop
+   -lp dendrimer.prmtop -slp dendrimer.solvated.prmtop \
+   -y md14.complex.nc md15.complex.nc \
+   -yr md14.siRNA.nc md15.siRNA.nc \
+   -yl md14.dendrimer.nc md15.dendrimer.nc
+   ```
+
+   The content of the mmpbsa_entr_nmode.in file is reported in Table 2.<span style=color:blue>*mmpbsa_entr_nmode.in* 文件的内容详见 **表2**。</span>
+
+3. As the last step, use the fundamental Gibbs equation, *ΔG*<sub>bind</sub> = *ΔH*<sub>bind</sub> − *TΔS*<sub>bind</sub>, to obtain the corresponding free energy of binding between the dendrimer and the siRNA (*see* Subheading 2.5, **Notes** **8** and **9**).<span style=color:blue>**计算结合自由能 (*ΔG*<sub>bind</sub> = *ΔH*<sub>bind</sub> − *TΔS*<sub>bind</sub>)**，使用基本吉布斯自由能方程：</span>
+
 
 
 **Table 2** List of input files for energy of binding calculations. A detailed description of the input parameters can be found in a recent AMBER manual available on line at https://ambermd.org/Manuals.php
