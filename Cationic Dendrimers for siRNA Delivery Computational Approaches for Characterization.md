@@ -2,125 +2,193 @@
 
 Domenico Marson, Suzana Aulic, Maurizio Fermeglia, Erik Laurini and Sabrina Pricl
 
-## Abstract
+## Abstract 摘要
 
 Nowadays, computer simulations have been established as a fundamental tool in the design and development of new dendrimer-based nanocarriers for drug and gene delivery. Moreover, the level of detail contained in the information that can be gathered by performing atomistic-scale simulations cannot be obtained with any other available experimental technique. In this chapter we describe the main computational toolbox that can be exploited in the different stages of novel dendritic nanocarrier production—from the initial conception to the stage of biological intermolecular interactions.
 
-## 1 Introduction
+<span style=color:blue>在现代树枝状纳米载体的设计与开发中，计算机模拟已被确立为不可或缺的工具。原子尺度模拟所提供的信息细节超出了当前实验技术的能力范围。在本章中，我们将介绍在树枝状纳米载体生产的各个阶段——从最初的概念设计到生物分子相互作用研究——所能使用的核心计算工具和方法。</span>
+
+## 1 Introduction 前言
 
 Today computer simulations constitute an essential tool for the design and development of new dendrimer-based nanocarriers for both drug and gene delivery. Undoubtedly, this success is linked to the exponential increase in affordable computer power and to the optimization/development of highly scalable computer codes able to run in parallel even on consumer-grade graphical processing units (GPUs). Thus, for instance, under the magnifying lens of all-atom molecular dynamics (AA-MD) simulations researchers are now able to follow the exact time and space behavior of a given nanovector in solution at a molecular level, and to characterize its interactions with a specific target. Moreover, the same set of computational techniques allows performing in silico experiments dealing with, e.g., the interactions of dendrimers with biological membranes and proteins, and the eventual aggregation and clustering of dendrimers themselves. In essence, the analysis that can be performed with data obtained from AA-MD simulations is limited only by the creativity and coding proficiency of the investigator, and can be tailored to fit the specificity of the system under study.
 
+<span style=color:blue>随着计算能力的快速提升以及高效并行计算代码的广泛应用，计算机模拟如今已成为设计和开发基于树枝状大分子的药物及基因递送纳米载体的核心工具。通过全原子分子动力学（AA-MD）模拟，研究人员能够在分子尺度上观察纳米载体在溶液中的动态行为，并深入解析其与目标分子的相互作用。这些计算技术还可以用来模拟树枝状分子与生物膜及蛋白的相互作用，甚至研究其自身的聚集行为。AA-MD模拟的分析潜力几乎无限，取决于研究人员的创新思维和编程能力，可以灵活适配于不同的研究系统。</span>
+
 Based on our own experience in the field of computer-assisted cationic dendrimer-based nanovectors for siRNA delivery, in this chapter we will describe the main AA-MD computational toolbox that can be exploited in the different stages of novel dendritic nanocarrier production—from the initial conception to its structural and chemico-physical characterization to the stage of biological intermolecular interactions. Specifically, we will present a protocol for poly(amino amine) dendrimers (PAMAMs) as a proof-of-principle easily adaptable to other cationic dendrimer families. This protocol is subdivided in three main steps: (i) dendrimer and siRNA models building and optimization; (ii) AA-MD simulation of the dendrimer per se and in complex with its siRNA cargo, and (iii) simulation data analysis and correlation with experimental observations. We will further exploit the *Notes* sections to present some technical suggestions as well as some practical examples concerning the application of the computational techniques along with their biological relevance for the benefit of both computational and experimental scientists.
 
-## 2 Materials
+<span style=color:blue>基于我们在利用阳离子树枝状分子作为siRNA递送载体的研究经验，本章将全面介绍一个AA-MD模拟工具箱，涵盖从载体概念设计到结构与物理化学特性表征，再到与生物分子的相互作用研究的全过程。具体而言，我们将以聚（氨基胺）树枝状分子（PAMAM）为例，展示一套易于扩展的模拟流程。这套流程包括三大步骤：（1）构建并优化树枝状分子和siRNA的模型；（2）对单一树枝状分子及其与siRNA复合物进行AA-MD模拟；（3）分析模拟数据并将结果与实验数据进行比较。此外，我们将在“**注释**”部分分享技术提示和实际应用案例，帮助计算和实验领域的研究者更好地理解这些方法的生物学意义。</span>
 
-### 2.1 Forcefield and Software
+## 2 Materials 材料
+
+### 2.1 Forcefield and Software 力场与软件
 
 AA-MD simulations try to mimic the behavior of individual atoms with the aid of a computer. Assuming all atoms as rigid spheres, and given the position in space of all atoms in a molecular system, the force experienced by each atom is computed applying a specific energy function, called a forcefield (FF). FFs can differ for the functional form and parameter sets used to calculate the potential energy of a given system of atoms. Newton’s laws are then used to integrate the FF over time, ultimately yielding the dynamic evolution (coordinates) of the molecular system under study.
 
+<span style=color:blue>全原子分子动力学（AA-MD）模拟利用计算机来再现单个原子的行为。它假设原子为刚性球体，并基于分子体系中所有原子的已知空间位置，利用特定的能量函数（即力场，Forcefield, FF）计算每个原子所受的力。力场的功能形式和参数集因研究体系的不同而有所差异，决定了势能的计算方式。接着，通过应用牛顿定律对力场进行时间积分，模拟出分子体系的动态演化轨迹，即研究过程中各原子的动态坐标变化。</span>
+
 While the underlying fundamental theories are highly similar, several different software (SW) are available to perform AA/CG-MD simulations. At the same time, a variety of FFs have been developed—from the most general ones to those custom-tailored to describe a particular system—and not all of them are compatible with all current SW. In the specific case of AA-MD simulations of cationic-dendrimer nanovectors, the most widely employed FFs are the Chemistry at Harvard Macromolecular Mechanics (CHARMM) general forcefield, the General AMBER Forcefield (GAFF) , the GROningen MOlecular Simulation (GROMOS) FF, and the Dreiding FF. Contextually, the principal simulation platforms adopted in the field are the Assisted Model Building with Energy Refinement (AMBER), the GROningen MAchine for Chemical Simulations (GROMACS), the Nanoscale Molecular Dynamics (NAMD) , and the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS). Provided the availability of a given FF , the SW choice is mainly driven by the proficiency of the simulator with the different software and the accessible computational platform. For instance, the speed of AMBER is unparalleled when GPUs are used for computation, while LAMMPS has the steepest learning curve but offers high scalability on CPU-based supercomputers and an impressive variety of methods and procedures for simulation/analysis customization.
+
+<span style=color:blue>尽管基础理论高度相似，但用于全原子（AA）或粗粒化（CG）分子动力学（MD）模拟的软件（SW）种类繁多，各有特色。此外，现有的力场（FF）从通用型到专用型不等，但并非所有力场都适用于所有软件。针对阳离子树状大分子纳米载体的全原子分子动力学模拟，常用的力场包括CHARMM通用力场、GAFF、GROMOS力场和Dreiding力场。相应的主流模拟平台则有AMBER、GROMACS、NAMD和LAMMPS。软件的选择通常依赖于研究者对特定软件的熟练程度以及所使用的计算平台。例如，AMBER在GPU加速计算中的表现最为出色，而LAMMPS虽然学习难度较高，却在CPU架构的超级计算机上展现了强大的可扩展性，并且为模拟与分析提供了丰富的定制化选项和功能。</span>
 
 The protocol reported in this chapter is based on the use of GAFF forcefield within the AMBER suite of programs. Our choice is based upon the following considerations: (i) the comprehensive availability of analysis tools within AMBER, (ii) the general agreement of the results obtained from simulations performed using GAFF FF with experimental data, (iii) its compatibility with AMBER’s highly performing forcefields for biological macromolecules, and (iv) the unrivaled speed of AMBER simulation software on GPUs. In the used AMBER family of forcefields the potential energy function used assumes the form:
 
-$$ {E}_{\mathrm{AMBER}}=\sum \limits_{i\in \mathrm{bonds}}{k}_{l,i}{\left({l}_i-{l}_{i,\mathrm{eq}}\right)}^2+\sum \limits_{i\in \mathrm{angles}}{k}_{\theta, i}{\left({\theta}_i-{\theta}_{i,\mathrm{eq}}\right)}^2+\sum \limits_{i\in \mathrm{torsions}}\frac{V_{n,i}}{2}\left[1+\cos \left(n{\omega}_i-{\gamma}_i\right)\right]+\sum \limits_{\begin{array}{c}i,j\in \mathrm{atoms},\\ {}\ \mathrm{with}\kern0.5em i&lt;j\end{array}}\left\{{\epsilon}_{ij}\left[{\left(\frac{r_{m, ij}}{r_{ij}}\ \right)}^{12}-2{\left(\frac{r_{m, ij}}{r_{ij}}\right)}^6\right]+\frac{q_i{q}_j}{4\pi {\epsilon}_0{r}_{ij}}\right\} $$
+<span style=color:blue>本章所报告的协议基于在AMBER软件套件中使用GAFF力场。我们选择这一方案的原因包括：（i）AMBER提供了全面的分析工具，（ii）使用GAFF力场进行的模拟结果与实验数据高度吻合，（iii）GAFF与AMBER中针对生物大分子的高效力场兼容，以及（iv）AMBER在GPU上的模拟速度无与伦比。在AMBER力场家族中，采用的势能函数形式为：</span>
 
-while the first three terms represent the interactions between two (bonded), three (angular), and four (dihedral) atoms connected via covalent bonds. The parameters *k*<sub>*l*</sub>, *k*<sub>*θ*</sub>, and *V*<sub>*n*</sub> are force constants, *r*eqand *θ*~eq~ are equilibrium bond lengths and angles, respectively, and *n* and *γ* are the multiplicity and the phase factor for the dihedral angles. The last term in this FF equation contains a standard Lennard Jones (LJ) term for the van der Waals interactions (in which *r*<sub>*m*, *ij*</sub> and *ϵ* represent the minimum of the potential between two atoms *i* and *j* and the corresponding well depth, respectively), and a Coulombic energy term accounting for electrostatic interactions. In this term, *q*<sub>*i*</sub> and *q*<sub>*j*</sub> are the partial charges on the *i*th and *j*th atoms, and *ϵ*~0~ is the vacuum permittivity. The *r*<sub>*m*, *ij*</sub> and *ϵ*<sub>*ij*</sub> parameters for every couple of atoms in the system are computed from the self-interaction terms applying the Lorentz−Berthelot rules: *r*<sub>*m*, *ij*</sub> = (*r*<sub>*m*, *ii*</sub> + *r*<sub>*m*, *jj*</sub>)/2 and $$ {\epsilon}_{ij}=\sqrt{\epsilon_{ii}{\epsilon}_{jj}} $$.
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>E</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">A</mi>        <mi mathvariant="normal">M</mi>        <mi mathvariant="normal">B</mi>        <mi mathvariant="normal">E</mi>        <mi mathvariant="normal">R</mi>      </mrow>    </mrow>  </msub>  <mo>=</mo>  <munder>    <mo movablelimits="false">∑<!-- ∑ --></mo>    <mrow class="MJX-TeXAtom-ORD">      <mi>i</mi>      <mo>∈<!-- ∈ --></mo>      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">b</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">d</mi>        <mi mathvariant="normal">s</mi>      </mrow>    </mrow>  </munder>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>k</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mi>l</mi>      <mo>,</mo>      <mi>i</mi>    </mrow>  </msub>  <msup>    <mrow class="MJX-TeXAtom-ORD">      <mrow>        <mo>(</mo>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>l</mi>          </mrow>          <mi>i</mi>        </msub>        <mo>−<!-- − --></mo>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>l</mi>          </mrow>          <mrow class="MJX-TeXAtom-ORD">            <mi>i</mi>            <mo>,</mo>            <mrow class="MJX-TeXAtom-ORD">              <mi mathvariant="normal">e</mi>              <mi mathvariant="normal">q</mi>            </mrow>          </mrow>        </msub>        <mo>)</mo>      </mrow>    </mrow>    <mn>2</mn>  </msup>  <mo>+</mo>  <munder>    <mo movablelimits="false">∑<!-- ∑ --></mo>    <mrow class="MJX-TeXAtom-ORD">      <mi>i</mi>      <mo>∈<!-- ∈ --></mo>      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">a</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">g</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">e</mi>        <mi mathvariant="normal">s</mi>      </mrow>    </mrow>  </munder>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>k</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mi>θ<!-- θ --></mi>      <mo>,</mo>      <mi>i</mi>    </mrow>  </msub>  <msup>    <mrow class="MJX-TeXAtom-ORD">      <mrow>        <mo>(</mo>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>θ<!-- θ --></mi>          </mrow>          <mi>i</mi>        </msub>        <mo>−<!-- − --></mo>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>θ<!-- θ --></mi>          </mrow>          <mrow class="MJX-TeXAtom-ORD">            <mi>i</mi>            <mo>,</mo>            <mrow class="MJX-TeXAtom-ORD">              <mi mathvariant="normal">e</mi>              <mi mathvariant="normal">q</mi>            </mrow>          </mrow>        </msub>        <mo>)</mo>      </mrow>    </mrow>    <mn>2</mn>  </msup>  <mo>+</mo>  <munder>    <mo movablelimits="false">∑<!-- ∑ --></mo>    <mrow class="MJX-TeXAtom-ORD">      <mi>i</mi>      <mo>∈<!-- ∈ --></mo>      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">t</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">r</mi>        <mi mathvariant="normal">s</mi>        <mi mathvariant="normal">i</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">s</mi>      </mrow>    </mrow>  </munder>  <mfrac>    <msub>      <mi>V</mi>      <mrow class="MJX-TeXAtom-ORD">        <mi>n</mi>        <mo>,</mo>        <mi>i</mi>      </mrow>    </msub>    <mn>2</mn>  </mfrac>  <mrow>    <mo>[</mo>    <mn>1</mn>    <mo>+</mo>    <mi>cos</mi>    <mo>⁡<!-- ⁡ --></mo>    <mrow>      <mo>(</mo>      <mi>n</mi>      <msub>        <mrow class="MJX-TeXAtom-ORD">          <mi>ω<!-- ω --></mi>        </mrow>        <mi>i</mi>      </msub>      <mo>−<!-- − --></mo>      <msub>        <mrow class="MJX-TeXAtom-ORD">          <mi>γ<!-- γ --></mi>        </mrow>        <mi>i</mi>      </msub>      <mo>)</mo>    </mrow>    <mo>]</mo>  </mrow>  <mo>+</mo>  <munder>    <mo movablelimits="false">∑<!-- ∑ --></mo>    <mrow class="MJX-TeXAtom-ORD">      <mtable rowspacing="4pt" columnspacing="1em">        <mtr>          <mtd>            <mi>i</mi>            <mo>,</mo>            <mi>j</mi>            <mo>∈<!-- ∈ --></mo>            <mrow class="MJX-TeXAtom-ORD">              <mi mathvariant="normal">a</mi>              <mi mathvariant="normal">t</mi>              <mi mathvariant="normal">o</mi>              <mi mathvariant="normal">m</mi>              <mi mathvariant="normal">s</mi>            </mrow>            <mo>,</mo>          </mtd>        </mtr>        <mtr>          <mtd>            <mrow class="MJX-TeXAtom-ORD">             </mrow>            <mtext> </mtext>            <mrow class="MJX-TeXAtom-ORD">              <mi mathvariant="normal">w</mi>              <mi mathvariant="normal">i</mi>              <mi mathvariant="normal">t</mi>              <mi mathvariant="normal">h</mi>            </mrow>            <mspace width="0.5em" />            <mi>i</mi>            <mo><</mo>            <mi>j</mi>          </mtd>        </mtr>      </mtable>    </mrow>  </munder>  <mrow>    <mo>{</mo>    <msub>      <mrow class="MJX-TeXAtom-ORD">        <mi>ϵ<!-- ϵ --></mi>      </mrow>      <mrow class="MJX-TeXAtom-ORD">        <mi>i</mi>        <mi>j</mi>      </mrow>    </msub>    <mrow>      <mo>[</mo>      <msup>        <mrow class="MJX-TeXAtom-ORD">          <mrow>            <mo>(</mo>            <mfrac>              <msub>                <mi>r</mi>                <mrow class="MJX-TeXAtom-ORD">                  <mi>m</mi>                  <mo>,</mo>                  <mi>i</mi>                  <mi>j</mi>                </mrow>              </msub>              <msub>                <mi>r</mi>                <mrow class="MJX-TeXAtom-ORD">                  <mi>i</mi>                  <mi>j</mi>                </mrow>              </msub>            </mfrac>            <mtext> </mtext>            <mo>)</mo>          </mrow>        </mrow>        <mrow class="MJX-TeXAtom-ORD">          <mn>12</mn>        </mrow>      </msup>      <mo>−<!-- − --></mo>      <mn>2</mn>      <msup>        <mrow class="MJX-TeXAtom-ORD">          <mrow>            <mo>(</mo>            <mfrac>              <msub>                <mi>r</mi>                <mrow class="MJX-TeXAtom-ORD">                  <mi>m</mi>                  <mo>,</mo>                  <mi>i</mi>                  <mi>j</mi>                </mrow>              </msub>              <msub>                <mi>r</mi>                <mrow class="MJX-TeXAtom-ORD">                  <mi>i</mi>                  <mi>j</mi>                </mrow>              </msub>            </mfrac>            <mo>)</mo>          </mrow>        </mrow>        <mn>6</mn>      </msup>      <mo>]</mo>    </mrow>    <mo>+</mo>    <mfrac>      <mrow>        <msub>          <mi>q</mi>          <mi>i</mi>        </msub>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>q</mi>          </mrow>          <mi>j</mi>        </msub>      </mrow>      <mrow>        <mn>4</mn>        <mi>π<!-- π --></mi>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>ϵ<!-- ϵ --></mi>          </mrow>          <mn>0</mn>        </msub>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>r</mi>          </mrow>          <mrow class="MJX-TeXAtom-ORD">            <mi>i</mi>            <mi>j</mi>          </mrow>        </msub>      </mrow>    </mfrac>    <mo>}</mo>  </mrow> </math>
+```
 
-### 2.2 Radius of Gyration and Asphericity
+while the first three terms represent the interactions between two (bonded), three (angular), and four (dihedral) atoms connected via covalent bonds. The parameters *k*<sub>*l*</sub>, *k*<sub>*θ*</sub>, and *V*<sub>*n*</sub> are force constants, *r*eqand *θ*~eq~ are equilibrium bond lengths and angles, respectively, and *n* and *γ* are the multiplicity and the phase factor for the dihedral angles. The last term in this FF equation contains a standard Lennard Jones (LJ) term for the van der Waals interactions (in which *r*<sub>*m*, *ij*</sub> and *ϵ* represent the minimum of the potential between two atoms *i* and *j* and the corresponding well depth, respectively), and a Coulombic energy term accounting for electrostatic interactions. In this term, *q*<sub>*i*</sub> and *q*<sub>*j*</sub> are the partial charges on the *i*th and *j*th atoms, and *ϵ*~0~ is the vacuum permittivity. The *r*<sub>*m*, *ij*</sub> and *ϵ*<sub>*ij*</sub> parameters for every couple of atoms in the system are computed from the self-interaction terms applying the Lorentz−Berthelot rules: *r*<sub>*m*, *ij*</sub> = (*r*<sub>*m*, *ii*</sub> + *r*<sub>*m*, *jj*</sub>)/2 and <math xmlns="http://www.w3.org/1998/Math/MathML">  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>ϵ<!-- ϵ --></mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mi>i</mi>      <mi>j</mi>    </mrow>  </msub>  <mo>=</mo>  <msqrt>    <msub>      <mi>ϵ<!-- ϵ --></mi>      <mrow class="MJX-TeXAtom-ORD">        <mi>i</mi>        <mi>i</mi>      </mrow>    </msub>    <msub>      <mrow class="MJX-TeXAtom-ORD">        <mi>ϵ<!-- ϵ --></mi>      </mrow>      <mrow class="MJX-TeXAtom-ORD">        <mi>j</mi>        <mi>j</mi>      </mrow>    </msub>  </msqrt> </math>.
+
+<span style=color:blue>前三项代表通过共价键连接的两个原子（键长）、三个原子（角度）和四个原子（二面角）之间的相互作用。力常数 k<sub>l</sub>、k<sub>θ</sub> 和 V<sub>n</sub> 分别对应键长、角度和二面角的力常数，req 和 θeq 分别表示平衡键长和角度，n 和 γ 是二面角的倍数和相位因子。该力场方程的最后一项包括标准的伦敦－琼斯（LJ）项，描述范德华力的相互作用（其中 r<sub>m, ij</sub> 和 ϵ 分别表示两个原子 i 和 j 之间的势能最小值及其深度），以及库伦能量项，描述静电相互作用。在这一项中，q<sub>i</sub> 和 q<sub>j</sub> 分别是 i 和 j 原子的部分电荷，ϵ0 是真空介电常数。每对原子的 r<sub>m, ij</sub> 和 ϵ<sub>ij</sub> 参数通过应用洛伦茨－伯特洛特规则从自相互作用项计算得到：r<sub>m, ij</sub> = (r<sub>m, ii</sub> + r<sub>m, jj</sub>)/2 和 <math xmlns="http://www.w3.org/1998/Math/MathML">  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>ϵ<!-- ϵ --></mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mi>i</mi>      <mi>j</mi>    </mrow>  </msub>  <mo>=</mo>  <msqrt>    <msub>      <mi>ϵ<!-- ϵ --></mi>      <mrow class="MJX-TeXAtom-ORD">        <mi>i</mi>        <mi>i</mi>      </mrow>    </msub>    <msub>      <mrow class="MJX-TeXAtom-ORD">        <mi>ϵ<!-- ϵ --></mi>      </mrow>      <mrow class="MJX-TeXAtom-ORD">        <mi>j</mi>        <mi>j</mi>      </mrow>    </msub>  </msqrt> </math></span>
+
+### 2.2 Radius of Gyration and Asphericity 回转半径和非球面度
 
 The radius of gyration *R*<sub>*g*</sub> provides a quantitative characterization of the real size of a dendrimer molecule, and is defined as:
 
-$$ \left\langle {R}_g^2\right\rangle =\frac{1}{M}\left\langle\ {\sum}_{i=1}^n{m}_i{\left({c}_i-C\right)}^2\ \right\rangle $$
+<span style=color:blue>回转半径 *R*<sub>*g*</sub> 是用于定量表征树枝分子实际大小的重要指标，其定义为：</span>
 
-where *M* and *n* are the total mass and number of atoms of the dendrimer, *c*<sub>*i*</sub> and *m*<sub>*i*</sub> are the position and mass of the *i*th atom, *C* is the center of mass of the dendrimer, and the angular brackets denote an ensemble average over the sampled configurations. The radius of gyration is strictly related to the spatial distribution of the dendrimer atoms, and ultimately to its size in solution. As such, *R*<sub>*g*</sub> can be very useful to characterize the effect of some modification in the terminal units of a family of dendrimers of the same generation, or to study the effect of the protonation state on the structural configuration of a dendrimer. When computing *R**g*, it is also possible to estimate the relevant radius of gyration tensor ***R***<sub>***g***</sub>. The eigenvalues of ***R***<sub>***g***</sub> are its principal moments *l*<sub>*x*</sub>, *l*<sub>*y*</sub>, and *l*<sub>*z*</sub> (with *l*<sub>*x*</sub> ≤ *l*<sub>*y*</sub> ≤ *l*<sub>*z*</sub>), from the knowledge of which the dendrimer asphericity *b* can also be calculated as:
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mrow>    <mo>⟨</mo>    <msubsup>      <mrow class="MJX-TeXAtom-ORD">        <mi>R</mi>      </mrow>      <mi>g</mi>      <mn>2</mn>    </msubsup>    <mo>⟩</mo>  </mrow>  <mo>=</mo>  <mfrac>    <mn>1</mn>    <mi>M</mi>  </mfrac>  <mrow>    <mo>⟨</mo>    <mtext> </mtext>    <msubsup>      <mrow class="MJX-TeXAtom-ORD">        <mo>∑<!-- ∑ --></mo>      </mrow>      <mrow class="MJX-TeXAtom-ORD">        <mi>i</mi>        <mo>=</mo>        <mn>1</mn>      </mrow>      <mi>n</mi>    </msubsup>    <msub>      <mrow class="MJX-TeXAtom-ORD">        <mi>m</mi>      </mrow>      <mi>i</mi>    </msub>    <msup>      <mrow class="MJX-TeXAtom-ORD">        <mrow>          <mo>(</mo>          <msub>            <mrow class="MJX-TeXAtom-ORD">              <mi>c</mi>            </mrow>            <mi>i</mi>          </msub>          <mo>−<!-- − --></mo>          <mi>C</mi>          <mo>)</mo>        </mrow>      </mrow>      <mn>2</mn>    </msup>    <mtext> </mtext>    <mo>⟩</mo>  </mrow> </math>
+```
 
-$$ b={l}_z-\frac{1}{2}\left({l}_x+{l}_y\right) $$
+where *M* and *n* are the total mass and number of atoms of the dendrimer, *c*<sub>*i*</sub> and *m*<sub>*i*</sub> are the position and mass of the *i*th atom, *C* is the center of mass of the dendrimer, and the angular brackets denote an ensemble average over the sampled configurations. The radius of gyration is strictly related to the spatial distribution of the dendrimer atoms, and ultimately to its size in solution. As such, *R*<sub>*g*</sub> can be very useful to characterize the effect of some modification in the terminal units of a family of dendrimers of the same generation, or to study the effect of the protonation state on the structural configuration of a dendrimer. When computing *R*<sub>*g*</sub>, it is also possible to estimate the relevant radius of gyration tensor ***R***<sub>***g***</sub>. The eigenvalues of ***R***<sub>***g***</sub> are its principal moments *l*<sub>*x*</sub>, *l*<sub>*y*</sub>, and *l*<sub>*z*</sub> (with *l*<sub>*x*</sub> ≤ *l*<sub>*y*</sub> ≤ *l*<sub>*z*</sub>), from the knowledge of which the dendrimer asphericity *b* can also be calculated as:
+
+<span style=color:blue>其中，M 是树枝分子的总质量，n 是原子数，c<sub>i</sub> 和 m<sub>i</sub> 分别是第 i 个原子的位置和质量，C 是树枝分子的质心。尖括号表示对采样配置进行的平均值计算。回转半径与树枝分子中原子的空间分布密切相关，因此可以反映其在溶液中的实际尺寸。因此，R<sub>g</sub> 是评估树枝分子末端单元修饰效果或质子化状态对树枝分子结构影响的重要工具。除了计算 R<sub>g</sub> 外，还可以进一步分析回转半径张量 R<sub>g</sub>，并从中得出其特征值 l<sub>x</sub>、l<sub>y</sub> 和 l<sub>z</sub>（其中 l<sub>x</sub> ≤ l<sub>y</sub> ≤ l<sub>z</sub>）。基于这些特征值，可以计算出树枝分子的非球度 b，其计算公式为：</span>
+
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mi>b</mi>  <mo>=</mo>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>l</mi>    </mrow>    <mi>z</mi>  </msub>  <mo>−<!-- − --></mo>  <mfrac>    <mn>1</mn>    <mn>2</mn>  </mfrac>  <mrow>    <mo>(</mo>    <msub>      <mrow class="MJX-TeXAtom-ORD">        <mi>l</mi>      </mrow>      <mi>x</mi>    </msub>    <mo>+</mo>    <msub>      <mrow class="MJX-TeXAtom-ORD">        <mi>l</mi>      </mrow>      <mi>y</mi>    </msub>    <mo>)</mo>  </mrow> </math>
+```
 
 As a useful descriptor of anisometry, *b* measures the deviation of a molecular geometry from a spherical form, in that for a perfectly spherical distribution of atoms *b* = 0, for prolate molecules *b* values are close to 0.25, whereas oblate molecules are characterized by values of *b* ≈ 1. As such, the evaluation of *b* can yield very insightful information about a dendrimer’s shape modification when, e.g., it forms a complex with siRNA.
+
+<span style=color:blue>非球度 *b* 是分子几何形状偏离球形的度量。在球形分子中，*b* 的值为 0；对于棒状分子，*b* 接近 0.25，而扁平分子则具有接近 1 的 *b* 值。因此，*b* 的计算为研究树枝分子与 siRNA 形成复合物时形状变化提供了有价值的见解。</span>
 
 ### 2.3 Radial Monomer Density
 
 While *b* and ***R***<sub>***g***</sub> are overall descriptors of a dendrimer shape , the radial monomer density *ρ*(*r*) is a tool to study the distributions of monomers and/or other different molecular elements within a dendrimeric structure. *ρ*(*r*) is defined as the number of atoms that are located within a spherical shell of radius *r* and thickness *Δr* from a reference center, usually taken as the dendrimer’s center of mass. This analysis tool can convey many fine details information about the structure of the dendrimer under investigation including, by way of example, the extent of compactness of the dendrimer interior, the relative spatial distribution of the different dendrimer sub-generations within the entire dendrimer shell, and, last but not least, the distributions of the dendrimer terminal units with respect to the dendrimer core, i.e., the degree of dendrimer back-folding. Importantly, the distribution of other molecules like water, ions, counterions, and siRNA fragments with respect to dendrimer core can also be described by behavior of the corresponding *ρ*(*r*).
 
-### 2.4 Solvent Accessible Surface Area and Interior Cavities
+<span style=color:blue>虽然 *b* 和 ***R***<sub>***g***</sub> 可以用来描述树枝分子的总体形状，但径向单体密度 *ρ*(*r*) 是用来研究树枝分子结构中不同单体或分子元素分布的工具。*ρ*(*r*) 定义为位于距参考中心半径 *r*、厚度为 *Δr* 的球壳内的原子数，通常参考中心为树枝分子的质心。这个分析方法可以提供关于树枝分子结构的丰富信息，例如树枝分子内部的紧密性、不同树枝分子亚代在分子壳中的空间分布，以及树枝分子末端单元与核心之间的分布（即树枝分子是否存在回折）。此外，水分子、离子、反离子以及 siRNA 片段等其他分子相对于树枝分子核心的分布，也可以通过 *ρ*(*r*) 的变化来进行描述。</span>
 
-Water can play a key role both in the stabilization of the dendrimer structure and in its interactions with siRNA, mainly via the formation of an extensive network of hydrogen bonds. A measure of a dendrimer’s surface exposed to the solvent is given by its accessible surface area (*ASA*) . For any given molecule, *ASA* is typically calculated using the so-called *rolling ball* algorithm [[40](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#CR40)], which employs a sphere of a particular radius *r*<sub>*p*</sub> (e.g., a typical *r*<sub>*p*</sub> value is 1.4 Å, which approximates the radius of a water molecule) to “probe” the surface of the molecule. It is interesting to observe that, for a hypothetical spherical dendrimer without internal voids, the value of its *ASA* should increase with the square of the probe size *r*<sub>*p*</sub>
+### 2.4 Solvent Accessible Surface Area and Interior Cavities 溶剂可接触的表面积和内部空腔
 
-$$ AS{A}_{\mathrm{sphere}}=4\pi {\left({r}_d+{r}_p\right)}^2 $$
+Water can play a key role both in the stabilization of the dendrimer structure and in its interactions with siRNA, mainly via the formation of an extensive network of hydrogen bonds. A measure of a dendrimer’s surface exposed to the solvent is given by its accessible surface area (*ASA*) . For any given molecule, *ASA* is typically calculated using the so-called *rolling ball* algorithm, which employs a sphere of a particular radius *r*<sub>*p*</sub> (e.g., a typical *r*<sub>*p*</sub> value is 1.4 Å, which approximates the radius of a water molecule) to “probe” the surface of the molecule. It is interesting to observe that, for a hypothetical spherical dendrimer without internal voids, the value of its *ASA* should increase with the square of the probe size *r*<sub>*p*</sub>
+
+<span style=color:blue>水分子在树枝分子结构的稳定性及其与 siRNA 相互作用中的作用至关重要，主要是通过形成一个广泛的氢键网络来实现的。树枝分子暴露在溶剂中的表面积可以通过其可接触表面积 (*ASA*) 来衡量。对于任何给定的分子，*ASA* 通常是通过所谓的 *滚动球* 算法计算的，该算法使用一个特定半径 *r*<sub>*p*</sub> 的球体（通常 *r*<sub>*p*</sub> 为 1.4 Å，接近水分子的半径）来“探测”分子的表面。有趣的是，对于一个假设的没有内部空隙的球形树枝分子，其 *ASA* 值应随着探针半径 *r*<sub>*p*</sub> 的平方而增加：</span>
+
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mi>A</mi>  <mi>S</mi>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>A</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">s</mi>        <mi mathvariant="normal">p</mi>        <mi mathvariant="normal">h</mi>        <mi mathvariant="normal">e</mi>        <mi mathvariant="normal">r</mi>        <mi mathvariant="normal">e</mi>      </mrow>    </mrow>  </msub>  <mo>=</mo>  <mn>4</mn>  <mi>π<!-- π --></mi>  <msup>    <mrow class="MJX-TeXAtom-ORD">      <mrow>        <mo>(</mo>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>r</mi>          </mrow>          <mi>d</mi>        </msub>        <mo>+</mo>        <msub>          <mrow class="MJX-TeXAtom-ORD">            <mi>r</mi>          </mrow>          <mi>p</mi>        </msub>        <mo>)</mo>      </mrow>    </mrow>    <mn>2</mn>  </msup> </math>
+```
 
 in which *r*<sub>*d*</sub> is the radius of the dendrimer. Accordingly, any deviation from linearity observed in a plot showing the square root of the calculated *ASA* as a function of *r*<sub>*p*</sub> is suggestive of the presence of internal voids in the corresponding dendrimer structure.
 
+<span style=color:blue>其中 *r*<sub>*d*</sub> 为树枝分子的半径。因此，在绘制计算出的 *ASA* 平方根与 *r*<sub>*p*</sub> 的关系图时，若出现偏离线性的现象，则可能暗示该树枝分子结构中存在内部空隙。</span>
+
 ### 2.5 MM/PBSA
 
-A relatively quick and not particularly computationally intensive procedure to estimate the free energy of binding (*ΔG*~bind~) between a dendrimer and its cargo is the Molecular Mechanics—Poisson-Boltzmann (Generalized Born) Surface Area (MM-PB(GB)SA) methodology. The framework of this theory is summarized by the following equations:
+A relatively quick and not particularly computationally intensive procedure to estimate the free energy of binding (*ΔG*<sub>bind</sub>) between a dendrimer and its cargo is the Molecular Mechanics—Poisson-Boltzmann (Generalized Born) Surface Area (MM-PB(GB)SA) methodology. The framework of this theory is summarized by the following equations:
 
-$$ \varDelta {E}_{\mathrm{MM}}=\varDelta {E}_{\mathrm{covalent}}+\varDelta {E}_{\mathrm{vdW}}+\varDelta {E}_{\mathrm{ele}} $$
+<span style=color:blue>一种相对快速且计算量不大的方法来估算树枝分子与其载体之间的结合自由能（*ΔG*<sub>bind</sub>）是分子力学—泊松-玻尔兹曼（广义本）表面积（MM-PB(GB)SA）方法。该方法的理论框架通过以下方程式总结：</span>
 
-$$ \varDelta {G}_{\mathrm{solv}}=\varDelta {G}_{\mathrm{polar}}+\varDelta {G}_{\mathrm{nonpolar}} $$
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>E</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">M</mi>        <mi mathvariant="normal">M</mi>      </mrow>    </mrow>  </msub>  <mo>=</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>E</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">c</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">v</mi>        <mi mathvariant="normal">a</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">e</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">t</mi>      </mrow>    </mrow>  </msub>  <mo>+</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>E</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">v</mi>        <mi mathvariant="normal">d</mi>        <mi mathvariant="normal">W</mi>      </mrow>    </mrow>  </msub>  <mo>+</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>E</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">e</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">e</mi>      </mrow>    </mrow>  </msub> </math>
+```
 
-$$ \varDelta {H}_{\mathrm{bind}}=\varDelta {E}_{MM}+\varDelta {G}_{\mathrm{solv}} $$
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>G</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">s</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">v</mi>      </mrow>    </mrow>  </msub>  <mo>=</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>G</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">p</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">a</mi>        <mi mathvariant="normal">r</mi>      </mrow>    </mrow>  </msub>  <mo>+</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>G</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">p</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">a</mi>        <mi mathvariant="normal">r</mi>      </mrow>    </mrow>  </msub> </math>
+```
 
-$$ \varDelta {G}_{\mathrm{bind}}=\varDelta {H}_{\mathrm{bind}}- T\varDelta {S}_{\mathrm{bind}} $$
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>H</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">b</mi>        <mi mathvariant="normal">i</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">d</mi>      </mrow>    </mrow>  </msub>  <mo>=</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>E</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mi>M</mi>      <mi>M</mi>    </mrow>  </msub>  <mo>+</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>G</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">s</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">v</mi>      </mrow>    </mrow>  </msub> </math>
+```
 
-where *ΔE*~MM~ represent the gas-phase molecular mechanical energy change, composed by *ΔE*~covalent~ (the contribution of the covalent interactions energies: bonded, angles, torsions), *ΔE*~vdW~ (the variation of the nonbonded van der Waals energy), and *ΔE*~ele~ (the change in the electrostatic calculated from the Coulomb potential). *ΔG*~solv~ represents the solvation free energy change, composed by its polar *ΔG*~polar~ and nonpolar *ΔG*~nonpolar~ contributions. The sum of *ΔE*<sub>*MM*</sub> and *ΔG*~solv~ give the enthalpic contribution to the free energy (*ΔH*~bind~), while *TΔS*~bind~ is the corresponding variation in conformational entropy upon binding (where *T* is the system temperature in Kelvin). The polar term *ΔG*~polar~ is computed by replacing the solvent with a continuum medium with comparable dielectric constant (e.g., 78 for water) either using a Generalized Born (MM-**GB**SA)  pairwise approximation or by directly solving the Poisson-Boltzmann eq. (MM-**PB**SA). The nonpolar contribution to solvation *ΔG*~nonpolar~, arising both from van der Waals interactions between the dendrimer/siRNA complex and the solvent and from the formation of a cavity in the solvent due to the presence of the solute itself, is usually calculated according to the following empirical expression for non-small molecules like dendrimers:
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>G</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">b</mi>        <mi mathvariant="normal">i</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">d</mi>      </mrow>    </mrow>  </msub>  <mo>=</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>H</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">b</mi>        <mi mathvariant="normal">i</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">d</mi>      </mrow>    </mrow>  </msub>  <mo>−<!-- − --></mo>  <mi>T</mi>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>S</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">b</mi>        <mi mathvariant="normal">i</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">d</mi>      </mrow>    </mrow>  </msub> </math>
+```
 
-$$ \varDelta {G}_{\mathrm{nonpolar}}=\varDelta {G}_{\mathrm{disp}}+\gamma SAV+\beta $$
+where *ΔE*<sub>MM</sub> represent the gas-phase molecular mechanical energy change, composed by *ΔE*<sub>covalent</sub> (the contribution of the covalent interactions energies: bonded, angles, torsions), *ΔE*<sub>vdW</sub> (the variation of the nonbonded van der Waals energy), and *ΔE*<sub>ele</sub> (the change in the electrostatic calculated from the Coulomb potential). *ΔG*<sub>solv</sub> represents the solvation free energy change, composed by its polar *ΔG*<sub>polar</sub> and nonpolar *ΔG*<sub>nonpolar</sub> contributions. The sum of *ΔE*<sub>MM</sub> and *ΔG*<sub>solv</sub> give the enthalpic contribution to the free energy (*ΔG*<sub>bind</sub>), while *TΔS*<sub>bind</sub> is the corresponding variation in conformational entropy upon binding (where *T* is the system temperature in Kelvin). The polar term  *ΔG*<sub>polar</sub>  is computed by replacing the solvent with a continuum medium with comparable dielectric constant (e.g., 78 for water) either using a Generalized Born (MM-**GB**SA)  pairwise approximation or by directly solving the Poisson-Boltzmann eq. (MM-**PB**SA). The nonpolar contribution to solvation *ΔG*<sub>nonpolar</sub>, arising both from van der Waals interactions between the dendrimer/siRNA complex and the solvent and from the formation of a cavity in the solvent due to the presence of the solute itself, is usually calculated according to the following empirical expression for non-small molecules like dendrimers:
 
-where *ΔG*~disp~ is the dispersion term due to the van der Waals interactions of the dendrimer/siRNA supramolecular assembly with the solvent, and can be computed via a solvent accessible surface integration. The rest of the equation accounts for the cavity formation via a combination of two empirical constants (*γ* and *β*) and a solvent accessible volume (*SAV*), i.e., the volume enclosed by the surface area of the solute. Finally, the entropic contribution to dendrimer/siRNA binding *ΔS*~bind~ is usually estimated resorting to two most popular approaches: the normal mode analysis or the quasi harmonic approximation. As dendrimers are generally quite flexible molecules, a correct estimation of this last thermodynamic quantity may play a decisive role in the estimation of an ultimately realistic in silico *ΔG*~bind~ value.
+<span style=color:blue>其中 ΔE<sub>MM</sub> 代表气相中的分子力学能量变化，由 ΔE<sub>covalent</sub>（共价键、角度、扭转等相互作用的贡献）、ΔE<sub>vdW</sub>（范德华力的能量变化）和 ΔE<sub>ele</sub>（由库仑势计算得到的静电能变化）组成。ΔG<sub>solv</sub> 代表溶剂化自由能的变化，包含了极性部分 ΔG<sub>polar</sub> 和非极性部分 ΔG<sub>nonpolar</sub> 的贡献。ΔE<sub>MM</sub> 和 ΔG<sub>solv</sub> 的总和给出了结合焓（ΔH<sub>bind</sub>），而 TΔS<sub>bind</sub> 是结合过程中构象熵的变化（其中 T 为系统温度，单位为开尔文）。极性项 ΔG<sub>polar</sub> 通过用具有相似介电常数的连续介质（如水的介电常数为78）替代溶剂来计算，通常使用广义本（MM-GBSA）对的近似方法，或通过直接求解泊松-玻尔兹曼方程（MM-PBSA）。溶剂化的非极性贡献 ΔG<sub>nonpolar</sub>，源自树枝分子/siRNA 复合物与溶剂的范德华相互作用及溶质引起的溶剂空腔的形成，通常通过以下经验公式计算，适用于较大分子如树枝分子：</span>
 
-## 3 Methods
+```html
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>G</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">n</mi>        <mi mathvariant="normal">p</mi>        <mi mathvariant="normal">o</mi>        <mi mathvariant="normal">l</mi>        <mi mathvariant="normal">a</mi>        <mi mathvariant="normal">r</mi>      </mrow>    </mrow>  </msub>  <mo>=</mo>  <mrow class="MJX-TeXAtom-ORD">    <mtext>Δ<!-- Δ --></mtext>  </mrow>  <msub>    <mrow class="MJX-TeXAtom-ORD">      <mi>G</mi>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mrow class="MJX-TeXAtom-ORD">        <mi mathvariant="normal">d</mi>        <mi mathvariant="normal">i</mi>        <mi mathvariant="normal">s</mi>        <mi mathvariant="normal">p</mi>      </mrow>    </mrow>  </msub>  <mo>+</mo>  <mi>γ<!-- γ --></mi>  <mi>S</mi>  <mi>A</mi>  <mi>V</mi>  <mo>+</mo>  <mi>β<!-- β --></mi> </math>
+```
 
-### 3.1 Box and Simulation Input Parameters Creation
+where *ΔG*<sub>disp</sub> is the dispersion term due to the van der Waals interactions of the dendrimer/siRNA supramolecular assembly with the solvent, and can be computed via a solvent accessible surface integration. The rest of the equation accounts for the cavity formation via a combination of two empirical constants (*γ* and *β*) and a solvent accessible volume (*SAV*), i.e., the volume enclosed by the surface area of the solute. Finally, the entropic contribution to dendrimer/siRNA binding *ΔS*<sub>bind</sub> is usually estimated resorting to two most popular approaches: the normal mode analysis or the quasi harmonic approximation. As dendrimers are generally quite flexible molecules, a correct estimation of this last thermodynamic quantity may play a decisive role in the estimation of an ultimately realistic in silico *ΔG*<sub>bind</sub> value.
 
-This procedure is used to create a solvated box and the corresponding input files (a topology PRMTOP and an initial coordinates INPCRD files) for the simulation with AMBER. The procedure is valid for creating the input parameter for the single dendrimer or siRNA alone, or the dendrimer-siRNA complex (from now on the name *solute* is used to indicate any of them in this section) starting from a coordinates PDB file (*see* Subheadings [3.3](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Sec11)–[3.5](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Sec13) for the creation of the file for the dendrimer, siRNA and complex, respectively). Open a *tleap* session with the following command:
+<span style=color:blue>其中 *ΔG*<sub>disp</sub> 是色散项，由树枝分子/siRNA 复合物与溶剂之间的范德华相互作用引起，通常通过溶剂可接触表面积积分计算得出。方程的其他部分则考虑了通过两个经验常数（*γ* 和 *β*）以及溶剂可接触体积（*SAV*）来描述溶剂中的空腔形成。最后，树枝分子/siRNA 结合的熵贡献 *ΔS*<sub>bind</sub> 通常通过两种常用方法估算：正常模式分析或准谐近似。由于树枝分子通常是高度柔性的分子，正确估算这一热力学量可能在获得一个更准确的计算自由能（*ΔG*<sub>bind</sub>）时起到关键作用。</span>
+
+## 3 Methods 方法
+
+### 3.1 Box and Simulation Input Parameters Creation 盒子与模拟输入参数创建
+
+This procedure is used to create a solvated box and the corresponding input files (a topology PRMTOP and an initial coordinates INPCRD files) for the simulation with AMBER. The procedure is valid for creating the input parameter for the single dendrimer or siRNA alone, or the dendrimer-siRNA complex (from now on the name *solute* is used to indicate any of them in this section) starting from a coordinates PDB file (*see* Subheadings 3.3-3.5 for the creation of the file for the dendrimer, siRNA and complex, respectively). Open a *tleap* session with the following command:
+
+<span style=color:blue>本过程用于创建溶剂化的盒子及相应的输入文件（拓扑文件 PRMTOP 和初始坐标文件 INPCRD），以便使用 AMBER 进行模拟。该方法适用于为单一树枝分子或 siRNA，或树枝分子-siRNA 复合物（以下称为*溶质*，本节中的任何一个）创建输入参数，起始于坐标 PDB 文件（*详见* 小节 3.3-3.5，对于树枝分子、siRNA 和复合物的文件创建）。打开 *tleap* 会话，输入以下命令：</span>
 
 ```shell
 tleap -s
 ```
-1. Load the required forcefield library files into AMBER’s tleap software. For parametrizing the dendrimer and the complex load the library and parameters created in Subheading [3.1](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Sec9) together with the general *leaprc.gaff* library file, while for the siRNA parameterization load the *leaprc.RNA.OL3* library file. The last command will load the recommended Amber FF for RNA simulations: the *f99* AMBER forcefield with its *bsc0* and *χOL3* updates [[49](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#CR49), [50](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#CR50)]. Load also the *leaprc.water.tip3p* library needed to solvate and add the Na+ and Cl− ions. Finally, load the 3D coordinates files of the solute and save the topology and initial coordinates files for further analysis. All of the above can be obtained by entering the following commands:
+1. Load the required forcefield library files into AMBER’s tleap software. For parametrizing the dendrimer and the complex load the library and parameters created in Subheading 3.1 together with the general *leaprc.gaff* library file, while for the siRNA parameterization load the *leaprc.RNA.OL3* library file. The last command will load the recommended Amber FF for RNA simulations: the *f99* AMBER forcefield with its *bsc0* and *χOL3* updates . Load also the *leaprc.water.tip3p* library needed to solvate and add the Na+ and Cl− ions. Finally, load the 3D coordinates files of the solute and save the topology and initial coordinates files for further analysis. All of the above can be obtained by entering the following commands:
+
+   <span style=color:blue>加载 AMBER 的 *tleap* 软件所需的力场库文件。对于树枝分子和复合物的参数化，加载小节 3.1 中创建的库和参数，并加载通用的 *leaprc.gaff* 库文件；对于 siRNA 的参数化，加载 *leaprc.RNA.OL3* 库文件。最后一条命令将加载适用于 RNA 模拟的 AMBER 力场：*f99* AMBER 力场及其 *bsc0* 和 *χOL3* 更新。还需要加载 *leaprc.water.tip3p* 库文件，用于溶剂化并添加 Na<sup>+ </sup>和 Cl<sup>− </sup>离子。接着，加载溶质的 3D 坐标文件，并保存拓扑和初始坐标文件以便后续分析。所有操作通过以下命令完成：</span>
 
    ```shell
-source leaprc.gaff
-source leaprc.RNA.OL3
-source leaprc.water.tip3p
-loadamberparams dendrimer.frcmod
-loadamberprep dendrimer.prepi
-a=loadpdb SOLUTE.pdb
-saveamberparm a SOLUTE.prmtop SOLUTE.inpcrd
+   source leaprc.gaff
+   source leaprc.RNA.OL3
+   source leaprc.water.tip3p
+   loadamberparams dendrimer.frcmod
+   loadamberprep dendrimer.prepi
+   a=loadpdb SOLUTE.pdb
+   saveamberparm a SOLUTE.prmtop SOLUTE.inpcrd
    ```
 
-2. Now solvate the solute with TIP3P [[51](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#CR51)] water molecules (a simple planar three point model for water, commonly used for biological simulations) by creating a cubic solvent box with dimensions ranging at least 1.5 nm from the edges of each solute molecule. In MD simulations is important that the solute does not interact with its images belonging to the adjacent periodic boxes; thus, it is imperative to create a shell of solvent greater than the nonbonded cutoff used during the subsequent MD simulations (0.9 nm, as reported in the parameter *cut* in Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Tab1)). Accordingly, type the following command:
+2. Now solvate the solute with TIP3P  water molecules (a simple planar three point model for water, commonly used for biological simulations) by creating a cubic solvent box with dimensions ranging at least 1.5 nm from the edges of each solute molecule. In MD simulations is important that the solute does not interact with its images belonging to the adjacent periodic boxes; thus, it is imperative to create a shell of solvent greater than the nonbonded cutoff used during the subsequent MD simulations (0.9 nm, as reported in the parameter *cut* in Table 1). Accordingly, type the following command:
+
+   <span style=color:blue>接着，用 TIP3P 水分子（常用于生物学模拟的简单三点水模型）对溶质进行溶剂化，创建一个立方体溶剂盒，且盒子的尺寸需确保与溶质分子之间至少有 1.5 nm 的距离。为了避免在分子动力学模拟中溶质与其相邻周期盒子的镜像分子相互作用，必须确保溶剂壳的厚度超过模拟中非键合截断距离（如表 1 中 *cut* 参数报告的 0.9 nm）。输入以下命令：</span>
 
    ```shell
    solvatebox a TIP3PBOX 15.0
    ```
 
 
-3. Now add the Na+ and Cl− counterions needed to neutralize the solute and to reach a concentration 0.15 M of NaCl, representative of a physiological environment. Two *addions* commands needed to automatically neutralize the system with the required number of sodium or chlorine ions, as follows:
+3. Now add the Na<sup>+ </sup>and  Cl<sup>− counterions needed to neutralize the solute and to reach a concentration 0.15 M of NaCl, representative of a physiological environment. Two *addions* commands needed to automatically neutralize the system with the required number of sodium or chlorine ions, as follows:
+
+   <span style=color:blue>添加Na<sup>+ </sup>和 Cl<sup>− 反离子以中和溶质，并使 NaCl 的浓度达到 0.15 M，这一浓度常见于生理环境。输入两个 *addions* 命令，自动添加所需的钠离子和氯离子：</span>
 
    ```shell
    addions a Na+ 0
    addions a Cl- 0
    ```
-   
-4. 
-   While executing the *solvatebox* command, tleap will print the total volume (Vol) of the created simulation box, and this information can be used to compute the number of NaCl molecules needed to attain the physiological ionic strength (150 mM) using the following equation
 
-   $$ \mathrm{NumForPhysConc}=\mathrm{Vol}\times 0.15\times 6.022\times {10}^{-4} $$
+4. While executing the *solvatebox* command, tleap will print the total volume (Vol) of the created simulation box, and this information can be used to compute the number of NaCl molecules needed to attain the physiological ionic strength (150 mM) using the following equation
+
+   <span style=color:blue>执行 *solvatebox* 命令时，tleap 会输出创建的模拟盒的总体积（Vol）。这个信息可用于通过以下公式计算所需的 NaCl 分子数量，以达到生理离子强度（150 mM）：</span>
+
+   ```html
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  <mrow class="MJX-TeXAtom-ORD">    <mi mathvariant="normal">N</mi>    <mi mathvariant="normal">u</mi>    <mi mathvariant="normal">m</mi>    <mi mathvariant="normal">F</mi>    <mi mathvariant="normal">o</mi>    <mi mathvariant="normal">r</mi>    <mi mathvariant="normal">P</mi>    <mi mathvariant="normal">h</mi>    <mi mathvariant="normal">y</mi>    <mi mathvariant="normal">s</mi>    <mi mathvariant="normal">C</mi>    <mi mathvariant="normal">o</mi>    <mi mathvariant="normal">n</mi>    <mi mathvariant="normal">c</mi>  </mrow>  <mo>=</mo>  <mrow class="MJX-TeXAtom-ORD">    <mi mathvariant="normal">V</mi>    <mi mathvariant="normal">o</mi>    <mi mathvariant="normal">l</mi>  </mrow>  <mo>×<!-- × --></mo>  <mn>0.15</mn>  <mo>×<!-- × --></mo>  <mn>6.022</mn>  <mo>×<!-- × --></mo>  <msup>    <mrow class="MJX-TeXAtom-ORD">      <mn>10</mn>    </mrow>    <mrow class="MJX-TeXAtom-ORD">      <mo>−<!-- − --></mo>      <mn>4</mn>    </mrow>  </msup> </math>
+   ```
 
 5. With a third *addions* command this computed number of sodium and chlorine ions is added to the simulation box. Thus, type:
 
+   <span style=color:blue>使用第三个 *addions* 命令，将计算得出的钠离子和氯离子的数量添加到模拟盒中。输入：</span>
+
    ```shell
-addions a Na+ NumForPhysConc Cl- NumForPhysConc
+   addions a Na+ NumForPhysConc Cl- NumForPhysConc
    ```
 
 6. Finally, save both a topology and an initial coordinates file of the solvated system (required to carry on the subsequent simulations and analysis steps) by typing:
+
+   <span style=color:blue>最后，保存溶剂化系统的拓扑文件和初始坐标文件（以便后续的模拟和分析步骤）：</span>
 
    ```shell
    saveamberparm a SOLUTE.solvated.prmtop SOLUTE.solvated.inpcrd
    savepdb a SOLUTE.solvated.pdb
 
 With the last command, a reference PDB file containing the model of the solvated simulation box is created.
+
+<span style=color:blue>此命令将生成一个包含溶剂化模拟盒的参考 PDB 文件。</span>
+
 **Table 1** List of input files for pmemd. A detailed description of the input parameters can be found in a recent AMBER manual available on line at https://ambermd.org/Manuals.php. The exclamation mark is used to indicate a comment block, as per FORTRAN 90 standard
 
 ![485053_1_En_16_Tab1a_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_16_Tab1a_HTML.png)
@@ -130,13 +198,17 @@ With the last command, a reference PDB file containing the model of the solvated
 ![485053_1_En_16_Tab1c_HTML](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_16_Tab1c_HTML.png)
 
 
-### 3.2 Simulation Protocol
+### 3.2 Simulation Protocol 模拟方案
 
 This simulation protocol is valid for simulating either the dendrimer or the siRNA molecule alone, or the dendrimer-siRNA complex (i.e., any *solute*). Throughout all the following MD steps, electrostatic interactions are computed by means of the particle mesh Ewald (PME) algorithm.
 
+<span style=color:blue>此模拟方案适用于模拟单独的树枝分子或 siRNA 分子，或者树枝分子-siRNA 复合物（即任意*溶质*）。在所有后续的分子动力学（MD）步骤中，静电相互作用采用粒子网格 Ewald（PME）算法进行计算。</span>
+
 1. Before starting any MD simulation, it is fundamental to perform an energy minimization process in order to fix steric clashes and optimize the initial model geometries according to the potential energy function. Also, the solvent box generated according to the protocol reported above needs to be optimized at the desired temperature and pressure conditions. Accordingly, first the solvation box has to be gradually heated to 300 K by performing MD simulations in the NVT ensemble (i.e., under constant number of atoms, volume and temperature conditions) to avoid the creation of air bubbles within the solvent, with positional restraint applied to the solute atoms. Then, while still applying positional restraint to the solute atoms, the system density must be equilibrated at 300 K and 1 atm by means of MD simulations in the NPT ensemble (i.e.*,* under constant number of atoms, pressure and temperature). The solute positional restraints have to be gradually removed in 10 runs of subsequent energy minimizations each performed reducing the force of the positional restraints . Finally, another run of heating in the NVT ensemble followed by density equilibration in the NPT ensemble with the solute free of positional restraint is run (*see* Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_16_Chapter.xhtml#Tab1) for examples of input files). The following pseudo-code can be used to carry on all of these steps:
    
-
+   <span style=color:blue>在开始任何 MD 模拟之前，进行能量最小化是至关重要的，这可以修正立体冲突并根据势能函数优化初始模型的几何结构。同时，按照前述协议生成的溶剂盒，也需要在期望的温度和压力条件下进行优化。因此，首先需要通过在 NVT 集合中（即在恒定原子数、体积和温度的条件下）进行 MD 模拟，将溶剂盒逐步加热至 300 K，以避免溶剂中形成气泡，并对溶质的原子施加位置约束。随后，继续对溶质原子施加位置约束，通过在 NPT 集合中（即在恒定原子数、压力和温度的条件下）进行 MD 模拟，使系统在 300 K 和 1 atm 的条件下达到密度平衡。在此过程中，溶质的位置约束需要逐步去除，方法是进行 10 次能量最小化，每次减少位置约束的强度。最后，再次进行 NVT 集合的加热，并在 NPT 集合中进行密度平衡，这时溶质不再受到位置约束（*参见* 表 [1]() 中的输入文件示例）。以下伪代码可以用来执行这些步骤：</span>
+   
+   
    ```shell
    pmemd -O -i min_sol.in -o min_sol.out -r min_sol.rst \
    -p complex.solvated.prmtop -c complex.solvated.inpcrd
@@ -156,11 +228,17 @@ This simulation protocol is valid for simulating either the dendrimer or the siR
    pmemd -O -i NPT_all.in -o NPT_all.out -x NPT_all.nc -r NPT_all.rst \
    -p complex.solvated.prmtop -c heat_all.rst -ref heat_all.rst
 
-   In each pmemd command (*see* **Note** **1**) the option *-i* and *-o* specify the input and output (log of some energy and physico-chemical parameters of the simulation) files, option *-r* specifies the name of the restart file, option *-x* selects the output coordinates file, option *-p* selects the solvated complex topology file created by tleap, and options *-c* and *-ref* specify the files with the starting and reference coordinates of the system, respectively. 
+In each pmemd command (*see* **Note** **1**) the option *-i* and *-o* specify the input and output (log of some energy and physico-chemical parameters of the simulation) files, option *-r* specifies the name of the restart file, option *-x* selects the output coordinates file, option *-p* selects the solvated complex topology file created by tleap, and options *-c* and *-ref* specify the files with the starting and reference coordinates of the system, respectively. 
 
-2. Although a successful energy minimization should get rid of any steric clashes, there are some cases in which the resulting structure is still not perfect (one common example is the presence of intersecting aromatic rings). At least a visual inspection of the final produced configuration is recommended, which can be easily performed loading the produced NPT_all.rst file along with its complex.solvated.prmtop file into a molecular visualization program such as Chimera ([https://www.cgl.ucsf.edu/chimera/](https://www.cgl.ucsf.edu/chimera/))  or VMD ([https://www.ks.uiuc.edu/Research/vmd/](https://www.ks.uiuc.edu/Research/vmd/)) .
+<span style= color:blue>在每个 *pmemd* 命令中（*参见* **注释** **1**），选项 *-i* 和 *-o* 用于指定输入文件和输出文件（包含能量及物理化学参数的日志），选项 *-r* 用于指定重启文件的名称，选项 *-x* 用于选择输出的坐标文件，选项 *-p* 用于选择由 *tleap* 生成的溶剂化复合物拓扑文件，选项 *-c* 和 *-ref* 分别指定系统的起始和参考坐标文件。</span>
+
+2. Although a successful energy minimization should get rid of any steric clashes, there are some cases in which the resulting structure is still not perfect (one common example is the presence of intersecting aromatic rings). At least a visual inspection of the final produced configuration is recommended, which can be easily performed loading the produced NPT_all.rst file along with its complex.solvated.prmtop file into a molecular visualization program such as Chimera (https://www.cgl.ucsf.edu/chimera/)  or VMD (https://www.ks.uiuc.edu/Research/vmd/) .
+
+   <span style=color:blue>尽管能量最小化应能去除大部分立体冲突，但在某些情况下，最终结构可能仍存在缺陷（例如，芳香环之间可能存在交叉）。建议至少进行目视检查，检查方法是将生成的 *NPT_all.rst* 文件及其 *complex.solvated.prmtop* 文件加载到分子可视化程序中（如 Chimera（https://www.cgl.ucsf.edu/chimera/）或 VMD（https://www.ks.uiuc.edu/Research/vmd/））进行查看。</span>
 
 3. Once optimization of each system is achieved, productive MD simulations can be performed. The required input file is the md.in file reported in Table 1, and 15 subsequent simulations can be carried out with the following pseudo-code command:
+
+   <span style=color:blue>一旦系统优化完成，就可以进行正式的 MD 模拟。所需的输入文件是表 1 中的 *md.in* 文件，可以使用以下伪代码命令执行 15 次后续模拟：</span>
 
    ```shell
    Set PREVIOUS=NPT_all
@@ -174,12 +252,18 @@ This simulation protocol is valid for simulating either the dendrimer or the siR
 
    Each of these simulations will run for 10 ns, the first 5 will be discarded as structural equilibration of the solute, and the last 10 produced files (100 ns in total) will be used for subsequent data analysis. 
 
+   <span style=color:blue>每次模拟的运行时间为 10 ns，其中前 5 次用于溶质的结构平衡，将被丢弃；接下来的 10 个文件（共 100 ns）将用于后续的数据分析。</span>
+
 
 ### 3.3 Dendrimer Parametrization
 
-1. Use any molecular editor software like Avogadro  ([https://avogadro.cc/](https://avogadro.cc/)) to create a 3D representation of the dendrimer (*see* **Note** **2**) and save it in PDB format. 
+1. Use any molecular editor software like Avogadro  (https://avogadro.cc/) to create a 3D representation of the dendrimer (*see* **Note** **2**) and save it in PDB format. 
+
+   <span style=color:blue>使用任何分子编辑软件（例如 Avogadro，网址：https://avogadro.cc/）创建树枝状分子的三维结构，并以 PDB 格式保存。</span>
 
 2. Use AMBER’s *antechamber* software to assign GAFF atom types to the dendrimer and compute its atomic partial charges via the AM1-BCC method, creating a forcefield library file (PREPIN file) for the dendrimer (*see* **Note** **3**). This can be achieved with the following command:
+
+   <span style=color:blue>使用 AMBER 的 *antechamber* 软件为树枝状分子分配 GAFF 原子类型，并通过 AM1-BCC 方法计算其部分电荷，生成树枝状分子的力场库文件（PREPIN 文件）(*参见* **注释** **3**)。此操作可以通过以下命令完成：</span>
 
    ```shell
    antechamber -i dendrimer.pdb -fi pdb -o dendrimer.prepi -fo prepi \
@@ -188,18 +272,26 @@ This simulation protocol is valid for simulating either the dendrimer or the siR
 
    where the options in order of appearance are: the name of the PDB file, the format, the name of the output file, its format, the forcefield to be applied, the method used to compute the partial charges, and finally the total charge of the dendrimer.
 
+   <span style=color:blue>其中，选项依次表示：PDB 文件的名称、文件格式、输出文件名称、格式、使用的力场、部分电荷计算方法，以及树枝状分子的总电荷。</span>
+
 3. Use AMBER’s *parmchk2* software to create a file (FRCMOD file) for the eventually missing parameters to integrate the dendrimer forcefield library. Execute this command as:
 
+   <span style=color:blue>使用 AMBER 的 *parmchk2* 软件创建一个 FRCMOD 文件，补充可能缺失的力场参数，以完成树枝状分子力场库的整合。可以执行以下命令：</span>
+
    ```shell
-parmchk2 -i dendrimer.prepi -f prepi -o dendrimer.frcmod
+   parmchk2 -i dendrimer.prepi -f prepi -o dendrimer.frcmod
    ```
 
    where the options in order of appearance are: the name of the input PREPI file (created during the execution of the previous antechamber commands), the format of the input file, and the name of the output file. For PAMAM dendrimers , the parameter selected by *parmchk2* and reported in the FRCMOD file are accurate enough; however, the user is free to implement any parameter refinement at this stage.
 
+   <span style=color:blue>各选项的顺序为：输入的 PREPI 文件名称（在上一步 *antechamber* 生成），输入文件格式和输出文件名称。对于 PAMAM 树枝状分子，*parmchk2* 选择的参数已足够准确并已报告在 FRCMOD 文件中，但用户可在此阶段对参数进行改进。</span>
+
 4. Follow the steps in Subheadings 3.1 and 3.2 to perform the MD simulation of the dendrimer. The steps in Subheading 3.2 should be repeated three times to obtain the three different trajectories required for further analysis. 
 
+   <span style=color:blue>按照子章节 3.1 和 3.2 中描述的步骤执行树枝状分子的 MD 模拟。在子章节 3.2 中的步骤需要重复三次，以获得三条不同的轨迹用于后续分析。</span>
 
-### 3.4 siRNA Model Optimization
+
+### 3.4 siRNA Model Optimization siRNA 模型优化
 
 1. Use AMBER’s nab program to create an initial 3D structure of the desired siRNA sequence. This will ensure that the siRNA PDB file created will respect the naming conventions used in the AMBER forcefield. Firstly, create a text file called siRNA.nab with the following code:
 
