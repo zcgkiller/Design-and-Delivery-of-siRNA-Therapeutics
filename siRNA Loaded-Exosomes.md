@@ -2,7 +2,7 @@
 
 María Izco and Lydia Alvarez-Erviti
 
-## Abstract
+## Abstract 摘要
 
 Exosomes are membrane-bound vesicles (40–100 nm) of endocytic origin released by numerous cell types that act as natural carriers of mRNA, microRNA, and proteins between cells. We developed a new system that uses intravenous injection of modified exosomes for siRNA delivery into the brain. Here we describe the generation of unmodified and modified exosomes, which specifically target the brain, and the method to load siRNA into the exosomes.
 
@@ -82,11 +82,11 @@ This section details the procedure for dendritic cell isolation . Alternatively,
 
 ### 3.4 siRNA Loading into Exosomes
 
-1. Prepare the electroporation mix (*see* **Note** [**6**](clbr://internal.invalid/OEBPS/html/485053_1_En_21_Chapter.xhtml#Sec9)). 
+1. Prepare the electroporation mix (*see* **Note** **6**). 
 2. Electroporate the mix in a 4 mm cuvette with 400 V and 125 mA of capacitance. To prepare larger quantities of siRNA-electroporated exosomes, prepare the electroporation mix and electroporate 400–600 μL at a time. 
 3. Isolate the electroporated exosomes transferring the electroporation mix to an ultracentrifugation tube and add PBS to fill the tube, centrifuge at 12,0000 × *g* for 60 min. 
 4. Resuspend the exosomes with a 27G syringe in medium for in vitro experiments or in 5% glucose for in vivo experiments. 
-5. Electroporation conditions need to be optimized if a different electroporation buffer or electroporator is used. Alternatively, siRNA could be loaded into exosomes by pH gradient modification, sonication, or calcium chloride (*see* **Note** [**7**](clbr://internal.invalid/OEBPS/html/485053_1_En_21_Chapter.xhtml#Sec9)). 
+5. Electroporation conditions need to be optimized if a different electroporation buffer or electroporator is used. Alternatively, siRNA could be loaded into exosomes by pH gradient modification, sonication, or calcium chloride (*see* **Note** **7**). 
 
 ### 3.5 Assessment of siRNA Loading into Exosomes
 
