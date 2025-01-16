@@ -70,12 +70,12 @@ An efficient internalization of siRNA is a matter of great importance for topica
 
 ### 3.1 Gel Retardation Assay
 
-1. To prepare 1% agarose gel , dissolve 0.5 g of agarose in 50 mL 0.5× TBE by warming the solution in the microwave. Allow the dissolved gel solution to cool and add 5 μL GelRed® Nucleic Acid Stain. Pour the gel in appropriate tray with well combs inserted and allow it to solidify (*see* **Note** [**1**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)). 
-2. Prepare tested samples of siRNA-carrier formulation at increasing loading ratio (*see* **Note** [**2**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)) in a total volume of 8 μL and an equal final siRNA concentration of 1.25 μM, as described in Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Tab1). Incubate samples at room temperature for 30 min or according to previously optimized conditions (*see* **Note** [**3**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)). 
+1. To prepare 1% agarose gel , dissolve 0.5 g of agarose in 50 mL 0.5× TBE by warming the solution in the microwave. Allow the dissolved gel solution to cool and add 5 μL GelRed® Nucleic Acid Stain. Pour the gel in appropriate tray with well combs inserted and allow it to solidify (*see* **Note** **1**). 
+2. Prepare tested samples of siRNA-carrier formulation at increasing loading ratio (*see* **Note** **2**) in a total volume of 8 μL and an equal final siRNA concentration of 1.25 μM, as described in Table [1](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Tab1). Incubate samples at room temperature for 30 min or according to previously optimized conditions (*see* **Note** **3**). 
 3. Add 2 μL of 5× loading dye to each sample and mix by pipetting. 
 4. Place the agarose gel in a tank filled with 0.5× TBE buffer, remove the comb, and load the samples to the gel wells (10 μL per lane).
 5. Run electrophoresis at constant 100 mA for about 40 min (at that point siRNA band should be at about ¾ of a 5 cm gel).
-6. Visualize the gel under the UV gel imager . An example of gel imaging output is shown in Fig. [1](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Fig1).
+6. Visualize the gel under the UV gel imager . An example of gel imaging output is shown in Fig. 1.
 
 **Table 1** Guidance for preparation of siRNA-carrier formulation samples at increasing loading ratio for gel retardation assay
 
@@ -94,7 +94,7 @@ An efficient internalization of siRNA is a matter of great importance for topica
 
 ### 3.2 Human Corneal Epithelium (HCE) Cell Line Maintenance
 
-1. HCE cells are cultured in a standard 1× Dulbecco’s modified eagle medium (DMEM) supplemented with GlutaMAX™ and 10% heat-inactivated fetal bovine serum (FBS) in an incubator at 37 °C with 5% CO2. Sub-confluent cultures (70–80%) are split at 1:2–1:4 ratio as described below.
+1. HCE cells are cultured in a standard 1× Dulbecco’s modified eagle medium (DMEM) supplemented with GlutaMAX™ and 10% heat-inactivated fetal bovine serum (FBS) in an incubator at 37 °C with 5% CO<sub>2</sub>. Sub-confluent cultures (70–80%) are split at 1:2–1:4 ratio as described below.
 2. Remove and discard the growth medium. 
 3. Gently rinse the cell layer with 3 mL phosphate-buffered saline. Aspire and discard the wash solution.
 4. Add the pre-warmed 1× Trypsin/EDTA dissociation reagent and incubate cells for 5–10 min at 37 °C. Control the cells under the microscope for detachment. 
@@ -102,19 +102,19 @@ An efficient internalization of siRNA is a matter of great importance for topica
 6. Transfer cell suspension to a conical tube and centrifuge at 1000 × *g* for 5 min.
 7. Aspirate the supernatant and resuspend cells in 10 mL pre-warmed complete growth medium. 
 8. Take a sample for counting and determine the total number of cells using a hemocytometer or cell counter.
-9. Dilute cell suspension to the appropriate seeding density , and move 1.5 × 10^6^ cells into a new 75 cm^2^ flask.
-10. Place the cells in a 37 °C incubator at 5% CO~2~. Monitor cell growth daily. 
+9. Dilute cell suspension to the appropriate seeding density , and move 1.5 × 10<sup>6</sup> cells into a new 75 cm<sup>2</sup> flask.
+10. Place the cells in a 37 °C incubator at 5% CO<sub>2</sub>. Monitor cell growth daily. 
 
 ### 3.3 In Vitro Cellular Uptake of Fluorescent siRNA to Corneal Epithelial Cells
 
 1. Place coverslips in wells of 24-well plate. Sterilize under UV for 30 min. 
-2. Seed 1 × 10^5^ cells per well in 500 μL of DMEM GlutaMAX™ enriched with 10% FBS and grow the cells 24 h at standard culture conditions (*see* Subheading [3.2](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec9)).
-3. Mix siGLO with tested formulation according to Table 2 to prepare samples of siRNA-carrier at optimized loading ratio (*see* Subheading [3.1](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec8)) and incubate as required. Use Opti-MEM medium as diluent.
+2. Seed 1 × 10<sub>5</sub> cells per well in 500 μL of DMEM GlutaMAX™ enriched with 10% FBS and grow the cells 24 h at standard culture conditions (*see* Subheading 3.2).
+3. Mix siGLO with tested formulation according to Table 2 to prepare samples of siRNA-carrier at optimized loading ratio (*see* Subheading 3.1) and incubate as required. Use Opti-MEM medium as diluent.
 4. As a positive control, complex siGLO with Lipofectamine RNAiMAX transfection reagent according to Table 3, following manufacturer’s protocol.
 5. As a negative control, prepare naked siRNA sample by diluting siGLO with Opti-MEM medium according to Table 4. 
 6. Remove and discard 50 μL of growth medium from each well. 
-7. Add 50 μL of above prepared siGLO solutions (**step 3**—tested sample, **step 4**—positive control and **step 5**—negative control) to separate wells (*see* **Note** [**4**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)).
-8. Incubate the cells for 24 h in an incubator at 37 °C with 5% CO~2~ (*see* **Note** [**5**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)). 
+7. Add 50 μL of above prepared siGLO solutions (**step 3**—tested sample, **step 4**—positive control and **step 5**—negative control) to separate wells (*see* **Note** **4**).
+8. Incubate the cells for 24 h in an incubator at 37 °C with 5% CO<sub>2</sub> (*see* **Note** **5**). 
 9. After incubation, remove and discard medium from each well.
 10. Wash the cells with phosphate-buffered saline (PBS) three times by adding 500 μL of PBS to each well and removing by aspiration.
 11. Add 300 μL of 4% paraformaldehyde (PFA) to each well and incubate for 10 min at room temperature.
@@ -155,13 +155,13 @@ An efficient internalization of siRNA is a matter of great importance for topica
 1. Initialize the IVIS .
 2. Anesthetize the mouse using 1.5–2% isoflurane in ~1.5 L/min flow of oxygen (setting 2.5 on isoflurane control valve).
 3. Place the mouse inside the IVIS Spectrum imager chamber.
-4. Acquire image sequence according to the established protocol to measure fluorescence signal (*see* **Note** [**6**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)).
+4. Acquire image sequence according to the established protocol to measure fluorescence signal (*see* **Note** **6**).
 5. Return the mouse safely to the home cage and control while it recovers consciousness.
 6. Repeat fluorescence measurement with IVIS (**steps 1–5** above) on a daily frequency for 3 days prior to treatment using all experimental mice. Calculate ocular fluorescence baseline as an average signal intensity for right eye and left eye in separate.
-7. On the treatment day, mix siGLO with tested formulation to prepare eye drop samples of 25 μM siRNA-carrier at optimized conditions (*see* **Note** [**7**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)). Also, dilute siGLO with the vehicle buffer to prepare control sample (25 μM naked siRNA).
-8. Anesthetize the mouse and apply a 4 μL drop of siGLO-carrier on one eye of the animal and a 4 μL drop of naked siGLO control on the other eye of the animal (*see* **Note** [**8**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)). Allow sample to absorb for 1 min.
+7. On the treatment day, mix siGLO with tested formulation to prepare eye drop samples of 25 μM siRNA-carrier at optimized conditions (*see* **Note** **7**). Also, dilute siGLO with the vehicle buffer to prepare control sample (25 μM naked siRNA).
+8. Anesthetize the mouse and apply a 4 μL drop of siGLO-carrier on one eye of the animal and a 4 μL drop of naked siGLO control on the other eye of the animal (*see* **Note** **8**). Allow sample to absorb for 1 min.
 9. Return the mouse safely to the home cage and control while it recovers consciousness.
-10. Perform fluorescence measurement with IVIS (according to **steps 1–5** above) at least 3 h after the treatment (*see* **Note** [**9**](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Sec12)).
+10. Perform fluorescence measurement with IVIS (according to **steps 1–5** above) at least 3 h after the treatment (*see* **Note** **9**).
 11. Compare posttreatment ocular fluorescence intensity with baseline measurements (from **step 6**) in separate for treated (i.e., siGLO-carrier) and control (i.e., naked siGLO) eye.
 12. After taking in vivo measurements, the fluorescence signal can be further examined in eye sections as explained below.
 13. Euthanize the mice using carbon dioxide and gently enucleate the ocular globe from the sacrificed animal. Wash the enucleated eyes with phosphate-buffered saline to remove blood if required.
@@ -176,7 +176,7 @@ An efficient internalization of siRNA is a matter of great importance for topica
 22. Air-dry the slides at room temperature for 1 h.
 23. Add a drop of mounting medium with DAPI to cover each tissue section and place a coverslip on top.
 24. Incubate the slides for 10 min in the dark.
-25. Visualize the slides under fluorescence microscope. Measure red siGLO signal using Cy5 filter and compare with the image of cell nuclei acquired with DAPI filter. An example of imaging output is shown in Fig. [3](clbr://internal.invalid/OEBPS/html/485053_1_En_24_Chapter.xhtml#Fig3).
+25. Visualize the slides under fluorescence microscope. Measure red siGLO signal using Cy5 filter and compare with the image of cell nuclei acquired with DAPI filter. An example of imaging output is shown in Fig. 3.
 
 ![../images/485053_1_En_24_Chapter/485053_1_En_24_Fig3_HTML.png](https://raw.githubusercontent.com/zcgkiller/Pictures/main/Wechat/485053_1_En_24_Fig3_HTML.png)
 
