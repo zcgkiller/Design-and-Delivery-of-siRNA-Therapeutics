@@ -2,7 +2,7 @@
 
 Paulina Baran-Rachwalska Suzanne Saffie-Siebert and C. B. Tara Moore
 
-## Abstract
+## Abstract 摘要
 
 Drug delivery to the eye remains a real challenge due to the presence of ocular anatomical barriers and physiological protective mechanisms. The lack of effective siRNA delivery mechanism has hampered the real potential of RNAi therapy, but recent literature suggests that nanocarrier systems show great promise in enhancing siRNA bioavailability and reducing the need for repeated intraocular injections. A diverse range of materials are under exploration worldwide, including natural and synthetic polymers, liposomes, peptides, and dendrimeric nanomaterials. This chapter describes a simple workflow for feasibility assessment of a proposed ocular surface siRNA delivery system. Gel retardation assay is used for investigation of optimal siRNA to carrier loading ratio. Fluorescent siRNA allows for initial in vitro testing of cellular uptake to corneal epithelial cells and investigation of in vivo siRNA delivery into mouse cornea by live animal imaging and fluorescence microscopy.
 
