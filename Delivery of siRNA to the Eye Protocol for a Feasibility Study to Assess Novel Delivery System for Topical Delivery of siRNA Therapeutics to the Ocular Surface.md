@@ -118,7 +118,7 @@ An efficient internalization of siRNA is a matter of great importance for topica
 ### 3.3 In Vitro Cellular Uptake of Fluorescent siRNA to Corneal Epithelial Cells 体外荧光siRNA在角膜上皮细胞中的摄取
 
 1. Place coverslips in wells of 24-well plate. Sterilize under UV for 30 min. <span style=color:blue>将盖玻片放入24孔板的孔中，使用紫外线消毒30分钟。</span>
-2. Seed 1 × 10<sup>5<sup> cells per well in 500 μL of DMEM GlutaMAX™ enriched with 10% FBS and grow the cells 24 h at standard culture conditions (*see* Subheading 3.2).<span style=color:blue>每孔接种1 × 10<suP>5</sup>个细胞，加入500μL的富含10%胎牛血清（FBS）的DMEM GlutaMAX™培养基，并在标准培养条件下培养24小时（*参见* 3.2小节）。</span>
+2. Seed 1 × 10<sup>5</sup> cells per well in 500 μL of DMEM GlutaMAX™ enriched with 10% FBS and grow the cells 24 h at standard culture conditions (*see* Subheading 3.2).<span style=color:blue>每孔接种1 × 10<suP>5</sup>个细胞，加入500μL的富含10%胎牛血清（FBS）的DMEM GlutaMAX™培养基，并在标准培养条件下培养24小时（*参见* 3.2小节）。</span>
 3. Mix siGLO with tested formulation according to Table 2 to prepare samples of siRNA-carrier at optimized loading ratio (*see* Subheading 3.1) and incubate as required. Use Opti-MEM medium as diluent.<span style=color:blue>根据表2将siGLO与测试配方混合，准备siRNA-载体样品，按照优化的加载比例（*参见* 3.1小节）孵育。使用Opti-MEM培养基作为稀释剂。</span>
 4. As a positive control, complex siGLO with Lipofectamine RNAiMAX transfection reagent according to Table 3, following manufacturer’s protocol.<span style=color:blue>作为阳性对照，将siGLO与Lipofectamine RNAiMAX转染试剂混合，按照表3中的厂家协议进行操作。</span>
 5. As a negative control, prepare naked siRNA sample by diluting siGLO with Opti-MEM medium according to Table 4. <span style=color:blue>作为阴性对照，按照表4中的说明使用Opti-MEM培养基稀释siGLO，准备裸siRNA样品。</span>
