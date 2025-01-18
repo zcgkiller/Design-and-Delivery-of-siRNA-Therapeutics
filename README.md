@@ -1,4 +1,7 @@
 # Design-and-Delivery-of-siRNA-Therapeutics
+
+断断续续的把这本书翻译完毕，草稿阶段，还有很多错误，后面慢慢校对。2025.01.18
+
 [1.RNA Interference: Story and Mechanisms](/RNA%20Interference%20Story%20and%20Mechanisms.md)
 
 [2.Selection of Chemical Modifications in the siRNA Seed Region That Repress Off-Target Effect](/Selection%20of%20Chemical%20Modifications%20in%20the%20siRNA%20Seed%20Region%20That%20Repress%20Off-Target%20Effect.md)
@@ -46,4 +49,3 @@
 [23.siRNA Therapeutics in Ocular Diseases](/siRNA%20Therapeutics%20in%20Ocular%20Diseases.md)
 
 [24.Delivery of siRNA to the Eye Protocol for a Feasibility Study to Assess Novel Delivery System for Topical Delivery of siRNA Therapeutics to the Ocular Surface](/Delivery%20of%20siRNA%20to%20the%20Eye%20Protocol%20for%20a%20Feasibility%20Study%20to%20Assess%20Novel%20Delivery%20System%20for%20Topical%20Delivery%20of%20siRNA%20Therapeutics%20to%20the%20Ocular%20Surface.md)
-
